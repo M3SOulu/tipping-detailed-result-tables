@@ -1,2 +1,2 @@
-# tipping-detailed-result-tables
+# Tipping Results Tables
 Detailed result tables for Tipping paper.
