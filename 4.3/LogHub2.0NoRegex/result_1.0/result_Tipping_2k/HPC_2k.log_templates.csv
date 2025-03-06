@@ -1,0 +1,36 @@
+EventID,EventTemplate
+P0,not responding
+P1,starting
+P2,warning
+P3,power/control problem
+P4,blocked
+P5,boot (command <*>) _/|\\_ boot (command <*>) <*> 
+P6,configured out
+P7,active
+P8,closing
+P9,Command has <*> 
+P10,wait (command <*>)
+P11,running
+P12,Temperature (<*>) exceeds warning threshold
+P13,halt (command <*>)
+P14,risBoot (command <*>) _/|\\_ risBoot (command <*>) <*> 
+P15,ambient=<*>
+P16,normal
+P17,Linkerror event interval expired
+P18,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P19,link errors remain current
+P20,bootGenvmunix (command <*>)
+P21,critical
+P22,psu failure\\ ambient=<*>
+P23,ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+P24,NIFF: node node-<*> detected <*> network connection on network <*>.<*>.<*>.<*> via interface <*>
+P25,Component State Change: Component \\<*>\\<*> is in the unavailable state (HWID=<*>) _/|\\_ Component State Change: Component \\<*>:<*>:<*>\\<*> is in the unavailable state (HWID=<*>)
+P26,Failed subcommands <*>
+P27,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P28,Targeting domains:node-<*> and nodes:node-<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> 
+P29,Fan speeds ( <*> )
+P30,clusterAddMember (command <*>)
+P31,<*>: ServerFileSystem domain <*>domain<*> is <*>  _/|\\_ <*>: ServerFileSystem domain <*> is <*>  _/|\\_ <*>: ServerFileSystem domain <*>domain is <*>  _/|\\_ ServerFileSystem: ServerFileSystem domain <*> is <*>
+P32,Link <*> _/|\\_ Link <*> 
+P33,
+P34,not-responding

@@ -1,0 +1,177 @@
+EventID,EventTemplate
+P0,Connection closed by <*>.<*>.<*>.<*> [preauth]
+P1,input_userauth_request: invalid user anonymous [preauth]
+P2,Failed password for invalid user guest from <*>.<*>.<*>.<*> port <*> 
+P3,input_userauth_request: invalid user deploy [preauth]
+P4,Invalid user anonymous from <*>.<*>.<*>.<*>
+P5,Invalid user test from <*>.<*>.<*>.<*>
+P6,Failed password for sshd from <*>.<*>.<*>.<*> port <*> 
+P7,input_userauth_request: invalid user magnos [preauth]
+P8,input_userauth_request: invalid user operator [preauth]
+P9,Invalid user cisco from <*>.<*>.<*>.<*>
+P10,Invalid user pi from <*>.<*>.<*>.<*>
+P11,Failed password for invalid user pi from <*>.<*>.<*>.<*> port <*> 
+P12,Invalid user inspur from <*>.<*>.<*>.<*>
+P13,Invalid user zhangyan from <*>.<*>.<*>.<*>
+P14,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>
+P15,Invalid user redhat from <*>.<*>.<*>.<*>
+P16,Failed password for invalid user operator from <*>.<*>.<*>.<*> port <*> 
+P17,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=git
+P18,Invalid user oralce from <*>.<*>.<*>.<*>
+P19,pam_unix(sshd:session): session opened for user fztu by (uid=<*>)
+P20,input_userauth_request: invalid user utsims [preauth]
+P21,Failed none for invalid user admin from <*>.<*>.<*>.<*> port <*> 
+P22,Failed password for invalid user postgres from <*>.<*>.<*>.<*> port <*> 
+P23,Accepted password for fztu from <*>.<*>.<*>.<*> port <*> 
+P24,Failed password for invalid user www from <*>.<*>.<*>.<*> port <*> 
+P25,reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>-<*>-<*>.<*>-<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+P26,input_userauth_request: invalid user monitor [preauth]
+P27,Failed password for invalid user Management from <*>.<*>.<*>.<*> port <*> 
+P28,Invalid user default from <*>.<*>.<*>.<*>
+P29,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=uucp
+P30,Invalid user monitor from <*>.<*>.<*>.<*>
+P31,Invalid user admin from <*>.<*>.<*>.<*>
+P32,Failed password for invalid user utsims from <*>.<*>.<*>.<*> port <*> 
+P33,input_userauth_request: invalid user ubnt [preauth]
+P34,input_userauth_request: invalid user matlab [preauth]
+P35,input_userauth_request: invalid user butter [preauth]
+P36,Failed password for invalid user dff from <*>.<*>.<*>.<*> port <*> 
+P37,Failed password for invalid user ted from <*>.<*>.<*>.<*> port <*> 
+P38,Invalid user jay from <*>.<*>.<*>.<*>
+P39,Failed password for invalid user test from <*>.<*>.<*>.<*> port <*> 
+P40,input_userauth_request: invalid user oralce [preauth]
+P41,Invalid user matlab from <*>.<*>.<*>.<*>
+P42,Failed password for invalid user bssh from <*>.<*>.<*>.<*> port <*> 
+P43,Invalid user guest from <*>.<*>.<*>.<*>
+P44,Failed password for invalid user jay from <*>.<*>.<*>.<*> port <*> 
+P45,Failed password for invalid user cisco from <*>.<*>.<*>.<*> port <*> 
+P46,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=ftp
+P47,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=mysql
+P48,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=root _/|\\_ PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root
+P49,Failed password for invalid user anonymous from <*>.<*>.<*>.<*> port <*> 
+P50,input_userauth_request: invalid user admin [preauth]
+P51,input_userauth_request: invalid user oracle [preauth]
+P52,Failed password for invalid user eoor from <*>.<*>.<*>.<*> port <*> 
+P53,Failed password for ftp from <*>.<*>.<*>.<*> port <*> 
+P54,Did not receive identification string from <*>.<*>.<*>.<*>
+P55,fatal: Write failed: Connection reset by peer [preauth]
+P56,Failed password for invalid user ingrid from <*>.<*>.<*>.<*> port <*> 
+P57,Invalid user PlcmSpIp from <*>.<*>.<*>.<*>
+P58,Invalid user Management from <*>.<*>.<*>.<*>
+P59,input_userauth_request: invalid user jay [preauth]
+P60,input_userauth_request: invalid user pgadmin [preauth]
+P61,input_userauth_request: invalid user postgres [preauth]
+P62,Failed password for invalid user magnos from <*>.<*>.<*>.<*> port <*> 
+P63,Failed password for invalid user oralce from <*>.<*>.<*>.<*> port <*> 
+P64,Failed password for invalid user admin from <*>.<*>.<*>.<*> port <*> 
+P65,Failed password for invalid user monitor from <*>.<*>.<*>.<*> port <*> 
+P66,input_userauth_request: invalid user boot [preauth]
+P67,input_userauth_request: invalid user ubuntu [preauth]
+P68,Invalid user ingrid from <*>.<*>.<*>.<*>
+P69,input_userauth_request: invalid user PlcmSpIp [preauth]
+P70,Invalid user cyrus from <*>.<*>.<*>.<*>
+P71,input_userauth_request: invalid user www [preauth]
+P72,input_userauth_request: invalid user ingrid [preauth]
+P73,Failed password for invalid user chen from <*>.<*>.<*>.<*> port <*> 
+P74,input_userauth_request: invalid user zhangyan [preauth]
+P75,input_userauth_request: invalid user bssh [preauth]
+P76,Failed password for invalid user inspur from <*>.<*>.<*>.<*> port <*> 
+P77,Disconnecting: Too many authentication failures for admin [preauth]
+P78,PAM service(sshd) ignoring max retries; <*> > <*>
+P79,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P80,Failed password for invalid user FILTER from <*>.<*>.<*>.<*> port <*> 
+P81,Received disconnect from <*>.<*>.<*>.<*>: <*>: Closed due to user request. [preauth]
+P82,Failed password for invalid user api from <*>.<*>.<*>.<*> port <*> 
+P83,input_userauth_request: invalid user inspur [preauth]
+P84,Failed password for invalid user boot from <*>.<*>.<*>.<*> port <*> 
+P85,pam_unix(sshd:session): session closed for user fztu
+P86,Failed password for invalid user cyrus from <*>.<*>.<*>.<*> port <*> 
+P87,Invalid user support from <*>.<*>.<*>.<*>
+P88,Invalid user chen from <*>.<*>.<*>.<*>
+P89,Failed password for invalid user PlcmSpIp from <*>.<*>.<*>.<*> port <*> 
+P90,Invalid user api from <*>.<*>.<*>.<*>
+P91,Invalid user nagios from <*>.<*>.<*>.<*>
+P92,Received disconnect from <*>.<*>.<*>.<*>: <*>: Bye Bye [preauth]
+P93,Invalid user ubuntu from <*>.<*>.<*>.<*>
+P94,pam_unix(sshd:auth): check pass; user unknown
+P95,Invalid user www from <*>.<*>.<*>.<*>
+P96,input_userauth_request: invalid user ghost [preauth]
+P97,Failed none for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P98,Invalid user ghost from <*>.<*>.<*>.<*>
+P99,Invalid user FILTER from <*>.<*>.<*>.<*>
+P100,input_userauth_request: invalid user ted [preauth]
+P101,message repeated <*> times: [ Failed password for root from <*>.<*>.<*>.<*> port <*> ]
+P102,Invalid user utsims from <*>.<*>.<*>.<*>
+P103,Invalid user ftpuser from <*>.<*>.<*>.<*>
+P104,Failed password for invalid user matlab from <*>.<*>.<*>.<*> port <*> 
+P105,Failed password for invalid user cheng from <*>.<*>.<*>.<*> port <*> 
+P106,input_userauth_request: invalid user cisco [preauth]
+P107,Invalid user bssh from <*>.<*>.<*>.<*>
+P108,Invalid user pgadmin from <*>.<*>.<*>.<*>
+P109,Failed password for invalid user support from <*>.<*>.<*>.<*> port <*> 
+P110,Invalid user abc from <*>.<*>.<*>.<*>
+P111,input_userauth_request: invalid user abc [preauth]
+P112,Failed password for invalid user webmaster from <*>.<*>.<*>.<*> port <*> 
+P113,Failed password for invalid user oracle from <*>.<*>.<*>.<*> port <*> 
+P114,Failed password for invalid user ubnt from <*>.<*>.<*>.<*> port <*> 
+P115,input_userauth_request: invalid user default [preauth]
+P116,Failed password for invalid user vnc from <*>.<*>.<*>.<*> port <*> 
+P117,Failed password for invalid user deploy from <*>.<*>.<*>.<*> port <*> 
+P118,Invalid user dff from <*>.<*>.<*>.<*>
+P119,input_userauth_request: invalid user support [preauth]
+P120,Failed password for invalid user butter from <*>.<*>.<*>.<*> port <*> 
+P121,input_userauth_request: invalid user nagios [preauth]
+P122,input_userauth_request: invalid user Management [preauth]
+P123,Failed password for invalid user redhat from <*>.<*>.<*>.<*> port <*> 
+P124,Failed password for mysql from <*>.<*>.<*>.<*> port <*> 
+P125,Failed password for git from <*>.<*>.<*>.<*> port <*> 
+P126,Failed password for invalid user pgadmin from <*>.<*>.<*>.<*> port <*> 
+P127,Invalid user eoor from <*>.<*>.<*>.<*>
+P128,Invalid user boot from <*>.<*>.<*>.<*>
+P129,Failed password for invalid user nagios from <*>.<*>.<*>.<*> port <*> 
+P130,Failed password for invalid user abc from <*>.<*>.<*>.<*> port <*> 
+P131,Failed password for invalid user default from <*>.<*>.<*>.<*> port <*> 
+P132,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=sshd
+P133,Invalid user ubnt from <*>.<*>.<*>.<*>
+P134,Failed password for invalid user ftpuser from <*>.<*>.<*>.<*> port <*> 
+P135,Invalid user operator from <*>.<*>.<*>.<*>
+P136,Failed password for invalid user ghost from <*>.<*>.<*>.<*> port <*> 
+P137,Failed password for invalid user user from <*>.<*>.<*>.<*> port <*>  _/|\\_ Failed password for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P138,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P139,Invalid user magnos from <*>.<*>.<*>.<*>
+P140,Invalid user vnc from <*>.<*>.<*>.<*>
+P141,Invalid user ted from <*>.<*>.<*>.<*>
+P142,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=root _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root
+P143,Failed password for root from <*>.<*>.<*>.<*> port <*> 
+P144,Disconnecting: Too many authentication failures for root [preauth]
+P145,input_userauth_request: invalid user eoor [preauth]
+P146,input_userauth_request: invalid user cyrus [preauth]
+P147,input_userauth_request: invalid user api [preauth]
+P148,Invalid user postgres from <*>.<*>.<*>.<*>
+P149,Invalid user butter from <*>.<*>.<*>.<*>
+P150,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth]
+P151,input_userauth_request: invalid user FILTER [preauth]
+P152,input_userauth_request: invalid user user [preauth] _/|\\_ input_userauth_request: invalid user <*> [preauth]
+P153,input_userauth_request: invalid user vnc [preauth]
+P154,Invalid user cheng from <*>.<*>.<*>.<*>
+P155,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: No more user authentication methods available. [preauth]
+P156,Failed password for invalid user ubuntu from <*>.<*>.<*>.<*> port <*> 
+P157,input_userauth_request: invalid user redhat [preauth]
+P158,Invalid user webmaster from <*>.<*>.<*>.<*>
+P159,Failed password for uucp from <*>.<*>.<*>.<*> port <*> 
+P160,Invalid user oracle from <*>.<*>.<*>.<*>
+P161,input_userauth_request: invalid user sandeep [preauth]
+P162,input_userauth_request: invalid user guest [preauth]
+P163,Failed password for invalid user zhangyan from <*>.<*>.<*>.<*> port <*> 
+P164,Invalid user deploy from <*>.<*>.<*>.<*>
+P165,input_userauth_request: invalid user test [preauth]
+P166,input_userauth_request: invalid user chen [preauth]
+P167,input_userauth_request: invalid user dff [preauth]
+P168,input_userauth_request: invalid user cheng [preauth]
+P169,Invalid user sandeep from <*>.<*>.<*>.<*>
+P170,input_userauth_request: invalid user ftpuser [preauth]
+P171,input_userauth_request: invalid user pi [preauth]
+P172,Failed password for invalid user sandeep from <*>.<*>.<*>.<*> port <*> 
+P173,Invalid user user from <*>.<*>.<*>.<*> _/|\\_ Invalid user <*> from <*>.<*>.<*>.<*>
+P174,input_userauth_request: invalid user webmaster [preauth]
+P175,Received disconnect from <*>.<*>.<*>.<*>: <*>: disconnected by user

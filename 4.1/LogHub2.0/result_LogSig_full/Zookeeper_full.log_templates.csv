@@ -1,0 +1,43 @@
+EventId,EventTemplate,Occurrences
+ff86b16f,Reading configuration from: /etc/zookeeper/conf/zoo.cfg,39
+91491bf0,Defaulting to majority quorums,36
+115816d7,set to,220
+0f7cc562,Purge task is not scheduled.,52
+9b83dd2d,Reading snapshot,97
+9aa1b039,Server,282
+b4f041a0,Have quorum of supporters; starting up and setting last processed zxid:,27
+d41d8cd9,,173
+411ba69f,"Connection broken for id 188978561024, my id = error =",10443
+c86cbea1,"Notification: 3 (n.leader), (n.zxid), (n.round), LOOKING (n.state), 3 (n.sid), (n.peerEPoch), LOOKING (my state)",506
+40f15bdb,Cannot open channel to at election address,2585
+f3baff5c,Notification time out: 60000,1323
+663a6d5a,Received connection request,10431
+467d31ff,Server environment:os.name=Linux,57
+4c226563,TCP NoDelay set to: true,76
+ae80a1f9,"Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT",38
+b1330445,Server environment:java.version=1.7.0_79,38
+d961f4e8,Server environment:java.vendor=Oracle Corporation,52
+21f7c76b,Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre,39
+6e2bdcc4,Server environment:java.io.tmpdir=/tmp,37
+2a1c194b,- LEADER ELECTION TOOK -,87
+c57116c0,Server environment:user.home=/var/lib/zookeeper,67
+72f21490,Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2,53
+ecf6827a,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running,173
+273e53f2,Interrupting SendWorker,10392
+45a3ec5d,Interrupted while waiting for message on queue,10389
+7a2ec7d0,Send worker leaving thread,10391
+22f3a6bc,Got zxid expected 0x1,37
+d6afa32e,Accepted socket connection from,2026
+31bdce23,Connection request from old client ; will be dropped if server is in r-o mode,1863
+1849cbeb,Client attempting to establish new session at,1791
+e89edbd4,session timeout for,5412
+ecefe136,caught end of stream exception,1671
+64aed492,Closed socket connection for client which had sessionid,1911
+6a7eb108,Shutting down,114
+06deb852,"Have smaller server identifier, so dropping the connection: 1)",21
+feceb4c6,shutdown called,15
+427d7aa8,Snapshotting: to,92
+e9225b3a,******* GOODBYE ********,593
+6ae76c4c,Commiting zxid from not first!,16
+0cf47064,Unexpected exception causing shutdown while sock still open,595
+384073fd,Server environment:host.name=mesos-master-3,13

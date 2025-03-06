@@ -1,0 +1,121 @@
+EventId,EventTemplate,Occurrences
+da76ad70,"<*> ""GET <*>HTTP<*>status: <*> len: <*> time: <*>.<*>",90475
+3f837968,[instance:  Creating image,2066
+22086309,[instance:  VM  (Lifecycle Event),10311
+5fc05b01,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",45
+22086309,[instance:  VM  (Lifecycle Event),19
+ebd432ea,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] VM Paused (Lifecycle Event),1
+46f5adfb,[instance:  During sync_power_state the instance has a pending task (spawning). Skip.,4049
+4be4b3cb,image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (<*>checking,12043
+1615727a,"image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (<*>in use: on this node <*> local, <*> on other nodes sharing this instance storage",12043
+b47d90d9,Active base files: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,12035
+370b6bab,Creating event network-vif-plugged:<*>fcdc<*>e-<*>-<*>e<*>-<*>a-<*>a<*>a<*>e<*>e<*> for instance <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>,1
+80bc5050,"<*> ""POST <*>HTTP<*>status: <*> len: <*> time: <*>.<*>",6194
+faae2298,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Instance spawned successfully.,1
+090e7f56,[instance:  Took <*>.<*> seconds to spawn the instance on the hypervisor.,2066
+ecc69256,[instance:  Took <*>.<*> seconds to build instance.,2066
+2bee7501,"<*> ""DELETE <*>HTTP<*>status: <*> len: <*> time: <*>.<*>",2064
+3b2a5296,[instance:  Terminating instance,2064
+1523c67d,[instance:  Instance destroyed successfully.,2064
+ef46b04c,[instance: <*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>] Deleting instance files /var/lib/nova/instances/<*>edec<*>e<*>-<*>-<*>a<*>a-a<*>b-a<*>a<*>ee<*>e<*>_del,1
+9d4c7c2e,[instance:  Deletion of <*>complete,2064
+7d4f1703,[instance:  Took <*>.<*> seconds to destroy the instance on the hypervisor.,2064
+bad0ac4b,[instance:  Took <*>.<*> seconds to deallocate network for instance.,2065
+df60e4d1,HTTP exception thrown: No instances found for any event,2064
+f2379fc6,Unknown base file: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,3059
+e8b6d360,Removable base files: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,3059
+f539d934,Removing base or swap file: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,2064
+64868687,"[instance:  Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",2063
+3b217f06,"[instance:  Total memory: <*> MB, used: <*>.<*> MB",2063
+68bfe351,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB",1
+951769f4,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Total disk: <*> GB, used: <*>.<*> GB",1
+9f544dd7,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] disk limit not specified, defaulting to unlimited",1
+e6a70ee3,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+2c51fb60,"[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] vcpu limit not specified, defaulting to unlimited",1
+c4371975,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Claim successful,1
+10e88810,Auditing locally available compute resources for node cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us,1739
+5d1bf6d9,"Total usable vcpus: <*>, total allocated vcpus: <*>",1739
+290ea70e,Final resource view: name=cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us phys_ram=<*>MB used_ram=<*>MB phys_disk=<*>GB used_disk=<*>GB total_vcpus=<*> used_vcpus=<*> pci_stats=[],1739
+cb05b130,Compute_service record updated for cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us:cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us,1739
+13bf0341,Creating event  for instance ,2030
+72d60892,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Instance spawned successfully.,1
+e965e9a6,[instance: <*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>] Deleting instance files /var/lib/nova/instances/<*>d<*>fa-<*>f<*>f-<*>ce-<*>c<*>a-<*>ae<*>a<*>da<*>_del,1
+64868687,"[instance:  Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",2
+3b217f06,"[instance:  Total memory: <*> MB, used: <*>.<*> MB",2
+19c626a2,"[instance:  memory limit: <*>.<*> MB, free: <*>.<*> MB",2021
+4b2c4caa,"[instance:  Total disk: <*> GB, used: <*>.<*> GB",2021
+006e5179,"[instance:   limit not specified, defaulting to unlimited",4042
+26bfd429,"[instance: <*>ffb<*>b-<*>b<*>-<*>c<*>d-a<*>e<*>-<*>bf<*>b<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+888221c2,[instance:  Claim successful,2021
+13bf0341,Creating event  for instance ,2
+a97f2f50,[instance:  Instance spawned successfully.,2021
+5b9541a3,Successfully synced instances from host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us'.,502
+d40cab8b,[instance:  Deleting instance files ,2019
+fd353e12,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB",1
+5470368c,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Total disk: <*> GB, used: <*>.<*> GB",1
+763ac641,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] disk limit not specified, defaulting to unlimited",1
+50fe7463,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+e94907ae,"[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] vcpu limit not specified, defaulting to unlimited",1
+21f32980,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Claim successful,1
+13bf0341,Creating event  for instance ,29
+51e87d36,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Instance spawned successfully.,1
+8277255a,[instance: <*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>] Deleting instance files /var/lib/nova/instances/<*>f<*>b<*>-<*>e<*>-<*>b<*>-<*>a-f<*>b<*>fac<*>b<*>_del,1
+00582902,"[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB",1
+4b2c4caa,"[instance:  Total disk: <*> GB, used: <*>.<*> GB",32
+2f937c1b,"[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] disk limit not specified, defaulting to unlimited",1
+862071b3,"[instance:  Total vcpu: <*> VCPU, used: <*>.<*> VCPU",2052
+ec010cc3,"[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] vcpu limit not specified, defaulting to unlimited",1
+fc00c628,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Claim successful,1
+13bf0341,Creating event  for instance ,2
+a97f2f50,[instance:  Instance spawned successfully.,32
+76a51d1e,[instance: <*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>] Deleting instance files /var/lib/nova/instances/<*>ae<*>a<*>-<*>b-<*>fc-<*>cc-<*>cdf<*>fa<*>d<*>_del,1
+19c626a2,"[instance:  memory limit: <*>.<*> MB, free: <*>.<*> MB",40
+4b2c4caa,"[instance:  Total disk: <*> GB, used: <*>.<*> GB",9
+006e5179,"[instance:   limit not specified, defaulting to unlimited",80
+959fb9f6,"[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+888221c2,[instance:  Claim successful,40
+12d84a54,The instance sync for host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.,364
+5d0275d2,Creating event network-vif-plugged:<*>a<*>a<*>-a<*>-<*>b<*>a-<*>-c<*>db for instance e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>,1
+a97f2f50,[instance:  Instance spawned successfully.,9
+8c4b2f40,[instance: e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>] Deleting instance files /var/lib/nova/instances/e<*>ce<*>b-f<*>-<*>c<*>-<*>fc<*>-<*>d<*>dd<*>cf<*>_del,1
+0b2e0b85,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] memory limit: <*>.<*> MB, free: <*>.<*> MB",1
+94441a89,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Total disk: <*> GB, used: <*>.<*> GB",1
+cdc9b2dd,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] disk limit not specified, defaulting to unlimited",1
+524a2bab,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+ffb1c0ee,"[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] vcpu limit not specified, defaulting to unlimited",1
+8eefa882,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Claim successful,1
+1d401397,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Instance spawned successfully.,1
+68b54428,[instance: <*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d] Deleting instance files /var/lib/nova/instances/<*>e<*>b<*>-<*>bc<*>-<*>-<*>e<*>-e<*>ba<*>e<*>e<*>d_del,1
+d789ec56,"[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+3b9e8959,[instance: <*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>] Deleting instance files /var/lib/nova/instances/<*>e<*>c<*>c<*>a-<*>f-<*>d<*>-bb<*>-<*>b<*>cbca<*>_del,1
+8bb9b45b,"[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+d4c9747e,[instance: <*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>] Deleting instance files /var/lib/nova/instances/<*>e<*>e<*>-d<*>e<*>-<*>b<*>-<*>f<*>-a<*>e<*>_del,1
+65e50942,"[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+dff6fa12,[instance: <*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa] Deleting instance files /var/lib/nova/instances/<*>a<*>cc<*>-<*>-<*>f<*>-a<*>c-<*>bdb<*>a<*>a<*>fa_del,1
+2d813545,Base or swap file too young to remove: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>,995
+fac35b28,"[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+2a613600,[instance: ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>] Deleting instance files /var/lib/nova/instances/ff<*>e<*>e-e<*>f<*>-<*>a<*>-<*>c<*>-<*>d<*>f<*>_del,1
+8bda8845,"[instance: <*>f<*>e-<*>-<*>e<*>-b<*>d-<*>a<*>f<*>d<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+d40cab8b,[instance:  Deleting instance files ,21
+67cf8921,"[instance: <*>e<*>e<*>e<*>-<*>ec<*>-<*>beb-a<*>f<*>-<*>e<*>ec<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+d40cab8b,[instance:  Deleting instance files ,11
+31b88679,"[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+2856159e,[instance: df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>] Deleting instance files /var/lib/nova/instances/df<*>d<*>-<*>af-<*>d<*>c-<*>d<*>-<*>acae<*>_del,1
+94792ed6,"[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU",1
+5fdaa3e7,[instance: <*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>] Deleting instance files /var/lib/nova/instances/<*>aa<*>ff-b<*>e<*>-<*>-a<*>-<*>e<*>f<*>fe<*>ce<*>_del,1
+93adf774,[instance: af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>] Deleting instance files /var/lib/nova/instances/af<*>d<*>c-<*>bf-<*>b<*>-b<*>-<*>b<*>adc<*>ff<*>_del,1
+b4e2a026,"couldn't obtain the vcpu count from domain id: b<*>d<*>-c<*>b-<*>fe-<*>-<*>f<*>b<*>b<*>d<*>, exception: Requested operation is not valid: cpu affinity is not supported",1
+fcf79207,Running instance usage audit for host cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.,30
+b1adf174,"couldn't obtain the vcpu count from domain id: <*>e<*>a-cd<*>a-<*>-<*>-<*>be<*>eb<*>, exception: Requested operation is not valid: cpu affinity is not supported",1
+57d24834,Error during ComputeManager._run_image_cache_manager_pass,8
+de3557f8,couldn't obtain the vcpu count from domain id:  exception: Requested operation is not valid: cpu affinity is not supported,3
+e1f8898e,Bad response code while validating token: <*>,2
+ca105236,"Identity response: <!DOCTYPE HTML PUBLIC ""-<*>HTML <*>.<*>//EN"">",2
+8b3e0010,Unable to validate token: Failed to fetch token data from identity server,2
+6e73ff71,"couldn't obtain the vcpu count from domain id: db<*>e<*>-cdb<*>-<*>ce-<*>e<*>-<*>d<*>ed<*>, exception: Requested operation is not valid: cpu affinity is not supported",1
+65fead37,"couldn't obtain the vcpu count from domain id: <*>eb<*>e<*>-c<*>e<*>-<*>d<*>-<*>c<*>-<*>ef<*>f<*>, exception: Requested operation is not valid: cpu affinity is not supported",1
+b5b10b10,"couldn't obtain the vcpu count from domain id: <*>a<*>d<*>-<*>bbf-<*>cfa-<*>afd-<*>c<*>a<*>f<*>a, exception: Requested operation is not valid: cpu affinity is not supported",1
+62afb063,"couldn't obtain the vcpu count from domain id: <*>-c<*>d-<*>d<*>f-a<*>a-c<*>bd<*>f<*>, exception: Requested operation is not valid: cpu affinity is not supported",1
+3d410aaa,"couldn't obtain the vcpu count from domain id: aaa<*>a<*>f<*>-cc<*>c-<*>-<*>af-<*>e<*>a<*>c<*>d, exception: Requested operation is not valid: cpu affinity is not supported",1
+0e326876,"couldn't obtain the vcpu count from domain id: b<*>c<*>-<*>ce<*>-<*>c-b<*>-b<*>f<*>e<*>bd<*>, exception: Requested operation is not valid: cpu affinity is not supported",1
+d3d34b78,"couldn't obtain the vcpu count from domain id: e<*>-<*>f-<*>e-<*>a<*>-<*>bc<*>a<*>f, exception: Requested operation is not valid: cpu affinity is not supported",1

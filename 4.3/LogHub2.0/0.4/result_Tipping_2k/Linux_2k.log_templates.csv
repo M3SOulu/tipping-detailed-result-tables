@@ -1,0 +1,111 @@
+EventID,EventTemplate
+P0,"klogd <*>.<*>.<*>, log source = /proc/kmsg started."
+P1,Setting network parameters: succeeded
+P2,"Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+P3,Authentication failed from <*> (<*>): Software caused connection abort
+P4,Checking 'hlt' instruction... OK.
+P5,mapped <*>/<*> trampoline to <*>.
+P6,Console: colour VGA+ <*>
+P7,audit(<*>.<*>:<*>): initialized
+P8,ALERT exited abnormally with [<*>]
+P9,DMI <*>.<*> present.
+P10,"PCI: PCI BIOS revision <*>.<*> entry at <*>, last bus=<*>"
+P11,On node <*> totalpages: <*>
+P12,You can enable it with acpi=force
+P13,removing device node '/udev/<*>'
+P14,audit: initializing netlink socket (disabled)
+P15,PCI: Probing PCI hardware
+P16,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=root
+P17,NET: Registered protocol family <*>
+P18,Detected <*>.<*> MHz processor.
+P19,PCI: Using configuration type <*>
+P20,Kerberos authentication failed
+P21,SELinux: Registering netfilter hooks
+P22,*** info [mice.c(<*>)]:
+P23,Capability LSM initialized
+P24,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>
+P25,sdpd <*>.<*> started
+P26,notify question section contains no SOA
+P27,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>
+P28,isapnp: No Plug & Play device found
+P29,check pass; user unknown
+P30,PCI: Invalid ACPI-PCI IRQ routing table
+P31,SELinux: Starting in permissive mode
+P32,session opened for user <*> by <*>(uid=<*>) _/|\\_ session opened for user <*> by (uid=<*>)
+P33,"<*> zone: <*> pages, LIFO batch:<*>"
+P34,<*>: Auto-detected intellimouse PS/<*>
+P35,<*> LOWMEM available.
+P36,Enabling fast FPU save and restore... done.
+P37,<*> startup succeeded
+P38,isapnp: Scanning for PnP cards...
+P39,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>
+P40,"CPU <*> irqstacks, hard=<*> soft=<*>"
+P41,BIOS-<*>: <*> - <*> (usable)
+P42,Real Time Clock Driver <*>.<*>
+P43,ACPI: Interpreter disabled.
+P44,usbcore: registered new driver hub
+P45,PCI: Probing PCI hardware (bus <*>)
+P46,Received SNMP packet(s) from <*>
+P47,connection from <*> (<*>) at <*>  _/|\\_ connection from <*> () at <*>  _/|\\_ connection from <*> () at <*> _/|\\_ connection from <*> (<*>at) at <*>  _/|\\_ connection from <*> (<*>) at <*>
+P48,Intel machine check architecture supported.
+P49,"ANONYMOUS FTP LOGIN FROM <*>, (anonymous)"
+P50,Linux Plug and Play Support <*>.<*> (c) Adam Belay
+P51,Initializing Cryptographic API
+P52,Enabling unmasked SIMD FPU exception support... done.
+P53,usbcore: registered new driver usbfs
+P54,Bringing up loopback interface: succeeded
+P55,Calibrating delay loop... <*>.<*> BogoMIPS
+P56,CPU: Intel Pentium III (Coppermine) stepping <*>
+P57,HCI daemon ver <*>.<*> started
+P58,creating device node '/udev/<*>'
+P59,zapping low mappings.
+P60,getpeername (ftpd): Transport endpoint is not connected
+P61,Security Scaffold <*>.<*>.<*> initialized
+P62,Initializing CPU#<*>
+P63,Version <*>.<*>.<*> Starting
+P64,"CPU: <*> I cache: <*>, <*> D cache: <*>"
+P65,Linux version <*>.<*>.<*>-<*>.<*> (bhcompile@bugs.build.redhat.com) (gcc version <*>.<*>.<*> (Red Hat Linux <*>.<*>.<*>-<*>)) #<*> Sat May <*> :<*>:<*> EDT <*>
+P66,Intel machine check reporting enabled on CPU#<*>.
+P67,Couldn't authenticate user
+P68,Transparent bridge - <*>:<*>:<*>.<*>
+P69,ROOT LOGIN ON <*>
+P70,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>.<*>)
+P71,selinux_register_security: Registering secondary module capability
+P72,Built <*> zonelists
+P73,ACPI: ACPI tables contain no PCI IRQ routing entries
+P74,Initializing random number generator: succeeded
+P75,BIOS-<*>: <*> - <*> (reserved)
+P76,Authentication failed from <*> (<*>): Permission denied in replay cache code
+P77,ACPI disabled because your bios is from <*> and too old
+P78,warning: can't get client address: Connection reset by peer
+P79,authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=
+P80,session closed for user <*>
+P81,cupsd shutdown succeeded
+P82,cupsd startup succeeded
+P83,Linux agpgart interface <*>.<*> (c) Dave Jones
+P84,"Total HugeTLB memory allocated, <*>"
+P85,BIOS-provided physical RAM map:
+P86,<*> HIGHMEM available.
+P87,User unknown timed out after <*> seconds at <*>
+P88,POSIX conformance testing by UNIFIX
+P89,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>:<*>:<*>.<*>
+P90,ACPI: Subsystem revision <*>
+P91,"There is already a security framework initialized, register_security failed."
+P92,<*> hash table entries: <*> (order <*>: <*> bytes) _/|\\_ <*> hash table entries: <*> (order <*> bytes) _/|\\_ <*> hash table entries: <*> (order: <*> bytes)
+P93,VFS: Disk quotas dquot_<*>.<*>.<*>
+P94,Failure registering capabilities with the kernel
+P95,Kernel command line: ro root=LABEL=/ rhgb quiet
+P96,Starting pcmcia: succeeded
+P97,Using tsc for high-res timesource
+P98,
+P99,restart.
+P100,restart.
+P101,restart.
+P102,restart.
+P103,restart.
+P104,restart.
+P105,restart.
+P106,SELinux:  Initializing.
+P107,CPU: L2 cache: 256K
+P108,mtrr: v2.0 (20020519)
+P109,kernel.core_uses_pid = 1

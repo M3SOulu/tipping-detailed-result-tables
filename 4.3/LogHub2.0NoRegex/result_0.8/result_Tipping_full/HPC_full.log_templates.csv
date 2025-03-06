@@ -1,0 +1,71 @@
+EventID,EventTemplate
+P0,Command has been aborted
+P1,risBoot (command <*>) Error: failed to RIS boot: <ABORT code completed>
+P2,starting
+P3,Targeting domains:node-<*> and nodes:node-<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> child of command <*>
+P4,ClusterFileSystem: ServerFileSystem domain <*> is no <*>  _/|\\_ ClusterFileSystem: ServerFileSystem domain domain<*> is no <*>  _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain<*> is no <*>  _/|\\_ ClusterFileSystem: <*> is no <*> ServerFileSystem domain <*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain is no <*> 
+P5,blocked
+P6,halt (command <*>) Error: Couldn\\<*> Connect to console (state = REFUSED)
+P7,Targeting domains:node-<*> and nodes:node-<*>-<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> -<*> -<*> -<*> -<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> _/|\\_ Targeting domains:node-<*> -<*> and nodes:node-<*>-<*> -<*>  _/|\\_ Targeting domains:node-<*> -<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> -<*> -<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> -<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> -<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> -<*> -<*>
+P8,not responding
+P9,active
+P10,Command has completed successfully
+P11,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+P12,<*> (command <*>) Error: Unknown We failed to determine the state of this node
+P13,member_delete (command <*>)
+P14,running
+P15,boot (command <*>) Error: <*> while booting<*> _/|\\_ boot (command <*>) Error: <*> while booting
+P16,ServerFileSystem<*> ServerFileSystem domain <*> is full _/|\\_ ServerFileSystem domain <*>domain is full
+P17,no recent update
+P18,Failed subcommands <*>  _/|\\_ Failed subcommands <*>
+P19,ambient=<*> threshold exceeded
+P20,normal
+P21,member_delete (command <*>) Error: node is up according to cluster_get_info
+P22,bootGenvmunix (command <*>) Error: node returned to srm while booting: <ABORT code completed>
+P23,<*> failed to configure resourcemgmt subsystem err = <*>
+P24,link errors remain current
+P25,<*> (command <*>) Error: Console-Busy Port already in use
+P26,bootGenvmunix (command <*>)
+P27,psu failure\\ ambient=<*>
+P28,<*> ok
+P29,boot (command <*>) Error: System could not find kernel
+P30,bootGenvmunix (command <*>) Error: Timeout waiting for system to come up: <ABORT code completed>
+P31,Component State Change: Component <*>:<*>:<*> is in the available state (HWID=<*>) _/|\\_ Component State Change: Component <*> is in the available state (HWID=<*>)
+P32,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+P33,Command Cancelled - cluster would lose quorum
+P34,haltcluster (command <*>) Error: haltcluster: bad spawn id
+P35,member_delete (command <*>) Error: node-<*> is NOT a member of cluster node-<*>
+P36,power/control problem
+P37,warning
+P38,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P39,Temperature (<*>) exceeds warning threshold
+P40,boot (command <*>)
+P41,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface <*>
+P42,closing
+P43,Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> _/|\\_ Command Failed on: node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*>
+P44,wait (command <*>)
+P45,Link in reset
+P46,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P47,fan failure\\ ambient=<*>
+P48,configured out
+P49,Fan speeds ( <*> )
+P50,halt (command <*>)
+P51,risBoot (command <*>)
+P52,ambient=<*>
+P53,boot (command <*>) Error: timeout waiting for Loading LMF licenses
+P54,Linkerror event interval expired
+P55,PSU status ( off on ) _/|\\_ PSU status ( on off )
+P56,<*> (command <*>) Error: timeout waiting for SRM <*>
+P57,clusterAddMember (command <*>) Error: cluster_add_member failed unexpectedly\\ check /cluster/admin/cluster_add_member.log: <ABORT code errored: kill: <*>: no such process>
+P58,update received
+P59,critical
+P60,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface <*>
+P61,boot (command <*>) Error: node went to SRM while trying to boot
+P62,boot (command <*>) Error: CMF-Port This node\\<*> port is not connected
+P63,clusterAddMember (command <*>) Error: Cannot run clusterAddMember\\ because node-<*> connection state is REFUSED and needs to be SRM
+P64,haltcluster (command <*>)
+P65,boot (command <*>) Error: HALT asserted\\ cannot continue
+P66,responding
+P67,clusterAddMember (command <*>)
+P68,unknown
+P69,Link error

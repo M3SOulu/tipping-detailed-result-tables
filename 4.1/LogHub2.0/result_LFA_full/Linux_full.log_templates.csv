@@ -1,0 +1,345 @@
+EventId,EventTemplate,Occurrences
+78996bdd,restart.,42
+d09761d7,<*> startup succeeded,261
+c52bb13c,klogd <*> <*> <*> <*> <*> <*>,9
+0c327b5d,Linux version <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,8
+5cb4dcf4,BIOS-provided physical RAM map:,8
+91c6ace6,BIOS-e820: <*> - <*> <*>,16
+e0461047,BIOS-e820: <*> - <*> (reserved),24
+70d0b7b3,126MB LOWMEM available.,8
+4475646e,zapping low mappings.,8
+e6b18aa4,<*> <*> 0 <*> <*>,8
+bb2a3586,"<*> zone: <*> pages, LIFO batch:1",8
+07751fa4,"<*> zone: <*> pages, LIFO <*>",8
+007f4912,"<*> zone: 0 pages, LIFO batch:1",8
+c8fb83f1,DMI 2.3 present.,8
+068fbf46,ACPI disabled because your bios is from 2000 and too old,8
+60c33ebb,<*> <*> <*> <*> with <*>,8
+10e4a839,<*> 1 <*>,16
+171dc574,Kernel <*> <*> <*> <*> <*> <*>,7
+ac808d8f,<*> <*> <*> to <*>,8
+d1b691b9,Initializing <*>,8
+80afd332,<*> 0 <*> <*> <*>,8
+073750ca,<*> hash table entries: 512 (order <*> 4096 bytes),8
+e8c41b0f,Detected <*> MHz processor.,8
+98450438,<*> <*> for <*> <*>,20
+75194edc,Console: colour VGA+ 80x25,8
+b7ac2ad4,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",8
+757c7dc5,Calibrating delay loop... <*> BogoMIPS,8
+625bc432,Security Scaffold v1.0.0 initialized,8
+4af44999,SELinux: <*>,8
+c1203430,SELinux: <*> <*> <*> <*>,9
+e4935f02,<*> is already a <*> <*> <*> <*> <*>,8
+c7ad334a,<*> <*> <*> with <*> <*>,8
+899dd62c,<*> Registering <*> <*> <*>,8
+71dc0d86,<*> <*> initialized,16
+c652c002,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",8
+2ece66af,<*> hash table entries: <*> <*> <*> <*> bytes),8
+0049dba5,"<*> hash table entries: 512 (order: 0, 4096 bytes)",8
+5cf34728,Version <*> <*>,8
+acab6bd9,CPU: <*> <*> <*> <*> <*> <*> <*> <*>,8
+ad88f4df,CPU: <*> <*> <*>,8
+3797c3f8,Intel machine check architecture supported.,8
+a24122cb,CPU: <*> <*> <*> <*> <*> <*>,8
+2f61c8d5,Enabling <*> <*> <*> <*> <*> done.,16
+8177bcff,Checking 'hlt' instruction... OK.,8
+cb7aa6e4,POSIX conformance testing by UNIFIX,8
+a231c3bf,NET: Registered protocol family <*>,48
+e577e7d3,PCI: <*> <*> <*> <*> <*> <*> <*> <*> <*>,8
+a63bb4dd,PCI: <*> <*> <*> <*>,8
+8ee00dd4,ACPI: <*> revision <*>,8
+a8de99dd,ACPI: <*> <*>,8
+c1f5bb73,Linux <*> <*> <*> <*> <*> <*> <*> <*>,8
+0db77cb7,usbcore: registered new driver <*>,32
+1149302b,ACPI: <*> tables <*> no <*> <*> <*> <*>,8
+7b5d2b54,PCI: <*> <*> <*> <*> <*>,16
+24715800,Initializing <*> <*> <*> <*>,8
+a47c26ad,PCI: <*> <*> <*>,8
+083d608d,<*> <*> - <*>,8
+f34e1378,PCI: <*> <*> <*> <*> <*> <*> <*>,8
+279d4e6f,<*> <*> <*> 1.2 <*> <*> <*> <*> <*>,8
+2f0bd146,<*> <*> netlink socket <*>,7
+84c3c534,<*> initialized,8
+9af9d45d,<*> <*> <*> <*> 0,8
+40c55831,<*> <*> succeeded,154
+ede9cc9a,VFS: <*> <*> <*>,8
+61f1f7cc,"<*> hash table entries: <*> (order 0, 4096 bytes)",8
+3f221b14,SELinux: <*> <*> <*>,15
+2bad4e84,Initializing <*> <*>,8
+4f5ffebe,<*> PCI <*> <*> PCI <*> <*> <*>,8
+0a2b78b4,isapnp: No <*> <*> <*> device found,8
+18c74772,Real Time Clock Driver v1.12,8
+83471b71,Linux <*> <*> <*> <*> <*> <*>,8
+9940af62,agpgart: <*> <*> <*> <*> <*> <*>,8
+c028ff70,<*> <*> <*> <*> <*> <*> for <*> <*> <*>,8
+fb299e52,agpgart: <*> <*> <*> <*> <*>,8
+56a6ce2a,<*> <*> ver <*> <*>,8
+d6a110af,<*> <*> <*> succeeded,15
+2cbde44a,agpgart: <*> <*> is <*> <*> <*>,8
+aaf88c86,<*> <*> <*> <*> succeeded,7
+02250206,<*> <*> driver <*> <*> <*> <*> <*> <*> <*> <*>,8
+217ffd34,<*> driver <*> <*> <*> <*> <*> <*> <*> <*> <*>,8
+122924ab,<*> <*> <*> driver <*> <*>,8
+c5b0e659,<*> <*> <*> <*> <*> <*> for <*> <*> <*> <*> <*>,8
+ee0274c1,ICH: <*> <*> at PCI <*> <*>,8
+0325ca12,Version <*> <*> <*> <*> <*> <*> <*>,8
+1e1d2c09,ICH: <*> revision <*>,8
+da03d1fc,<*> <*> at <*> <*> <*> <*> <*>,16
+673d05bb,Using <*> <*> <*>,8
+fd7ddef2,<*> page <*> <*>,8
+598f1b0f,<*> <*> <*> on <*> <*>,24
+a2263357,<*> configuration <*> <*>,8
+a1670771,Configuration file /etc/smartd.conf parsed.,8
+ecb44012,"Device: /dev/hda, <*>",8
+14527e51,Charge: * * * (-1% unknown),8
+affbe486,"Device: /dev/hda, <*> <*> <*> <*>",8
+b4fe3753,hda: <*> <*> <*> <*>,8
+cee98b36,"Device: /dev/hda, is <*> <*> <*> <*> <*> <*>",8
+915164af,hda: <*> <*> <*> <*> <*> <*> <*> <*>,8
+72611fcb,<*> 1 <*> and 0 <*> <*>,8
+0b5f5a37,smartd <*> <*> <*> <*> <*> <*> <*>,8
+283b6c54,<*> <*> driver <*> <*>,16
+90ec4c27,<*> driver <*>,8
+7d137d12,mice: PS/2 mouse device common for all mice,8
+3511a990,<*> <*> <*> <*> at <*> <*> <*>,16
+866d6696,input: <*> <*> <*> <*> on <*>,8
+afb07c21,input: <*> <*> <*> 2 <*> <*> <*>,8
+f8393274,md: <*> driver <*> <*> <*>,8
+9c8fb69c,"IP: routing cache hash table of 512 buckets, 4Kbytes",8
+b4e150f3,<*> <*> tables <*> <*> <*> <*> <*>,8
+9f754358,Initializing <*> <*> <*>,8
+5af700a6,<*> <*> image is <*> <*> <*> <*> <*> <*> <*> <*> <*>,8
+134b3c0f,Freeing <*> <*> <*> <*>,8
+3f889ba4,md: <*> <*> <*>,8
+ee761e7e,md: <*> <*>,8
+f1988c72,<*> <*> <*> <*> at <*> <*>,8
+551afd7b,VFS: <*> <*> <*> <*>,8
+5ba4eab6,EXT3-fs: <*> <*> <*> <*> <*> <*> <*>,4
+ec8854d7,kjournald starting. Commit interval 5 seconds,16
+525d75e7,EXT3-fs: <*> <*> <*> <*> <*>,1
+2fb34c68,EXT3-fs: <*> <*>,4
+ff361372,<*> <*> <*> with <*> <*> <*>,16
+921b2e53,Freeing <*> <*> <*> <*> <*>,8
+cfb89486,SELinux: <*> at <*>,7
+717235b1,<*> <*> IPv4 <*> <*>,8
+dcfd6ab8,USB Universal Host Controller Interface driver v2.2,8
+913a2f23,PCI: <*> <*> <*> <*> <*> <*>,24
+0fafc3af,uhci_hcd 0000:00:1f.2: <*> <*> <*>,8
+8f445159,uhci_hcd 0000:00:1f.2: <*> <*> <*> <*> <*>,8
+97ae5f1d,<*> <*> new <*> <*> <*> <*> <*> <*> <*>,8
+deec6ac0,EXT3 FS on <*> internal journal,16
+918c58e2,cdrom: open failed.,8
+52440854,<*> <*> <*> on <*> <*> <*>,8
+21693154,microcode: <*> already at <*> <*> <*>,8
+69c4d5d5,<*> <*> <*> <*> for <*> <*>,8
+7811787b,parport0: <*> at <*> <*> <*>,16
+4a43a146,parport0: <*> <*> <*>,16
+99466db1,<*> <*> <*> is <*>,8
+d09a4009,<*> <*> is <*> <*> <*> <*>,16
+75d4d1e1,<*> <*> <*> and <*> <*>,16
+e07cd137,ip_tables: (C) 2000-2002 Netfilter core team,17
+dfd74129,Bluetooth: <*> <*> <*>,16
+57f51249,Bluetooth: <*> <*> <*> <*> <*> <*>,8
+3e310e9f,Bluetooth: <*> <*> <*> <*>,24
+2edb1b43,Bluetooth: <*> ver <*>,8
+32d0250e,succeeded,16
+b3675075,No such internal service: services/stream - DISABLING,8
+7865d417,<*> failed <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,8
+bb86f190,<*> <*> failed <*> <*> <*> <*> <*>,8
+b801dda7,xinetd <*> <*> <*> with <*> <*> <*> <*> <*>,8
+aa92050f,Started <*> <*> <*> <*>,8
+46d6a5bc,<*> <*> <*> <*> Info: loading configuration file '/etc/privoxy/config':,8
+6e31eca4,creating device node <*>,200
+7d25b130,*** info <*>,26
+ba219436,Started <*> <*> <*> <*> mode.,8
+6281818e,imps2: Auto-detected intellimouse PS/2,15
+1243f3db,session <*> for user <*> <*> <*>,561
+cd899eb5,session <*> for user <*>,561
+4e287fe6,started.,8
+335c9824,Starting <*> <*>,8
+51bd5c34,Squid Parent: child process <*> started,8
+6880de23,starting BIND 9.2.3 -u named -t /var/named/chroot,8
+2382f8e5,<*> <*> from <*>,8
+a9d15a42,listening on IPv4 interface <*> <*>#53,192
+f0dbe5ac,<*> version <*>,8
+49c3eb48,<*> = <*> <*>,8
+7a790d08,kernel time sync <*> <*>,24
+f739b07f,<*> initialized <*> <*> <*> <*>,8
+13fdebc6,<*> <*> <*> <*> line <*>,8
+21eb9874,<*> <*> <*> <*> <*> not <*>,59
+ea31f21f,running,8
+4707d715,<*> version <*> <*> <*> on <*> <*>,8
+fdb827c8,<*> device node <*>,284
+a731801a,<*> to <*> <*>,12
+d5908ef6,file descriptor of service comsat has been closed,8
+a66ab582,<*> <*> <*> <*> no <*> <*> <*> <*> <*>,8
+91c376bc,<*> <*> <*> with <*>,231
+92dffda4,<*> = <*>,6
+283b434b,<*> <*> user <*>,1043
+d49fda24,connection from <*> <*> at <*> <*> <*> <*> 2005,2068
+65ee854d,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> user=root,647
+cf6e4a90,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*> <*>,356
+4da98d3b,bad username <*>,11
+d1952a29,<*> <*> user,10
+ff95bbec,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> <*>,1873
+a58f5a69,User unknown timed out after 900 seconds at <*> <*> <*> <*> <*>,36
+6f750a44,connection from <*> () at <*> <*> <*> <*> 2005,514
+e56ad209,Received SNMP packet(s) from <*>,4
+b3be37e7,Authentication failed from <*> (<*>): <*> <*> <*> <*> <*> <*>,8
+4cf68fc9,<*> <*> failed,27
+7883a4fc,<*> failed from <*> <*> <*> <*> <*> <*>,15
+e6041b21,<*> <*> <*> <*> no <*>,16
+8e135c26,<*> <*> get <*> <*> <*> <*> <*> <*>,18
+06da673f,ttloop: <*> <*> <*> <*> <*> <*> <*> <*> <*>,112
+33726ccc,<*> at <*> <*>,1
+36e338a7,bad username <*> <*>,2
+8124c0ea,<*> <*> <*> FROM <*> <*> <*> <*> <*>,4
+1ead99cc,service(sshd) ignoring max retries; <*> > 3,11
+a6007615,ttloop: <*> <*> <*> <*> <*>,10
+8ebac408,authentication failure; <*> uid=0 euid=0 <*> ruser= <*> user=root,1
+33e8daab,<*> <*> <*> <*> in <*> <*>,1
+2d2e6651,<*> shutdown <*>,15
+c0393cd4,terminating,3
+89b54eb9,Stopping <*> <*> succeeded,4
+0fe620e2,Stopping <*>,4
+79f885bf,Squid Parent: child process <*> <*> <*> <*> <*>,4
+9e421736,smartd <*> <*> <*> <*>,4
+e4f83626,smartd <*> <*> <*> <*> <*>,4
+bd167261,shutting down,2
+d8cc3530,<*> <*> <*> on <*>,48
+8d218b43,exiting,2
+a2790190,Exiting,4
+f5924c5f,ntpd <*> on <*> <*>,4
+7dbf8065,<*> <*> in,4
+3bda4d0c,1+0 records <*>,4
+f004baf8,<*> <*> <*> <*> and <*>,3
+3c4a0515,Kernel <*> <*> <*>,10
+80998482,<*> <*> <*> <*> or <*>,5
+3951cff6,<*> <*> for <*>,4
+a5c09e30,1 more authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> user=test,5
+ab9d15b0,authentication failure; <*> <*> euid=0 <*> ruser= <*> <*>,2
+36790d24,<*> <*> <*> <*> 1 <*> <*> <*>,1
+9249bba0,<*> <*> up <*> <*> <*>,1
+28f0462a,rsync: connection unexpectedly closed (0 bytes read so far),1
+bc5b8f65,<*> <*> <*> in <*> <*> <*> <*> <*> <*> <*> <*>,1
+ce058541,<*> from <*>,1
+2e5a14c3,<*> <*> <*> <*> from <*>,1
+81bce374,<*> to get <*> line <*> <*>,1
+aa9807f1,Authentication failed from <*> <*> Software caused connection abort,2
+105f81b0,<*> from <*> <*> <*> <*>,2
+824e93f2,1 more authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> <*>,1
+a458b378,<*> = 0,2
+95764076,hda: <*> <*> <*> <*> <*>,1
+77782071,hda: <*> <*> <*> <*> <*> <*>,1
+eea1bdf0,Out of Memory: Killed process <*> (httpd).,8903
+f6076f16,Out of Memory: Killed process <*> <*>,1501
+3cdf16fc,"httpd: page allocation failure. order:0, <*>",77
+0df7787a,[<0212ebf3>] __alloc_pages+0x274/0x281,90
+7573d017,[<0213d341>] read_swap_cache_async+0x41/0x84,44
+a6e53e0d,[<02135dee>] swapin_readahead+0x2c/0x47,23
+b8dfdee8,[<02135e66>] do_swap_page+0x5d/0x1f9,23
+97f24b7a,[<021364a7>] handle_mm_fault+0x9d/0xe2,40
+6694669d,[<02114537>] do_page_fault+0x12f/0x446,73
+386194fe,[<0210737b>] do_IRQ+0x15d/0x169,11
+b79e6728,[<0227ecc1>] schedule+0x3ed/0x44d,63
+eff892fe,[<0215242b>] dput+0x12c/0x13a,5
+68bec427,[<02114408>] do_page_fault+0x0/0x446,102
+cf59332b,[<02135e6d>] do_swap_page+0x64/0x1f9,17
+b291eca4,VM: killing process <*>,28
+fd3de9d9,[<021303bd>] do_page_cache_readahead+0xa3/0x101,23
+b838f5c0,[<0212c71b>] filemap_nopage+0x119/0x26d,23
+591297a3,[<021361c7>] do_no_page+0xa1/0x235,30
+21cd362c,[<02135fdc>] do_swap_page+0x1d3/0x1f9,1
+8885d816,[<0213647b>] handle_mm_fault+0x71/0xe2,30
+c9776184,[<02135342>] follow_page+0xda/0xe5,19
+973a9595,[<0213f1ba>] rw_vm+0x1ce/0x1ea,16
+4001d0a6,[<0212bd04>] find_or_create_page+0x39/0x70,14
+5dcecb7e,[<02142ed7>] grow_dev_page+0x27/0xc3,14
+8cf23c1b,[<02143014>] __getblk_slow+0xa1/0xcb,14
+bc3830ae,[<0214328d>] __getblk+0x25/0x2b,14
+bbaae072,<*> <*> [ext3],71
+9aed7a01,[<0212db65>] mempool_alloc+0x5d/0xf6,11
+34a731e4,[<0a8b23ef>] journal_start+0x78/0x9e [jbd],14
+b95d2666,[<02158800>] __mark_inode_dirty+0x20/0xca,14
+786d6cbc,[<0215456f>] inode_update_time+0x8e/0x96,14
+384388a4,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e,14
+e678dab3,[<021c8bda>] vt_console_print+0x64/0x28f,11
+235cb9db,[<021288cf>] __print_symbol+0x110/0x121,12
+7fb88b7a,[<0212d602>] generic_file_aio_write+0x69/0x7c,15
+e15f9948,[<02141447>] do_sync_write+0x68/0x9d,15
+29635c6b,[<021c8b76>] vt_console_print+0x0/0x28f,5
+ad959993,[<02118726>] __call_console_drivers+0x36/0x42,5
+04e7f091,[<021189cd>] printk+0x106/0x113,11
+ec3f055e,[<021060c2>] show_trace+0x92/0x97,11
+3dde4f87,[<02106159>] dump_stack+0x11/0x13,13
+de3681da,[<02129a6c>] do_acct_process+0x283/0x297,15
+9e46de7e,[<02129a95>] acct_process+0x15/0x1f,15
+4daae537,[<02119ccc>] do_exit+0x9f/0x2e3,15
+f9ae2daf,[<0211476a>] do_page_fault+0x362/0x446,15
+b75eae8e,[<0211c38d>] proc_dointvec+0x11/0x15,4
+280c1e1c,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36,4
+4ae94460,[<0211bdc5>] do_rw_proc+0x79/0x8d,3
+fb199083,[<02142d47>] invalidate_inode_buffers+0x9/0x33,3
+4a38e55f,[<0227e913>] schedule+0x3f/0x44d,9
+ef39b53c,[<0212d1de>] generic_file_aio_write_nolock+0x4fe/0x84e,1
+ce569b59,[<02115f01>] __wake_up+0xe/0x16,10
+236e1564,[<02115ed2>] __wake_up_common+0x2f/0x50,9
+4f669238,[<0213f423>] put_user_size+0x29/0x2d,49
+3710b84c,[<021295e4>] check_free_space+0x1b5/0x1cb,4
+f7c691f3,[<0212c5b2>] page_cache_read+0x2a/0x7a,10
+39b8af8b,[<0212c784>] filemap_nopage+0x182/0x26d,7
+cce7207a,[<02115617>] recalc_task_prio+0x141/0x14c,20
+c837e86e,"<*> page allocation failure. order:0, <*>",11
+4ab05509,[<021359c3>] do_wp_page+0x97/0x21c,5
+e5a3e837,[<0214201b>] __fput+0xb3/0xd1,2
+ec16e441,[<021208bf>] sys_rt_sigaction+0x6b/0x80,5
+90574c6a,[<0213f3d3>] get_user_size+0x30/0x57,6
+21e62631,[<021287f4>] __print_symbol+0x35/0x121,3
+455bc6db,[<021284a0>] module_text_address+0x3a/0x5d,1
+6859ca7a,[<02135b2f>] do_wp_page+0x203/0x21c,2
+e872c240,[<021359f7>] do_wp_page+0xcb/0x21c,3
+0c848096,[<021364c6>] handle_mm_fault+0xbc/0xe2,3
+d1d2097d,[<02107352>] do_IRQ+0x134/0x169,2
+09e65bc2,[<021529bb>] d_alloc+0x38/0x1b0,5
+6faef453,[<02152b72>] d_instantiate+0x3f/0x42,5
+facbfc78,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a,5
+e6a183d3,[<02221a76>] input_unregister_device+0xd/0xc1,2
+72d79e38,printk: 185 messages suppressed.,1
+17b51ac7,[<02134aa0>] clear_page_tables+0x7c/0x8f,1
+b93704f8,[<02137b89>] free_pgtables+0x76/0x7b,1
+3566cf55,[<02137ca8>] unmap_region+0x80/0xaa,1
+9c1c10ac,[<02137c1f>] unmap_vma_list+0xe/0x17,1
+be6c2cad,[<0212144c>] sys_setuid+0xdd/0xe9,1
+7dcc9d4d,Master rebooting...,1
+7d82b6fb,ttloop: <*> <*> <*> <*>,57
+7dd6e552,connection from <*> <*> at <*> <*> <*> <*> <*>,775
+8ccd41a8,audit: <*> <*> <*>,1
+e69816b3,<*> <*> <*> <*> <*> <*> <*> 1 <*>,1
+56304e33,security: <*> <*> <*> <*>,1
+d5f7c567,SELinux: <*> <*>,1
+b4f88efb,SELinux: <*> <*> <*> <*> <*> <*> <*>,11
+8a36320a,SELinux: <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+6f79d2c5,SELinux: <*> <*> <*> <*> <*> <*> <*> <*>,5
+8e21ec91,<*> avc: denied { <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,3
+754863b3,<*> <*> exit=0 <*> <*> <*> <*> items=0 <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,11
+e0598703,<*> avc: denied { <*> } for <*> <*> <*> <*> <*> scontext=system_u:system_r:kernel_t <*> <*>,49
+adedf1a9,<*> <*> exit=0 <*> <*> <*> <*> items=1 <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,36
+61cb56cb,<*> item=0 <*> <*> dev=00:00,44
+fd877d9a,<*> <*> <*> <*> <*> <*> <*> items=1 <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,2
+cc7f4715,<*> avc: denied { <*> } for <*> <*> <*> dev= <*> scontext=system_u:system_r:kernel_t <*> <*>,3
+baa1a110,<*> <*> exit=0 <*> <*> <*> <*> <*> <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,26
+1345ef2e,<*> <*> <*> <*> <*> <*> <*> <*> <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,25
+706f9c3c,<*> <*> <*> <*> <*> <*> <*> <*> <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 <*> fsgid=0,2
+3adf9659,<*> item=0 <*> <*> <*>,13
+cca1d98a,<*> <*> exit=0 <*> <*> <*> <*> items=1 <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 <*> fsgid=0,1
+9412b573,<*> <*> exit=0 <*> <*> <*> <*> items=0 <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 <*> fsgid=0,1
+50cb5a39,<*> <*> exit=0 <*> <*> <*> <*> items=0 <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 <*> <*> <*>,1
+a3aa3243,<*> <*> exit=0 <*> <*> <*> <*> <*> <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 <*> <*> <*>,1
+bd59949f,<*> <*> user <*> <*> <*> <*> <*> <*>,1
+8f727415,<*> <*> <*> <*> <*> <*> <*> <*> <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 <*> egid=0 sgid=0 <*>,3
+af43f341,<*> <*> exit=0 <*> <*> <*> <*> <*> <*> loginuid=-1 <*> <*> <*> <*> <*> <*> <*> <*>,1
+71120969,<*> <*> exit=0 <*> <*> <*> <*> items=1 <*> loginuid=-1 <*> <*> <*> suid=0 <*> <*> <*> <*>,1
+1a440216,<*> <*> <*> <*> <*> <*> <*> <*> <*> loginuid=-1 <*> <*> <*> <*> <*> <*> <*> <*>,2
+88515a5c,<*> <*> <*> <*> with <*> <*> <*>,1
+b6b65fe5,<*> <*> <*> FROM <*> <*> <*>,8
+ca300804,"ANONYMOUS FTP LOGIN FROM <*>, <*> <*>",1

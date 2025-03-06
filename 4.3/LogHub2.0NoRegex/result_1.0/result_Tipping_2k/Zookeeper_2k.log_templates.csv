@@ -1,0 +1,38 @@
+EventID,EventTemplate
+P0,Processed session termination for sessionid: <*>
+P1,"Expiring session <*>, timeout of <*> exceeded"
+P2,shutdown of request processor complete
+P3,First is <*>
+P4,******* GOODBYE /<*>.<*>.<*>.<*>:<*> ********
+P5,minSessionTimeout set to -<*>
+P6,Received connection request /<*>.<*>.<*>.<*>:<*>
+P7,Sending DIFF
+P8,My election bind port: <*>.<*>.<*>.<*>/<*>.<*>.<*>.<*>:<*>
+P9,maxSessionTimeout set to -<*>
+P10,Cannot open channel to <*> at election address /<*>.<*>.<*>.<*>:<*>
+P11,Accepted socket connection from /<*>.<*>.<*>.<*>:<*>
+P12,Server environment:<*>.<*>=<*>  _/|\\_ Server environment:<*>.<*>=<*>.<*>.<*> :<*>  _/|\\_ Server environment:<*>.<*>=<*> _/|\\_ Server environment:<*>.<*>.<*>=<*>:<*>.<*>:<*>.<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>
+P13,Interrupted while waiting for message on queue
+P14,Unexpected <*>  _/|\\_ Unexpected <*>
+P15,Revalidating client: <*>
+P16,autopurge.<*> set to <*>
+P17,Have <*> : <*> _/|\\_ Have <*> : <*> 
+P18,Reading snapshot /var/lib/zookeeper/version-<*>/snapshot.<*>
+P19,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>
+P20,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper
+P21,"New election. My id = <*>, proposed zxid=<*>"
+P22,Established session <*> with negotiated timeout <*> for client /<*>.<*>.<*>.<*>:<*>
+P23,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
+P24,tickTime set to <*>
+P25,Notification: <*>  _/|\\_ Notification <*> : <*>
+P26,Getting a snapshot from leader
+P27,LOOKING
+P28,caught end of stream exception
+P29,Connection <*> 
+P30,Send worker leaving thread
+P31,Closed socket connection for client /<*>.<*>.<*>.<*>:<*>  _/|\\_ Closed socket connection for client /<*>.<*>.<*>.<*>:<*> for client<*>
+P32,FOLLOWING<*> _/|\\_ FOLLOWING
+P33,Client attempting to <*> session at /<*>.<*>.<*>.<*>:<*> _/|\\_ Client attempting to <*> session <*> at /<*>.<*>.<*>.<*>:<*>
+P34,Snapshotting: <*> to /var/lib/zookeeper/version-<*>/snapshot.<*>
+P35,Starting quorum peer
+P36,Interrupting SendWorker

@@ -1,0 +1,86 @@
+EventID,EventTemplate
+P0,<*> failures on node MININT-<*>.fareast.corp.microsoft.com
+P1,Received completed container container_<*>_<*>_<*>_<*>
+P2,Container complete event for unknown container id container_<*>_<*>_<*>_<*>
+P3,MRAppMaster <*> 
+P4,We launched <*> speculations. Sleeping <*> milliseconds.
+P5,Task <*> attempt attempt_<*>_<*>_m_<*>_<*>
+P6,job_<*>_<*> Transitioned from <*> to <*>
+P7,Scheduled snapshot period at <*> second(s).
+P8,Executing with tokens:
+P9,Resolved <*>-<*>-<*>.fareast.corp.microsoft.com to /default-rack _/|\\_ Resolved <*>-<*>.fareast.corp.microsoft.com to /default-rack _/|\\_ Resolved <*>.fareast.corp.microsoft.com to /default-rack
+P10,Added <*> 
+P11,Auth successful for job_<*>_<*> (auth:SIMPLE)
+P12,Extract jar:file:/D:/hadoop-<*>.<*>.<*>-localbox/share/hadoop/yarn/hadoop-yarn-common-<*>.<*>.<*>-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_<*>_<*>_<*>_<*>_<*>_mapreduce____.<*>\\webapp
+P13,Instantiated MRClientService at MININT-<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>
+P14,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+P15,Putting shuffle token in serviceData
+P16,Input size for job job_<*>_<*> = <*>. Number of splits = <*>
+P17,ERROR IN CONTACTING RM.
+P18,Assigned container container_<*>_<*>_<*>_<*> to attempt_<*>_<*>_m_<*>_<*>
+P19,Size of containertokens_dob is <*>
+P20,Logging to org.<*>.impl.<*>(org.mortbay.log) via org.mortbay.log.<*>
+P21,All maps assigned. Ramping up all remaining reduces:<*>
+P22,Number of reduces for job job_<*>_<*> = <*>
+P23,"Retrying connect to server: msra-sa-<*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)"
+P24,The job-<*> file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job.<*> _/|\\_ The job-<*> file on the remote FS is <*>//<*>-<*>-<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job.<*>
+P25,queue: default
+P26,IPC Server <*> : starting _/|\\_ IPC Server <*>: starting
+P27,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>.<*>
+P28,blacklistDisablePercent is <*>
+P29,Num completed Tasks: <*>
+P30,Adding <*> 
+P31,Registering class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>.<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>.<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>
+P32,Jetty bound to port <*>
+P33,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_<*>_<*>_m_<*>
+P34,Address change detected. Old: msra-sa-<*>/<*>.<*>.<*>.<*>:<*> New: msra-sa-<*>:<*>
+P35,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: -<*>)"
+P36,OutputCommitter <*> 
+P37,Emitting job history data to the timeline server is not enabled
+P38,Processing the event EventType: <*>_<*>_<*> _<*>_<*>_<*>_<*> _<*>_<*>_<*>_<*>_<*> _/|\\_ Processing the event EventType: <*>_<*>
+P39,JOB_CREATE job_<*>_<*>
+P40,"getResources() for application_<*>_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=<*>"
+P41,Registered webapp guice modules
+P42,Http request log for http.requests.mapreduce is not defined
+P43,Started <*>$SelectChannelConnectorWithSafeStartup@<*>.<*>.<*>.<*>:<*>
+P44,KILLING attempt_<*>_<*>_m_<*>_<*>
+P45,DataStreamer Exception
+P46,Error <*> : <*>.<*>.<*>.<*>.<*>.<*> _/|\\_ Error <*> .<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*>: <*> .<*>.<*>.<*>:<*>
+P47,maxTaskFailuresPerNode is <*>
+P48,Connecting to ResourceManager at msra-sa-<*>/<*>.<*>.<*>.<*>:<*>
+P49,Launching attempt_<*>_<*>_m_<*>_<*>
+P50,"Thread Thread[eventHandlingThread,<*>,main] threw an Exception."
+P51,"Cannot assign container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=true"
+P52,adding path spec: /<*>/*
+P53,attempt_<*>_<*>_<*>_<*>_<*> _<*>_<*>  _/|\\_ attempt_<*>_<*>_<*>_<*>_<*> _<*>_<*> _/|\\_ <*> attempt_<*>_<*>_<*>_<*>_<*>  _/|\\_ attempt_<*>_<*>_<*>_<*>_<*> _<*>_<*> _<*>_<*> _/|\\_ <*> attempt_<*>_<*>_<*>_<*>_<*> _<*>_<*>_<*>_<*>  _/|\\_ attempt_<*>_<*>_<*>_<*>_<*> 
+P54,Default file system [hdfs://msra-sa-<*>:<*>]
+P55,JVM with ID: jvm_<*>_<*>_m_<*> task: <*>_<*>_<*>_m_<*>_<*> _/|\\_ JVM with ID : jvm_<*>_<*>_m_<*> task
+P56,Got allocated containers <*>
+P57,Opening proxy : <*>.fareast.corp.microsoft.com:<*>
+P58,Using <*> .<*>.<*>.<*> _/|\\_ Using <*> .
+P59,Diagnostics report from attempt_<*>_<*>_m_<*>_<*>: <*>: <*>.<*>.<*>: <*> from <*>.<*>.<*>.<*> :<*> : <*>.<*>.<*>: <*> : <*> : <*>:<*>.<*>.<*> _/|\\_ Diagnostics report from attempt_<*>_<*>_m_<*>_<*>: <*> .
+P60,"Recalculating schedule, headroom=<memory:<*>, vCores:-<*>>"
+P61,Shuffle port returned by ContainerManager for attempt_<*>_<*>_m_<*>_<*> : <*>
+P62,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: -<*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>]"
+P63,Done acknowledgement from attempt_<*>_<*>_m_<*>_<*>
+P64,Created MRAppMaster for application appattempt_<*>_<*>_<*>
+P65,Upper limit on the thread pool size is <*>
+P66,Failed to renew lease for [DFSClient_NONMAPREDUCE_<*>_<*>] for <*> seconds. Will retry shortly ...
+P67,ATTEMPT_START task_<*>_<*>_m_<*>
+P68,Reduce slow start threshold <*> . <*>  _/|\\_ Reduce slow start threshold <*>. <*> .
+P69,task_<*>_<*>_<*>_<*> Task Transitioned from <*> to <*>
+P70,Scheduling a redundant attempt for task task_<*>_<*>_m_<*>
+P71,DFSOutputStream ResponseProcessor exception for block BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*>
+P72,loaded properties from hadoop-<*>.properties
+P73,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+P74,"Event Writer setup for JobId: job_<*>_<*>, File: hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job_<*>_<*>_<*>.jhist"
+P75,Web app /mapreduce started at <*>
+P76,Not uberizing job_<*>_<*> because: not enabled; too many maps; too much input;
+P77,Starting Socket Reader #<*> for port <*>
+P78,
+P79,jetty-6.1.26
+P80,nodeBlacklistingEnabled:true
+P81,"maxContainerCapability: <memory:8192, vCores:32>"
+P82,yarn.client.max-cached-nodemanagers-proxies : 0
+P83,"mapResourceRequest:<memory:1024, vCores:1>"
+P84,"reduceResourceRequest:<memory:1024, vCores:1>"

@@ -1,0 +1,350 @@
+EventID,EventTemplate
+P0,"Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): java.lang.OutOfMemoryError: Requested array size exceeds VM limit"
+P1,"Task <*> failed because while it was being computed, its executorexited for a reason unrelated to the task. Not counting this failure towards the maximum number of failures for the task."
+P2,Setting up ContainerLaunchContext
+P3,Registering MapOutputTracker
+P4,Connection to /<*>.<*>.<*>.<*>:<*> has been quiet for <*> ms while there are outstanding requests. Assuming connection is dead; please adjust spark.network.timeout if this is wrong. _/|\\_ Connection to <*>/<*>.<*>.<*>.<*>:<*> has been quiet for <*> ms while there are outstanding requests. Assuming connection is dead; please adjust spark.network.timeout if this is wrong.
+P5,Removing RDD <*>
+P6,SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: <*>.<*>
+P7,"Completed container container_<*>_<*>_<*>_<*> on host: mesos-<*>-<*> (state: COMPLETE, exit status: <*>) _/|\\_ Completed container container_<*>_<*>_<*>_<*> on host: mesos-<*>-<*> (state: COMPLETE, exit status: -<*>)"
+P8,"<*> , <*> error=<*>, No such file or directory _/|\\_ error=<*>, No such file or directory"
+P9,Running Spark version <*>.<*>.<*>
+P10,"Added <*>_<*>_<*> in memory on <*>.<*>.<*>.<*>:<*> (size: <*>.<*> , free: <*>.<*> ) _/|\\_ Added <*>_<*>_<*> in memory on <*>:<*> (size: <*>.<*> , free: <*>.<*> )"
+P11,"Registered signal handlers for [TERM, HUP, INT]"
+P12,"mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*>.<*> _/|\\_ mapred.<*>.is.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*>"
+P13,"Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: <*>  _/|\\_ Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: <*> : <*> : mesos-<*>-<*>. <*> : <*>. <*>: <*> -<*>. _/|\\_ Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: <*> by <*> . <*>.<*> of <*> . <*> .<*>.executor.<*>. _/|\\_ Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: <*> : <*> : mesos-<*>-<*>. <*> : <*>. <*>: <*> . <*>  _/|\\_ Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: <*> by <*> . <*>.<*> of <*>.<*> . <*> .<*>.executor.<*>."
+P14,<*>: Set() _/|\\_ <*>: Set(<*> )
+P15,Waiting for Spark driver to be reachable.
+P16,Uncaught exception:
+P17,RECEIVED SIGNAL <*>: SIGTERM
+P18,Container killed by YARN for exceeding memory limits. <*>.<*> GB of <*>.<*> GB virtual memory used. Consider boosting spark.yarn.executor.memoryOverhead. _/|\\_ <*> executor <*> Container killed by YARN for exceeding memory limits. <*>.<*> GB of <*>.<*> GB virtual memory used. Consider boosting spark.yarn.executor.memoryOverhead.
+P19,Adding task set <*>.<*> with <*> tasks
+P20,Container marked as failed: container_<*>_<*>_<*>_<*> on host: mesos-slave-<*>. Exit status: -<*>. Diagnostics: Container expired since it was unused
+P21,MemoryStore cleared
+P22,Successfully started service '<*>.<*>.<*>.<*>.<*>.<*>' on port <*>. _/|\\_ Successfully started service '<*>' on port <*>.
+P23,Asked to remove non-existent executor <*>
+P24,Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>://<*>.<*>.<*>.<*>:<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>://<*>.<*>.<*>.<*>:<*>/<*>/<*>/<*>.<*>.<*>:<*>+<*> _/|\\_ Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>
+P25,Cleaned accumulator <*>
+P26,<*> started
+P27,Total input paths to process : <*>
+P28,MemoryStore started with capacity <*>.<*> 
+P29,"Container request (host: Any, capability: <memory:<*>, vCores:<*>>)"
+P30,Exception in createBlockOutputStream
+P31,attempt_<*>_<*>_m_<*>_<*>: Committed
+P32,"Started progress reporter thread with (heartbeat : <*>, initial allocation : <*>) intervals"
+P33,Lost executor <*> on mesos-<*>-<*>: Executor heartbeat timed out after <*> ms
+P34,Exception in connection from /<*>.<*>.<*>.<*>:<*> _/|\\_ Exception in connection from <*>/<*>.<*>.<*>.<*>:<*>
+P35,Shutdown hook called
+P36,'<*>' and 'NoneType' _/|\\_ 'NoneType' and 'NoneType' _/|\\_ 'NoneType' and '<*>'
+P37,Got told to re-register updating block broadcast_<*>_<*>
+P38,Incomplete task interrupted: Attempting to kill Python Worker
+P39,Reading broadcast variable <*> took <*> ms
+P40,Started <*> remote fetches in <*> ms
+P41,BlockManagerMaster stopped
+P42,<*> task <*>.<*> in stage <*>.<*> (TID <*> ) _/|\\_ <*> task <*>.<*> in stage <*>.<*> (TID <*>) _/|\\_ <*> task <*>.<*> in stage <*>.<*> (TID <*>) in <*> (<*>) _/|\\_ <*> in task <*>.<*> in stage <*>.<*> (TID <*>) _/|\\_ <*> task <*>.<*> in stage <*>.<*> (TID <*>) <*> .<*>.<*> (<*>) <*> 
+P43,Opening proxy : mesos-<*>-<*>:<*>
+P44,"Removed TaskSet <*>.<*>, whose tasks have all completed, from pool"
+P45,Got job <*> (collect at <*>.py:<*>) with <*> output partitions
+P46,Container marked as failed: container_<*>_<*>_<*>_<*> on host: mesos-<*>-<*>. Exit status: <*>. Diagnostics: Container <*> on <*>. Exit <*>  _/|\\_ Container marked as failed: container_<*>_<*>_<*>_<*> on host: mesos-<*>-<*>. Exit status: <*>. Diagnostics: <*> container-<*>. _/|\\_ <*> on mesos-<*>-<*>: Container marked as failed: container_<*>_<*>_<*>_<*> on host: mesos-<*>-<*>. Exit status: <*>. Diagnostics: Container <*> on <*>. Exit <*> 
+P47,"Error sending result RpcResponse{requestId=<*>, body=NioManagedBuffer{buf=java.nio.HeapByteBuffer[pos=<*> lim=<*> cap=<*>]}} to /<*>.<*>.<*>.<*>:<*>; closing connection _/|\\_ Error sending result RpcResponse{requestId=<*>, body=NioManagedBuffer{buf=java.nio.HeapByteBuffer[pos=<*> lim=<*> cap=<*>]}} to <*>/<*>.<*>.<*>.<*>:<*>; closing connection"
+P48,Interrupted while trying for connection
+P49,"java.io.InterruptedIOException: Interrupted while waiting for IO on channel java.nio.channels.SocketChannel[connection-pending remote=mesos-master-<*>/<*>.<*>.<*>.<*>:<*>]. <*> millis timeout left.; Host Details : local host is: ""mesos-slave-<*>/<*>.<*>.<*>.<*>""; destination host is: ""mesos-master-<*>"":<*>;"
+P50,"stopped o.s.j.s.ServletContextHandler{/<*>,null} _/|\\_ stopped o.s.j.s.ServletContextHandler{/,null} _/|\\_ stopped o.s.j.s.ServletContextHandler{/<*>/<*>/<*>,null} _/|\\_ stopped o.s.j.s.ServletContextHandler{/<*>/<*>,null}"
+P51,Created local directory at /opt/hdfs/nodemanager/usercache/<*>/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>
+P52,"Partition rdd_<*>_<*> not found, computing it"
+P53,Removing executor <*> with no recent heartbeats: <*> ms exceeds timeout <*> ms
+P54,"Resubmitted ShuffleMapTask(<*>, <*>), so marking it as still running"
+P55,"Will request <*> executor containers, each with <*> cores and <*> MB memory including <*> MB overhead"
+P56,looking for newly runnable stages
+P57,Registering <*> 
+P58,Resubmitting ShuffleMapStage <*> (reduceByKey at <*>.py:<*>) because some of its tasks had failed: <*> _/|\\_ Resubmitting ShuffleMapStage <*> (reduceByKey at <*>.py:<*>) because some of its tasks had failed: <*> 
+P59,"SparkListenerBus has already stopped! Dropping event SparkListenerBlockUpdated(BlockUpdatedInfo(BlockManagerId(<*>, mesos-slave-<*>, <*>),<*>_<*>_<*>,StorageLevel(false, true, false, false, <*>),<*>,<*>,<*>))"
+P60,"Failed to fetch block shuffle_<*>_<*>_<*>, and will not retry (<*> retries)"
+P61,"Received <*> containers from YARN, launching executors on <*> of them."
+P62,Total size of serialized results of <*> tasks (<*>.<*> ) is bigger than spark.driver.maxResultSize (<*>.<*> )
+P63,Successfully stopped SparkContext
+P64,Missing an output location for shuffle <*>
+P65,Told to re-register on heartbeat
+P66,ShuffleMapStage <*> (reduceByKey at <*>.py:<*>) <*> in <*>.<*> s
+P67,Ignoring response for RPC <*> from mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*> (<*> bytes) since it is not outstanding
+P68,Removing RDD <*> from persistence list
+P69,Started SelectChannelConnector@<*>.<*>.<*>.<*>:<*>
+P70,Requesting to kill executor(s) <*>
+P71,Error occurred while fetching local blocks
+P72,Abandoning BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*>
+P73,An unknown (mesos-<*>-<*>:<*>) driver disconnected.
+P74,Remote daemon shut down; proceeding with flushing remote transports.
+P75,Host added was in lost list earlier: mesos-<*>-<*>
+P76,"Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): FetchFailed(null, shuffleId=<*>, mapId=-<*>, reduceId=<*>, message="
+P77,Executor lost: <*> (epoch <*>)
+P78,Connecting to ResourceManager at mesos-master-<*>/<*>.<*>.<*>.<*>:<*>
+P79,Invoking stop() from shutdown hook
+P80,"Failed to fetch remote block broadcast_<*>_<*> from BlockManagerId(<*>, mesos-<*>-<*>, <*>) (failed attempt <*>)"
+P81,Issue communicating with driver in heartbeater
+P82,Preparing Local resources
+P83,Starting remoting
+P84,<*> fetch (<*>) <*> outstanding blocks after <*>  _/|\\_ <*> fetch <*> outstanding blocks (after <*> )
+P85,Got the output locations
+P86,Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@<*>.<*>.<*>.<*>:<*>)
+P87,"Removing block manager BlockManagerId(<*>, mesos-<*>-<*>, <*>)"
+P88,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+P89,Getting <*> non-empty blocks out of <*> blocks
+P90,Submitting <*> missing tasks from ResultStage <*> (PythonRDD[<*>] at <*> at <*>.<*>:<*>) _/|\\_ Submitting <*> missing tasks from ResultStage <*> (PythonRDD[<*>] at <*> at PythonRDD.<*>:<*>)
+P91,Unregistering ApplicationMaster with SUCCEEDED
+P92,OutputCommitCoordinator stopped!
+P93,MapOutputTrackerMasterEndpoint stopped!
+P94,Started reading broadcast variable <*>
+P95,Cleaned <*> 
+P96,Failed <*> 
+P97,Lost task <*>.<*> in stage <*>.<*> (TID <*>) <*> mesos-<*>-<*>: org.apache.spark.api.python.PythonException (Traceback (most recent call last): _/|\\_ Lost task <*>.<*> in stage <*>.<*> (TID <*> mesos-<*>-<*>): org.apache.spark.api.python.PythonException: Traceback (most recent call last):
+P98,Task <*> in stage <*>.<*> failed <*> times; aborting job
+P99,Submitting <*> missing tasks from ResultStage <*> (MapPartitionsRDD[<*>] at saveAsTextFile at <*>:-<*>)
+P100,Created broadcast <*> from textFile at NativeMethodAccessorImpl.java:-<*>
+P101,"[<*> in <*>] Uncaught exception in thread Thread[Executor task launch worker-<*>,<*>,main] _/|\\_ Uncaught exception in thread Thread[Executor task launch worker-<*>,<*>,main]"
+P102,"Finished task <*>.<*> in stage <*>.<*> (TID <*>). Result is larger than maxResultSize (<*>.<*> MB > <*>.<*> MB), dropping it."
+P103,Parents of final stage: List(ShuffleMapStage <*>)
+P104,Ignored failure: java.io.IOException: <*> mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*>  _/|\\_ Ignored failure: java.io.IOException: <*> mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*>: java.<*>.<*>.<*>
+P105,"Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> ) _/|\\_ Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> )"
+P106,ApplicationMaster registered as NettyRpcEndpointRef(spark://YarnAM@<*>.<*>.<*>.<*>:<*>)
+P107,"Lost task <*>.<*> in stage <*>.<*> (TID <*>, mesos-<*>-<*>): TaskKilled (killed intentionally)"
+P108,"Job <*> : <*> at <*>.py:<*>, took <*>.<*> s"
+P109,Starting job: runJob at PythonRDD.scala:<*>
+P110,Started SparkUI at http://<*>.<*>.<*>.<*>:<*>
+P111,Driver <*>.<*>.<*>.<*>:<*> . _/|\\_ Driver <*> : <*>.<*>.<*>.<*>:<*>
+P112,Starting <*> 
+P113,Reporter thread fails <*> time(s) in a row.
+P114,Using REPL class URI: http://<*>.<*>.<*>.<*>:<*>
+P115,org.apache.spark.SparkException: Exception while starting container container_<*>_<*>_<*>_<*> on host mesos-slave-<*>
+P116,Received new token for : mesos-<*>-<*>:<*>
+P117,Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/test/<*>/_temporary/<*>/task_<*>_<*>_m_<*>
+P118,"Registering block manager <*>.<*>.<*>.<*>:<*> with <*>.<*> RAM, BlockManagerId(<*>, <*>.<*>.<*>.<*>, <*>) _/|\\_ Registering block manager <*>:<*> with <*>.<*> RAM, BlockManagerId(<*>, <*>, <*>)"
+P119,"Changing <*> acls to: yarn,yxsu"
+P120,Message RemoteProcessDisconnected(mesos-<*>-<*>:<*>) dropped.
+P121,Error cleaning broadcast <*>
+P122,Cancelling stage <*>
+P123,Got assigned task <*>
+P124,Putting block broadcast_<*> failed
+P125,Trying to register BlockManager
+P126,Remoting started; listening on addresses :[akka.tcp://<*>@<*>.<*>.<*>.<*>:<*>] _/|\\_ Remoting started; listening on addresses :[akka.tcp://<*>@<*>:<*>]
+P127,Lost an executor <*> (already removed): Pending loss reason.
+P128,BlockManager re-registering with master
+P129,<*> FAILED (<*> : Max number of executor failures (<*>) reached) _/|\\_ <*> : FAILED<*> : <*> (<*>: Max number of executor failures (<*>) reached)
+P130,Stopped Spark web UI at http://<*>.<*>.<*>.<*>:<*>
+P131,YarnClusterScheduler.postStartHook done
+P132,Driver requested to kill executor(s) <*>.
+P133,Failed to remove broadcast <*> with removeFromMaster = true - Connection reset by peer
+P134,BlockManager stopped
+P135,Size of output statuses for shuffle <*> is <*> bytes
+P136,"Don't have map outputs for shuffle <*>, fetching them"
+P137,"Changing <*> acls to: yarn,curi"
+P138,"Another thread is loading rdd_<*>_<*>, waiting for it to finish..."
+P139,Successfully registered with driver
+P140,Disabling executor <*>.
+P141,"Found inactive connection to mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*>, creating a new one."
+P142,Removed <*> successfully in removeExecutor
+P143,Stage <*> contains a task of very large size (<*> KB). The maximum recommended task size is <*> KB.
+P144,File Output Committer Algorithm version is <*>
+P145,"ensureFreeSpace(<*>) called with curMem=<*>, maxMem=<*>"
+P146,Shutting down remote daemon.
+P147,Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+P148,<*> status<*> User application exited with status <*> _/|\\_ <*> with <*> User application exited with status <*> _/|\\_ User application exited with status <*>
+P149,Missing parents: List(<*> ) _/|\\_ Missing parents: List()
+P150,Error while invoking RpcHandler#receive() <*> 
+P151,Lost executor <*> on mesos-<*>-<*>: Container container_<*>_<*>_<*>_<*> exited from explicit termination request.
+P152,Asked to send map output locations for shuffle <*> to mesos-<*>-<*>:<*>
+P153,"Excluding datanode DatanodeInfoWithStorage[<*>.<*>.<*>.<*>:<*>,DS-<*>-<*>-<*>-<*>-<*>,DISK]"
+P154,Exception while deleting local spark dir: /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>
+P155,"ShuffleMapStage <*> is now unavailable on executor <*> (<*>/<*>, false)"
+P156,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, <*>); users with modify permissions: Set(yarn, <*>)"
+P157,<*> .<*>.spark.rpc.<*> Cannot receive any reply in <*> seconds. This timeout is controlled by spark.rpc.askTimeout<*> _/|\\_ <*> Cannot receive any reply in <*> seconds. This timeout is controlled by spark.rpc.askTimeout
+P158,"Error sending result ChunkFetchSuccess{streamChunkId=StreamChunkId{streamId=<*>, chunkIndex=<*>}, buffer=FileSegmentManagedBuffer{file=/opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>/<*>/shuffle_<*>_<*>_<*>.data, offset=<*>, length=<*>}} to /<*>.<*>.<*>.<*>:<*>; closing connection"
+P159,<*> .<*>.<*>.<*>:<*>: java.io.IOException: Broken pipe _/|\\_ java.io.IOException: Broken pipe
+P160,Failed to get block(s) from mesos-<*>-<*>:<*>
+P161,"Removed broadcast_<*>_<*> on <*>:<*> in memory (size: <*>.<*> MB, free: <*>.<*> ) _/|\\_ Removed broadcast_<*>_<*> on <*>.<*>.<*>.<*>:<*> in memory (size: <*>.<*> MB, free: <*>.<*> ) _/|\\_ Removed broadcast_<*>_<*> on <*>.<*>.<*>.<*>:<*> in memory (size: <*>.<*> , free: <*>.<*> MB)"
+P162,Registered <*>  _/|\\_ Registered <*>
+P163,Found block rdd_<*>_<*> locally
+P164,Deleting staging directory .sparkStaging/application_<*>_<*>
+P165,Connecting to driver: spark://CoarseGrainedScheduler@<*>.<*>.<*>.<*>:<*>
+P166,Server created on <*>
+P167,This may have been caused by a prior exception:
+P168,Finished task <*>.<*> in stage <*>.<*> (TID <*>). <*> bytes result sent to driver
+P169,"Final app status: FAILED, exitCode: <*>, (reason: Uncaught exception: org.apache.spark.SparkException: Failed to connect to driver!)"
+P170,Launching <*> mesos-<*>-<*>
+P171,Error sending message [message = <*> ] in <*> attempts _/|\\_ Error sending message [message = <*>] in <*> attempts _/|\\_ Error sending message [message = <*>[<*> ] in <*> attempts
+P172,ShuffleMapStage <*> (aggregateByKey at IPLoM.py:<*>) finished in <*>.<*> s
+P173,"Removed broadcast_<*>_<*> on <*>:<*> in memory (size: <*>.<*> KB, free: <*>.<*> GB) _/|\\_ Removed broadcast_<*>_<*> on <*>.<*>.<*>.<*>:<*> in memory (size: <*>.<*> KB, free: <*>.<*> GB)"
+P174,"Submitting ResultStage <*> (<*>[<*>] at <*> at <*>:<*>), which has no missing parents"
+P175,Final stage: ResultStage <*> (collect at <*>.py:<*>)
+P176,Starting the user application in a separate Thread
+P177,Waiting for application to be successfully unregistered.
+P178,Still have <*> requests outstanding when connection from mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*> is closed
+P179,Stage <*> was cancelled
+P180,Driver commanded a shutdown
+P181,Finished waiting for rdd_<*>_<*>
+P182,Retrying connect to server: mesos-master-<*>/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); maxRetries=<*>
+P183,Ignoring task-finished event for <*>.<*> in stage <*>.<*> because task <*> has already completed successfully
+P184,Asking each executor to shut down
+P185,Waiting for spark context initialization <*> _/|\\_ Waiting for spark context initialization
+P186,Trying to remove executor <*> from BlockManagerMaster.
+P187,Updating epoch to <*> and clearing cache
+P188,Lost executor <*> on mesos-master-<*>: Slave lost
+P189,"Attempted to get executor loss reason for executor id <*> at RPC address mesos-master-<*>:<*>, but got no response. Marking as slave lost."
+P190,Driver terminated or disconnected! Shutting down. <*>:<*> _/|\\_ Driver terminated or disconnected! Shutting down. <*>.<*>.<*>.<*>:<*>
+P191,Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/spark-<*>-<*>-<*>-<*>-<*> _/|\\_ Deleting directory /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/spark-<*>-<*>-<*>-<*>-<*>/<*>-<*>-<*>-<*>-<*>-<*>
+P192,Exception while beginning fetch of <*> outstanding blocks
+P193,"Prepared Local resources Map(__spark__.jar -> resource { scheme: ""hdfs"" host: ""<*>.<*>.<*>.<*>"" port: <*> file: ""/user/curi/.sparkStaging/application_<*>_<*>/spark-assembly-<*>.<*>.<*>-<*>.<*>.<*>.jar"" } size: <*> timestamp: <*> type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: ""hdfs"" host: ""<*>.<*>.<*>.<*>"" port: <*> file: ""/user/curi/.sparkStaging/application_<*>_<*>/pyspark.zip"" } size: <*> timestamp: <*> type: FILE visibility: PRIVATE, <*>-<*>.<*>-src.zip -> resource { scheme: ""hdfs"" host: ""<*>.<*>.<*>.<*>"" port: <*> file: ""/user/curi/.sparkStaging/application_<*>_<*>/<*>-<*>.<*>-src.zip"" } size: <*> timestamp: <*> type: FILE visibility: PRIVATE)"
+P194,<*> ShuffleMapStage <*> (reduceByKey at <*>.py:<*>) <*> ResultStage <*> (collect at <*>.py:<*>) due to fetch failure _/|\\_ <*> ResultStage <*> (collect at <*>.py:<*>) <*> due to <*> fetch failure <*> ShuffleMapStage <*> (reduceByKey at <*>.py:<*>)
+P195,Resubmitting failed stages
+P196,"Failed to connect to driver at <*>.<*>.<*>.<*>:<*>, retrying ..."
+P197,Remoting shut down.
+P198,Reporting <*> blocks to the master.
+P199,ResultStage <*> (<*> at <*>.py:<*>) <*> in <*>.<*> s
+P200,Python worker exited unexpectedly (crashed)
+P201,"Add WebUI Filter. AddWebUIFilter(org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter,Map(PROXY_HOSTS -> mesos-master-<*>, PROXY_URI_BASES -> http://mesos-master-<*>:<*>/proxy/application_<*>_<*>),/proxy/application_<*>_<*>)"
+P202,
+P203,ApplicationAttemptId: appattempt_1485248649253_0020_000002
+P204,ApplicationAttemptId: appattempt_1485248649253_0018_000001
+P205,ApplicationAttemptId: appattempt_1485248649253_0037_000001
+P206,ApplicationAttemptId: appattempt_1485248649253_0037_000002
+P207,ApplicationAttemptId: appattempt_1485248649253_0047_000002
+P208,ApplicationAttemptId: appattempt_1485248649253_0047_000001
+P209,ApplicationAttemptId: appattempt_1485248649253_0166_000001
+P210,ApplicationAttemptId: appattempt_1485248649253_0001_000001
+P211,ApplicationAttemptId: appattempt_1448006111297_0137_000002
+P212,ApplicationAttemptId: appattempt_1485248649253_0126_000001
+P213,ApplicationAttemptId: appattempt_1485248649253_0153_000002
+P214,ApplicationAttemptId: appattempt_1485248649253_0011_000002
+P215,ApplicationAttemptId: appattempt_1485248649253_0011_000001
+P216,ApplicationAttemptId: appattempt_1485248649253_0148_000001
+P217,ApplicationAttemptId: appattempt_1485248649253_0186_000002
+P218,ApplicationAttemptId: appattempt_1485248649253_0103_000001
+P219,ApplicationAttemptId: appattempt_1485248649253_0131_000001
+P220,ApplicationAttemptId: appattempt_1485248649253_0030_000002
+P221,ApplicationAttemptId: appattempt_1485248649253_0187_000002
+P222,ApplicationAttemptId: appattempt_1485248649253_0099_000001
+P223,ApplicationAttemptId: appattempt_1485248649253_0042_000001
+P224,ApplicationAttemptId: appattempt_1485248649253_0042_000002
+P225,ApplicationAttemptId: appattempt_1485248649253_0044_000002
+P226,ApplicationAttemptId: appattempt_1485248649253_0076_000002
+P227,ApplicationAttemptId: appattempt_1485248649253_0076_000001
+P228,ApplicationAttemptId: appattempt_1485248649253_0159_000001
+P229,ApplicationAttemptId: appattempt_1485248649253_0140_000001
+P230,ApplicationAttemptId: appattempt_1485248649253_0055_000002
+P231,ApplicationAttemptId: appattempt_1485248649253_0055_000001
+P232,ApplicationAttemptId: appattempt_1485248649253_0106_000001
+P233,ApplicationAttemptId: appattempt_1485248649253_0116_000001
+P234,ApplicationAttemptId: appattempt_1485248649253_0182_000001
+P235,ApplicationAttemptId: appattempt_1485248649253_0003_000001
+P236,ApplicationAttemptId: appattempt_1485248649253_0133_000001
+P237,ApplicationAttemptId: appattempt_1485248649253_0048_000002
+P238,ApplicationAttemptId: appattempt_1485248649253_0048_000001
+P239,ApplicationAttemptId: appattempt_1485248649253_0035_000002
+P240,ApplicationAttemptId: appattempt_1485248649253_0035_000001
+P241,ApplicationAttemptId: appattempt_1485248649253_0023_000001
+P242,ApplicationAttemptId: appattempt_1485248649253_0023_000002
+P243,ApplicationAttemptId: appattempt_1485248649253_0165_000001
+P244,ApplicationAttemptId: appattempt_1485248649253_0154_000001
+P245,ApplicationAttemptId: appattempt_1485248649253_0052_000001
+P246,ApplicationAttemptId: appattempt_1485248649253_0174_000002
+P247,ApplicationAttemptId: appattempt_1485248649253_0174_000001
+P248,ApplicationAttemptId: appattempt_1485248649253_0084_000001
+P249,ApplicationAttemptId: appattempt_1485248649253_0180_000001
+P250,ApplicationAttemptId: appattempt_1485248649253_0115_000001
+P251,ApplicationAttemptId: appattempt_1485248649253_0170_000001
+P252,ApplicationAttemptId: appattempt_1485248649253_0122_000001
+P253,ApplicationAttemptId: appattempt_1485248649253_0127_000001
+P254,ApplicationAttemptId: appattempt_1485248649253_0034_000002
+P255,ApplicationAttemptId: appattempt_1485248649253_0015_000002
+P256,ApplicationAttemptId: appattempt_1485248649253_0015_000001
+P257,ApplicationAttemptId: appattempt_1460011102909_0176_000001
+P258,ApplicationAttemptId: appattempt_1485248649253_0135_000001
+P259,ApplicationAttemptId: appattempt_1485248649253_0152_000001
+P260,ApplicationAttemptId: appattempt_1485248649253_0012_000001
+P261,ApplicationAttemptId: appattempt_1485248649253_0012_000002
+P262,ApplicationAttemptId: appattempt_1485248649253_0036_000001
+P263,ApplicationAttemptId: appattempt_1485248649253_0036_000002
+P264,ApplicationAttemptId: appattempt_1485248649253_0151_000001
+P265,ApplicationAttemptId: appattempt_1485248649253_0089_000001
+P266,ApplicationAttemptId: appattempt_1485248649253_0143_000001
+P267,ApplicationAttemptId: appattempt_1485248649253_0072_000001
+P268,ApplicationAttemptId: appattempt_1485248649253_0072_000002
+P269,ApplicationAttemptId: appattempt_1485248649253_0056_000001
+P270,ApplicationAttemptId: appattempt_1485248649253_0056_000002
+P271,ApplicationAttemptId: appattempt_1485248649253_0097_000001
+P272,ApplicationAttemptId: appattempt_1485248649253_0112_000002
+P273,ApplicationAttemptId: appattempt_1485248649253_0027_000001
+P274,ApplicationAttemptId: appattempt_1485248649253_0027_000002
+P275,ApplicationAttemptId: appattempt_1485248649253_0093_000001
+P276,ApplicationAttemptId: appattempt_1485248649253_0045_000002
+P277,ApplicationAttemptId: appattempt_1485248649253_0124_000002
+P278,ApplicationAttemptId: appattempt_1485248649253_0130_000001
+P279,ApplicationAttemptId: appattempt_1485248649253_0171_000002
+P280,ApplicationAttemptId: appattempt_1485248649253_0171_000001
+P281,ApplicationAttemptId: appattempt_1485248649253_0142_000002
+P282,ApplicationAttemptId: appattempt_1485248649253_0105_000001
+P283,ApplicationAttemptId: appattempt_1485248649253_0141_000001
+P284,ApplicationAttemptId: appattempt_1485248649253_0110_000002
+P285,ApplicationAttemptId: appattempt_1485248649253_0184_000001
+P286,ApplicationAttemptId: appattempt_1485248649253_0104_000001
+P287,ApplicationAttemptId: appattempt_1485248649253_0168_000001
+P288,ApplicationAttemptId: appattempt_1485248649253_0068_000001
+P289,ApplicationAttemptId: appattempt_1485248649253_0068_000002
+P290,ApplicationAttemptId: appattempt_1485248649253_0051_000001
+P291,ApplicationAttemptId: appattempt_1485248649253_0181_000001
+P292,ApplicationAttemptId: appattempt_1485248649253_0004_000001
+P293,ApplicationAttemptId: appattempt_1485248649253_0082_000001
+P294,ApplicationAttemptId: appattempt_1485248649253_0024_000001
+P295,ApplicationAttemptId: appattempt_1485248649253_0024_000002
+P296,ApplicationAttemptId: appattempt_1485248649253_0156_000001
+P297,ApplicationAttemptId: appattempt_1485248649253_0132_000001
+P298,ApplicationAttemptId: appattempt_1485248649253_0162_000001
+P299,ApplicationAttemptId: appattempt_1485248649253_0163_000001
+P300,ApplicationAttemptId: appattempt_1485248649253_0155_000001
+P301,ApplicationAttemptId: appattempt_1485248649253_0161_000001
+P302,ApplicationAttemptId: appattempt_1485248649253_0101_000001
+P303,ApplicationAttemptId: appattempt_1485248649253_0139_000001
+P304,ApplicationAttemptId: appattempt_1485248649253_0102_000002
+P305,ApplicationAttemptId: appattempt_1485248649253_0173_000001
+P306,ApplicationAttemptId: appattempt_1485248649253_0185_000001
+P307,ApplicationAttemptId: appattempt_1485248649253_0172_000001
+P308,ApplicationAttemptId: appattempt_1485248649253_0081_000002
+P309,ApplicationAttemptId: appattempt_1485248649253_0067_000002
+P310,ApplicationAttemptId: appattempt_1485248649253_0067_000001
+P311,ApplicationAttemptId: appattempt_1485248649253_0118_000001
+P312,ApplicationAttemptId: appattempt_1485248649253_0085_000001
+P313,ApplicationAttemptId: appattempt_1485248649253_0107_000001
+P314,ApplicationAttemptId: appattempt_1485248649253_0078_000001
+P315,ApplicationAttemptId: appattempt_1485248649253_0008_000002
+P316,ApplicationAttemptId: appattempt_1485248649253_0008_000001
+P317,ApplicationAttemptId: appattempt_1485248649253_0119_000001
+P318,ApplicationAttemptId: appattempt_1485248649253_0080_000001
+P319,ApplicationAttemptId: appattempt_1485248649253_0083_000001
+P320,ApplicationAttemptId: appattempt_1485248649253_0017_000002
+P321,ApplicationAttemptId: appattempt_1485248649253_0016_000002
+P322,ApplicationAttemptId: appattempt_1485248649253_0071_000001
+P323,ApplicationAttemptId: appattempt_1485248649253_0071_000002
+P324,ApplicationAttemptId: appattempt_1485248649253_0136_000001
+P325,ApplicationAttemptId: appattempt_1485248649253_0062_000002
+P326,ApplicationAttemptId: appattempt_1485248649253_0091_000001
+P327,ApplicationAttemptId: appattempt_1485248649253_0060_000002
+P328,ApplicationAttemptId: appattempt_1485248649253_0060_000001
+P329,ApplicationAttemptId: appattempt_1485248649253_0096_000001
+P330,ApplicationAttemptId: appattempt_1485248649253_0123_000001
+P331,ApplicationAttemptId: appattempt_1485248649253_0073_000002
+P332,ApplicationAttemptId: appattempt_1485248649253_0073_000001
+P333,ApplicationAttemptId: appattempt_1485248649253_0007_000001
+P334,ApplicationAttemptId: appattempt_1485248649253_0007_000002
+P335,ApplicationAttemptId: appattempt_1485248649253_0108_000001
+P336,ApplicationAttemptId: appattempt_1485248649253_0164_000001
+P337,ApplicationAttemptId: appattempt_1472621869829_0087_000001
+P338,ApplicationAttemptId: appattempt_1485248649253_0147_000002
+P339,ApplicationAttemptId: appattempt_1485248649253_0064_000001
+P340,ApplicationAttemptId: appattempt_1485248649253_0064_000002
+P341,ApplicationAttemptId: appattempt_1485248649253_0179_000001
+P342,ApplicationAttemptId: appattempt_1485248649253_0059_000001
+P343,ApplicationAttemptId: appattempt_1485248649253_0059_000002
+P344,ApplicationAttemptId: appattempt_1485248649253_0086_000002
+P345,ApplicationAttemptId: appattempt_1485248649253_0039_000001
+P346,ApplicationAttemptId: appattempt_1485248649253_0061_000002
+P347,ApplicationAttemptId: appattempt_1485248649253_0061_000001
+P348,ApplicationAttemptId: appattempt_1485248649253_0157_000001

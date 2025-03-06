@@ -1,0 +1,267 @@
+EventID,EventTemplate
+P0,Remote daemon shut down; proceeding with flushing remote transports.
+P1,Uncaught exception <*>  _/|\\_ Uncaught exception<*>
+P2,Running <*> .<*>.<*> _/|\\_ Running <*> .<*> .<*> 
+P3,MemoryStore <*>  _/|\\_ MemoryStore <*>
+P4,Received <*> 
+P5,<*>: Set() _/|\\_ <*>: Set(<*> )
+P6,Shutdown hook called
+P7,Stopped Spark web UI at http://<*>.<*>.<*>.<*>:<*>
+P8,File Output Committer Algorithm version is <*>
+P9,Told to re-register on heartbeat
+P10,Server created on <*>
+P11,Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>://<*>.<*>.<*>.<*>:<*>/<*>/<*>/<*>.<*>.<*>:<*>+<*> _/|\\_ Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>://<*>.<*>.<*>.<*>:<*>/<*>/<*>/<*>.<*>:<*>+<*> _/|\\_ Input split: <*>:/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>/<*>/<*>/<*>/<*>/<*>.<*>:<*>+<*>
+P12,Asked to <*> -<*>  _/|\\_ Asked to <*> to <*>-<*>-<*>
+P13,<*> started
+P14,'NoneType' and 'NoneType' _/|\\_ '<*>' and 'NoneType' _/|\\_ 'NoneType' and '<*>'
+P15,<*> Interrupted while <*> for <*> connection<*>  _/|\\_ Interrupted while <*> for connection
+P16,This may have been caused by a prior exception:
+P17,Stage <*> 
+P18,attempt_<*>_<*>_m_<*>_<*>: Committed
+P19,Exception <*>  _/|\\_ <*> Exception <*> 
+P20,An unknown (mesos-<*>-<*>:<*>) driver disconnected.
+P21,BlockManagerMaster stopped
+P22,java.io.IOException: Broken pipe
+P23,Preparing Local resources
+P24,Incomplete task interrupted: Attempting to kill Python Worker
+P25,"stopped o.s.j.s.ServletContextHandler{/<*>/<*>,null} _/|\\_ stopped o.s.j.s.ServletContextHandler{/,null} _/|\\_ stopped o.s.j.s.ServletContextHandler{/<*>,null} _/|\\_ stopped o.s.j.s.ServletContextHandler{/<*>/<*>/<*>,null}"
+P26,Marking ResultStage <*> (collect at <*>.py:<*>) as failed due to a fetch failure from ShuffleMapStage <*> (reduceByKey at <*>.py:<*>)
+P27,Registering <*> _/|\\_ Registering <*> 
+P28,Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@<*>.<*>.<*>.<*>:<*>)
+P29,"Resubmitted ShuffleMapTask(<*>, <*>), so marking it as still running"
+P30,Updating epoch to <*> and clearing cache
+P31,Setting up ContainerLaunchContext
+P32,Parents of final stage: List(ShuffleMapStage <*>)
+P33,ShuffleMapStage <*> (<*> ) _/|\\_ ShuffleMapStage <*> (<*> ) <*> 
+P34,"Excluding datanode DatanodeInfoWithStorage[<*>.<*>.<*>.<*>:<*>,DS-<*>-<*>-<*>-<*>-<*>,DISK]"
+P35,Requesting to kill executor(s) <*>
+P36,Started <*>  _/|\\_ Started <*>
+P37,Abandoning BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*>
+P38,Issue communicating with driver in heartbeater
+P39,Executor <*> (<*> )
+P40,Shutting down remote daemon.
+P41,Host added was in lost list earlier: mesos-<*>-<*>
+P42,Reading broadcast variable <*> took <*> ms
+P43,Got <*> 
+P44,Opening proxy : mesos-<*>-<*>:<*>
+P45,Using REPL class URI: http://<*>.<*>.<*>.<*>:<*>
+P46,"Prepared Local resources Map(__spark__.jar -> resource { scheme: ""hdfs"" host: ""<*>.<*>.<*>.<*>"" port: <*> file: ""/user/curi/.sparkStaging/application_<*>_<*>/spark-assembly-<*>.<*>.<*>-<*>.<*>.<*>.jar"" } size: <*> timestamp: <*> type: FILE visibility: PRIVATE, pyspark.zip -> resource { scheme: ""hdfs"" host: ""<*>.<*>.<*>.<*>"" port: <*> file: ""/user/curi/.sparkStaging/application_<*>_<*>/pyspark.zip"" } size: <*> timestamp: <*> type: FILE visibility: PRIVATE, <*>-<*>.<*>-src.zip -> resource { scheme: ""hdfs"" host: ""<*>.<*>.<*>.<*>"" port: <*> file: ""/user/curi/.sparkStaging/application_<*>_<*>/<*>-<*>.<*>-src.zip"" } size: <*> timestamp: <*> type: FILE visibility: PRIVATE)"
+P47,"Partition rdd_<*>_<*> not found, computing it"
+P48,Removing <*> 
+P49,OutputCommitCoordinator stopped!
+P50,User application exited with status <*>
+P51,MapOutputTrackerMasterEndpoint stopped!
+P52,Cleaned <*> 
+P53,Failed <*> 
+P54,Python worker exited unexpectedly (crashed)
+P55,RECEIVED SIGNAL <*>: SIGTERM
+P56,Ignored failure: java.io.IOException: <*> mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*>  _/|\\_ Ignored failure: java.io.IOException: <*> mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*>: java.<*>.<*>.<*>
+P57,"Another thread is loading rdd_<*>_<*>, waiting for it to finish..."
+P58,ApplicationMaster registered as NettyRpcEndpointRef(spark://YarnAM@<*>.<*>.<*>.<*>:<*>)
+P59,"Job <*> : <*> at <*>.py:<*>, took <*>.<*> s"
+P60,"Attempted to get executor loss reason for executor id <*> at RPC address mesos-master-<*>:<*>, but got no response. Marking as slave lost."
+P61,Driver <*> 
+P62,Starting <*>  _/|\\_ Starting <*>
+P63,"SparkListenerBus has already stopped! Dropping event SparkListenerBlockUpdated(BlockUpdatedInfo(BlockManagerId(<*>, mesos-slave-<*>, <*>),<*>_<*>_<*>,StorageLevel(false, true, false, false, <*>),<*>,<*>,<*>))"
+P64,<*>Container <*>  _/|\\_ Container <*> Container <*>  _/|\\_ Container <*> 
+P65,looking for newly runnable stages
+P66,Task <*> .<*> failed <*>  _/|\\_ Task <*> failed <*> . <*> .
+P67,"Added <*>_<*>_<*> in memory on <*>:<*> (size: <*>.<*> , free: <*>.<*> ) _/|\\_ Added <*>_<*>_<*> in memory on <*>.<*>.<*>.<*>:<*> (size: <*>.<*> , free: <*>.<*> )"
+P68,Unregistering ApplicationMaster with <*>  _/|\\_ Unregistering ApplicationMaster with <*> with <*>  _/|\\_ Unregistering ApplicationMaster with <*>
+P69,Cancelling stage <*>
+P70,Putting block broadcast_<*> failed
+P71,"Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> ) _/|\\_ Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> )"
+P72,Size of output statuses for shuffle <*> is <*> bytes
+P73,Submitting <*> missing <*> ResultStage <*> (<*>[<*>] at <*> at <*>:<*>) _/|\\_ Submitting ResultStage <*> (<*>[<*>] at <*> at <*>:<*>)<*> missing <*>
+P74,Successfully <*> 
+P75,YarnClusterScheduler.postStartHook done
+P76,Retrying <*> (<*>/<*>) <*>  _/|\\_ Retrying <*> /<*> (<*>)<*> 
+P77,BlockManager <*> _/|\\_ BlockManager <*> 
+P78,Getting <*> non-empty blocks out of <*> blocks
+P79,Disabling executor <*>.
+P80,Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/test/<*>/_temporary/<*>/task_<*>_<*>_m_<*>
+P81,Invoking stop() from shutdown hook
+P82,"mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*>.<*> _/|\\_ mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.is.<*> is deprecated. Instead, use mapreduce.<*>.<*>"
+P83,Adding <*> .<*>.<*>.<*>.<*>.<*>.<*>.<*> _/|\\_ Adding <*> .<*> 
+P84,Missing <*> 
+P85,"ensureFreeSpace(<*>) called with curMem=<*>, maxMem=<*>"
+P86,Lost <*> : <*> : <*> : <*> : <*> : <*>  _/|\\_ Lost <*> : <*> : <*> : <*> : <*> : <*> : <*>  _/|\\_ Lost <*> : <*> : _/|\\_ Lost <*> : <*>: <*>  _/|\\_ Lost <*> : <*> : <*>  _/|\\_ Lost <*> : <*>: <*> : _/|\\_ Lost <*> : <*>: <*> : <*>  _/|\\_ Lost <*> : <*> 
+P87,SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: <*>.<*>
+P88,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+P89,Registered <*> _/|\\_ Registered <*> 
+P90,Connecting to <*>: <*>://<*>.<*>.<*>.<*>:<*> _/|\\_ Connecting to <*> /<*>.<*>.<*>.<*>:<*>
+P91,Error <*> 
+P92,Total <*> 
+P93,"Don't have map outputs for shuffle <*>, fetching them"
+P94,Launching <*> mesos-<*>-<*>
+P95,"Completed container container_<*>_<*>_<*>_<*> on host: mesos-<*>-<*> (state: COMPLETE, exit status: -<*>) _/|\\_ Completed container container_<*>_<*>_<*>_<*> on host: mesos-<*>-<*> (state: COMPLETE, exit status: <*>)"
+P96,Removed <*> 
+P97,Final <*> : <*> : <*> (<*>: <*> ) _/|\\_ Final <*> : <*> : <*> (<*>: <*> (<*>) <*>) _/|\\_ Final <*>: <*> (<*> :<*>) _/|\\_ Final <*> : <*> : <*> (<*>: <*> : <*>: <*> )
+P98,"Changing <*> acls to: yarn,<*>"
+P99,Found <*> 
+P100,Finished <*> 
+P101,"Will request <*> executor containers, each with <*> cores and <*> MB memory including <*> MB overhead"
+P102,Ignoring <*>-<*> for <*>.<*> .<*>  _/|\\_ Ignoring <*> for <*> -<*>-<*>.<*>.<*>.<*> 
+P103,Asking each executor to shut down
+P104,Created <*> at <*>-<*> _/|\\_ Created <*> at <*>-<*>-<*>-<*>-<*>-<*>
+P105,Trying to <*> 
+P106,Still have <*> requests outstanding when connection from mesos-<*>-<*>/<*>.<*>.<*>.<*>:<*> is closed
+P107,"Add WebUI Filter. AddWebUIFilter(org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter,Map(PROXY_HOSTS -> mesos-master-<*>, PROXY_URI_BASES -> http://mesos-master-<*>:<*>/proxy/application_<*>_<*>),/proxy/application_<*>_<*>)"
+P108,Reporter thread fails <*> time(s) in a row.
+P109,Connection to /<*>.<*>.<*>.<*>:<*> has been quiet for <*> ms while there are outstanding requests. Assuming connection is dead; please adjust spark.network.timeout if this is wrong. _/|\\_ Connection to <*>/<*>.<*>.<*>.<*>:<*> has been quiet for <*> ms while there are outstanding requests. Assuming connection is dead; please adjust spark.network.timeout if this is wrong.
+P110,Waiting for <*> 
+P111,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, <*>); users with modify permissions: Set(yarn, <*>)"
+P112,Deleting directory /<*>/<*>/<*>/<*>/<*>/<*>/application_<*>_<*>/<*>/<*> _/|\\_ Deleting directory /<*>/<*>/<*>/<*>/<*>/<*>/application_<*>_<*>/<*> _/|\\_ Deleting <*> directory <*>/application_<*>_<*>
+P113,Message RemoteProcessDisconnected(mesos-<*>-<*>:<*>) dropped.
+P114,Resubmitting <*> 
+P115,Reporting <*> blocks to the master.
+P116,Remoting <*> . _/|\\_ Remoting <*> .<*> _/|\\_ Remoting <*> .<*>.<*>.<*>.<*>
+P117,"error=<*>, No such file or directory"
+P118,ResultStage <*> (<*> at <*>.py:<*>) <*> in <*>.<*> s
+P119,
+P120,ApplicationAttemptId: appattempt_1485248649253_0020_000002
+P121,ApplicationAttemptId: appattempt_1485248649253_0018_000001
+P122,ApplicationAttemptId: appattempt_1485248649253_0037_000001
+P123,ApplicationAttemptId: appattempt_1485248649253_0037_000002
+P124,ApplicationAttemptId: appattempt_1485248649253_0047_000002
+P125,ApplicationAttemptId: appattempt_1485248649253_0047_000001
+P126,ApplicationAttemptId: appattempt_1485248649253_0166_000001
+P127,ApplicationAttemptId: appattempt_1485248649253_0001_000001
+P128,ApplicationAttemptId: appattempt_1448006111297_0137_000002
+P129,ApplicationAttemptId: appattempt_1485248649253_0126_000001
+P130,ApplicationAttemptId: appattempt_1485248649253_0153_000002
+P131,ApplicationAttemptId: appattempt_1485248649253_0011_000002
+P132,ApplicationAttemptId: appattempt_1485248649253_0011_000001
+P133,ApplicationAttemptId: appattempt_1485248649253_0148_000001
+P134,ApplicationAttemptId: appattempt_1485248649253_0186_000002
+P135,ApplicationAttemptId: appattempt_1485248649253_0103_000001
+P136,ApplicationAttemptId: appattempt_1485248649253_0131_000001
+P137,ApplicationAttemptId: appattempt_1485248649253_0030_000002
+P138,ApplicationAttemptId: appattempt_1485248649253_0187_000002
+P139,ApplicationAttemptId: appattempt_1485248649253_0099_000001
+P140,ApplicationAttemptId: appattempt_1485248649253_0042_000001
+P141,ApplicationAttemptId: appattempt_1485248649253_0042_000002
+P142,ApplicationAttemptId: appattempt_1485248649253_0044_000002
+P143,ApplicationAttemptId: appattempt_1485248649253_0076_000002
+P144,ApplicationAttemptId: appattempt_1485248649253_0076_000001
+P145,ApplicationAttemptId: appattempt_1485248649253_0159_000001
+P146,ApplicationAttemptId: appattempt_1485248649253_0140_000001
+P147,ApplicationAttemptId: appattempt_1485248649253_0055_000002
+P148,ApplicationAttemptId: appattempt_1485248649253_0055_000001
+P149,ApplicationAttemptId: appattempt_1485248649253_0106_000001
+P150,ApplicationAttemptId: appattempt_1485248649253_0116_000001
+P151,ApplicationAttemptId: appattempt_1485248649253_0182_000001
+P152,ApplicationAttemptId: appattempt_1485248649253_0003_000001
+P153,ApplicationAttemptId: appattempt_1485248649253_0133_000001
+P154,ApplicationAttemptId: appattempt_1485248649253_0048_000002
+P155,ApplicationAttemptId: appattempt_1485248649253_0048_000001
+P156,ApplicationAttemptId: appattempt_1485248649253_0035_000002
+P157,ApplicationAttemptId: appattempt_1485248649253_0035_000001
+P158,ApplicationAttemptId: appattempt_1485248649253_0023_000001
+P159,ApplicationAttemptId: appattempt_1485248649253_0023_000002
+P160,ApplicationAttemptId: appattempt_1485248649253_0165_000001
+P161,ApplicationAttemptId: appattempt_1485248649253_0154_000001
+P162,ApplicationAttemptId: appattempt_1485248649253_0052_000001
+P163,ApplicationAttemptId: appattempt_1485248649253_0174_000002
+P164,ApplicationAttemptId: appattempt_1485248649253_0174_000001
+P165,ApplicationAttemptId: appattempt_1485248649253_0084_000001
+P166,ApplicationAttemptId: appattempt_1485248649253_0180_000001
+P167,ApplicationAttemptId: appattempt_1485248649253_0115_000001
+P168,ApplicationAttemptId: appattempt_1485248649253_0170_000001
+P169,ApplicationAttemptId: appattempt_1485248649253_0122_000001
+P170,ApplicationAttemptId: appattempt_1485248649253_0127_000001
+P171,ApplicationAttemptId: appattempt_1485248649253_0034_000002
+P172,ApplicationAttemptId: appattempt_1485248649253_0015_000002
+P173,ApplicationAttemptId: appattempt_1485248649253_0015_000001
+P174,ApplicationAttemptId: appattempt_1460011102909_0176_000001
+P175,ApplicationAttemptId: appattempt_1485248649253_0135_000001
+P176,ApplicationAttemptId: appattempt_1485248649253_0152_000001
+P177,ApplicationAttemptId: appattempt_1485248649253_0012_000001
+P178,ApplicationAttemptId: appattempt_1485248649253_0012_000002
+P179,ApplicationAttemptId: appattempt_1485248649253_0036_000001
+P180,ApplicationAttemptId: appattempt_1485248649253_0036_000002
+P181,ApplicationAttemptId: appattempt_1485248649253_0151_000001
+P182,ApplicationAttemptId: appattempt_1485248649253_0089_000001
+P183,ApplicationAttemptId: appattempt_1485248649253_0143_000001
+P184,ApplicationAttemptId: appattempt_1485248649253_0072_000001
+P185,ApplicationAttemptId: appattempt_1485248649253_0072_000002
+P186,ApplicationAttemptId: appattempt_1485248649253_0056_000001
+P187,ApplicationAttemptId: appattempt_1485248649253_0056_000002
+P188,ApplicationAttemptId: appattempt_1485248649253_0097_000001
+P189,ApplicationAttemptId: appattempt_1485248649253_0112_000002
+P190,ApplicationAttemptId: appattempt_1485248649253_0027_000001
+P191,ApplicationAttemptId: appattempt_1485248649253_0027_000002
+P192,ApplicationAttemptId: appattempt_1485248649253_0093_000001
+P193,ApplicationAttemptId: appattempt_1485248649253_0045_000002
+P194,ApplicationAttemptId: appattempt_1485248649253_0124_000002
+P195,ApplicationAttemptId: appattempt_1485248649253_0130_000001
+P196,ApplicationAttemptId: appattempt_1485248649253_0171_000002
+P197,ApplicationAttemptId: appattempt_1485248649253_0171_000001
+P198,ApplicationAttemptId: appattempt_1485248649253_0142_000002
+P199,ApplicationAttemptId: appattempt_1485248649253_0105_000001
+P200,ApplicationAttemptId: appattempt_1485248649253_0141_000001
+P201,ApplicationAttemptId: appattempt_1485248649253_0110_000002
+P202,ApplicationAttemptId: appattempt_1485248649253_0184_000001
+P203,ApplicationAttemptId: appattempt_1485248649253_0104_000001
+P204,ApplicationAttemptId: appattempt_1485248649253_0168_000001
+P205,ApplicationAttemptId: appattempt_1485248649253_0068_000001
+P206,ApplicationAttemptId: appattempt_1485248649253_0068_000002
+P207,ApplicationAttemptId: appattempt_1485248649253_0051_000001
+P208,ApplicationAttemptId: appattempt_1485248649253_0181_000001
+P209,ApplicationAttemptId: appattempt_1485248649253_0004_000001
+P210,ApplicationAttemptId: appattempt_1485248649253_0082_000001
+P211,ApplicationAttemptId: appattempt_1485248649253_0024_000001
+P212,ApplicationAttemptId: appattempt_1485248649253_0024_000002
+P213,ApplicationAttemptId: appattempt_1485248649253_0156_000001
+P214,ApplicationAttemptId: appattempt_1485248649253_0132_000001
+P215,ApplicationAttemptId: appattempt_1485248649253_0162_000001
+P216,ApplicationAttemptId: appattempt_1485248649253_0163_000001
+P217,ApplicationAttemptId: appattempt_1485248649253_0155_000001
+P218,ApplicationAttemptId: appattempt_1485248649253_0161_000001
+P219,ApplicationAttemptId: appattempt_1485248649253_0101_000001
+P220,ApplicationAttemptId: appattempt_1485248649253_0139_000001
+P221,ApplicationAttemptId: appattempt_1485248649253_0102_000002
+P222,ApplicationAttemptId: appattempt_1485248649253_0173_000001
+P223,ApplicationAttemptId: appattempt_1485248649253_0185_000001
+P224,ApplicationAttemptId: appattempt_1485248649253_0172_000001
+P225,ApplicationAttemptId: appattempt_1485248649253_0081_000002
+P226,ApplicationAttemptId: appattempt_1485248649253_0067_000002
+P227,ApplicationAttemptId: appattempt_1485248649253_0067_000001
+P228,ApplicationAttemptId: appattempt_1485248649253_0118_000001
+P229,ApplicationAttemptId: appattempt_1485248649253_0085_000001
+P230,ApplicationAttemptId: appattempt_1485248649253_0107_000001
+P231,ApplicationAttemptId: appattempt_1485248649253_0078_000001
+P232,ApplicationAttemptId: appattempt_1485248649253_0008_000002
+P233,ApplicationAttemptId: appattempt_1485248649253_0008_000001
+P234,ApplicationAttemptId: appattempt_1485248649253_0119_000001
+P235,ApplicationAttemptId: appattempt_1485248649253_0080_000001
+P236,ApplicationAttemptId: appattempt_1485248649253_0083_000001
+P237,ApplicationAttemptId: appattempt_1485248649253_0017_000002
+P238,ApplicationAttemptId: appattempt_1485248649253_0016_000002
+P239,ApplicationAttemptId: appattempt_1485248649253_0071_000001
+P240,ApplicationAttemptId: appattempt_1485248649253_0071_000002
+P241,ApplicationAttemptId: appattempt_1485248649253_0136_000001
+P242,ApplicationAttemptId: appattempt_1485248649253_0062_000002
+P243,ApplicationAttemptId: appattempt_1485248649253_0091_000001
+P244,ApplicationAttemptId: appattempt_1485248649253_0060_000002
+P245,ApplicationAttemptId: appattempt_1485248649253_0060_000001
+P246,ApplicationAttemptId: appattempt_1485248649253_0096_000001
+P247,ApplicationAttemptId: appattempt_1485248649253_0123_000001
+P248,ApplicationAttemptId: appattempt_1485248649253_0073_000002
+P249,ApplicationAttemptId: appattempt_1485248649253_0073_000001
+P250,ApplicationAttemptId: appattempt_1485248649253_0007_000001
+P251,ApplicationAttemptId: appattempt_1485248649253_0007_000002
+P252,ApplicationAttemptId: appattempt_1485248649253_0108_000001
+P253,ApplicationAttemptId: appattempt_1485248649253_0164_000001
+P254,ApplicationAttemptId: appattempt_1472621869829_0087_000001
+P255,ApplicationAttemptId: appattempt_1485248649253_0147_000002
+P256,ApplicationAttemptId: appattempt_1485248649253_0064_000001
+P257,ApplicationAttemptId: appattempt_1485248649253_0064_000002
+P258,ApplicationAttemptId: appattempt_1485248649253_0179_000001
+P259,ApplicationAttemptId: appattempt_1485248649253_0059_000001
+P260,ApplicationAttemptId: appattempt_1485248649253_0059_000002
+P261,ApplicationAttemptId: appattempt_1485248649253_0086_000002
+P262,ApplicationAttemptId: appattempt_1485248649253_0039_000001
+P263,ApplicationAttemptId: appattempt_1485248649253_0061_000002
+P264,ApplicationAttemptId: appattempt_1485248649253_0061_000001
+P265,ApplicationAttemptId: appattempt_1485248649253_0157_000001

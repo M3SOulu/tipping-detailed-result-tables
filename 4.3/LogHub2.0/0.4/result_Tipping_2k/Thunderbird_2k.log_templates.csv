@@ -1,0 +1,160 @@
+EventID,EventTemplate
+P0,removing telnet
+P1,"Device: /dev/sda, Temperature changed -<*> Celsius to <*> Celsius since last report"
+P2,removing daytime
+P3,Using HPET based timekeeping.
+P4,Using MMCONFIG at <*>
+P5,colour VGA+ <*>
+P6,autorun ...
+P7,Cannot open file /dev/logsurfer for writing (No such file or directory)
+P8,connection <*> 
+P9,asking for cache data failed
+P10,(root) CMD (run-parts /etc/cron.hourly)
+P11,<*> used by override.
+P12,Assuming <*> system bus speed for PIO modes; override with idebus=xx
+P13,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on /dev/sda
+P14,(root) CMD (/projects/tbird/temps/get_temps b)
+P15,initializing netlink socket (disabled)
+P16,Local disconnected: Connection closed.
+P17,Creating Topspin /dev entries:
+P18,"PCI Interrupt Link [<*>] (IRQs <*> ) *<*>, disabled."
+P19,succeeded
+P20,#<*>#-<*> (Release Date: Fri Dec <*> :<*>:<*> EST <*>)
+P21,removing echo
+P22,Hash tables configured (established <*> bind <*>)
+P23,DHCPREQUEST for <*> (<*>) from <*>:<*>:<*>:<*>:ba:<*> via <*>
+P24,Using ACPI for IRQ routing
+P25,Using software bounce buffering for IO (SWIOTLB)
+P26,(root) CMD (/projects/tbird/temps/get_temps a)
+P27,"<*> KBD port at <*>,<*> irq <*>"
+P28,Mounting other filesystems: failed
+P29,"routing cache hash table of <*> buckets, <*>"
+P30,removing kshell
+P31,xinetd Version <*>.<*>.<*> started with libwrap loadavg options compiled in.
+P32,Disabled at runtime.
+P33,removing chargen
+P34,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)
+P35,kernel time sync <*> 
+P36,Mounting NFS filesystems: succeeded
+P37,"apic_id <*>, version <*>, address <*>, GSI <*>-<*>"
+P38,passed.
+P39,Changing permissions on special file /dev/logsurfer
+P40,Warning: we failed to resolve data source name <*> 
+P41,<*> (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+P42,Initializing.
+P43,Version <*>.<*>.<*> Starting
+P44,PE/PV Model: <*> SCSI BP Rev: <*>.<*>
+P45,PCI Root Bridge [<*>] (<*>:<*>)
+P46,RSDP (<*> DELL ) @ <*>
+P47,Unregistering netfilter hooks
+P48,My unqualified host name (<*>) unknown; sleeping for retry
+P49,[ib_sm_sweep.c:<*>]: No configuration change required
+P50,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************
+P51,<*> ANSI SCSI revision: <*>
+P52,Warning: we failed to resolve trusted host name <*> 
+P53,Installing public key data
+P54,"User #<*>#, coming from #<*>#, authenticated."
+P55,"root=LABEL=/ initrd=/<*>_<*>/initrd-<*>.<*>.<*>-<*>.<*>.<*>.EL-lustre-<*>.<*>.<*>-perfctr-admin console=<*> console=<*>,<*> fastboot BOOT_IMAGE=/<*>_<*>/vmlinuz-<*>.<*>.<*>-<*>.<*>.<*>.EL-lustre-<*>.<*>.<*>-perfctr"
+P56,HPET id: <*> base: <*>
+P57,Registering secondary module capability
+P58,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)
+P59,<*>.<*>:USB HID core driver
+P60,Starting in permissive mode
+P61,removing ntalk
+P62,<*>: <*>_watchdog: NIC Link is Up <*> Mbps Full Duplex
+P63,probe of <*> failed with error -<*>
+P64,Using <*>.<*> MHz HPET timer.
+P65,MegaRAID Model: LD <*> Rev: <*>
+P66,Subsystem revision <*>
+P67,Disk quotas dquot_<*>.<*>.<*>
+P68,PCI Interrupt Link [<*>] (IRQs <*> ) *<*> _/|\\_ PCI Interrupt Link [<*>] (IRQs <*> *<*> )
+P69,"<*> AUX port at <*>,<*> irq <*>"
+P70,scanning scsi channel <*> [Phy <*>] for non-raid devices
+P71,Now running on #<*>#'s privileges.
+P72,Starting ts_fixup: succeeded
+P73,... autorun DONE.
+P74,syslog-ng version <*>.<*>.<*> starting
+P75,PCI Interrupt Routing Table [\\_SB_.<*>.<*>.<*>._PRT] _/|\\_ PCI Interrupt Routing Table [\\_SB_.<*>.<*>._PRT] _/|\\_ PCI Interrupt Routing Table [\\_SB_.<*>._PRT]
+P76,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+P77,Using configuration type <*>
+P78,<*> (supports <*>) _/|\\_ (supports <*> )
+P79,removing printer
+P80,PS/<*> mouse device common for all mice
+P81,Mounted root (<*> filesystem).
+P82,Started working: <*> available service
+P83,Probing PCI hardware (bus <*>)
+P84,Using IOAPIC for interrupt routing
+P85,Registered protocol family <*>
+P86,error: Bind to port <*> on <*> failed: Address already in use.
+P87,(root) CMD (/projects/tbird/temps/get_temps c)
+P88,"synchronized to <*>, stratum <*>"
+P89,Registering netfilter hooks
+P90,Server listening on :: port <*>.
+P91,session opened for user root by (uid=<*>)
+P92,removing rsync
+P93,Wait for ready failed before probe !
+P94,<*> startup succeeded
+P95,START: tftp pid=<*> from=<*>
+P96,session closed for user root
+P97,Power Button (FF) [PWRF]
+P98,"<*>: to=root, ctladdr=root (<*>/<*>), delay=<*>:<*>:<*>, xdelay=<*>:<*>:<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>.<*>.<*>, stat=Deferred: Connection refused by [<*>]"
+P99,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+P100,RNG not detected
+P101,DHCPOFFER on <*> to <*>:<*>:<*>:<*>:ba:<*> via <*>
+P102,Interpreter enabled
+P103,Received SNMP packet(s) from #<*>#
+P104,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+P105,LSI Logic MegaRAID driver
+P106,(root) CMD (/projects/tbird/temps/get_temps e)
+P107,DHCPDISCOVER from <*>:<*>:<*>:<*>:ba:<*> via <*>: network A_net: no free leases
+P108,(C) <*>-<*> Netfilter core team
+P109,not allocating divert_blk for non-ethernet device <*>
+P110,"md driver <*>.<*>.<*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+P111,Physical Processor ID: <*>
+P112,Reading included configuration file: /etc/xinetd.d/<*> [file=/etc/xinetd.d/<*>] [line=<*>] _/|\\_ Reading included configuration file: /etc/xinetd.d/<*> [file=/etc/xinetd.<*>] [line=<*>]
+P113,probe new device <*>:<*>:<*>:<*>: bus <*>:slot <*>:func <*>
+P114,allocating divert_blk for <*>
+P115,Intel(R) Xeon(TM) CPU <*>.<*> stepping <*>
+P116,<*>: <*>_probe: Intel(R) PRO/<*> Network Connection
+P117,scanning scsi channel <*> [virtual] for logical drives
+P118,initialized
+P119,rpc.statd startup succeeded
+P120,fw version:[<*>] bios version:[<*>]
+P121,RRD_update (/var/lib/ganglia/rrds/<*> /<*>/<*>_<*>.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step) _/|\\_ RRD_update (/var/lib/ganglia/rrds/<*>/<*>/<*>_<*>.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+P122,data_thread() got not answer from any [Thunderbird_<*>] datasource
+P123,unable to qualify my own domain name (<*>) -- using short name
+P124,Transparent bridge - <*>:<*>:<*>.<*>
+P125,#<*># (Release Date: Mon Sep <*> :<*>:<*> EDT <*>)
+P126,assuming drive cache: write through
+P127,[ib_sm_sweep.c:<*>]: No topology change
+P128,removing ftp
+P129,DHCPDISCOVER from <*>:<*>:<*>:<*>:ba:<*> via <*>
+P130,DHCPREQUEST for <*> (<*>) from <*>:<*>:<*>:<*>:ba:<*> via <*>: unknown lease <*>.
+P131,CentOS-<*> (Kernel Module GPG key)
+P132,mounted filesystem with ordered data mode.
+P133,no floppy controllers found
+P134,Local APIC address <*>
+P135,removing klogin
+P136,"sys_<*>.c,v <*>.<*> /<*>/<*> :<*>:<*> ak Exp $"
+P137,"PCI interrupt <*>:<*>:<*>.<*>[A] -> GSI <*> (level, low) -> IRQ <*>"
+P138,"<*>: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<<*>.<*>@<*>>, relay=#<*>#@localhost"
+P139,removing time
+P140,registered new driver <*>
+P141,(root) CMD (/projects/tbird/temps/get_temps d)
+P142,DHCPACK on <*> to <*>:<*>:<*>:<*>:ba:<*> via <*>
+P143,removing eklogin
+P144,"Trace cache: <*> uops, <*> D cache: <*>"
+P145,Detected <*>.<*> MHz processor.
+P146,PCI Hot Plug PCI Core version: <*>.<*>
+P147,time reset +<*>.<*> s
+P148,Compressed image found at block <*>
+P149,Autodetecting RAID arrays.
+P150,
+P151,L2 cache: 2048K
+P152,L2 cache: 2048K
+P153,L2 cache: 2048K
+P154,L2 cache: 2048K
+P155,L2 cache: 2048K
+P156,4.1.0-ioctl (2003-12-10) initialised: #36#@#37#
+P157,v2.0 (20020519)
+P158,sda1 sda2 sda3 sda4

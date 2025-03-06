@@ -1,0 +1,45 @@
+EventID,EventTemplate
+P0,Error during ComputeManager._run_image_cache_manager_pass
+P1,[instance: <*>-<*>-<*>-<*>-<*>] During sync_power_state the instance has a pending task (spawning). Skip.
+P2,[instance: <*>-<*>-<*>-<*>-<*>] Claim successful
+P3,Bad response code while validating token: <*>
+P4,"[instance: <*>-<*>-<*>-<*>-<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU"
+P5,[instance: <*>-<*>-<*>-<*>-<*>] Creating image
+P6,[instance: <*>-<*>-<*>-<*>-<*>] Instance destroyed successfully.
+P7,[instance: <*>-<*>-<*>-<*>-<*>] Instance spawned successfully.
+P8,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P9,[instance: <*>-<*>-<*>-<*>-<*>] Deletion of /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del complete
+P10,"Identity response: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML <*>.<*>//EN"">"
+P11,"[instance: <*>-<*>-<*>-<*>-<*>] Total disk: <*> GB, used: <*>.<*> GB"
+P12,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P13,[instance: <*>-<*>-<*>-<*>-<*>] VM Resumed (Lifecycle Event)
+P14,Removable base files: /var/lib/nova/instances/_base/<*>
+P15,Active base files: /var/lib/nova/instances/_base/<*>
+P16,"<*>.<*>.<*>.<*> ""DELETE /<*>/<*>/servers/<*>-<*>-<*>-<*>-<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P17,"[instance: <*>-<*>-<*>-<*>-<*>] Total memory: <*> MB, used: <*>.<*> MB"
+P18,"[instance: <*>-<*>-<*>-<*>-<*>] vcpu limit not specified, defaulting to unlimited"
+P19,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*>MB used_ram=<*>MB phys_disk=<*>GB used_disk=<*>GB total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P20,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+P21,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P22,"<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P23,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.
+P24,[instance: <*>-<*>-<*>-<*>-<*>] Terminating instance
+P25,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P26,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P27,"couldn't obtain the vcpu count from domain id: <*>-<*>-<*>-<*>-<*>, exception: Requested operation is not valid: cpu affinity is not supported"
+P28,"[instance: <*>-<*>-<*>-<*>-<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB"
+P29,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P30,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P31,"image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+P32,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): checking
+P33,HTTP exception thrown: No instances found for any event
+P34,[instance: <*>-<*>-<*>-<*>-<*>] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del
+P35,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P36,"[instance: <*>-<*>-<*>-<*>-<*>] disk limit not specified, defaulting to unlimited"
+P37,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P38,Unknown base file: /var/lib/nova/instances/_base/<*>
+P39,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>-<*>-<*>-<*>-<*>
+P40,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance.
+P41,Unable to validate token: Failed to fetch token data from identity server
+P42,[instance: <*>-<*>-<*>-<*>-<*>] VM <*> (Lifecycle Event)
+P43,"<*>.<*>.<*>.<*> ""POST /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"

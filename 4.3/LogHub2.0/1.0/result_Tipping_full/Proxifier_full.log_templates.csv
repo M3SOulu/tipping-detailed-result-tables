@@ -1,0 +1,11 @@
+EventID,EventTemplate
+P0,"srkodhptqlryvjp:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
+P1,<*> open through proxy <*> 
+P2,"qumccyndmsiwf:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
+P3,dshytnh:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>
+P4,wpad:<*> error : Could not connect <*> proxy <*> - <*>  _/|\\_ wpad:<*> error : Could not connect <*> proxy <*> - Could not <*> error <*>
+P5,nmjylyjluykle:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>
+P6,awqiizxequsixgr:<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>
+P7,<*> error : <*>  _/|\\_ <*> error : <*> error <*>
+P8,"yrexdrpj:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
+P9,"<*> close, <*> bytes sent, <*> bytes received, lifetime <*> _/|\\_ <*> close, <*> bytes <*> sent, <*> bytes received, lifetime <*> _/|\\_ <*> close, <*> bytes <*> sent, <*> bytes <*> received, lifetime <*> _/|\\_ <*> close, <*> bytes sent, <*> bytes <*> received, lifetime <*>"

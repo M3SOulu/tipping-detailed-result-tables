@@ -1,0 +1,124 @@
+EventID,EventTemplate
+P0,CentOS-<*> (Kernel Module GPG key)
+P1,autorun ... _/|\\_ ... autorun <*>.
+P2,colour VGA+ <*>
+P3,Received SNMP packet(s) from #<*>#
+P4,Direct-Access ANSI SCSI revision: <*>
+P5,connection <*> 
+P6,time reset +<*>.<*> s
+P7,mounted filesystem with ordered data mode.
+P8,Autodetecting RAID arrays.
+P9,LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])
+P10,Mounting <*> filesystems: <*>
+P11,Server listening on :: port <*>.
+P12,START: tftp pid=<*> from=<*>
+P13,Local <*> 
+P14,unable to qualify my own domain name (<*>) -- using short name
+P15,succeeded
+P16,PE/PV Model: <*> SCSI BP Rev: <*>.<*>
+P17,DHCPREQUEST for <*> (<*>) from <*>:<*>:<*>:<*>:ba:<*> via <*> _/|\\_ DHCPREQUEST for <*> (<*>) from <*>:<*>:<*>:<*>:ba:<*> via <*>: <*> 
+P18,asking for cache data failed
+P19,Registering <*> 
+P20,LSI Logic MegaRAID driver
+P21,SPCR (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+P22,Transparent bridge - <*>:<*>:<*>.<*>
+P23,FADT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+P24,passed.
+P25,<*>: <*>_watchdog: NIC Link is Up <*> Mbps Full Duplex
+P26,session <*> for user root <*>  _/|\\_ session <*> for user root
+P27,PS/<*> mouse device common for all mice
+P28,fw version:[<*>] bios version:[<*>]
+P29,Started working: <*> available service
+P30,Initializing.
+P31,Disk quotas dquot_<*>.<*>.<*>
+P32,Version <*>.<*>.<*> Starting
+P33,RSDP (<*> DELL ) @ <*>
+P34,(C) <*>-<*> Netfilter core team
+P35,HPET <*> 
+P36,Hash tables configured (established <*> bind <*>)
+P37,MegaRAID Model: LD <*> Rev: <*>
+P38,PCI <*> PCI <*>  _/|\\_ PCI <*> 
+P39,RSDT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+P40,Reading included configuration file: /etc/xinetd.d/<*> [file=/etc/xinetd.d/<*>] [line=<*>] _/|\\_ Reading included configuration file: /etc/xinetd.d/<*> [file=/etc/xinetd.<*>] [line=<*>]
+P41,INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> )
+P42,MADT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+P43,Using <*> 
+P44,<*> used by override.
+P45,"<*> AUX port at <*>,<*> irq <*>"
+P46,<*>.<*>:USB HID core driver
+P47,"User #<*>#, coming from #<*>#, authenticated."
+P48,Assuming <*> system bus speed for PIO modes; override with idebus=xx
+P49,"<*> KBD port at <*>,<*> irq <*>"
+P50,Installing public key data
+P51,Now running on #<*>#'s privileges.
+P52,Probing PCI hardware (bus <*>)
+P53,assuming drive cache: write through
+P54,Starting <*> 
+P55,<*>-<*> version <*>  _/|\\_ <*> version <*> -<*>
+P56,rpc.statd startup succeeded
+P57,(supports <*> )
+P58,Compressed image found at block <*>
+P59,Detected <*>.<*> MHz processor.
+P60,Mounted root (<*> filesystem).
+P61,Unregistering netfilter hooks
+P62,"Device: /dev/sda, Temperature changed -<*> Celsius to <*> Celsius since last report"
+P63,Unknown cmd fd(<*>) cmd(<*>){<*>} arg(<*>) on /dev/sda
+P64,"routing cache hash table of <*> buckets, <*>"
+P65,<*>root<*> /<*>/<*>/<*>/<*>  _/|\\_ root<*>/ <*>/<*>/<*> /<*>/<*> _/|\\_ <*>root<*> /<*>/<*>
+P66,Processor <*> 
+P67,"sys_<*>.c,v <*>.<*> /<*>/<*> :<*>:<*> ak Exp $"
+P68,"synchronized to <*>, stratum <*>"
+P69,initializing netlink socket (disabled)
+P70,"Trace cache: <*> uops, <*> D cache: <*>"
+P71,portmap startup succeeded
+P72,[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************
+P73,registered new driver <*>
+P74,scanning scsi channel <*> [<*> ] for <*>  _/|\\_ scanning scsi channel <*> [<*>] for <*> 
+P75,Interpreter enabled
+P76,DHCPOFFER on <*> to <*>:<*>:<*>:<*>:ba:<*> via <*>
+P77,#<*>#<*> (Release Date: <*> :<*>:<*> ) _/|\\_ #<*># (Release Date: <*> :<*>:<*> )
+P78,DHCPDISCOVER from <*>:<*>:<*>:<*>:ba:<*> via <*>: <*> : <*>  _/|\\_ DHCPDISCOVER from <*>:<*>:<*>:<*>:ba:<*> via <*>
+P79,Warning: we failed to resolve <*> name <*> 
+P80,not allocating divert_blk for non-ethernet device <*>
+P81,error: Bind to port <*> on <*> failed: Address already in use.
+P82,allocating divert_blk for <*>
+P83,probe <*> 
+P84,Subsystem revision <*>
+P85,RNG not detected
+P86,"md driver <*>.<*>.<*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+P87,Creating Topspin /dev entries:
+P88,Registered protocol family <*>
+P89,initialized
+P90,My unqualified host name (<*>) unknown; sleeping for retry
+P91,RRD_update (/var/lib/ganglia/rrds/<*> /<*>/<*>_<*>.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step) _/|\\_ RRD_update (/var/lib/ganglia/rrds/<*>/<*>/<*>_<*>.rrd): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)
+P92,Disabled at runtime.
+P93,syslog-ng startup succeeded
+P94,[ib_sm_sweep.c:<*>]: No <*> change <*> _/|\\_ [ib_sm_sweep.c:<*>]: No <*> change
+P95,Cannot open file /dev/logsurfer for writing (No such file or directory)
+P96,"<*>: to=root, ctladdr=root (<*>/<*>), delay=<*>:<*>:<*>, xdelay=<*>:<*>:<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>.<*>.<*>, stat=Deferred: Connection refused by [<*>]"
+P97,"<*>: from=root, size=<*>, class=<*>, nrcpts=<*>, msgid=<<*>.<*>@<*>>, relay=#<*>#@localhost"
+P98,no floppy controllers found
+P99,Changing permissions on special file /dev/logsurfer
+P100,Wait for ready failed before probe !
+P101,LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)
+P102,MCFG (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+P103,Intel(R) <*>(<*>) <*>  _/|\\_ <*> Intel(R) <*> 
+P104,gmetad startup succeeded
+P105,data_thread() got not answer from any [Thunderbird_<*>] datasource
+P106,IOAPIC (id[<*>] address[<*>] gsi_base[<*>])
+P107,removing <*>
+P108,xinetd <*> 
+P109,DSDT (<*> DELL PE BKC <*> MSFT <*>) @ <*>
+P110,DHCPACK on <*> to <*>:<*>:<*>:<*>:ba:<*> via <*>
+P111,kernel time sync <*> 
+P112,Power Button (FF) [PWRF]
+P113,Physical Processor ID: <*>
+P114,
+P115,L2 cache: 2048K
+P116,L2 cache: 2048K
+P117,L2 cache: 2048K
+P118,L2 cache: 2048K
+P119,L2 cache: 2048K
+P120,4.1.0-ioctl (2003-12-10) initialised: #36#@#37#
+P121,v2.0 (20020519)
+P122,sda1 sda2 sda3 sda4

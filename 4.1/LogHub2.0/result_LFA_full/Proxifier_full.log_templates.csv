@@ -1,0 +1,10 @@
+EventId,EventTemplate,Occurrences
+f1d1938f,"<*> close, <*> bytes <*> <*> <*> <*> <*> <*>",3884
+17f178e1,"<*> close, <*> bytes <*> <*> <*> <*> <*> <*> <*> <*>",3034
+e6e83a3d,<*> open through proxy <*> <*>,10227
+b6727409,"<*> close, <*> bytes <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>",3294
+72317764,<*> error : <*> <*> <*> <*> <*> <*> <*> <*>,305
+82eb6d98,<*> error : Could not connect <*> proxy <*> - <*> <*> <*> <*> <*>,14
+f8ec8a3f,<*> error : Could not connect <*> proxy <*> - <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,230
+694be0c7,"<*> (IPv6) error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",3
+e00638ba,<*> error : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,329

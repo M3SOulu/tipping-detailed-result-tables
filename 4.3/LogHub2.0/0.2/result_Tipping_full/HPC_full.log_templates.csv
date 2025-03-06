@@ -1,0 +1,82 @@
+EventID,EventTemplate
+P0,Command has been aborted
+P1,starting
+P2,member_delete (command <*>) Error: node-<*> is NOT a member of cluster node-<*>
+P3,blocked
+P4,Command Cancelled - cluster would lose quorum
+P5,Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*>  _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> -<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> -<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> -<*> -<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*> -<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> -<*> -<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> _/|\\_ Targeting domains:node-<*>-<*> and nodes:node-<*>-<*> -<*> -<*> -<*> -<*> -<*> -<*> -<*> _/|\\_ Targeting domains:node-<*> -<*> and nodes:node-<*>-<*> -<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>
+P6,Fan speeds ( <*> **** <*> )
+P7,member_delete (command <*>)
+P8,Link ok
+P9,not responding
+P10,active
+P11,Targeting domains:node-<*> and nodes:node-<*>-<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> -<*> -<*> child of command <*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*>-<*> child of command <*>
+P12,running
+P13,ServerFileSystem domain <*>domain is full _/|\\_ ServerFileSystem<*> ServerFileSystem domain <*> is full
+P14,haltcluster (command <*>) Error: timeout waiting for SRM prompts
+P15,Failed subcommands <*> _/|\\_ Failed subcommands <*> 
+P16,ambient<*> threshold exceeded
+P17,boot (command <*>) Error: node went to SRM while trying to boot
+P18,normal
+P19,member_delete (command <*>) Error: node is up according to cluster_get_info
+P20,bootGenvmunix (command <*>) Error: node returned to srm while booting: <ABORT code completed>
+P21,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface alt0
+P22,<*> failed to configure resourcemgmt subsystem err = <*>
+P23,link errors remain current
+P24,<*> (command <*>) Error: Console-Busy Port already in use
+P25,bootGenvmunix (command <*>)
+P26,bootGenvmunix (command <*>) Error: Timeout waiting for system to come up: <ABORT code completed>
+P27,psu failure\\ ambient<*>
+P28,power/control ok
+P29,boot (command <*>) Error: timeout while booting.
+P30,ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+P31,no recent update
+P32,boot (command <*>) Error: System could not find kernel
+P33,risBoot (command <*>) Error: failed to RIS boot: <ABORT code completed>
+P34,halt (command <*>) Error: Couldn\\<*> Connect to console (state = REFUSED)
+P35,boot (command <*>)
+P36,boot (command <*>) Error: timeout waiting for Loading LMF licenses
+P37,halt (command <*>) Error: timeout waiting for SRM prompt
+P38,haltcluster (command <*>) Error: haltcluster: bad spawn id
+P39,Component State Change: Component <*>alt0<*> is in the available state (HWID<*>)
+P40,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+P41,<*> (command <*>) Error: Unknown We failed to determine the state of this node
+P42,power/control problem
+P43,warning
+P44,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P45,Temperature (<*>) exceeds warning threshold
+P46,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface alt0
+P47,ClusterFileSystem: ServerFileSystem domain domain<*> is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain<*> is no longer served by node node-<*>
+P48,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface ee0
+P49,Command has completed successfully
+P50,closing
+P51,wait (command <*>)
+P52,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P53,update received
+P54,configured out
+P55,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface scip0
+P56,Fan speeds ( <*> )
+P57,halt (command <*>)
+P58,risBoot (command <*>)
+P59,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+P60,ambient<*>
+P61,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface ee0
+P62,Component State Change: Component \\<*>-WWID:<*>:<*>-<*>-<*>-<*>\\<*> is in the available state (HWID<*>) _/|\\_ Component State Change: Component \\<*>-WWID:<*>:<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>\\<*> is in the available state (HWID<*>)
+P63,fan failure\\ ambient<*>
+P64,Link in reset
+P65,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface scip0
+P66,PSU status ( off on ) _/|\\_ PSU status ( on off )
+P67,Linkerror event interval expired
+P68,clusterAddMember (command <*>) Error: cluster_add_member failed unexpectedly\\ check /cluster/admin/cluster_add_member.log: <ABORT code errored: kill: <*>: no such process>
+P69,critical
+P70,clusterAddMember (command <*>) Error: Cannot run clusterAddMember\\ because node-<*> connection state is REFUSED and needs to be SRM
+P71,boot (command <*>) Error: CMF-Port This node\\<*> port is not connected
+P72,Command Failed on: node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*> node-<*> _/|\\_ Command Failed on: node-<*> node-<*> node-<*>
+P73,Component State Change: Component \\<*>ee0\\<*> is in the available state (HWID<*>)
+P74,haltcluster (command <*>)
+P75,boot (command <*>) Error: HALT asserted\\ cannot continue
+P76,responding
+P77,boot (command <*>) Error: node went to SRM while booting
+P78,clusterAddMember (command <*>)
+P79,unknown
+P80,Link error

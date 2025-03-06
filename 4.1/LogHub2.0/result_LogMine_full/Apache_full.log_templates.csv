@@ -1,0 +1,30 @@
+EventId,EventTemplate,Occurrences
+fa3d9885,LDAP: Built with OpenLDAP LDAP SDK,53
+587e40ef,LDAP: SSL support unavailable,53
+e3c91fa1,suEXEC mechanism enabled (wrapper: /usr/sbin/suexec),8
+05ce27cc,Digest: generating secret for digest authentication ...,45
+d492bd9d,Digest: done,45
+fa3d9885,env.createBean2(): Factory error creating <*> ( <*> <*>,53
+587e40ef,config.update(): Can't create <*>,53
+f79c89ef,mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.,180
+9dca4f3e,mod_security/1.9dev2 configured,180
+f79c89ef,Apache/2.0.49 (Fedora) configured -- resuming normal operations,180
+9dca4f3e,jk2_init() Found child <*> in scoreboard slot <*>,180
+f79c89ef,workerEnv.init() ok /etc/httpd/conf/workers2.properties,180
+9dca4f3e,mod_jk child init 1 <*>,180
+f79c89ef,[client ] Directory index forbidden by rule: /var/www/html/,180
+9dca4f3e,[client ] File does not exist: <*>,180
+3ca3c51e,jk2_init() Can't find child <*> in scoreboard,45
+4d804580,[client ] script not found or unable to stat: <*>,45
+dfd50a7a,mod_jk2 Shutting down,45
+b00729be,"Graceful restart requested, doing restart",6335
+b00729be,[client ] request failed: URI too long (longer than 8190),6335
+b00729be,mod_jk child workerEnv in error state <*>,6335
+b00729be,[client ] request failed: error reading the headers,6335
+b00729be,[client ] attempt to invoke directory as script: /var/www/cgi-bin/,6335
+b00729be,[client ] Attempt to serve directory: /var/www/html/,6335
+b00729be,"child process <*> still did not exit, sending a SIGTERM",6335
+b00729be,"[client ] mod_security: Access denied with code 403. Error reading POST data, error_code=104 [hostname """"] [uri ""/xmlrpc.php""]",6335
+e3dc5d82,uriMap.mapUri() uri must start with /,5708
+44200156,[client ] Invalid URI in request GET  HTTP/1.1,1259
+e3dc5d82,[client ] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /,5708

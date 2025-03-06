@@ -1,0 +1,98 @@
+EventID,EventTemplate
+P0,ROOT LOGIN ON <*>
+P1,getpeername (ftpd): Transport endpoint is not connected
+P2,Calibrating delay loop... <*>.<*> BogoMIPS
+P3,HCI daemon ver <*>.<*> started
+P4,audit(<*>.<*>:<*>): initialized
+P5,klogd <*> 
+P6,Console: colour VGA+ <*>
+P7,Checking 'hlt' instruction... OK.
+P8,Failure registering capabilities with the kernel
+P9,Security Scaffold <*>.<*>.<*> initialized
+P10,DMI <*>.<*> present.
+P11,"CPU: <*> I cache: <*>, <*> D cache: <*>"
+P12,Received SNMP packet(s) from <*>.<*>.<*>.<*>
+P13,On node <*> totalpages: <*>
+P14,connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> () at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>.<*>.at) at <*> :<*>:<*> 
+P15,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>.<*>)
+P16,POSIX conformance testing by UNIFIX
+P17,cupsd <*> succeeded
+P18,Detected <*>.<*> MHz processor.
+P19,BIOS-provided physical RAM map:
+P20,notify question section contains no SOA
+P21,"<*>-cache hash table entries: <*> (order <*>, <*> bytes) _/|\\_ <*>-cache hash table entries: <*> (order: <*>, <*> bytes)"
+P22,creating device node '/udev/<*>'
+P23,audit: initializing netlink socket (disabled)
+P24,*** info [mice.c(<*>)]:
+P25,zapping low mappings.
+P26,portmap startup succeeded
+P27,ACPI <*>  _/|\\_ ACPI<*> ACPI <*> 
+P28,"There is already a security framework initialized, register_security failed."
+P29,<*>: Auto-detected intellimouse PS/<*>
+P30,usbcore: registered new driver <*>
+P31,"Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+P32,<*> LOWMEM available.
+P33,Enabling <*> FPU <*> ... done.
+P34,"DMA zone: <*> pages, LIFO batch:<*>"
+P35,BIOS-<*>: <*> - <*> (usable)
+P36,Kerberos authentication failed
+P37,Built <*> zonelists
+P38,"HighMem zone: <*> pages, LIFO batch:<*>"
+P39,<*>: Registering <*> 
+P40,ACPI: Interpreter disabled.
+P41,Transparent bridge - <*>:<*>:<*>.<*>
+P42,hcid startup succeeded
+P43,PCI: Invalid ACPI-PCI IRQ routing table
+P44,ACPI: Subsystem revision <*>
+P45,Setting network parameters: succeeded
+P46,warning: can't get client address: Connection reset by peer
+P47,You can enable it with acpi=force
+P48,session <*> for user <*>  _/|\\_ session <*> for user <*>
+P49,check pass; user unknown
+P50,NET: Registered protocol family <*>
+P51,ALERT exited abnormally with [<*>]
+P52,Initializing <*>  _/|\\_ Initializing <*>
+P53,"Total HugeTLB memory allocated, <*>"
+P54,Version <*>.<*>.<*> Starting
+P55,VFS: Disk quotas dquot_<*>.<*>.<*>
+P56,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)"
+P57,rpc.<*> startup succeeded
+P58,isapnp: No Plug & Play device found
+P59,Couldn't authenticate user
+P60,isapnp: Scanning for PnP cards...
+P61,PID hash table entries: <*> (order <*>: <*> bytes)
+P62,Real Time Clock Driver <*>.<*>
+P63,Bringing up loopback interface: succeeded
+P64,<*>: PCI <*> PCI <*> : <*>.<*> _/|\\_ PCI: PCI <*> .<*> 
+P65,<*> Using <*>  _/|\\_ Using <*> 
+P66,BIOS-<*>: <*> - <*> (reserved)
+P67,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): <*> 
+P68,irqbalance startup succeeded
+P69,"CPU <*> irqstacks, hard=<*> soft=<*>"
+P70,<*> Intel <*>  _/|\\_ Intel <*> 
+P71,User unknown timed out after <*> seconds at Sat Jun <*> :<*>:<*> 
+P72,syslogd startup succeeded
+P73,mapped <*>/<*> trampoline to <*>.
+P74,"ANONYMOUS FTP LOGIN FROM <*>.<*>.<*>.<*>, (anonymous)"
+P75,Linux <*> .<*> (<*>) <*>  _/|\\_ Linux <*> .<*>.<*>.<*> (<*>.<*>.<*>.<*>) (<*> .<*>.<*> (<*> Linux <*>.<*>.<*>)) <*> 
+P76,<*> HIGHMEM available.
+P77,"Normal zone: <*> pages, LIFO batch:<*>"
+P78,authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost= _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser= rhost=<*> =<*>
+P79,removing device node '/udev/<*>'
+P80,Capability LSM initialized
+P81,sdpd <*> 
+P82,PCI: Probing PCI hardware <*>  _/|\\_ PCI: Probing PCI hardware
+P83,Starting <*>: <*> _/|\\_ <*>: Starting <*> 
+P84,Kernel command line: ro root=LABEL=/ rhgb quiet
+P85,
+P86,restart.
+P87,restart.
+P88,restart.
+P89,restart.
+P90,restart.
+P91,restart.
+P92,restart.
+P93,SELinux:  Initializing.
+P94,CPU: L2 cache: 256K
+P95,mtrr: v2.0 (20020519)
+P96,kernel.core_uses_pid = 1

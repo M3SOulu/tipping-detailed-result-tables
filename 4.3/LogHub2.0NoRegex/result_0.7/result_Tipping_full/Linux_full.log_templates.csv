@@ -1,0 +1,1517 @@
+EventID,EventTemplate
+P0,"security: <*> classes, <*> rules"
+P1,terminating
+P2,Received SNMP packet(s) from <*>.<*>.<*>.<*>
+P3,<*> HCI <*>  _/|\\_ HCI <*> 
+P4,md: autorun ...
+P5,ttloop: peer died: Invalid or incomplete multibyte or wide character
+P6,Bluetooth: <*> ver <*>.<*>
+P7,DMI <*>.<*> present.
+P8,Client hung up - probable port-scan
+P9,audit: enabled (after initialization)
+P10,On node <*> totalpages: <*>
+P11,loading configuration from '/etc/named.conf'
+P12,kjournald starting. Commit interval <*> seconds
+P13,"uhci_hcd <*>:<*>:<*>.<*>: irq <*>, io base <*>"
+P14,VM: killing process sendmail
+P15,sshd -TERM succeeded
+P16,Kernel logging (proc) stopped.
+P17,succeeded
+P18,*** info [<*>.c(<*>)]:
+P19,uhci_hcd <*>:<*>:<*>.<*>: UHCI Host Controller
+P20,"SELinux: initialized (dev , type mqueue), not configured for labeling"
+P21,Bluetooth: Core ver <*>.<*>
+P22,check pass; user unknown
+P23,microcode: No suitable data for cpu <*>
+P24,"<*> zone: <*> pages, LIFO batch:<*>"
+P25,Stopping Canna server: succeeded
+P26,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>.<*>)
+P27,BIOS-<*>: <*> - <*> (usable)
+P28,isapnp: Scanning for PnP cards...
+P29,Kerberos authentication failed
+P30,md: Autodetecting RAID arrays.
+P31,hcid startup succeeded
+P32,exiting
+P33,"SELinux: initialized (dev , type futexfs), uses genfs_contexts"
+P34,TCP: Hash tables configured (established <*> bind <*>)
+P35,Bluetooth: HCI device and connection manager initialized
+P36,Jan <*> :<*>:<*> Privoxy(-<*>) Info: loading configuration file '/etc/privoxy/config':
+P37,PCI: Invalid ACPI-PCI IRQ routing table
+P38,Bringing up loopback interface: succeeded
+P39,<*>-fs: recovery complete.
+P40,jserver shutdown <*>
+P41,"CPU <*> irqstacks, hard=<*> soft=<*>"
+P42,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>
+P43,"listening on <*> interface <*>, <*>.<*>.<*>.<*>#<*>"
+P44,Initializing CPU#<*>
+P45,Version <*>.<*>.<*> Starting
+P46,ttloop: read: Connection reset by peer
+P47,Configuration file /etc/smartd.conf parsed.
+P48,Linux version <*>.<*>.<*>-<*>.<*> (bhcompile@bugs.build.redhat.com) (gcc version <*>.<*>.<*> (Red Hat Linux <*>.<*>.<*>-<*>)) #<*> Sat May <*> :<*>:<*> EDT <*>
+P49,messagebus <*> 
+P50,ttloop: read: Connection timed out
+P51,SELinux: Completing initialization.
+P52,<*>-fs: write access will be enabled during recovery.
+P53,session closed for user <*>
+P54,crond <*> succeeded
+P55,mapped <*>/<*> trampoline to <*>.
+P56,file descriptor of service comsat has been closed
+P57,PCI: Using configuration type <*>
+P58,Bluetooth: RFCOMM <*> 
+P59,"SELinux: initialized (dev , type <*>_<*>), uses genfs_contexts _/|\\_ SELinux: initialized (dev , type <*>), uses genfs_contexts"
+P60,authentication failure; logname=test uid=<*> euid=<*> tty= ruser= rhost= user=test
+P61,"Warning! Could not relabel with system_u:object_r:devpts_t, not relabeling."
+P62,POSIX conformance testing by UNIFIX
+P63,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>:<*>:<*>.<*>
+P64,"serio: <*> KBD port at <*>,<*> irq <*>"
+P65,htt startup succeeded
+P66,open(/dev/pts/<*>): No such file or directory
+P67,Failure registering capabilities with the kernel
+P68,"SELinux: initialized (dev , type eventpollfs), uses genfs_contexts"
+P69,starting BIND <*>.<*>.<*> -u named -t /var/named/chroot
+P70,Charge: * * * (-<*>% unknown)
+P71,"klogd <*>.<*>.<*>, log source = /proc/kmsg started."
+P72,VFS: Disk quotas dquot_<*>.<*>.<*>
+P73,"Total HugeTLB memory allocated, <*>"
+P74,Exiting
+P75,BIOS-provided physical RAM map:
+P76,Using tsc for high-res timesource
+P77,using <*> CPU
+P78,Adding <*> swap on /dev/<*>. Priority:-<*> extents:<*>
+P79,audit(<*>.<*>:<*>): initialized
+P80,klogd <*> succeeded
+P81,selinux_register_security: Registering secondary module capability
+P82,Initializing IPsec netlink socket
+P83,wall: user test broadcasted <*> lines (<*> chars)
+P84,Enabling fast FPU save and restore... done.
+P85,"SELinux: initialized (dev , type rootfs), uses genfs_contexts"
+P86,"Device: /dev/hda, is SMART capable. Adding to ""monitor"" list."
+P87,connect from <*>-<*>-<*>-<*>-cable.canals.ro
+P88,"SELinux: initialized (dev , type usbdevfs), uses genfs_contexts"
+P89,VFS: Mounted root (<*> filesystem).
+P90,NET: Registered protocol family <*>
+P91,smartd <*> 
+P92,"SELinux: initialized (dev , type pipefs), uses task SIDs"
+P93,shutting down _/|\\_ shutting down <*> 
+P94,Connection from <*>.<*>.<*>.<*> on illegal port
+P95,portmap <*> 
+P96,Home page is http://smartmontools.sourceforge.net/
+P97,service(sshd) ignoring max retries; <*> > <*>
+P98,audit(<*>.<*>:<*>): item=<*> name=/<*>//<*>/<*>:<*>/<*>:<*>:<*>.<*>/<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>.<*>.<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/dev/<*>/<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/dev/<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/<*>/<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/<*>/<*>/<*>.<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/<*>/<*>/<*>:<*>:<*>.<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/.<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*>/dev/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/<*>/<*> inode=<*> dev=<*>:<*> _/|\\_ audit(<*>.<*>:<*>): item=<*> name=/dev/<*> inode=<*> dev=<*>:<*>
+P99,Unable to get command line from client!
+P100,<*> LOWMEM available.
+P101,Disabled Privacy Extensions on device <*>(lo)
+P102,agpgart: Detected an Intel <*> E Chipset.
+P103,<*>-fs: <*>: <*> orphan inodes deleted
+P104,ACPI: Interpreter disabled.
+P105,"<*>: page allocation failure. order:<*>, mode:<*>"
+P106,connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> () at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>) at <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>.<*>.at) at <*> :<*>:<*> 
+P107,privoxy <*> succeeded
+P108,Intel machine check architecture supported.
+P109,<*> shutdown <*>
+P110,microcode: <*> already at revision <*> (current=<*>)
+P111,"md: md driver <*>.<*>.<*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"
+P112,printk: <*> messages suppressed.
+P113,CPU: Intel Pentium III (Coppermine) stepping <*>
+P114,ntpd <*> 
+P115,"SELinux: initialized (dev , type devpts), uses transition SIDs"
+P116,"CPU: <*> I cache: <*>, <*> D cache: <*>"
+P117,<*> startup succeeded
+P118,kernel time sync <*> 
+P119,Couldn't authenticate user
+P120,Real Time Clock Driver <*>.<*>
+P121,smartd has fork()ed into background mode. New PID=<*>.
+P122,session opened for user <*> by <*>(uid=<*>) _/|\\_ session opened for user <*> by (uid=<*>)
+P123,hda: max request size: <*>
+P124,Transparent bridge - <*>:<*>:<*>.<*>
+P125,ICH: chipset revision <*>
+P126,snmpd <*> succeeded
+P127,process `syslogd' is using obsolete setsockopt SO_BSDCOMPAT
+P128,sendmail <*> 
+P129,precision = <*>.<*> usec
+P130,BIOS-<*>: <*> - <*> (reserved)
+P131,[<<*>>] journal_start+<*>/<*> [jbd]
+P132,"SELinux: initialized (dev , type selinuxfs), uses genfs_contexts"
+P133,RAMDISK: Compressed image found at block <*>
+P134,Jul <*> :<*>:<*> Privoxy(-<*>) Info: loading configuration file '/etc/privoxy/config':
+P135,syslogd <*> succeeded
+P136,inserting floppy driver for <*>.<*>.<*>-<*>.<*>
+P137,"SELinux: initialized (dev , type tmpfs), uses transition SIDs"
+P138,FDC <*> is a National Semiconductor <*>
+P139,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*> user=root _/|\\_ <*> authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=root
+P140,VM: killing process httpd
+P141,sdpd startup succeeded
+P142,Kernel log daemon terminating.
+P143,SELinux: Setting up existing superblocks.
+P144,Setting network parameters: succeeded
+P145,frequency initialized <*>.<*> PPM from /var/lib/ntp/drift
+P146,[smux_accept] accepted fd <*> from <*>.<*>.<*>.<*>:<*>
+P147,Linux agpgart interface <*>.<*> (c) Dave Jones
+P148,<*>: Donald Becker and others. www.scyld.com/network/vortex.html
+P149,Console: colour VGA+ <*>
+P150,select reported EBADF but no bad file descriptors were found
+P151,No such internal service: services/stream - DISABLING
+P152,apmd <*> succeeded
+P153,"<*> FS on <*>, internal journal"
+P154,Checking 'hlt' instruction... OK.
+P155,You can enable it with acpi=force
+P156,running
+P157,input: AT Translated Set <*> keyboard on <*>/<*>
+P158,getpeername (ftpd): Transport endpoint is not connected
+P159,bind failed (Address already in use (errno = <*>)). service = telnet
+P160,ACPI disabled because your bios is from <*> and too old
+P161,"There is already a security framework initialized, register_security failed."
+P162,SCSI subsystem initialized
+P163,<*> device node '/udev/<*>'
+P164,"PCI: PCI BIOS revision <*>.<*> entry at <*>, last bus=<*>"
+P165,Floppy drive(s): <*> is <*>.<*>
+P166,xfs <*> 
+P167,"Device: /dev/hda, opened"
+P168,agpgart: AGP aperture is <*> @ <*>
+P169,Master rebooting...
+P170,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*> user=<*> _/|\\_ <*> authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*> user=<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> user=<*> _/|\\_ <*> authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> user=<*>
+P171,User unknown timed out after <*> seconds at <*> :<*>:<*> 
+P172,audit(<*>.<*>:<*>): syscall=<*> exit=<*> =<*> =<*> =<*> =<*> items=<*> pid=<*> loginuid=-<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*>
+P173,Using cfq io scheduler
+P174,Initializing random number generator: succeeded
+P175,SELinux: Starting in permissive mode
+P176,input: ImPS/<*> Logitech Wheel Mouse on <*>/<*>
+P177,"SELinux: initialized (dev , type hugetlbfs), not configured for labeling"
+P178,"Version <*>.<*>.<*> (APM BIOS <*>.<*>, Linux driver <*>.<*>)"
+P179,Mounting other filesystems: succeeded
+P180,Switching to runlevel: <*>
+P181,Freeing <*> memory: <*> freed
+P182,SELinux: <*> netfilter hooks
+P183,Linux Plug and Play Support <*>.<*> (c) Adam Belay
+P184,named <*> 
+P185,Service telnet failed to start and is deactivated.
+P186,Jun <*> :<*>:<*> Privoxy(-<*>) Info: loading configuration file '/etc/privoxy/config':
+P187,Dec <*> :<*>:<*> Privoxy(-<*>) Info: loading configuration file '/etc/privoxy/config':
+P188,zapping low mappings.
+P189,password changed for test
+P190,"<*>: PC-style at <*> (<*>) [PCSPP,TRISTATE,EPP]"
+P191,Bluetooth: RFCOMM TTY layer initialized
+P192,spamd <*> succeeded
+P193,Squid Parent: child process <*> 
+P194,"SELinux: initialized (dev , type sockfs), uses task SIDs"
+P195,RAMDISK driver initialized: <*> RAM disks of <*> size <*> blocksize
+P196,bad username [] _/|\\_ bad username [ ] _/|\\_ bad username [<*>]
+P197,"Serial: <*>/<*> driver $Revision: <*>.<*> $ <*> ports, IRQ sharing enabled"
+P198,"pam_check_access failed, user does not have proper access: system_u:system_r:kernel_t"
+P199,"SELinux: initialized (dev , type bdev), uses genfs_contexts"
+P200,"serio: <*> AUX port at <*>,<*> irq <*>"
+P201,gpm <*> succeeded
+P202,ACPI: ACPI tables contain no PCI IRQ routing entries
+P203,rsync error: error in rsync protocol data stream (code <*>) at io.c(<*>)
+P204,"<*> at <*>-<*>,<*>  _/|\\_ <*> -<*> at <*>-<*>, <*> , <*>"
+P205,"SELinux: initialized (dev , type ramfs), uses genfs_contexts"
+P206,<*>-fs: mounted filesystem with ordered data mode.
+P207,"security: <*> users, <*> roles, <*> types, <*> bools"
+P208,Starting <*> : _/|\\_ Starting <*>: <*>
+P209,NET-SNMP version <*>.<*>.<*>
+P210,atd <*> succeeded
+P211,warning: can't get client address: Connection reset by peer
+P212,smartd received signal <*>: Terminated
+P213,<*> over <*> tunneling driver
+P214,ALERT exited abnormally with [<*>]
+P215,hda: status timeout: status=<*> { Busy }
+P216,mice: PS/<*> mouse device common for all mice
+P217,cupsd <*> succeeded
+P218,PCI: Probing PCI hardware _/|\\_ PCI: Probing PCI hardware <*> 
+P219,audit: initializing netlink socket (disabled)
+P220,"IP: routing cache hash table of <*> buckets, <*>"
+P221,<*> listening on <*>.<*>.<*>.<*> _/|\\_ <*> .<*>.<*> listening on <*> 
+P222,Capability LSM initialized
+P223,ide-floppy driver <*>.<*>.newide
+P224,ICH: IDE controller at PCI slot <*>:<*>:<*>.<*>
+P225,xinetd Version <*>.<*>.<*> started with libwrap loadavg options compiled in.
+P226,authentication failure; logname=LOGIN uid=<*> euid=<*> tty=<*> ruser= rhost= user=root
+P227,<*>: Auto-detected intellimouse PS/<*>
+P228,"Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+P229,automount startup succeeded
+P230,"SELinux: initialized (dev , type sysfs), uses genfs_contexts"
+P231,cdrom: open failed.
+P232,Monitoring <*> ATA and <*> SCSI devices
+P233,agpgart: Maximum main memory to use for agp memory: <*>
+P234,<*>: irq <*> detected
+P235,Out of Memory: Killed process <*> (httpd).
+P236,Kernel command line: ro root=LABEL=/ rhgb quiet
+P237,Sep <*> :<*>:<*> Privoxy(-<*>) Info: loading configuration file '/etc/privoxy/config':
+P238,<*>: registered new <*>  _/|\\_ <*> :<*>:<*>: new <*> registered<*> 
+P239,"configure: keyword ""authenticate"" unknown, line ignored"
+P240,audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=<*>:<*>_r:<*>_t tclass=<*>_<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=dev dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_dev_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*>/<*> name=<*>.<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*>.<*>.<*> dev=<*> ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_<*>_<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:system_r:kernel_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*>_name } for pid=<*> exe=/<*>/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=.<*> dev=<*> ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*>_<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev=<*> ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*>_<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=<*>:<*>:<*>.<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*>_<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev=<*> ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*>_<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_dev_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=exe dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=<*>_u:<*>_r:<*>_t tclass=<*>_<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*>.<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=<*>_u:<*>_r:<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=/ dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev=<*> ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=<*>.<*>.<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*>_<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_<*>_t tclass=<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*> name=<*> dev=<*> ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_<*>_t tclass=<*>_<*> _/|\\_ audit(<*>.<*>:<*>): avc: denied { <*> } for pid=<*> exe=/<*>/<*>/<*> name=<*> dev= ino=<*> scontext=system_u:system_r:kernel_t tcontext=system_u:<*>_r:<*>_t tclass=<*>_<*>
+P241,ip_tables: (C) <*>-<*> Netfilter core team
+P242,Initializing Cryptographic API
+P243,Detected <*>.<*> MHz processor.
+P244,USB Universal Host Controller Interface driver <*>.<*>
+P245,ACPI: Subsystem revision <*>
+P246,Calibrating delay loop... <*>.<*> BogoMIPS
+P247,agpgart: detected <*> dedicated video ram.
+P248,rsync: connection unexpectedly closed (<*> bytes read so far)
+P249,Security Scaffold <*>.<*>.<*> initialized
+P250,"Caught signal <*>, un-registering and exiting."
+P251,Connecting at fd <*>
+P252,SELinux: Disabled at runtime.
+P253,isapnp: No Plug & Play device found
+P254,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Software caused connection abort _/|\\_ Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>): Software caused connection abort
+P255,<*>: invalid character <*> in login name
+P256,Stopping <*>: <*> _/|\\_ Stopping <*>:
+P257,Started working: <*> available services
+P258,"synchronized to LOCAL(<*>), stratum=<*>"
+P259,PCI: Found IRQ <*> for device <*>:<*>:<*>.<*>
+P260,Built <*> zonelists
+P261,irqbalance startup succeeded
+P262,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Permission denied in replay cache code
+P263,couldn't add command channel <*>#<*>: not found _/|\\_ couldn't add command channel ::<*>#<*>: not found
+P264,httpd <*> succeeded
+P265,"Device: /dev/hda, found in smartd database."
+P266,notify question section contains no SOA
+P267,anacron startup succeeded
+P268,checking if image is initramfs...it isn't (no cpio magic); looks like an initrd
+P269,"hda: <*> sectors (<*> MB) w/<*> Cache, CHS=<*>/<*>/<*>, UDMA(<*>)"
+P270,"ANONYMOUS FTP LOGIN FROM <*>.<*>.<*>.<*>, <*>.<*>.<*>-<*>.<*>.<*>.<*> (<*>) _/|\\_ ANONYMOUS FTP LOGIN FROM <*>.<*>.<*>.<*>, <*>-<*>.<*>.<*>.<*>.<*>.<*> (<*>.<*>)"
+P271,Opened configuration file /etc/smartd.conf
+P272,hda: dma_timer_expiry: dma status == <*>
+P273,"FAILED LOGIN <*> FROM (null) FOR , Authentication failure"
+P274,Out of Memory: Killed process <*> (<*>). _/|\\_ Out of Memory: Killed process <*> (<*>.<*>.<*>). _/|\\_ Out of Memory: Killed process <*> (<*>.<*>).
+P275,xinetd <*> succeeded
+P276,Started gpm successfully. Entered daemon mode.
+P277,<*> hash table entries: <*> (order <*>: <*> bytes) _/|\\_ <*> hash table entries: <*> (order <*> bytes) _/|\\_ <*> hash table entries: <*> (order: <*> bytes)
+P278,Oct <*> :<*>:<*> Privoxy(-<*>) Info: loading configuration file '/etc/privoxy/config':
+P279,Uniform <*>-<*> driver Revision: <*>.<*> _/|\\_ Uniform <*>-<*> -<*> driver Revision: <*>.<*>
+P280,<*>+<*> records <*>
+P281,ide: Assuming <*> system bus speed for PIO modes; override with idebus=xx
+P282,Enabling unmasked SIMD FPU exception support... done.
+P283,
+P284,restart.
+P285,SELinux:  Initializing.
+P286,CPU: L2 cache: 256K
+P287,started.
+P288,restart.
+P289,SELinux:  Initializing.
+P290,CPU: L2 cache: 256K
+P291,kernel.core_uses_pid = 1
+P292,started.
+P293,restart.
+P294,restart.
+P295,restart.
+P296,restart.
+P297,restart.
+P298,restart.
+P299,restart.
+P300,restart.
+P301,SELinux:  Initializing.
+P302,CPU: L2 cache: 256K
+P303,kernel.core_uses_pid = 1
+P304,started.
+P305,restart.
+P306,restart.
+P307,restart.
+P308,restart.
+P309,restart.
+P310,restart.
+P311,restart.
+P312,restart.
+P313,restart.
+P314,SELinux:  Initializing.
+P315,CPU: L2 cache: 256K
+P316,started.
+P317,restart.
+P318,restart.
+P319,SELinux:  Initializing.
+P320,CPU: L2 cache: 256K
+P321,started.
+P322,restart.
+P323,restart.
+P324,restart.
+P325,restart.
+P326,restart.
+P327,SELinux:  Initializing.
+P328,CPU: L2 cache: 256K
+P329,net.ipv4.conf.default.rp_filter = 1
+P330,kernel.sysrq = 0
+P331,kernel.core_uses_pid = 1
+P332,started.
+P333,restart.
+P334,restart.
+P335,restart.
+P336,restart.
+P337,[<0212ebf3>] __alloc_pages+0x274/0x281
+P338,[<0213d341>] read_swap_cache_async+0x41/0x84
+P339,[<02135dee>] swapin_readahead+0x2c/0x47
+P340,[<02135e66>] do_swap_page+0x5d/0x1f9
+P341,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P342,[<02114537>] do_page_fault+0x12f/0x446
+P343,[<0210737b>] do_IRQ+0x15d/0x169
+P344,[<0227ecc1>] schedule+0x3ed/0x44d
+P345,[<0215242b>] dput+0x12c/0x13a
+P346,[<02114408>] do_page_fault+0x0/0x446
+P347,[<0212ebf3>] __alloc_pages+0x274/0x281
+P348,[<0213d341>] read_swap_cache_async+0x41/0x84
+P349,[<02135e6d>] do_swap_page+0x64/0x1f9
+P350,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P351,[<02114537>] do_page_fault+0x12f/0x446
+P352,[<0210737b>] do_IRQ+0x15d/0x169
+P353,[<0227ecc1>] schedule+0x3ed/0x44d
+P354,[<0215242b>] dput+0x12c/0x13a
+P355,[<02114408>] do_page_fault+0x0/0x446
+P356,[<0212ebf3>] __alloc_pages+0x274/0x281
+P357,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P358,[<0212c71b>] filemap_nopage+0x119/0x26d
+P359,[<021361c7>] do_no_page+0xa1/0x235
+P360,[<02135fdc>] do_swap_page+0x1d3/0x1f9
+P361,[<0213647b>] handle_mm_fault+0x71/0xe2
+P362,[<02114537>] do_page_fault+0x12f/0x446
+P363,[<02135342>] follow_page+0xda/0xe5
+P364,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P365,[<0227ecc1>] schedule+0x3ed/0x44d
+P366,[<02114408>] do_page_fault+0x0/0x446
+P367,[<0212ebf3>] __alloc_pages+0x274/0x281
+P368,[<0213d341>] read_swap_cache_async+0x41/0x84
+P369,[<02135dee>] swapin_readahead+0x2c/0x47
+P370,[<02135e66>] do_swap_page+0x5d/0x1f9
+P371,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P372,[<02114537>] do_page_fault+0x12f/0x446
+P373,[<02135342>] follow_page+0xda/0xe5
+P374,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P375,[<0227ecc1>] schedule+0x3ed/0x44d
+P376,[<02114408>] do_page_fault+0x0/0x446
+P377,[<0212ebf3>] __alloc_pages+0x274/0x281
+P378,[<0213d341>] read_swap_cache_async+0x41/0x84
+P379,[<02135e6d>] do_swap_page+0x64/0x1f9
+P380,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P381,[<02114537>] do_page_fault+0x12f/0x446
+P382,[<02135342>] follow_page+0xda/0xe5
+P383,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P384,[<0227ecc1>] schedule+0x3ed/0x44d
+P385,[<02114408>] do_page_fault+0x0/0x446
+P386,[<0212ebf3>] __alloc_pages+0x274/0x281
+P387,[<0212bd04>] find_or_create_page+0x39/0x70
+P388,[<02142ed7>] grow_dev_page+0x27/0xc3
+P389,[<02143014>] __getblk_slow+0xa1/0xcb
+P390,[<0214328d>] __getblk+0x25/0x2b
+P391,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P392,[<0212db65>] mempool_alloc+0x5d/0xf6
+P393,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P394,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P395,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P396,[<02158800>] __mark_inode_dirty+0x20/0xca
+P397,[<0215456f>] inode_update_time+0x8e/0x96
+P398,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P399,[<021c8bda>] vt_console_print+0x64/0x28f
+P400,[<021288cf>] __print_symbol+0x110/0x121
+P401,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P402,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P403,[<02141447>] do_sync_write+0x68/0x9d
+P404,[<021c8b76>] vt_console_print+0x0/0x28f
+P405,[<02118726>] __call_console_drivers+0x36/0x42
+P406,[<021189cd>] printk+0x106/0x113
+P407,[<021060c2>] show_trace+0x92/0x97
+P408,[<02106159>] dump_stack+0x11/0x13
+P409,[<02129a6c>] do_acct_process+0x283/0x297
+P410,[<02129a95>] acct_process+0x15/0x1f
+P411,[<02119ccc>] do_exit+0x9f/0x2e3
+P412,[<0211476a>] do_page_fault+0x362/0x446
+P413,[<02135342>] follow_page+0xda/0xe5
+P414,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P415,[<0227ecc1>] schedule+0x3ed/0x44d
+P416,[<02114408>] do_page_fault+0x0/0x446
+P417,[<0212ebf3>] __alloc_pages+0x274/0x281
+P418,[<0213d341>] read_swap_cache_async+0x41/0x84
+P419,[<02135dee>] swapin_readahead+0x2c/0x47
+P420,[<02135e66>] do_swap_page+0x5d/0x1f9
+P421,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P422,[<02114537>] do_page_fault+0x12f/0x446
+P423,[<0211c38d>] proc_dointvec+0x11/0x15
+P424,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36
+P425,[<0211bdc5>] do_rw_proc+0x79/0x8d
+P426,[<02142d47>] invalidate_inode_buffers+0x9/0x33
+P427,[<02114408>] do_page_fault+0x0/0x446
+P428,[<0227e913>] schedule+0x3f/0x44d
+P429,[<0215242b>] dput+0x12c/0x13a
+P430,[<02114408>] do_page_fault+0x0/0x446
+P431,[<0212ebf3>] __alloc_pages+0x274/0x281
+P432,[<0213d341>] read_swap_cache_async+0x41/0x84
+P433,[<02135e6d>] do_swap_page+0x64/0x1f9
+P434,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P435,[<02114537>] do_page_fault+0x12f/0x446
+P436,[<0211c38d>] proc_dointvec+0x11/0x15
+P437,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36
+P438,[<0211bdc5>] do_rw_proc+0x79/0x8d
+P439,[<02142d47>] invalidate_inode_buffers+0x9/0x33
+P440,[<02114408>] do_page_fault+0x0/0x446
+P441,[<0227e913>] schedule+0x3f/0x44d
+P442,[<0215242b>] dput+0x12c/0x13a
+P443,[<02114408>] do_page_fault+0x0/0x446
+P444,[<0212ebf3>] __alloc_pages+0x274/0x281
+P445,[<0212d1de>] generic_file_aio_write_nolock+0x4fe/0x84e
+P446,[<02115f01>] __wake_up+0xe/0x16
+P447,[<021288cf>] __print_symbol+0x110/0x121
+P448,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P449,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P450,[<02141447>] do_sync_write+0x68/0x9d
+P451,[<02115ed2>] __wake_up_common+0x2f/0x50
+P452,[<02115f01>] __wake_up+0xe/0x16
+P453,[<021189cd>] printk+0x106/0x113
+P454,[<021060c2>] show_trace+0x92/0x97
+P455,[<02106159>] dump_stack+0x11/0x13
+P456,[<02129a6c>] do_acct_process+0x283/0x297
+P457,[<02129a95>] acct_process+0x15/0x1f
+P458,[<02119ccc>] do_exit+0x9f/0x2e3
+P459,[<0211476a>] do_page_fault+0x362/0x446
+P460,[<0211c38d>] proc_dointvec+0x11/0x15
+P461,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36
+P462,[<0211bdc5>] do_rw_proc+0x79/0x8d
+P463,[<02142d47>] invalidate_inode_buffers+0x9/0x33
+P464,[<02114408>] do_page_fault+0x0/0x446
+P465,[<0227e913>] schedule+0x3f/0x44d
+P466,[<0215242b>] dput+0x12c/0x13a
+P467,[<02114408>] do_page_fault+0x0/0x446
+P468,[<0212ebf3>] __alloc_pages+0x274/0x281
+P469,[<0213d341>] read_swap_cache_async+0x41/0x84
+P470,[<02135dee>] swapin_readahead+0x2c/0x47
+P471,[<02135e66>] do_swap_page+0x5d/0x1f9
+P472,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P473,[<02114537>] do_page_fault+0x12f/0x446
+P474,[<0213f423>] put_user_size+0x29/0x2d
+P475,[<0227ecc1>] schedule+0x3ed/0x44d
+P476,[<02114408>] do_page_fault+0x0/0x446
+P477,[<0212ebf3>] __alloc_pages+0x274/0x281
+P478,[<0213d341>] read_swap_cache_async+0x41/0x84
+P479,[<02135e6d>] do_swap_page+0x64/0x1f9
+P480,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P481,[<02114537>] do_page_fault+0x12f/0x446
+P482,[<0213f423>] put_user_size+0x29/0x2d
+P483,[<0227ecc1>] schedule+0x3ed/0x44d
+P484,[<02114408>] do_page_fault+0x0/0x446
+P485,[<0212ebf3>] __alloc_pages+0x274/0x281
+P486,[<0212bd04>] find_or_create_page+0x39/0x70
+P487,[<02142ed7>] grow_dev_page+0x27/0xc3
+P488,[<02143014>] __getblk_slow+0xa1/0xcb
+P489,[<0214328d>] __getblk+0x25/0x2b
+P490,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P491,[<0212db65>] mempool_alloc+0x5d/0xf6
+P492,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P493,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P494,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P495,[<02158800>] __mark_inode_dirty+0x20/0xca
+P496,[<0215456f>] inode_update_time+0x8e/0x96
+P497,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P498,[<021c8bda>] vt_console_print+0x64/0x28f
+P499,[<02115f01>] __wake_up+0xe/0x16
+P500,[<021288cf>] __print_symbol+0x110/0x121
+P501,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P502,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P503,[<02141447>] do_sync_write+0x68/0x9d
+P504,[<021295e4>] check_free_space+0x1b5/0x1cb
+P505,[<0210737b>] do_IRQ+0x15d/0x169
+P506,[<02129a6c>] do_acct_process+0x283/0x297
+P507,[<02129a95>] acct_process+0x15/0x1f
+P508,[<02119ccc>] do_exit+0x9f/0x2e3
+P509,[<0211476a>] do_page_fault+0x362/0x446
+P510,[<0213f423>] put_user_size+0x29/0x2d
+P511,[<0227ecc1>] schedule+0x3ed/0x44d
+P512,[<02114408>] do_page_fault+0x0/0x446
+P513,[<0212ebf3>] __alloc_pages+0x274/0x281
+P514,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P515,[<0212c71b>] filemap_nopage+0x119/0x26d
+P516,[<021361c7>] do_no_page+0xa1/0x235
+P517,[<0213647b>] handle_mm_fault+0x71/0xe2
+P518,[<02114537>] do_page_fault+0x12f/0x446
+P519,[<0213f423>] put_user_size+0x29/0x2d
+P520,[<0227ecc1>] schedule+0x3ed/0x44d
+P521,[<02114408>] do_page_fault+0x0/0x446
+P522,[<0212ebf3>] __alloc_pages+0x274/0x281
+P523,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P524,[<0212c71b>] filemap_nopage+0x119/0x26d
+P525,[<021361c7>] do_no_page+0xa1/0x235
+P526,[<0213647b>] handle_mm_fault+0x71/0xe2
+P527,[<02114537>] do_page_fault+0x12f/0x446
+P528,[<0213f423>] put_user_size+0x29/0x2d
+P529,[<0227ecc1>] schedule+0x3ed/0x44d
+P530,[<02114408>] do_page_fault+0x0/0x446
+P531,[<0212ebf3>] __alloc_pages+0x274/0x281
+P532,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P533,[<0212c784>] filemap_nopage+0x182/0x26d
+P534,[<021361c7>] do_no_page+0xa1/0x235
+P535,[<0213647b>] handle_mm_fault+0x71/0xe2
+P536,[<02114537>] do_page_fault+0x12f/0x446
+P537,[<0213f423>] put_user_size+0x29/0x2d
+P538,[<0227ecc1>] schedule+0x3ed/0x44d
+P539,[<02114408>] do_page_fault+0x0/0x446
+P540,[<0212ebf3>] __alloc_pages+0x274/0x281
+P541,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P542,[<0212c71b>] filemap_nopage+0x119/0x26d
+P543,[<021361c7>] do_no_page+0xa1/0x235
+P544,[<0213647b>] handle_mm_fault+0x71/0xe2
+P545,[<02114537>] do_page_fault+0x12f/0x446
+P546,[<0213f423>] put_user_size+0x29/0x2d
+P547,[<0227ecc1>] schedule+0x3ed/0x44d
+P548,[<02114408>] do_page_fault+0x0/0x446
+P549,[<0212ebf3>] __alloc_pages+0x274/0x281
+P550,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P551,[<0212c71b>] filemap_nopage+0x119/0x26d
+P552,[<021361c7>] do_no_page+0xa1/0x235
+P553,[<0213647b>] handle_mm_fault+0x71/0xe2
+P554,[<02114537>] do_page_fault+0x12f/0x446
+P555,[<02135342>] follow_page+0xda/0xe5
+P556,[<02115617>] recalc_task_prio+0x141/0x14c
+P557,[<0227ecc1>] schedule+0x3ed/0x44d
+P558,[<0210737b>] do_IRQ+0x15d/0x169
+P559,[<02114408>] do_page_fault+0x0/0x446
+P560,[<0212ebf3>] __alloc_pages+0x274/0x281
+P561,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P562,[<0212c71b>] filemap_nopage+0x119/0x26d
+P563,[<021361c7>] do_no_page+0xa1/0x235
+P564,[<021359c3>] do_wp_page+0x97/0x21c
+P565,[<0213647b>] handle_mm_fault+0x71/0xe2
+P566,[<02114537>] do_page_fault+0x12f/0x446
+P567,[<02115ed2>] __wake_up_common+0x2f/0x50
+P568,[<02135342>] follow_page+0xda/0xe5
+P569,[<02114408>] do_page_fault+0x0/0x446
+P570,[<0214201b>] __fput+0xb3/0xd1
+P571,[<02114408>] do_page_fault+0x0/0x446
+P572,[<0212ebf3>] __alloc_pages+0x274/0x281
+P573,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P574,[<0212c71b>] filemap_nopage+0x119/0x26d
+P575,[<021361c7>] do_no_page+0xa1/0x235
+P576,[<021359c3>] do_wp_page+0x97/0x21c
+P577,[<0213647b>] handle_mm_fault+0x71/0xe2
+P578,[<02114537>] do_page_fault+0x12f/0x446
+P579,[<02115ed2>] __wake_up_common+0x2f/0x50
+P580,[<02135342>] follow_page+0xda/0xe5
+P581,[<02114408>] do_page_fault+0x0/0x446
+P582,[<0214201b>] __fput+0xb3/0xd1
+P583,[<02114408>] do_page_fault+0x0/0x446
+P584,[<0212ebf3>] __alloc_pages+0x274/0x281
+P585,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P586,[<0212c71b>] filemap_nopage+0x119/0x26d
+P587,[<021361c7>] do_no_page+0xa1/0x235
+P588,[<0213647b>] handle_mm_fault+0x71/0xe2
+P589,[<02114537>] do_page_fault+0x12f/0x446
+P590,[<0213f423>] put_user_size+0x29/0x2d
+P591,[<0227ecc1>] schedule+0x3ed/0x44d
+P592,[<02114408>] do_page_fault+0x0/0x446
+P593,[<0212ebf3>] __alloc_pages+0x274/0x281
+P594,[<0213d341>] read_swap_cache_async+0x41/0x84
+P595,[<02135dee>] swapin_readahead+0x2c/0x47
+P596,[<02135e66>] do_swap_page+0x5d/0x1f9
+P597,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P598,[<02114537>] do_page_fault+0x12f/0x446
+P599,[<0213f423>] put_user_size+0x29/0x2d
+P600,[<0227ecc1>] schedule+0x3ed/0x44d
+P601,[<02114408>] do_page_fault+0x0/0x446
+P602,[<0212ebf3>] __alloc_pages+0x274/0x281
+P603,[<0213d341>] read_swap_cache_async+0x41/0x84
+P604,[<02135e6d>] do_swap_page+0x64/0x1f9
+P605,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P606,[<02114537>] do_page_fault+0x12f/0x446
+P607,[<0213f423>] put_user_size+0x29/0x2d
+P608,[<0227ecc1>] schedule+0x3ed/0x44d
+P609,[<02114408>] do_page_fault+0x0/0x446
+P610,[<0212ebf3>] __alloc_pages+0x274/0x281
+P611,[<0212bd04>] find_or_create_page+0x39/0x70
+P612,[<02142ed7>] grow_dev_page+0x27/0xc3
+P613,[<02143014>] __getblk_slow+0xa1/0xcb
+P614,[<0214328d>] __getblk+0x25/0x2b
+P615,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P616,[<0212db65>] mempool_alloc+0x5d/0xf6
+P617,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P618,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P619,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P620,[<02158800>] __mark_inode_dirty+0x20/0xca
+P621,[<0215456f>] inode_update_time+0x8e/0x96
+P622,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P623,[<021c8bda>] vt_console_print+0x64/0x28f
+P624,[<021288cf>] __print_symbol+0x110/0x121
+P625,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P626,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P627,[<02141447>] do_sync_write+0x68/0x9d
+P628,[<021c8b76>] vt_console_print+0x0/0x28f
+P629,[<02118726>] __call_console_drivers+0x36/0x42
+P630,[<021189cd>] printk+0x106/0x113
+P631,[<021060c2>] show_trace+0x92/0x97
+P632,[<02106159>] dump_stack+0x11/0x13
+P633,[<02129a6c>] do_acct_process+0x283/0x297
+P634,[<02129a95>] acct_process+0x15/0x1f
+P635,[<02119ccc>] do_exit+0x9f/0x2e3
+P636,[<0211476a>] do_page_fault+0x362/0x446
+P637,[<0213f423>] put_user_size+0x29/0x2d
+P638,[<0227ecc1>] schedule+0x3ed/0x44d
+P639,[<02114408>] do_page_fault+0x0/0x446
+P640,[<0212ebf3>] __alloc_pages+0x274/0x281
+P641,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P642,[<0212c71b>] filemap_nopage+0x119/0x26d
+P643,[<021361c7>] do_no_page+0xa1/0x235
+P644,[<0213647b>] handle_mm_fault+0x71/0xe2
+P645,[<02114537>] do_page_fault+0x12f/0x446
+P646,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P647,[<0213f423>] put_user_size+0x29/0x2d
+P648,[<021208bf>] sys_rt_sigaction+0x6b/0x80
+P649,[<0213f3d3>] get_user_size+0x30/0x57
+P650,[<02114408>] do_page_fault+0x0/0x446
+P651,[<0212ebf3>] __alloc_pages+0x274/0x281
+P652,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P653,[<0212c71b>] filemap_nopage+0x119/0x26d
+P654,[<021361c7>] do_no_page+0xa1/0x235
+P655,[<021359c3>] do_wp_page+0x97/0x21c
+P656,[<0213647b>] handle_mm_fault+0x71/0xe2
+P657,[<02114537>] do_page_fault+0x12f/0x446
+P658,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P659,[<0213f423>] put_user_size+0x29/0x2d
+P660,[<021208bf>] sys_rt_sigaction+0x6b/0x80
+P661,[<0213f3d3>] get_user_size+0x30/0x57
+P662,[<02114408>] do_page_fault+0x0/0x446
+P663,[<0212ebf3>] __alloc_pages+0x274/0x281
+P664,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P665,[<0212c784>] filemap_nopage+0x182/0x26d
+P666,[<021361c7>] do_no_page+0xa1/0x235
+P667,[<021359c3>] do_wp_page+0x97/0x21c
+P668,[<0213647b>] handle_mm_fault+0x71/0xe2
+P669,[<02114537>] do_page_fault+0x12f/0x446
+P670,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P671,[<0213f423>] put_user_size+0x29/0x2d
+P672,[<021208bf>] sys_rt_sigaction+0x6b/0x80
+P673,[<0213f3d3>] get_user_size+0x30/0x57
+P674,[<02114408>] do_page_fault+0x0/0x446
+P675,[<0212ebf3>] __alloc_pages+0x274/0x281
+P676,[<0213d341>] read_swap_cache_async+0x41/0x84
+P677,[<02135dee>] swapin_readahead+0x2c/0x47
+P678,[<02135e66>] do_swap_page+0x5d/0x1f9
+P679,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P680,[<02114537>] do_page_fault+0x12f/0x446
+P681,[<02115617>] recalc_task_prio+0x141/0x14c
+P682,[<0227ecc1>] schedule+0x3ed/0x44d
+P683,[<02114408>] do_page_fault+0x0/0x446
+P684,[<0212ebf3>] __alloc_pages+0x274/0x281
+P685,[<0213d341>] read_swap_cache_async+0x41/0x84
+P686,[<02135e6d>] do_swap_page+0x64/0x1f9
+P687,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P688,[<02114537>] do_page_fault+0x12f/0x446
+P689,[<02115617>] recalc_task_prio+0x141/0x14c
+P690,[<0227ecc1>] schedule+0x3ed/0x44d
+P691,[<02114408>] do_page_fault+0x0/0x446
+P692,[<0212ebf3>] __alloc_pages+0x274/0x281
+P693,[<0212bd04>] find_or_create_page+0x39/0x70
+P694,[<02142ed7>] grow_dev_page+0x27/0xc3
+P695,[<02143014>] __getblk_slow+0xa1/0xcb
+P696,[<0214328d>] __getblk+0x25/0x2b
+P697,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P698,[<0212db65>] mempool_alloc+0x5d/0xf6
+P699,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P700,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P701,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P702,[<02158800>] __mark_inode_dirty+0x20/0xca
+P703,[<0215456f>] inode_update_time+0x8e/0x96
+P704,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P705,[<021c8bda>] vt_console_print+0x64/0x28f
+P706,[<021288cf>] __print_symbol+0x110/0x121
+P707,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P708,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P709,[<02141447>] do_sync_write+0x68/0x9d
+P710,[<021295e4>] check_free_space+0x1b5/0x1cb
+P711,[<02106159>] dump_stack+0x11/0x13
+P712,[<02129a6c>] do_acct_process+0x283/0x297
+P713,[<02129a95>] acct_process+0x15/0x1f
+P714,[<02119ccc>] do_exit+0x9f/0x2e3
+P715,[<0211476a>] do_page_fault+0x362/0x446
+P716,[<02115617>] recalc_task_prio+0x141/0x14c
+P717,[<0227ecc1>] schedule+0x3ed/0x44d
+P718,[<02114408>] do_page_fault+0x0/0x446
+P719,[<0212ebf3>] __alloc_pages+0x274/0x281
+P720,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P721,[<0212c71b>] filemap_nopage+0x119/0x26d
+P722,[<021361c7>] do_no_page+0xa1/0x235
+P723,[<0213647b>] handle_mm_fault+0x71/0xe2
+P724,[<02114537>] do_page_fault+0x12f/0x446
+P725,[<02115ed2>] __wake_up_common+0x2f/0x50
+P726,[<02135342>] follow_page+0xda/0xe5
+P727,[<02114408>] do_page_fault+0x0/0x446
+P728,[<0227e913>] schedule+0x3f/0x44d
+P729,[<02114408>] do_page_fault+0x0/0x446
+P730,[<0212ebf3>] __alloc_pages+0x274/0x281
+P731,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P732,[<0212c71b>] filemap_nopage+0x119/0x26d
+P733,[<021361c7>] do_no_page+0xa1/0x235
+P734,[<0213647b>] handle_mm_fault+0x71/0xe2
+P735,[<02114537>] do_page_fault+0x12f/0x446
+P736,[<02115ed2>] __wake_up_common+0x2f/0x50
+P737,[<02135342>] follow_page+0xda/0xe5
+P738,[<02114408>] do_page_fault+0x0/0x446
+P739,[<0227e913>] schedule+0x3f/0x44d
+P740,[<02114408>] do_page_fault+0x0/0x446
+P741,[<0212ebf3>] __alloc_pages+0x274/0x281
+P742,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P743,[<0212c784>] filemap_nopage+0x182/0x26d
+P744,[<021361c7>] do_no_page+0xa1/0x235
+P745,[<0213647b>] handle_mm_fault+0x71/0xe2
+P746,[<02114537>] do_page_fault+0x12f/0x446
+P747,[<02115ed2>] __wake_up_common+0x2f/0x50
+P748,[<02135342>] follow_page+0xda/0xe5
+P749,[<02114408>] do_page_fault+0x0/0x446
+P750,[<0227e913>] schedule+0x3f/0x44d
+P751,[<02114408>] do_page_fault+0x0/0x446
+P752,[<0212ebf3>] __alloc_pages+0x274/0x281
+P753,[<0213d341>] read_swap_cache_async+0x41/0x84
+P754,[<02135dee>] swapin_readahead+0x2c/0x47
+P755,[<02135e66>] do_swap_page+0x5d/0x1f9
+P756,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P757,[<02114537>] do_page_fault+0x12f/0x446
+P758,[<02135342>] follow_page+0xda/0xe5
+P759,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P760,[<0213f3d3>] get_user_size+0x30/0x57
+P761,[<02114408>] do_page_fault+0x0/0x446
+P762,[<0212ebf3>] __alloc_pages+0x274/0x281
+P763,[<0213d341>] read_swap_cache_async+0x41/0x84
+P764,[<02135e6d>] do_swap_page+0x64/0x1f9
+P765,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P766,[<02114537>] do_page_fault+0x12f/0x446
+P767,[<02135342>] follow_page+0xda/0xe5
+P768,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P769,[<0213f3d3>] get_user_size+0x30/0x57
+P770,[<02114408>] do_page_fault+0x0/0x446
+P771,[<0212ebf3>] __alloc_pages+0x274/0x281
+P772,[<0212bd04>] find_or_create_page+0x39/0x70
+P773,[<02142ed7>] grow_dev_page+0x27/0xc3
+P774,[<02143014>] __getblk_slow+0xa1/0xcb
+P775,[<0214328d>] __getblk+0x25/0x2b
+P776,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P777,[<0212db65>] mempool_alloc+0x5d/0xf6
+P778,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P779,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P780,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P781,[<02158800>] __mark_inode_dirty+0x20/0xca
+P782,[<0215456f>] inode_update_time+0x8e/0x96
+P783,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P784,[<021c8bda>] vt_console_print+0x64/0x28f
+P785,[<02115f01>] __wake_up+0xe/0x16
+P786,[<021288cf>] __print_symbol+0x110/0x121
+P787,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P788,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P789,[<02141447>] do_sync_write+0x68/0x9d
+P790,[<021295e4>] check_free_space+0x1b5/0x1cb
+P791,[<02106159>] dump_stack+0x11/0x13
+P792,[<02129a6c>] do_acct_process+0x283/0x297
+P793,[<02129a95>] acct_process+0x15/0x1f
+P794,[<02119ccc>] do_exit+0x9f/0x2e3
+P795,[<0211476a>] do_page_fault+0x362/0x446
+P796,[<02135342>] follow_page+0xda/0xe5
+P797,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P798,[<0213f3d3>] get_user_size+0x30/0x57
+P799,[<02114408>] do_page_fault+0x0/0x446
+P800,[<0212ebf3>] __alloc_pages+0x274/0x281
+P801,[<0213d341>] read_swap_cache_async+0x41/0x84
+P802,[<02135dee>] swapin_readahead+0x2c/0x47
+P803,[<02135e66>] do_swap_page+0x5d/0x1f9
+P804,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P805,[<02114537>] do_page_fault+0x12f/0x446
+P806,[<0213f423>] put_user_size+0x29/0x2d
+P807,[<0227ecc1>] schedule+0x3ed/0x44d
+P808,[<02114408>] do_page_fault+0x0/0x446
+P809,[<0212ebf3>] __alloc_pages+0x274/0x281
+P810,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P811,[<0212c71b>] filemap_nopage+0x119/0x26d
+P812,[<021361c7>] do_no_page+0xa1/0x235
+P813,[<0213647b>] handle_mm_fault+0x71/0xe2
+P814,[<02114537>] do_page_fault+0x12f/0x446
+P815,[<0213f423>] put_user_size+0x29/0x2d
+P816,[<0227ecc1>] schedule+0x3ed/0x44d
+P817,[<02114408>] do_page_fault+0x0/0x446
+P818,[<0212ebf3>] __alloc_pages+0x274/0x281
+P819,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P820,[<0212c71b>] filemap_nopage+0x119/0x26d
+P821,[<021361c7>] do_no_page+0xa1/0x235
+P822,[<0213647b>] handle_mm_fault+0x71/0xe2
+P823,[<02114537>] do_page_fault+0x12f/0x446
+P824,[<0213f423>] put_user_size+0x29/0x2d
+P825,[<0227ecc1>] schedule+0x3ed/0x44d
+P826,[<02114408>] do_page_fault+0x0/0x446
+P827,[<0212ebf3>] __alloc_pages+0x274/0x281
+P828,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P829,[<0212c784>] filemap_nopage+0x182/0x26d
+P830,[<021361c7>] do_no_page+0xa1/0x235
+P831,[<0213647b>] handle_mm_fault+0x71/0xe2
+P832,[<02114537>] do_page_fault+0x12f/0x446
+P833,[<0213f423>] put_user_size+0x29/0x2d
+P834,[<0227ecc1>] schedule+0x3ed/0x44d
+P835,[<02114408>] do_page_fault+0x0/0x446
+P836,[<0212ebf3>] __alloc_pages+0x274/0x281
+P837,[<0212bd04>] find_or_create_page+0x39/0x70
+P838,[<02142ed7>] grow_dev_page+0x27/0xc3
+P839,[<02143014>] __getblk_slow+0xa1/0xcb
+P840,[<0214328d>] __getblk+0x25/0x2b
+P841,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P842,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P843,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P844,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P845,[<02158800>] __mark_inode_dirty+0x20/0xca
+P846,[<0215456f>] inode_update_time+0x8e/0x96
+P847,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P848,[<02114408>] do_page_fault+0x0/0x446
+P849,[<021287f4>] __print_symbol+0x35/0x121
+P850,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P851,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P852,[<02141447>] do_sync_write+0x68/0x9d
+P853,[<021295e4>] check_free_space+0x1b5/0x1cb
+P854,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P855,[<02129a6c>] do_acct_process+0x283/0x297
+P856,[<02129a95>] acct_process+0x15/0x1f
+P857,[<02119ccc>] do_exit+0x9f/0x2e3
+P858,[<0211476a>] do_page_fault+0x362/0x446
+P859,[<0213f423>] put_user_size+0x29/0x2d
+P860,[<0227ecc1>] schedule+0x3ed/0x44d
+P861,[<02114408>] do_page_fault+0x0/0x446
+P862,[<0212ebf3>] __alloc_pages+0x274/0x281
+P863,[<0213d341>] read_swap_cache_async+0x41/0x84
+P864,[<02135dee>] swapin_readahead+0x2c/0x47
+P865,[<02135e66>] do_swap_page+0x5d/0x1f9
+P866,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P867,[<02114537>] do_page_fault+0x12f/0x446
+P868,[<0213f423>] put_user_size+0x29/0x2d
+P869,[<02114408>] do_page_fault+0x0/0x446
+P870,[<0227e913>] schedule+0x3f/0x44d
+P871,[<02114408>] do_page_fault+0x0/0x446
+P872,[<0212ebf3>] __alloc_pages+0x274/0x281
+P873,[<0213d341>] read_swap_cache_async+0x41/0x84
+P874,[<02135e6d>] do_swap_page+0x64/0x1f9
+P875,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P876,[<02114537>] do_page_fault+0x12f/0x446
+P877,[<0213f423>] put_user_size+0x29/0x2d
+P878,[<02114408>] do_page_fault+0x0/0x446
+P879,[<0227e913>] schedule+0x3f/0x44d
+P880,[<02114408>] do_page_fault+0x0/0x446
+P881,[<0212ebf3>] __alloc_pages+0x274/0x281
+P882,[<0212bd04>] find_or_create_page+0x39/0x70
+P883,[<02142ed7>] grow_dev_page+0x27/0xc3
+P884,[<02143014>] __getblk_slow+0xa1/0xcb
+P885,[<0214328d>] __getblk+0x25/0x2b
+P886,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P887,[<0212db65>] mempool_alloc+0x5d/0xf6
+P888,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P889,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P890,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P891,[<02158800>] __mark_inode_dirty+0x20/0xca
+P892,[<0215456f>] inode_update_time+0x8e/0x96
+P893,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P894,[<021c8bda>] vt_console_print+0x64/0x28f
+P895,[<02115f01>] __wake_up+0xe/0x16
+P896,[<021288cf>] __print_symbol+0x110/0x121
+P897,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P898,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P899,[<02141447>] do_sync_write+0x68/0x9d
+P900,[<02115ed2>] __wake_up_common+0x2f/0x50
+P901,[<02115f01>] __wake_up+0xe/0x16
+P902,[<021189cd>] printk+0x106/0x113
+P903,[<021284a0>] module_text_address+0x3a/0x5d
+P904,[<021060c2>] show_trace+0x92/0x97
+P905,[<02106159>] dump_stack+0x11/0x13
+P906,[<02129a6c>] do_acct_process+0x283/0x297
+P907,[<02129a95>] acct_process+0x15/0x1f
+P908,[<02119ccc>] do_exit+0x9f/0x2e3
+P909,[<0211476a>] do_page_fault+0x362/0x446
+P910,[<0213f423>] put_user_size+0x29/0x2d
+P911,[<02114408>] do_page_fault+0x0/0x446
+P912,[<0227e913>] schedule+0x3f/0x44d
+P913,[<02114408>] do_page_fault+0x0/0x446
+P914,[<0212ebf3>] __alloc_pages+0x274/0x281
+P915,[<0213d341>] read_swap_cache_async+0x41/0x84
+P916,[<02135dee>] swapin_readahead+0x2c/0x47
+P917,[<02135e66>] do_swap_page+0x5d/0x1f9
+P918,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P919,[<02114537>] do_page_fault+0x12f/0x446
+P920,[<0213f423>] put_user_size+0x29/0x2d
+P921,[<0227ecc1>] schedule+0x3ed/0x44d
+P922,[<02114408>] do_page_fault+0x0/0x446
+P923,[<0212ebf3>] __alloc_pages+0x274/0x281
+P924,[<0213d341>] read_swap_cache_async+0x41/0x84
+P925,[<02135dee>] swapin_readahead+0x2c/0x47
+P926,[<02135e66>] do_swap_page+0x5d/0x1f9
+P927,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P928,[<02114537>] do_page_fault+0x12f/0x446
+P929,[<0213f423>] put_user_size+0x29/0x2d
+P930,[<0227ecc1>] schedule+0x3ed/0x44d
+P931,[<02114408>] do_page_fault+0x0/0x446
+P932,[<0212ebf3>] __alloc_pages+0x274/0x281
+P933,[<0213d341>] read_swap_cache_async+0x41/0x84
+P934,[<02135dee>] swapin_readahead+0x2c/0x47
+P935,[<02135e66>] do_swap_page+0x5d/0x1f9
+P936,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P937,[<02114537>] do_page_fault+0x12f/0x446
+P938,[<0213f423>] put_user_size+0x29/0x2d
+P939,[<0227ecc1>] schedule+0x3ed/0x44d
+P940,[<02114408>] do_page_fault+0x0/0x446
+P941,[<0212ebf3>] __alloc_pages+0x274/0x281
+P942,[<0213d341>] read_swap_cache_async+0x41/0x84
+P943,[<02135dee>] swapin_readahead+0x2c/0x47
+P944,[<02135e66>] do_swap_page+0x5d/0x1f9
+P945,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P946,[<02114537>] do_page_fault+0x12f/0x446
+P947,[<02115617>] recalc_task_prio+0x141/0x14c
+P948,[<0227ecc1>] schedule+0x3ed/0x44d
+P949,[<02114408>] do_page_fault+0x0/0x446
+P950,[<0212ebf3>] __alloc_pages+0x274/0x281
+P951,[<0213d341>] read_swap_cache_async+0x41/0x84
+P952,[<02135e6d>] do_swap_page+0x64/0x1f9
+P953,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P954,[<02114537>] do_page_fault+0x12f/0x446
+P955,[<02115617>] recalc_task_prio+0x141/0x14c
+P956,[<0227ecc1>] schedule+0x3ed/0x44d
+P957,[<02114408>] do_page_fault+0x0/0x446
+P958,[<0212ebf3>] __alloc_pages+0x274/0x281
+P959,[<0212bd04>] find_or_create_page+0x39/0x70
+P960,[<02142ed7>] grow_dev_page+0x27/0xc3
+P961,[<02143014>] __getblk_slow+0xa1/0xcb
+P962,[<0214328d>] __getblk+0x25/0x2b
+P963,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P964,[<0212db65>] mempool_alloc+0x5d/0xf6
+P965,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P966,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P967,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P968,[<02158800>] __mark_inode_dirty+0x20/0xca
+P969,[<0215456f>] inode_update_time+0x8e/0x96
+P970,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P971,[<021c8bda>] vt_console_print+0x64/0x28f
+P972,[<02115f01>] __wake_up+0xe/0x16
+P973,[<021288cf>] __print_symbol+0x110/0x121
+P974,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P975,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P976,[<02141447>] do_sync_write+0x68/0x9d
+P977,[<02115ed2>] __wake_up_common+0x2f/0x50
+P978,[<02115f01>] __wake_up+0xe/0x16
+P979,[<021189cd>] printk+0x106/0x113
+P980,[<021060c2>] show_trace+0x92/0x97
+P981,[<02106159>] dump_stack+0x11/0x13
+P982,[<02129a6c>] do_acct_process+0x283/0x297
+P983,[<02129a95>] acct_process+0x15/0x1f
+P984,[<02119ccc>] do_exit+0x9f/0x2e3
+P985,[<0211476a>] do_page_fault+0x362/0x446
+P986,[<02115617>] recalc_task_prio+0x141/0x14c
+P987,[<0227ecc1>] schedule+0x3ed/0x44d
+P988,[<02114408>] do_page_fault+0x0/0x446
+P989,[<0212ebf3>] __alloc_pages+0x274/0x281
+P990,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P991,[<0212c71b>] filemap_nopage+0x119/0x26d
+P992,[<021361c7>] do_no_page+0xa1/0x235
+P993,[<0213647b>] handle_mm_fault+0x71/0xe2
+P994,[<02114537>] do_page_fault+0x12f/0x446
+P995,[<0213f423>] put_user_size+0x29/0x2d
+P996,[<0227ecc1>] schedule+0x3ed/0x44d
+P997,[<0210737b>] do_IRQ+0x15d/0x169
+P998,[<02114408>] do_page_fault+0x0/0x446
+P999,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1000,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1001,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1002,[<021361c7>] do_no_page+0xa1/0x235
+P1003,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1004,[<02114537>] do_page_fault+0x12f/0x446
+P1005,[<0213f423>] put_user_size+0x29/0x2d
+P1006,[<0227ecc1>] schedule+0x3ed/0x44d
+P1007,[<0210737b>] do_IRQ+0x15d/0x169
+P1008,[<02114408>] do_page_fault+0x0/0x446
+P1009,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1010,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P1011,[<0212c784>] filemap_nopage+0x182/0x26d
+P1012,[<021361c7>] do_no_page+0xa1/0x235
+P1013,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1014,[<02114537>] do_page_fault+0x12f/0x446
+P1015,[<0213f423>] put_user_size+0x29/0x2d
+P1016,[<0227ecc1>] schedule+0x3ed/0x44d
+P1017,[<0210737b>] do_IRQ+0x15d/0x169
+P1018,[<02114408>] do_page_fault+0x0/0x446
+P1019,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1020,[<02135b2f>] do_wp_page+0x203/0x21c
+P1021,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1022,[<02135dee>] swapin_readahead+0x2c/0x47
+P1023,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1024,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1025,[<02114537>] do_page_fault+0x12f/0x446
+P1026,[<0213f423>] put_user_size+0x29/0x2d
+P1027,[<0227ecc1>] schedule+0x3ed/0x44d
+P1028,[<02114408>] do_page_fault+0x0/0x446
+P1029,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1030,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1031,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1032,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1033,[<02114537>] do_page_fault+0x12f/0x446
+P1034,[<0213f423>] put_user_size+0x29/0x2d
+P1035,[<0227ecc1>] schedule+0x3ed/0x44d
+P1036,[<02114408>] do_page_fault+0x0/0x446
+P1037,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1038,[<0212bd04>] find_or_create_page+0x39/0x70
+P1039,[<02142ed7>] grow_dev_page+0x27/0xc3
+P1040,[<02143014>] __getblk_slow+0xa1/0xcb
+P1041,[<0214328d>] __getblk+0x25/0x2b
+P1042,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P1043,[<0212db65>] mempool_alloc+0x5d/0xf6
+P1044,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P1045,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P1046,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P1047,[<02158800>] __mark_inode_dirty+0x20/0xca
+P1048,[<0215456f>] inode_update_time+0x8e/0x96
+P1049,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P1050,[<021c8bda>] vt_console_print+0x64/0x28f
+P1051,[<021288cf>] __print_symbol+0x110/0x121
+P1052,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P1053,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P1054,[<02141447>] do_sync_write+0x68/0x9d
+P1055,[<021c8b76>] vt_console_print+0x0/0x28f
+P1056,[<02118726>] __call_console_drivers+0x36/0x42
+P1057,[<021189cd>] printk+0x106/0x113
+P1058,[<021060c2>] show_trace+0x92/0x97
+P1059,[<02106159>] dump_stack+0x11/0x13
+P1060,[<02129a6c>] do_acct_process+0x283/0x297
+P1061,[<02129a95>] acct_process+0x15/0x1f
+P1062,[<02119ccc>] do_exit+0x9f/0x2e3
+P1063,[<0211476a>] do_page_fault+0x362/0x446
+P1064,[<0213f423>] put_user_size+0x29/0x2d
+P1065,[<0227ecc1>] schedule+0x3ed/0x44d
+P1066,[<02114408>] do_page_fault+0x0/0x446
+P1067,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1068,[<02135b2f>] do_wp_page+0x203/0x21c
+P1069,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1070,[<02135dee>] swapin_readahead+0x2c/0x47
+P1071,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1072,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1073,[<02114537>] do_page_fault+0x12f/0x446
+P1074,[<02115617>] recalc_task_prio+0x141/0x14c
+P1075,[<0227ecc1>] schedule+0x3ed/0x44d
+P1076,[<02114408>] do_page_fault+0x0/0x446
+P1077,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1078,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1079,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1080,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1081,[<02114537>] do_page_fault+0x12f/0x446
+P1082,[<02115617>] recalc_task_prio+0x141/0x14c
+P1083,[<0227ecc1>] schedule+0x3ed/0x44d
+P1084,[<02114408>] do_page_fault+0x0/0x446
+P1085,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1086,[<0212bd04>] find_or_create_page+0x39/0x70
+P1087,[<02142ed7>] grow_dev_page+0x27/0xc3
+P1088,[<02143014>] __getblk_slow+0xa1/0xcb
+P1089,[<0214328d>] __getblk+0x25/0x2b
+P1090,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P1091,[<0212db65>] mempool_alloc+0x5d/0xf6
+P1092,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P1093,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P1094,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P1095,[<02158800>] __mark_inode_dirty+0x20/0xca
+P1096,[<0215456f>] inode_update_time+0x8e/0x96
+P1097,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P1098,[<021c8bda>] vt_console_print+0x64/0x28f
+P1099,[<02115f01>] __wake_up+0xe/0x16
+P1100,[<021288cf>] __print_symbol+0x110/0x121
+P1101,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P1102,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P1103,[<02141447>] do_sync_write+0x68/0x9d
+P1104,[<02115ed2>] __wake_up_common+0x2f/0x50
+P1105,[<02115f01>] __wake_up+0xe/0x16
+P1106,[<021189cd>] printk+0x106/0x113
+P1107,[<021060c2>] show_trace+0x92/0x97
+P1108,[<02106159>] dump_stack+0x11/0x13
+P1109,[<02129a6c>] do_acct_process+0x283/0x297
+P1110,[<02129a95>] acct_process+0x15/0x1f
+P1111,[<02119ccc>] do_exit+0x9f/0x2e3
+P1112,[<0211476a>] do_page_fault+0x362/0x446
+P1113,[<02115617>] recalc_task_prio+0x141/0x14c
+P1114,[<0227ecc1>] schedule+0x3ed/0x44d
+P1115,[<02114408>] do_page_fault+0x0/0x446
+P1116,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1117,[<021359f7>] do_wp_page+0xcb/0x21c
+P1118,[<021364c6>] handle_mm_fault+0xbc/0xe2
+P1119,[<02114537>] do_page_fault+0x12f/0x446
+P1120,[<02135342>] follow_page+0xda/0xe5
+P1121,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P1122,[<0227ecc1>] schedule+0x3ed/0x44d
+P1123,[<02107352>] do_IRQ+0x134/0x169
+P1124,[<02114408>] do_page_fault+0x0/0x446
+P1125,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1126,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1127,[<02135dee>] swapin_readahead+0x2c/0x47
+P1128,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1129,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1130,[<02114537>] do_page_fault+0x12f/0x446
+P1131,[<0213f423>] put_user_size+0x29/0x2d
+P1132,[<0227ecc1>] schedule+0x3ed/0x44d
+P1133,[<02114408>] do_page_fault+0x0/0x446
+P1134,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1135,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1136,[<02135dee>] swapin_readahead+0x2c/0x47
+P1137,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1138,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1139,[<02114537>] do_page_fault+0x12f/0x446
+P1140,[<0213f423>] put_user_size+0x29/0x2d
+P1141,[<0227ecc1>] schedule+0x3ed/0x44d
+P1142,[<02114408>] do_page_fault+0x0/0x446
+P1143,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1144,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1145,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1146,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1147,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1148,[<02114537>] do_page_fault+0x12f/0x446
+P1149,[<0213f423>] put_user_size+0x29/0x2d
+P1150,[<0227ecc1>] schedule+0x3ed/0x44d
+P1151,[<02114408>] do_page_fault+0x0/0x446
+P1152,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1153,[<0212bd04>] find_or_create_page+0x39/0x70
+P1154,[<02142ed7>] grow_dev_page+0x27/0xc3
+P1155,[<02143014>] __getblk_slow+0xa1/0xcb
+P1156,[<0214328d>] __getblk+0x25/0x2b
+P1157,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P1158,[<0212db65>] mempool_alloc+0x5d/0xf6
+P1159,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P1160,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P1161,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P1162,[<02158800>] __mark_inode_dirty+0x20/0xca
+P1163,[<0215456f>] inode_update_time+0x8e/0x96
+P1164,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P1165,[<021c8bda>] vt_console_print+0x64/0x28f
+P1166,[<021288cf>] __print_symbol+0x110/0x121
+P1167,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P1168,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P1169,[<02141447>] do_sync_write+0x68/0x9d
+P1170,[<021c8b76>] vt_console_print+0x0/0x28f
+P1171,[<02118726>] __call_console_drivers+0x36/0x42
+P1172,[<021189cd>] printk+0x106/0x113
+P1173,[<021060c2>] show_trace+0x92/0x97
+P1174,[<02106159>] dump_stack+0x11/0x13
+P1175,[<02129a6c>] do_acct_process+0x283/0x297
+P1176,[<02129a95>] acct_process+0x15/0x1f
+P1177,[<02119ccc>] do_exit+0x9f/0x2e3
+P1178,[<0211476a>] do_page_fault+0x362/0x446
+P1179,[<0213f423>] put_user_size+0x29/0x2d
+P1180,[<0227ecc1>] schedule+0x3ed/0x44d
+P1181,[<02114408>] do_page_fault+0x0/0x446
+P1182,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1183,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1184,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1185,[<021361c7>] do_no_page+0xa1/0x235
+P1186,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1187,[<02114537>] do_page_fault+0x12f/0x446
+P1188,[<021529bb>] d_alloc+0x38/0x1b0
+P1189,[<02152b72>] d_instantiate+0x3f/0x42
+P1190,[<02135342>] follow_page+0xda/0xe5
+P1191,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P1192,[<0213f423>] put_user_size+0x29/0x2d
+P1193,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a
+P1194,[<02114408>] do_page_fault+0x0/0x446
+P1195,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1196,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1197,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1198,[<021361c7>] do_no_page+0xa1/0x235
+P1199,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1200,[<02114537>] do_page_fault+0x12f/0x446
+P1201,[<021529bb>] d_alloc+0x38/0x1b0
+P1202,[<02152b72>] d_instantiate+0x3f/0x42
+P1203,[<02135342>] follow_page+0xda/0xe5
+P1204,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P1205,[<0213f423>] put_user_size+0x29/0x2d
+P1206,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a
+P1207,[<02114408>] do_page_fault+0x0/0x446
+P1208,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1209,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P1210,[<0212c784>] filemap_nopage+0x182/0x26d
+P1211,[<021361c7>] do_no_page+0xa1/0x235
+P1212,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1213,[<02114537>] do_page_fault+0x12f/0x446
+P1214,[<021529bb>] d_alloc+0x38/0x1b0
+P1215,[<02152b72>] d_instantiate+0x3f/0x42
+P1216,[<02135342>] follow_page+0xda/0xe5
+P1217,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P1218,[<0213f423>] put_user_size+0x29/0x2d
+P1219,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a
+P1220,[<02114408>] do_page_fault+0x0/0x446
+P1221,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1222,[<0212bd04>] find_or_create_page+0x39/0x70
+P1223,[<02142ed7>] grow_dev_page+0x27/0xc3
+P1224,[<02143014>] __getblk_slow+0xa1/0xcb
+P1225,[<0214328d>] __getblk+0x25/0x2b
+P1226,[<0a8e11ed>] ext3_get_inode_loc+0x119/0x201 [ext3]
+P1227,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P1228,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P1229,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P1230,[<02158800>] __mark_inode_dirty+0x20/0xca
+P1231,[<0215456f>] inode_update_time+0x8e/0x96
+P1232,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P1233,[<02114408>] do_page_fault+0x0/0x446
+P1234,[<021287f4>] __print_symbol+0x35/0x121
+P1235,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P1236,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P1237,[<02141447>] do_sync_write+0x68/0x9d
+P1238,[<021189cd>] printk+0x106/0x113
+P1239,[<021060c2>] show_trace+0x92/0x97
+P1240,[<02106159>] dump_stack+0x11/0x13
+P1241,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1242,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P1243,[<02129a6c>] do_acct_process+0x283/0x297
+P1244,[<02221a76>] input_unregister_device+0xd/0xc1
+P1245,[<02129a95>] acct_process+0x15/0x1f
+P1246,[<02119ccc>] do_exit+0x9f/0x2e3
+P1247,[<0211476a>] do_page_fault+0x362/0x446
+P1248,[<021529bb>] d_alloc+0x38/0x1b0
+P1249,[<02152b72>] d_instantiate+0x3f/0x42
+P1250,[<02135342>] follow_page+0xda/0xe5
+P1251,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P1252,[<0213f423>] put_user_size+0x29/0x2d
+P1253,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a
+P1254,[<02114408>] do_page_fault+0x0/0x446
+P1255,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1256,[<0212bd04>] find_or_create_page+0x39/0x70
+P1257,[<02142ed7>] grow_dev_page+0x27/0xc3
+P1258,[<02143014>] __getblk_slow+0xa1/0xcb
+P1259,[<0214328d>] __getblk+0x25/0x2b
+P1260,[<0a8e11ed>] ext3_get_inode_loc+0x119/0x201 [ext3]
+P1261,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P1262,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P1263,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P1264,[<02158800>] __mark_inode_dirty+0x20/0xca
+P1265,[<0215456f>] inode_update_time+0x8e/0x96
+P1266,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P1267,[<02114408>] do_page_fault+0x0/0x446
+P1268,[<021287f4>] __print_symbol+0x35/0x121
+P1269,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P1270,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P1271,[<02141447>] do_sync_write+0x68/0x9d
+P1272,[<021189cd>] printk+0x106/0x113
+P1273,[<021060c2>] show_trace+0x92/0x97
+P1274,[<02106159>] dump_stack+0x11/0x13
+P1275,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1276,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P1277,[<02129a6c>] do_acct_process+0x283/0x297
+P1278,[<02221a76>] input_unregister_device+0xd/0xc1
+P1279,[<02129a95>] acct_process+0x15/0x1f
+P1280,[<02119ccc>] do_exit+0x9f/0x2e3
+P1281,[<0211476a>] do_page_fault+0x362/0x446
+P1282,[<021529bb>] d_alloc+0x38/0x1b0
+P1283,[<02152b72>] d_instantiate+0x3f/0x42
+P1284,[<02135342>] follow_page+0xda/0xe5
+P1285,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+P1286,[<0213f423>] put_user_size+0x29/0x2d
+P1287,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a
+P1288,[<02114408>] do_page_fault+0x0/0x446
+P1289,restart.
+P1290,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1291,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1292,[<02135dee>] swapin_readahead+0x2c/0x47
+P1293,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1294,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1295,[<02114537>] do_page_fault+0x12f/0x446
+P1296,[<02115617>] recalc_task_prio+0x141/0x14c
+P1297,[<0227ecc1>] schedule+0x3ed/0x44d
+P1298,[<02114408>] do_page_fault+0x0/0x446
+P1299,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1300,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1301,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1302,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1303,[<02114537>] do_page_fault+0x12f/0x446
+P1304,[<02115617>] recalc_task_prio+0x141/0x14c
+P1305,[<0227ecc1>] schedule+0x3ed/0x44d
+P1306,[<02114408>] do_page_fault+0x0/0x446
+P1307,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1308,[<0212bd04>] find_or_create_page+0x39/0x70
+P1309,[<02142ed7>] grow_dev_page+0x27/0xc3
+P1310,[<02143014>] __getblk_slow+0xa1/0xcb
+P1311,[<0214328d>] __getblk+0x25/0x2b
+P1312,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3]
+P1313,[<0212db65>] mempool_alloc+0x5d/0xf6
+P1314,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3]
+P1315,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3]
+P1316,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3]
+P1317,[<02158800>] __mark_inode_dirty+0x20/0xca
+P1318,[<0215456f>] inode_update_time+0x8e/0x96
+P1319,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+P1320,[<021c8bda>] vt_console_print+0x64/0x28f
+P1321,[<021288cf>] __print_symbol+0x110/0x121
+P1322,[<0212d602>] generic_file_aio_write+0x69/0x7c
+P1323,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3]
+P1324,[<02141447>] do_sync_write+0x68/0x9d
+P1325,[<021c8b76>] vt_console_print+0x0/0x28f
+P1326,[<02118726>] __call_console_drivers+0x36/0x42
+P1327,[<021189cd>] printk+0x106/0x113
+P1328,[<021060c2>] show_trace+0x92/0x97
+P1329,[<02106159>] dump_stack+0x11/0x13
+P1330,[<02129a6c>] do_acct_process+0x283/0x297
+P1331,[<02129a95>] acct_process+0x15/0x1f
+P1332,[<02119ccc>] do_exit+0x9f/0x2e3
+P1333,[<0211476a>] do_page_fault+0x362/0x446
+P1334,[<02115617>] recalc_task_prio+0x141/0x14c
+P1335,[<0227ecc1>] schedule+0x3ed/0x44d
+P1336,[<02114408>] do_page_fault+0x0/0x446
+P1337,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1338,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1339,[<02135dee>] swapin_readahead+0x2c/0x47
+P1340,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1341,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1342,[<02114537>] do_page_fault+0x12f/0x446
+P1343,[<0213f423>] put_user_size+0x29/0x2d
+P1344,[<021208bf>] sys_rt_sigaction+0x6b/0x80
+P1345,[<02114408>] do_page_fault+0x0/0x446
+P1346,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1347,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1348,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1349,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1350,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1351,[<02114537>] do_page_fault+0x12f/0x446
+P1352,[<0213f423>] put_user_size+0x29/0x2d
+P1353,[<021208bf>] sys_rt_sigaction+0x6b/0x80
+P1354,[<02114408>] do_page_fault+0x0/0x446
+P1355,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1356,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1357,[<02135dee>] swapin_readahead+0x2c/0x47
+P1358,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1359,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1360,[<02114537>] do_page_fault+0x12f/0x446
+P1361,[<02115617>] recalc_task_prio+0x141/0x14c
+P1362,[<0227ecc1>] schedule+0x3ed/0x44d
+P1363,[<02114408>] do_page_fault+0x0/0x446
+P1364,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1365,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1366,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1367,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1368,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1369,[<02114537>] do_page_fault+0x12f/0x446
+P1370,[<02115617>] recalc_task_prio+0x141/0x14c
+P1371,[<0227ecc1>] schedule+0x3ed/0x44d
+P1372,[<02114408>] do_page_fault+0x0/0x446
+P1373,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1374,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1375,[<02135dee>] swapin_readahead+0x2c/0x47
+P1376,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1377,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1378,[<02114537>] do_page_fault+0x12f/0x446
+P1379,[<02115617>] recalc_task_prio+0x141/0x14c
+P1380,[<0227ecc1>] schedule+0x3ed/0x44d
+P1381,[<02114408>] do_page_fault+0x0/0x446
+P1382,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1383,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1384,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1385,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1386,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1387,[<02114537>] do_page_fault+0x12f/0x446
+P1388,[<02115617>] recalc_task_prio+0x141/0x14c
+P1389,[<0227ecc1>] schedule+0x3ed/0x44d
+P1390,[<02114408>] do_page_fault+0x0/0x446
+P1391,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1392,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1393,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1394,[<021361c7>] do_no_page+0xa1/0x235
+P1395,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1396,[<02114537>] do_page_fault+0x12f/0x446
+P1397,[<0213f423>] put_user_size+0x29/0x2d
+P1398,[<0227ecc1>] schedule+0x3ed/0x44d
+P1399,[<02114408>] do_page_fault+0x0/0x446
+P1400,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1401,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1402,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1403,[<021361c7>] do_no_page+0xa1/0x235
+P1404,[<021359c3>] do_wp_page+0x97/0x21c
+P1405,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1406,[<02114537>] do_page_fault+0x12f/0x446
+P1407,[<02134aa0>] clear_page_tables+0x7c/0x8f
+P1408,[<02137b89>] free_pgtables+0x76/0x7b
+P1409,[<02137ca8>] unmap_region+0x80/0xaa
+P1410,[<02137c1f>] unmap_vma_list+0xe/0x17
+P1411,[<0212144c>] sys_setuid+0xdd/0xe9
+P1412,[<02114408>] do_page_fault+0x0/0x446
+P1413,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1414,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1415,[<02135dee>] swapin_readahead+0x2c/0x47
+P1416,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1417,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1418,[<02114537>] do_page_fault+0x12f/0x446
+P1419,[<0213f423>] put_user_size+0x29/0x2d
+P1420,[<0227ecc1>] schedule+0x3ed/0x44d
+P1421,[<0210737b>] do_IRQ+0x15d/0x169
+P1422,[<02114408>] do_page_fault+0x0/0x446
+P1423,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1424,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1425,[<02135e6d>] do_swap_page+0x64/0x1f9
+P1426,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1427,[<02114537>] do_page_fault+0x12f/0x446
+P1428,[<0213f423>] put_user_size+0x29/0x2d
+P1429,[<0227ecc1>] schedule+0x3ed/0x44d
+P1430,[<0210737b>] do_IRQ+0x15d/0x169
+P1431,[<02114408>] do_page_fault+0x0/0x446
+P1432,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1433,[<021359f7>] do_wp_page+0xcb/0x21c
+P1434,[<021364c6>] handle_mm_fault+0xbc/0xe2
+P1435,[<02114537>] do_page_fault+0x12f/0x446
+P1436,[<0211c38d>] proc_dointvec+0x11/0x15
+P1437,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36
+P1438,[<02115617>] recalc_task_prio+0x141/0x14c
+P1439,[<0227ecc1>] schedule+0x3ed/0x44d
+P1440,[<02107352>] do_IRQ+0x134/0x169
+P1441,[<02114408>] do_page_fault+0x0/0x446
+P1442,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1443,[<021359f7>] do_wp_page+0xcb/0x21c
+P1444,[<021364c6>] handle_mm_fault+0xbc/0xe2
+P1445,[<02114537>] do_page_fault+0x12f/0x446
+P1446,[<0213f423>] put_user_size+0x29/0x2d
+P1447,[<0227ecc1>] schedule+0x3ed/0x44d
+P1448,[<0210737b>] do_IRQ+0x15d/0x169
+P1449,[<02114408>] do_page_fault+0x0/0x446
+P1450,restart.
+P1451,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1452,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1453,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1454,[<021361c7>] do_no_page+0xa1/0x235
+P1455,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1456,[<02114537>] do_page_fault+0x12f/0x446
+P1457,[<02115617>] recalc_task_prio+0x141/0x14c
+P1458,[<0227ecc1>] schedule+0x3ed/0x44d
+P1459,[<02114408>] do_page_fault+0x0/0x446
+P1460,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1461,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1462,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1463,[<021361c7>] do_no_page+0xa1/0x235
+P1464,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1465,[<02114537>] do_page_fault+0x12f/0x446
+P1466,[<0213f423>] put_user_size+0x29/0x2d
+P1467,[<0227ecc1>] schedule+0x3ed/0x44d
+P1468,[<02114408>] do_page_fault+0x0/0x446
+P1469,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1470,[<0212c5b2>] page_cache_read+0x2a/0x7a
+P1471,[<0212c784>] filemap_nopage+0x182/0x26d
+P1472,[<021361c7>] do_no_page+0xa1/0x235
+P1473,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1474,[<02114537>] do_page_fault+0x12f/0x446
+P1475,[<0213f423>] put_user_size+0x29/0x2d
+P1476,[<0227ecc1>] schedule+0x3ed/0x44d
+P1477,[<02114408>] do_page_fault+0x0/0x446
+P1478,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1479,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+P1480,[<0212c71b>] filemap_nopage+0x119/0x26d
+P1481,[<021361c7>] do_no_page+0xa1/0x235
+P1482,[<0213647b>] handle_mm_fault+0x71/0xe2
+P1483,[<02114537>] do_page_fault+0x12f/0x446
+P1484,[<02115617>] recalc_task_prio+0x141/0x14c
+P1485,[<0227ecc1>] schedule+0x3ed/0x44d
+P1486,[<02114408>] do_page_fault+0x0/0x446
+P1487,[<0212ebf3>] __alloc_pages+0x274/0x281
+P1488,[<0213d341>] read_swap_cache_async+0x41/0x84
+P1489,[<02135dee>] swapin_readahead+0x2c/0x47
+P1490,[<02135e66>] do_swap_page+0x5d/0x1f9
+P1491,[<021364a7>] handle_mm_fault+0x9d/0xe2
+P1492,[<02114537>] do_page_fault+0x12f/0x446
+P1493,[<0213f423>] put_user_size+0x29/0x2d
+P1494,[<0227ecc1>] schedule+0x3ed/0x44d
+P1495,[<0210737b>] do_IRQ+0x15d/0x169
+P1496,[<02114408>] do_page_fault+0x0/0x446
+P1497,restart.
+P1498,SELinux:  Initializing.
+P1499,CPU: L2 cache: 256K
+P1500,net.ipv4.conf.default.rp_filter = 1
+P1501,kernel.sysrq = 0
+P1502,kernel.core_uses_pid = 1
+P1503,started.
+P1504,restart.
+P1505,restart.
+P1506,restart.
+P1507,restart.
+P1508,restart.
+P1509,restart.
+P1510,restart.
+P1511,restart.
+P1512,restart.
+P1513,SELinux:  Initializing.
+P1514,CPU: L2 cache: 256K
+P1515,started.

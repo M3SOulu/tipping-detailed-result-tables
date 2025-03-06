@@ -1,0 +1,27 @@
+EventID,EventTemplate
+P0,Failed none for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P1,Invalid user <*> from <*>.<*>.<*>.<*> _/|\\_ Invalid user user from <*>.<*>.<*>.<*>
+P2,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth]
+P3,Failed password for <*> from <*>.<*>.<*>.<*> port <*> 
+P4,Received disconnect from <*>.<*>.<*>.<*>: <*>: Closed due to user request. [preauth]
+P5,Received disconnect from <*>.<*>.<*>.<*>: <*>: disconnected by user
+P6,pam_unix(sshd:session): session opened for user fztu by (uid=<*>)
+P7,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=root _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root
+P8,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P9,Accepted password for fztu from <*>.<*>.<*>.<*> port <*> 
+P10,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P11,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root _/|\\_ PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=root
+P12,Connection closed by <*>.<*>.<*>.<*> [preauth]
+P13,reverse mapping checking getaddrinfo for <*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>-<*>-<*>.<*>-<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+P14,pam_unix(sshd:session): session closed for user fztu
+P15,Received disconnect from <*>.<*>.<*>.<*>: <*>: Bye Bye [preauth]
+P16,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: No more user authentication methods available. [preauth]
+P17,<*> Failed password for root from <*>.<*>.<*>.<*> port <*>  _/|\\_ Failed password for root from <*>.<*>.<*>.<*> port <*> 
+P18,Disconnecting: Too many authentication failures for <*> [preauth]
+P19,PAM service(sshd) ignoring max retries; <*> > <*>
+P20,input_userauth_request: invalid user <*> [preauth] _/|\\_ input_userauth_request: invalid user user [preauth]
+P21,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=sshd
+P22,pam_unix(sshd:auth): check pass; user unknown
+P23,fatal: Write failed: Connection reset by peer [preauth]
+P24,Did not receive identification string from <*>.<*>.<*>.<*>
+P25,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>

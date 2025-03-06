@@ -1,0 +1,708 @@
+EventId,EventTemplate,Occurrences
+6f97e9d4,restart.,42
+154decec,* * succeeded,375
+64d380da,"klogd 1.4.1 , log source = #spec# started.",9
+3dc2b1fb,Linux version 2.6.5-1.358 ( bhcompile@bugs.build.redhat.com ) ( gcc version 3.3.3 #spec# ( Red Hat Linux 3.3.3-7 ) ) #1 Sat May #spec# #spec# EDT #spec#,8
+de615978,BIOS-provided physical RAM map :,8
+c6519661,BIOS-e820 : #spec# - #spec# ( usable ),16
+c906fa15,BIOS-e820 : #spec# - #spec# ( reserved ),24
+6b643c98,126MB LOWMEM available.,8
+42e1da55,zapping low mappings.,8
+5f5214ca,On node #spec# totalpages : #spec#,8
+7fdecc81,"DMA zone : #spec# pages , LIFO batch : 1",8
+1666aa2d,"Normal zone : #spec# pages , LIFO batch : 6",8
+3869cfb3,"HighMem zone : #spec# pages , LIFO batch : 1",8
+90cdab58,DMI 2.3 present.,8
+9e0f0d59,ACPI disabled because your bios is from #spec# and too old,8
+2dc02775,You can enable it with acpi = force,8
+4327e26e,Built #spec# zonelists,8
+59ca4d9b,Kernel command line : ro root = LABEL = / rhgb quiet,7
+4845b66c,mapped 4G/4G trampoline to ffff3000.,8
+fe3c862d,Initializing CPU#0,8
+07ebeef1,"CPU #spec# irqstacks , hard = 02345000 soft = 02344000",8
+2e5672a6,PID hash table entries : #spec# ( order 9 : #spec# bytes ),8
+aaa0268f,Detected * MHz processor.,8
+85959353,Using tsc for high-res timesource,8
+411aa6bc,Console : colour VGA+ #spec# #spec#,8
+49d8fc47,"Memory : 125312k/129720k available ( 1540k kernel code , 3860k reserved , 599k data , 144k init , 0k highmem )",8
+8aacece2,Calibrating delay loop... * BogoMIPS,8
+3c5e98a7,Security Scaffold v1.0.0 initialized,8
+8c6f7d09,SELinux : Initializing.,8
+4615e4c7,SELinux : Starting in permissive mode,8
+f66dae63,"There is already a security framework initialized , register_security failed.",8
+a31006da,Failure registering capabilities with the kernel,8
+18ff352e,selinux_register_security : Registering secondary module capability,8
+48a493b0,Capability LSM initialized,8
+0b02f8c2,"Dentry cache hash table entries : #spec# ( order : 4 , #spec# bytes )",8
+91934ebd,"Inode-cache hash table entries : #spec# ( order : 3 , #spec# bytes )",8
+67ab6043,"Mount-cache hash table entries : #spec# ( order : 0 , #spec# bytes )",8
+8c112e82,Version 1.0.6 Starting,8
+f0876862,"CPU : L1 I cache : 16K , L1 D cache : 16K",8
+b431523b,CPU : L2 cache : 256K,8
+53650236,Intel machine check architecture supported.,8
+73f5ed67,CPU : Intel Pentium III ( Coppermine ) stepping #spec#,8
+1d8fe60a,Enabling fast FPU save and restore... done.,8
+5de744ee,Enabling unmasked SIMD FPU exception support... done.,8
+839f1643,Checking ' hlt ' instruction... OK.,8
+60696e47,POSIX conformance testing by UNIFIX,8
+36f1ef2b,NET : Registered protocol family #spec#,48
+244a6b10,"PCI : PCI BIOS revision 2.10 entry at #spec# , last bus = 1",8
+ce43ac0f,PCI : Using configuration type #spec#,8
+0e6e7460,ACPI : Subsystem revision #spec#,8
+5a5569d2,ACPI : Interpreter disabled.,8
+3b95b63d,Linux Plug and Play Support v0.97 ( c ) Adam Belay,8
+a6db653d,usbcore : registered new driver *,32
+88a43155,ACPI : ACPI tables contain no PCI IRQ routing entries,8
+c422ec15,PCI : Invalid ACPI-PCI IRQ routing table,8
+c1be0f9d,Initializing random number generator : succeeded,8
+758a79fc,PCI : Probing PCI hardware,8
+ea1fcbae,PCI : Probing PCI hardware ( bus 00 ),8
+531f9ee8,Transparent bridge - 0000 : 00 : 1e.0,8
+e9557f23,PCI : Using IRQ router PIIX/ICH [ 8086/2410 ] at 0000 : 00 : 1f.0,8
+c160d50b,apm : BIOS version 1.2 Flags #spec# ( Driver version 1.16ac ),8
+6c2261d3,audit : initializing netlink socket ( disabled ),7
+2fc8766f,audit ( * : 0 ) : initialized,8
+0072d688,"Total HugeTLB memory allocated , #spec#",8
+9768e59d,Starting * : succeeded,33
+7fd48c5f,VFS : Disk quotas dquot_6.5.1,8
+16c7e177,"Dquot-cache hash table entries : #spec# ( order 0 , #spec# bytes )",8
+ebfb0685,SELinux : * netfilter hooks,15
+2b566107,Initializing Cryptographic API,8
+ab5d2fbc,pci_hotplug : PCI Hot Plug PCI Core version : 0.5,8
+111fb21f,isapnp : Scanning for PnP cards...,8
+80cc7236,isapnp : No Plug & Play device found,8
+25be35b6,Real Time Clock Driver v1.12,8
+ad163127,Linux agpgart interface v0.100 ( c ) Dave Jones,8
+1330b5f1,agpgart : Detected an Intel i810 E Chipset.,8
+2081310c,agpgart : Maximum main memory to use for agp memory : 93M,8
+f79d640d,agpgart : detected 4MB dedicated video ram.,8
+1a06754d,HCI daemon ver 2.4 started,8
+4b328525,Setting network parameters : succeeded,7
+36c483b2,agpgart : AGP aperture is 64M @ #spec#,8
+3d3c29f0,Bringing up loopback interface : succeeded,7
+c90fa4bf,"Serial : 8250/16550 driver $Revision : 1.90 $ #spec# ports , IRQ sharing enabled",8
+fe683031,RAMDISK driver initialized : #spec# RAM disks of 16384K size #spec# blocksize,8
+15aeb893,Uniform Multi-Platform E-IDE driver Revision : 7.00alpha2,8
+151453d6,Mounting other filesystems : succeeded,8
+3d6a2143,ide : Assuming 33MHz system bus speed for PIO modes ; override with idebus = xx,8
+2e7e5ba0,ICH : IDE controller at PCI slot 0000 : 00 : 1f.1,8
+73498abe,"Version 3.0.2 ( APM BIOS 1.2 , Linux driver 1.16ac )",8
+ee026985,ICH : chipset revision #spec#,8
+cd85aeac,"ide0 : BM-DMA at #spec# - #spec# , BIOS settings : hda : DMA , hdb : pio",8
+97bddd7b,"ide1 : BM-DMA at #spec# - #spec# , BIOS settings : hdc : DMA , hdd : pio",8
+a3bd2f17,Using cfq io scheduler,8
+534fcdef,Home page is http : #spec#,8
+7e8c5e9c,"ide0 at #spec# - #spec# , #spec# on irq #spec#",8
+1803ac7f,Opened configuration file #spec#,8
+edf7ad35,Configuration file #spec# parsed.,8
+f8b116c0,"Device : #spec# , opened",8
+fd10fec1,"ide1 at #spec# - #spec# , #spec# on irq #spec#",8
+175d0f2b,Charge : * * * ( -1% unknown ),8
+8f113799,"Device : #spec# , found in smartd database.",8
+7d4d921d,hda : max request size : 128KiB,8
+0551dc2f,"Device : #spec# , is SMART capable. Adding to ""monitor"" list.",8
+677c535f,"hda : #spec# sectors ( 15020 MB ) w/1916KiB Cache , CHS = #spec# , UDMA ( 66 )",8
+cadd64fb,Monitoring #spec# ATA and #spec# SCSI devices,8
+80887ae2,smartd has fork ( ) ed into background mode. New PID = *,8
+a6c735cf,Uniform CD-ROM driver Revision : 3.20,8
+03a92354,ide-floppy driver 0.99.newide,8
+20f6f21b,mice : PS/2 mouse device common for all mice,8
+d06108fa,"serio : i8042 AUX port at #spec# , #spec# irq #spec#",8
+5fd09e3a,input : ImPS/2 Logitech Wheel Mouse on isa0060/serio1,8
+2e15669a,"serio : i8042 KBD port at #spec# , #spec# irq #spec#",8
+7a6d4b05,input : AT Translated Set #spec# keyboard on isa0060/serio0,8
+f210cda1,"md : md driver 0.90.0 MAX_MD_DEVS = 256 , MD_SB_DISKS = 27",8
+d03efaa6,"IP : routing cache hash table of #spec# buckets , 4Kbytes",8
+11018120,TCP : Hash tables configured ( established #spec# bind 16384 ),8
+3637fd61,Initializing IPsec netlink socket,8
+81156e25,checking if image is initramfs...it isn ' t ( no cpio magic ) ; looks like an initrd,8
+edba88e2,Freeing initrd memory : 186k freed,8
+55f31331,md : Autodetecting RAID arrays.,8
+f49ae7d2,md : autorun ...,8
+f273939c,RAMDISK : Compressed image found at block #spec#,8
+df82dac4,VFS : Mounted root ( ext2 filesystem ) .,8
+f1e80273,EXT3-fs : write access will be enabled during recovery.,4
+890231b0,kjournald starting. Commit interval #spec# seconds,16
+0ac94fe8,EXT3-fs : hda2 : #spec# orphan inodes deleted,1
+2d58b041,EXT3-fs : recovery complete.,4
+f30b090a,EXT3-fs : mounted filesystem with ordered data mode.,16
+1dd9dce0,Freeing unused kernel memory : 144k freed,8
+d8015f4e,SELinux : Disabled at runtime.,7
+31fff607,Disabled Privacy Extensions on device 022db720 ( lo ),8
+1da5319d,IPv6 over IPv4 tunneling driver,8
+3684cf74,USB Universal Host Controller Interface driver v2.2,8
+d1e9ce93,PCI : Found IRQ #spec# for device 0000 : 00 : 1f.2,8
+452ca0a3,uhci_hcd 0000 : 00 : 1f.2 : UHCI Host Controller,8
+ba126688,"uhci_hcd 0000 : 00 : 1f.2 : irq 11 , io base #spec#",8
+2fa86877,"uhci_hcd 0000 : 00 : 1f.2 : new USB bus registered , assigned bus number #spec#",8
+86bbd23c,"EXT3 FS on * , internal journal",8
+60ce7742,cdrom : open failed.,8
+cee68112,Adding 262072k swap on #spec# Priority : -1 extents : 1,8
+87b1ccd5,"EXT3 FS on hda1 , internal journal",8
+b081f5af,microcode : CPU0 already at revision #spec# ( current = #spec# ),8
+7b07176a,microcode : No suitable data for cpu #spec#,8
+c0faf230,"parport0 : PC-style at #spec# ( #spec# ) [ PCSPP , TRISTATE , EPP ]",16
+16f09d24,parport0 : irq #spec# detected,16
+cecc13aa,SCSI subsystem initialized,8
+5aefd8c8,inserting floppy driver for 2.6.5-1.358,8
+31f1a12a,Floppy drive ( s ) : fd0 is 1.44M,8
+ea4849c0,FDC #spec# is a National Semiconductor PC87306,8
+a7be8fee,PCI : Found IRQ #spec# for device 0000 : 01 : 0c.0,16
+886c36a1,3c59x : Donald Becker and others. www.scyld. #spec#,16
+b3ba6a43,ip_tables : ( C ) 2000-2002 Netfilter core team,17
+9de21a5e,process `syslogd ' is using obsolete setsockopt SO_BSDCOMPAT,8
+fd81f5c9,Bluetooth : Core ver 2.4,8
+5c68cb99,Bluetooth : HCI device and connection manager initialized,8
+fb09da42,Bluetooth : * socket layer initialized,16
+367dd8be,Bluetooth : L2CAP ver 2.1,8
+b7783f6f,Bluetooth : RFCOMM ver 1.2,8
+87ea764a,Bluetooth : RFCOMM TTY layer initialized,8
+9b1751bd,succeeded,16
+e561840f,No such internal service : services/stream - DISABLING,8
+14a921fe,bind failed ( Address already in use ( errno = 98 ) ) . service = telnet,8
+e7d54ca8,Service telnet failed to start and is deactivated.,8
+3f023526,xinetd Version 2.3.13 started with libwrap loadavg options compiled in.,8
+bc8101b5,Started working : #spec# available services,8
+307075d4,* #spec# #spec# Privoxy ( * ) Info : loading configuration file ' #spec# ' :,8
+8e163ad9,creating device node ' #spec# ',268
+75699e84,*** info [ startup.c ( 95 ) ] :,8
+26de28f7,Started gpm successfully. Entered daemon mode.,8
+5c6652a6,*** info [ mice.c ( 1766 ) ] :,15
+6aa855f7,imps2 : Auto-detected intellimouse PS/2,15
+7a8699ae,session opened for user htt by ( uid = 0 ),8
+c3515b88,session closed for user *,561
+2de79c1b,started.,8
+b73d961e,Starting background readahead :,8
+96529524,Squid Parent : child process #spec# started,8
+bee9a166,starting BIND 9.2.3 -u named -t #spec#,8
+88275e57,using #spec# CPU,8
+a60ff146,loading configuration from ' #spec# ',8
+ccb2db91,"listening on IPv4 interface lo , #spec# #53",8
+c72990ee,"listening on IPv4 interface eth0 , #spec# #53",8
+3cbda914,"listening on IPv4 interface eth0 : * , #spec# #53",176
+6eaf2c08,NET-SNMP version 5.1.1,8
+2abb02e3,precision = * usec,8
+f9e23b32,kernel time sync status #spec#,8
+6eb20f87,frequency initialized 0.000 PPM from #spec#,8
+734c29f9,"configure : keyword ""authenticate"" unknown , line ignored",8
+f006c94a,couldn ' t add command channel #spec# #953 : not found,8
+9f04732c,couldn ' t add command channel : : 1#953 : not found,8
+75101dcd,running,8
+c5ccb622,"rsyncd version 2.6.2 starting , listening on port #spec#",8
+ccb6eb2e,removing device node ' #spec# ',216
+33d0a321,"synchronized to LOCAL ( 0 ) , stratum = 10",8
+72d9f06c,kernel time sync disabled #spec#,8
+ca27e04f,kernel time sync enabled #spec#,8
+0e8eb195,file descriptor of service comsat has been closed,8
+e09949fa,select reported EBADF but no bad file descriptors were found,8
+b0808afd,session opened for user cyrus by ( uid = 0 ),231
+28924d6d,ALERT exited abnormally with [ 1 ],231
+1ddb9930,session opened for user news by ( uid = 0 ),231
+565b1a72,* = #spec#,8
+296af93f,check pass ; user unknown,1043
+24200c68,connection from #spec# ( ) at * * #spec# #spec# #spec#,1580
+7373d53b,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = root,1746
+6702feba,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = * user = test,382
+f05b9463,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = guest,23
+15d6cc4f,session opened for user test by ( uid = 509 ),67
+e55432b3,connection from #spec# ( mail.net-star.com.tw ) at Mon Jun #spec# #spec# #spec#,23
+e740fe2e,bad username [ ; ; ],1
+af7be2dc,Couldn ' t authenticate user,10
+5cec81bf,bad username [ ],11
+3693d20e,connection from #spec# ( host-141.STSK.macomnet.net ) at Mon Jun #spec# #spec# #spec#,23
+ea5deb07,connection from #spec# ( 251-73.35-65.tampabay.res.rr.com ) at Mon Jun #spec# #spec# #spec#,23
+2f5cb927,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 220-135-151-1.hinet-ip.hinet.net user = root,10
+109ca757,connection from #spec# ( * ) at Fri * #spec# #spec# #spec#,210
+a0ac042e,connection from #spec# ( lns-vlq-45-tou-82-252-162-81.adsl.proxad.net ) at Sat Jun #spec# #spec# #spec#,15
+b9c622b6,User unknown timed out after #spec# seconds at * * #spec# #spec# #spec#,36
+6649d554,Received SNMP packet ( s ) from #spec#,4
+bbe694f1,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = n219076184117.netvigator.com user = root,23
+53c985e6,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = troi.bluesky-technologies.com user = root,5
+09db1967,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 62-192-102-94.dsl.easynet.nl user = root,10
+09662d7e,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = csnsu.nsuok.edu user = root,10
+ebea694b,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = h64-187-1-131.gtconnect.net user = root,13
+c3663888,Authentication failed from #spec# ( #spec# ) : Permission denied in replay cache code,8
+dea5ca56,Kerberos authentication failed,25
+8b7e1c52,Authentication failed from #spec# ( #spec# ) : Software caused connection abort,17
+fb34805a,connection from #spec# ( dsl-Chn-static- #spec# .touchtelindia.net ) at Sun Jul #spec# #spec# #spec#,46
+5cf897dd,connection from #spec# ( #spec# .sh.interxion.inode.at ) at Sun Jul #spec# #spec# #spec#,23
+b6de7252,connection from #spec# ( adsl-63-197-98-106.dsl.mtry01.pacbell.net ) at Mon Jul #spec# #spec# #spec#,23
+a4389a03,session opened for user root by LOGIN ( uid = 0 ),7
+7606c9da,connection from #spec# ( host #spec# .maximumasp.com ) at Sat Jul #spec# #spec# #spec#,23
+2582f16d,connection from #spec# ( * ) at Sun Jul #spec# #spec# #spec#,147
+8ce53953,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# .nw.nuvox.net user = root,10
+bd89c516,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 202-132-40-29.adsl.ttn.net user = root,16
+1239d9a3,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = c51471f2c.cable.wanadoo.nl user = root,10
+a82d5ea6,notify question section contains no SOA,16
+0fcef860,getpeername ( ftpd ) : Transport endpoint is not connected,43
+4f9e0389,warning : can ' t get client address : Connection reset by peer,18
+cd5790e5,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = fastfood.com.pe user = root,10
+55b6256b,ttloop : peer died : Invalid or incomplete multibyte or wide character,112
+74258eb2,session opened for user root by ( uid = 0 ),15
+4f21c1fe,Stopping * : succeeded,7
+f07b1281,*** info [ client.c ( * ) ] :,3
+d1b3c13c,Connecting at fd #spec#,1
+cfdfd7cd,"FAILED LOGIN #spec# FROM ( null ) FOR , Authentication failure",4
+683379c7,connection from #spec# ( * ) at Sun Aug #spec# #spec# #spec#,89
+d25e6a45,service ( sshd ) ignoring max retries ; #spec# > #spec#,11
+d75a9ce7,ttloop : read : Connection reset by peer,10
+63879ea4,authentication failure ; logname = LOGIN uid = 0 euid = 0 tty = tty2 ruser = rhost = user = root,1
+e2266ccc,connection from #spec# ( NK210-202-115-220.adsl.static.ebtnet.net ) at Tue Aug #spec# #spec# #spec#,16
+5d7191d4,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = amanda,26
+fdbe116e,tty2 : invalid character #spec# in login name,1
+b420a63b,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = co-f-211-78-4-214.kgex.com.tw user = root,10
+12e5ba61,connection from #spec# ( * ) at Sat Aug #spec# #spec# #spec#,40
+4c8f0a44,connection from #spec# ( iis.willowtec.com ) at Tue Aug #spec# #spec# #spec#,23
+53c966cd,connection from #spec# ( host-65-162-107-196.apid.com ) at Mon Aug #spec# #spec# #spec#,23
+83b46277,connection from #spec# ( host181-115.pool8255.interbusiness.it ) at Tue Aug #spec# #spec# #spec#,23
+cb683601,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = i222-150-132-171.s02.a012.ap.plala.or.jp user = root,6
+612c4024,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = webmaster,12
+89e8c9e8,connection from #spec# ( ASte-Genev-Bois-152-1-28-68.w83-114.abo.wanadoo.fr ) at Sun Sep #spec# #spec# #spec#,22
+83bd4669,connection from #spec# ( * ) at Tue Sep #spec# #spec# #spec#,48
+ec027542,connection from #spec# ( mail2.systemsevolution.com ) at Wed Sep #spec# #spec# #spec#,46
+73cdb553,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = server.novacero.com user = test,3
+a388cd29,connection from #spec# ( ALyon-254-1-36-220.w86-193.abo.wanadoo.fr ) at Mon Sep #spec# #spec# #spec#,7
+7a4a0c8b,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = yang.dorm13.nctu.edu.tw user = nobody,23
+5f7cbc95,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = nobody,73
+93ee482f,connection from #spec# ( ALyon-254-1-17-194.w86-193.abo.wanadoo.fr ) at Wed Sep #spec# #spec# #spec#,15
+ba5a0a3b,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 61-218-41-150.hinet-ip.hinet.net user = root,10
+4ac0ba3b,connection from #spec# ( * ) at Thu Sep #spec# #spec# #spec#,115
+b04d0829,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = adsl-64-171-127-90.dsl.sndg02.pacbell.net user = root,10
+17fccf16,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = pcp0012132427pcs.benslm01.pa.comcast.net user = webmaster,3
+bf5b138c,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = donau064.server4you.de user = root,1
+1f536c89,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 83-103-43-98.ip.fastwebnet.it user = root,10
+34695fff,* shutdown *,15
+4a5fdb52,shutting down for system reboot,4
+abd9b9df,Switching to runlevel : #spec#,4
+2a70c8fd,terminating,3
+671ca374,Stopping Canna server : succeeded,4
+c9b07a33,Stopping squid :,4
+db17e016,Squid Parent : child process #spec# exited with status #spec#,4
+1b7a82da,smartd received signal 15 : Terminated,4
+e0f68553,smartd is exiting ( exit status 0 ),4
+68a7558d,shutting down,2
+02c3a961,no longer listening on #spec# #53,48
+17b54006,exiting,2
+0657d962,Exiting,4
+67efb183,ntpd exiting on signal #spec#,4
+c1231661,1+0 records *,8
+e4170c0b,"Caught signal 15 , un-registering and exiting.",3
+92b1d1bc,Kernel logging ( proc ) stopped.,5
+8290632a,Kernel log daemon terminating.,5
+ce129016,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = nous.soft.net user = root,1
+df2ea762,session opened for user test by root ( uid = 0 ),2
+49d1b1f5,open ( #spec# ) : No such file or directory,5
+0f999f0f,connection from #spec# ( ulm9-d9bdb268.pool.mediaWays.net ) at Mon Oct #spec# #spec# #spec#,6
+39d11675,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = host123-105.pool8288.interbusiness.it user = root,17
+8b80494b,password changed for test,4
+7871a071,#spec# more authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = bozesan.teleson.ro user = test,2
+3354d9e5,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = maior.teleson.ro user = info,1
+f625cf3a,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = maior.teleson.ro user = webmaster,1
+b4df5428,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = www.etsin.upm.es user = root,1
+491f03ff,authentication failure ; logname = test uid = 509 euid = 0 tty = ruser = rhost = user = test,2
+c5299460,wall : user test broadcasted #spec# lines ( 36 chars ),1
+6c0f2ca5,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 211-232-147-37.nexg.net user = root,17
+e6af16dd,connection from #spec# ( user-10cm1iq.cable.mindspring.com ) at Wed Oct #spec# #spec# #spec#,1
+e458c436,#spec# more authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = test,3
+5c587c0f,connection from #spec# ( sym.gdsz.cncnet.net ) at Thu Oct #spec# #spec# #spec#,12
+5b4e83f4,connection from #spec# ( p #spec# .tisdip.tiscali.de ) at Fri Oct #spec# #spec# #spec#,12
+4b818255,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = mail.3-plan.ru user = root,10
+0dc54267,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = postfix,5
+c5473494,connection from #spec# ( 88-213-181-81-cable.canals.ro ) at Sat Oct #spec# #spec# #spec#,1
+a132837a,Client hung up - probable port-scan,1
+cc9b98a3,rsync : connection unexpectedly closed ( 0 bytes read so far ),1
+a30740cf,rsync error : error in rsync protocol data stream ( code 12 ) at io.c ( 342 ),1
+403bf64f,connect from 88-213-181-81-cable.canals.ro,1
+bfefa819,connection from #spec# ( 88-213-181-81-cable.canals.ro ) at Sun Oct #spec# #spec# #spec#,1
+f1a4fdf5,[ smux_accept ] accepted fd #spec# from #spec#,1
+6516e5aa,Unable to get command line from client!,1
+f5d365ae,Connection from #spec# on illegal port,2
+7e674347,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 88-213-181-81-cable.canals.ro user = root,1
+2e16bf34,#spec# more authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 88-213-181-81-cable.canals.ro user = root,1
+be18af94,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = customer-201-134-69-250.uninet-ide.com.mx user = fax,23
+ac4e24aa,connection from #spec# ( dslb-084-057-172-016.pools.arcor-ip.net ) at Sat Nov #spec# #spec# #spec#,189
+1c84db6e,connection from #spec# ( ASte-Genev-Bois-151-1-2-139.w82-121.abo.wanadoo.fr ) at Mon Nov #spec# #spec# #spec#,23
+e87f3d7c,connection from #spec# ( p549A6259.dip.t-dialin.net ) at Tue Nov #spec# #spec# #spec#,23
+75aa6528,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = wcn3.tisnet.net.tw user = root,10
+91eb3f8c,hda : dma_timer_expiry : dma status = = #spec#,1
+484481f0,hda : status timeout : status = #spec# { Busy },1
+91876a25,connection from #spec# ( merton.whererwerunning.com ) at Sat Nov #spec# #spec# #spec#,21
+ab81bb54,connection from #spec# ( p54B83776.dip0.t-ipconnect.de ) at Sun Nov #spec# #spec# #spec#,6
+746419dd,connection from #spec# ( dslb-084-060-075-213.pools.arcor-ip.net ) at Mon Nov #spec# #spec# #spec#,23
+abbedaed,connection from #spec# ( e182021189.adsl.alicedsl.de ) at Mon Nov #spec# #spec# #spec#,20
+aa9d0d42,Out of Memory : Killed process #spec# ( * ) .,10404
+fe41eaf1,connection from #spec# ( bdsl. #spec# .gte.net ) at Fri Nov #spec# #spec# #spec#,18
+9731fd1d,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = pc180-233.nttu.edu.tw user = root,67
+286f5f5a,connection from #spec# ( host217-46-152-45.in-addr.btopenworld.com ) at Sat Nov #spec# #spec# #spec#,16
+0cacafd1,"httpd : page allocation failure. order : 0 , mode : #spec#",77
+6b2ed5c9,[ < 0212ebf3 > ] __alloc_pages+ #spec# / #spec#,90
+e7ea65ec,[ < 0213d341 > ] read_swap_cache_async+ #spec# / #spec#,44
+24451274,[ < 02135dee > ] swapin_readahead+ #spec# / #spec#,23
+e9202ec0,[ < 02135e66 > ] do_swap_page+ #spec# / #spec#,23
+4c2d3a5a,[ < * > ] handle_mm_fault+ #spec# / #spec#,73
+41c43fea,[ < * > ] do_page_fault+ #spec# / #spec#,190
+c5e3495d,[ < 0210737b > ] do_IRQ+ #spec# / #spec#,11
+71a9b873,[ < 0227ecc1 > ] schedule+ #spec# / #spec#,63
+749ac953,[ < 0215242b > ] dput+ #spec# / #spec#,5
+7cb54c44,[ < 02135e6d > ] do_swap_page+ #spec# / #spec#,17
+5e42a3fc,VM : killing process httpd,26
+e89e0dda,[ < 021303bd > ] do_page_cache_readahead+ #spec# / #spec#,23
+36f72be9,[ < 0212c71b > ] filemap_nopage+ #spec# / #spec#,23
+ff85e03a,[ < 021361c7 > ] do_no_page+ #spec# / #spec#,30
+0cd5ecba,[ < 02135fdc > ] do_swap_page+ #spec# / #spec#,1
+0efdc8da,[ < 02135342 > ] follow_page+ #spec# / #spec#,19
+ce31729f,[ < 0213f1ba > ] rw_vm+ #spec# / #spec#,16
+b34ac39d,[ < 0212bd04 > ] find_or_create_page+ #spec# / #spec#,14
+4b328e2d,[ < 02142ed7 > ] grow_dev_page+ #spec# / #spec#,14
+ab6a2824,[ < 02143014 > ] __getblk_slow+ #spec# / #spec#,14
+09ca5db5,[ < 0214328d > ] __getblk+ #spec# / #spec#,14
+7326eece,[ < 0a8e1123 > ] ext3_get_inode_loc+ #spec# / #spec# [ ext3 ],12
+4024b12e,[ < 0212db65 > ] mempool_alloc+ #spec# / #spec#,11
+904e9e1a,[ < 0a8e1ba6 > ] ext3_reserve_inode_write+ #spec# / #spec# [ ext3 ],14
+e6c025f4,[ < 0a8e1c17 > ] ext3_mark_inode_dirty+ #spec# / #spec# [ ext3 ],14
+f4572e7c,[ < 0a8b23ef > ] journal_start+ #spec# / #spec# [ jbd ],14
+f7d85c2f,[ < 0a8e1c7c > ] ext3_dirty_inode+ #spec# / #spec# [ ext3 ],14
+036dbb18,[ < 02158800 > ] __mark_inode_dirty+ #spec# / #spec#,14
+81180e54,[ < 0215456f > ] inode_update_time+ #spec# / #spec#,14
+dddc6b13,[ < 0212cfe2 > ] generic_file_aio_write_nolock+ #spec# / #spec#,14
+0c6bb5f6,[ < 021c8bda > ] vt_console_print+ #spec# / #spec#,11
+40810995,[ < 021288cf > ] __print_symbol+ #spec# / #spec#,12
+0fe21f94,[ < 0212d602 > ] generic_file_aio_write+ #spec# / #spec#,15
+287f3ccb,[ < 0a8ddb99 > ] ext3_file_write+ #spec# / #spec# [ ext3 ],15
+8d5ebb00,[ < 02141447 > ] do_sync_write+ #spec# / #spec#,15
+da0e9dfc,[ < 021c8b76 > ] vt_console_print+ #spec# / #spec#,5
+de1fb70a,[ < 02118726 > ] __call_console_drivers+ #spec# / #spec#,5
+01af79a0,[ < 021189cd > ] printk+ #spec# / #spec#,11
+c287835f,[ < 021060c2 > ] show_trace+ #spec# / #spec#,11
+92533a28,[ < 02106159 > ] dump_stack+ #spec# / #spec#,13
+1b91ef7d,[ < 02129a6c > ] do_acct_process+ #spec# / #spec#,15
+62989cd5,[ < 02129a95 > ] acct_process+ #spec# / #spec#,15
+de365d59,[ < 02119ccc > ] do_exit+ #spec# / #spec#,15
+3ee9ddbb,[ < 0211c38d > ] proc_dointvec+ #spec# / #spec#,4
+30be5511,[ < 0211c01d > ] do_proc_dointvec_conv+ #spec# / #spec#,4
+ff7a3611,[ < 0211bdc5 > ] do_rw_proc+ #spec# / #spec#,3
+5ca64e84,[ < 02142d47 > ] invalidate_inode_buffers+ #spec# / #spec#,3
+d682d672,[ < 0227e913 > ] schedule+ #spec# / #spec#,9
+f07a21d2,[ < 0212d1de > ] generic_file_aio_write_nolock+ #spec# / #spec#,1
+fe2dd4d3,[ < 02115f01 > ] __wake_up+ #spec# / #spec#,10
+d3e9d80d,[ < 02115ed2 > ] __wake_up_common+ #spec# / #spec#,9
+71a2f5cf,[ < 0213f423 > ] put_user_size+ #spec# / #spec#,49
+5dd60fea,[ < 021295e4 > ] check_free_space+ #spec# / #spec#,4
+d43a51a7,[ < 0212c5b2 > ] page_cache_read+ #spec# / #spec#,10
+84ab37fa,[ < 0212c784 > ] filemap_nopage+ #spec# / #spec#,7
+2854a592,[ < 02115617 > ] recalc_task_prio+ #spec# / #spec#,20
+0fa3866f,"sendmail : page allocation failure. order : 0 , mode : #spec#",11
+05a22f37,[ < * > ] do_wp_page+ #spec# / #spec#,10
+bc80f007,[ < 0214201b > ] __fput+ #spec# / #spec#,2
+d184ff9b,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = c-67-176-148-16.hsd1.il.comcast.net user = root,10
+d02a2a71,[ < 021208bf > ] sys_rt_sigaction+ #spec# / #spec#,5
+a7e759ca,[ < 0213f3d3 > ] get_user_size+ #spec# / #spec#,6
+4d664ee2,VM : killing process sendmail,2
+f4b6192e,[ < 021287f4 > ] __print_symbol+ #spec# / #spec#,3
+3bc653c5,[ < 021284a0 > ] module_text_address+ #spec# / #spec#,1
+ce12f4b4,[ < 02107352 > ] do_IRQ+ #spec# / #spec#,2
+2851d337,connection from #spec# ( 200-215-8-33.fnsce303.ipd.brasiltelecom.net.br ) at Thu Nov #spec# #spec# #spec#,19
+d3084592,[ < 021529bb > ] d_alloc+ #spec# / #spec#,5
+a4baff6c,[ < 02152b72 > ] d_instantiate+ #spec# / #spec#,5
+dbe2799a,[ < 0211fc74 > ] sys_rt_sigprocmask+ #spec# / #spec#,5
+a3a1170c,[ < 0a8e11ed > ] ext3_get_inode_loc+ #spec# / #spec# [ ext3 ],2
+63b08bfc,[ < 02221a76 > ] input_unregister_device+ #spec# / #spec#,2
+feae654e,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 59-106-15-121.r-bl100.sakura.ne.jp user = root,10
+6d1827c9,connection from #spec# ( mnpl-00-1044.dsl.iowatelecom.net ) at Thu Dec #spec# #spec# #spec#,18
+3cf8030f,connection from #spec# ( 64-73-224-182.cust.telepacific.net ) at Sat Dec #spec# #spec# #spec#,21
+8c8267b2,printk : #spec# messages suppressed.,1
+42be349b,[ < 02134aa0 > ] clear_page_tables+ #spec# / #spec#,1
+7e6dbfb3,[ < 02137b89 > ] free_pgtables+ #spec# / #spec#,1
+e5f202ee,[ < 02137ca8 > ] unmap_region+ #spec# / #spec#,1
+7418c58b,[ < 02137c1f > ] unmap_vma_list+ #spec# / #spec#,1
+dc6a0602,[ < 0212144c > ] sys_setuid+ #spec# / #spec#,1
+de05a126,Master rebooting...,1
+f1afee44,Stopping MySQL : failed,2
+b4097ace,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 81-233-245-217-no37.tbcn.telia.com user = root,9
+36c2a808,bad username [ \ ],1
+30ff7e80,ttloop : read : Connection timed out,57
+babdad9d,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = host-xe04.kiosk.ws user = root,10
+27aeb86d,connection from #spec# ( www.zajelgate.net ) at Sun Jan #spec# #spec# #spec#,23
+ff844d41,connection from #spec# ( p15025-ipadfx01yosida.nagano.ocn.ne.jp ) at Mon Jan #spec# #spec# #spec#,23
+5fe47fe2,connection from #spec# ( p54B80A53.dip0.t-ipconnect.de ) at Tue Jan #spec# #spec# #spec#,16
+5f0f6ee4,connection from #spec# ( p54817BE0.dip.t-dialin.net ) at Wed Jan #spec# #spec# #spec#,23
+06901853,connection from #spec# ( 200-215-8-33.fnsce303.ipd.brasiltelecom.net.br ) at Wed Jan #spec# #spec# #spec#,23
+1ac59312,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = customer-reverse-entry. #spec# user = test,10
+c2f36c57,connection from #spec# ( AFontenayssB-151-1-34-235.w82-121.abo.wanadoo.fr ) at Thu Jan #spec# #spec# #spec#,23
+9d526f96,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 60-248-97-31.hinet-ip.hinet.net user = root,1
+9849fa54,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = adsl-69-110-112-188.dsl.pltn13.pacbell.net user = root,2
+aa3bbd1f,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = connect.borran.com user = adm,10
+8f00263a,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 212-41-230-229.hebragasse.xdsl-line.inode.at user = root,10
+42391012,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = mail.xmjl.com user = root,11
+3938c988,connection from #spec# ( 113-123-186.ded.tie.cl ) at Thu Jan #spec# #spec# #spec#,22
+e4e21ead,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = dsl-kk- #spec# .touchtelindia.net user = root,10
+96534426,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = ztc2-f.nas.tiscali.de user = root,45
+06cdd698,connection from #spec# ( 113-123-186.ded.tie.cl ) at Mon Jan #spec# #spec# #spec#,20
+c72fd301,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = host- #spec# .addr.tdcsong.se user = root,10
+5dfd43e1,connection from #spec# ( 216-19-205-44.getnet.net ) at * Jan #spec# #spec# #spec#,46
+43b9261e,audit : enabled ( after initialization ),1
+3791ac73,"security : #spec# users , #spec# roles , #spec# types , #spec# bools",1
+a28928ca,"security : #spec# classes , #spec# rules",1
+4f0412a1,SELinux : Completing initialization.,1
+6ccbc77c,SELinux : Setting up existing superblocks.,1
+232d3673,"SELinux : initialized ( dev , type * ) , uses genfs_contexts",11
+f4e1eab7,"SELinux : initialized ( dev , type mqueue ) , not configured for labeling",1
+d081de00,"SELinux : initialized ( dev , type * ) , not configured for labeling",1
+e1406709,"SELinux : initialized ( dev , type * ) , uses transition SIDs",3
+bcdd2d71,"SELinux : initialized ( dev , type * ) , uses task SIDs",2
+0636e0d7,audit ( 1138278089.855 : 0 ) : avc : denied { read write } for pid = 1 exe = #spec# name = initctl dev = hda2 ino = 1031635 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = fifo_file,1
+95fca24a,audit ( 1138278091.510 : 111925 ) : syscall = 103 exit = 0 a0 = 8 a1 = 0 a2 = 3 a3 = 3 items = 0 pid = 506 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+26be59a8,audit ( 1138278092.486 : 112647 ) : avc : denied { setattr } for pid = 509 exe = #spec# name = / dev = ino = 1021 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : ramfs_t tclass = dir,1
+4984aa18,audit ( 1138278092.486 : 112647 ) : syscall = 15 exit = 0 a0 = 805ccbd a1 = 1c0 a2 = 9a397c8 a3 = 1c0 items = 1 pid = 509 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3d76361d,audit ( 1138278092.486 : 112647 ) : item = 0 name = /initrd inode = 1021 dev = 00 : 00,1
+2cec6c7e,audit ( 1138278092.509 : 112888 ) : avc : denied { search } for pid = 512 exe = #spec# name = net dev = ino = -268435354 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_net_t tclass = dir,1
+9401c511,audit ( 1138278092.509 : 112888 ) : syscall = 33 exit = 4294967294 a0 = 8051f0f a1 = 4 a2 = 80545a0 a3 = 8054460 items = 1 pid = 512 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+20b70747,audit ( 1138278092.594 : 113949 ) : syscall = 102 exit = 0 a0 = 2 a1 = feee2dd0 a2 = 2 a3 = 1 items = 1 pid = 511 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+033916f0,audit ( 1138278092.594 : 113951 ) : avc : denied { setattr } for pid = 511 exe = #spec# name = rhgb-socket dev = ino = 1026 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : ramfs_t tclass = sock_file,1
+f90789bd,audit ( 1138278092.594 : 113951 ) : syscall = 15 exit = 0 a0 = 805cd2b a1 = 1c0 a2 = 2 a3 = 1 items = 1 pid = 511 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+a89b2556,audit ( 1138278092.594 : 113951 ) : item = 0 name = #spec# inode = 1026 dev = 00 : 00,1
+2059530e,audit ( 1138278092.998 : 114103 ) : syscall = 5 exit = 0 a0 = 8fea430 a1 = 241 a2 = 1b6 a3 = 1b6 items = 1 pid = 513 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+559079e1,audit ( 1138278092.998 : 114103 ) : item = 0 name = #spec# inode = 1021 dev = 00 : 00,1
+08e607ee,audit ( 1138278093.406 : 116163 ) : syscall = 102 exit = 0 a0 = 2 a1 = fee65200 a2 = 1770 a3 = fee65260 items = 0 pid = 513 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+29f9dfa6,audit ( 1138278093.540 : 118407 ) : syscall = 4 exit = 11 a0 = 0 a1 = 81f6f20 a2 = b a3 = b items = 0 pid = 513 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+2725e8fd,audit ( 1138278093.880 : 123407 ) : avc : denied { write } for pid = 513 exe = #spec# name = 00.0 dev = ino = -268435176 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : proc_t tclass = file,1
+703c4772,audit ( 1138278093.880 : 123407 ) : syscall = 5 exit = 6 a0 = fee652b0 a1 = 2 a2 = 0 a3 = 0 items = 1 pid = 513 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+c74292eb,audit ( 1138278093.880 : 123407 ) : item = 0 name = #spec# inode = 4026532120 dev = 00 : 00,1
+02f8e60b,audit ( 1138278094.933 : 149104 ) : syscall = 192 exit = 983040 a0 = f0000 a1 = 10000 a2 = 5 a3 = 11 items = 0 pid = 513 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+6dcd7820,audit ( 1138278101.742 : 164003 ) : syscall = 5 exit = 3 a0 = 682cc3 a1 = 2 a2 = 0 a3 = 0 items = 1 pid = 594 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 22 fsgid = 0,1
+54c744c9,audit ( 1138278101.742 : 164003 ) : item = 0 name = #spec# inode = 1025790 dev = 05 : 02,1
+6998ce30,audit ( 1138278101.749 : 164007 ) : syscall = 195 exit = 0 a0 = fef6c158 a1 = fef6c0ac a2 = 68cffc a3 = fef6c09f items = 1 pid = 594 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 22 fsgid = 0,1
+b6c0b29a,audit ( 1138278101.749 : 164007 ) : item = 0 name = #spec# inode = 2 dev = 88 : 00,1
+03358e8d,audit ( 1138278101.749 : 164013 ) : avc : denied { read write } for pid = 594 exe = #spec# name = 0 dev = ino = 2 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : devpts_t tclass = chr_file,1
+c97c9b73,audit ( 1138278101.749 : 164013 ) : syscall = 5 exit = 4 a0 = fef6d1cc a1 = 102 a2 = 1000 a3 = 0 items = 1 pid = 594 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 22 fsgid = 0,1
+cf63027a,audit ( 1138278101.749 : 164013 ) : item = 0 name = #spec# inode = 2 dev = 88 : 00,1
+c2a9688b,audit ( 1138278101.749 : 164014 ) : syscall = 54 exit = 0 a0 = 4 a1 = 5404 a2 = fef6d168 a3 = fef6d168 items = 0 pid = 594 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 22 fsgid = 0,1
+21097a94,audit ( 1138278101.766 : 164029 ) : avc : denied { setattr } for pid = 594 exe = #spec# name = 0 dev = ino = 2 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : devpts_t tclass = chr_file,1
+881d385e,audit ( 1138278101.766 : 164029 ) : syscall = 207 exit = 0 a0 = 4 a1 = 0 a2 = 5 a3 = 0 items = 0 pid = 594 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 22 sgid = 22 fsgid = 22,1
+35a1068a,audit ( 1138278102.349 : 166029 ) : avc : denied { write } for pid = 596 exe = #spec# name = rhgb-socket dev = ino = 1026 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : ramfs_t tclass = sock_file,1
+17e9f4d6,audit ( 1138278102.349 : 166029 ) : syscall = 102 exit = 0 a0 = 3 a1 = feea18b0 a2 = 68cffc a3 = 9bc9858 items = 1 pid = 596 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3ff26860,audit ( 1138278102.405 : 167249 ) : avc : denied { write } for pid = 598 exe = #spec# name = ip_forward dev = ino = -268435331 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_net_t tclass = file,1
+246f0d1e,audit ( 1138278102.405 : 167249 ) : syscall = 5 exit = 4 a0 = 8717180 a1 = 241 a2 = 1b6 a3 = 1b6 items = 1 pid = 598 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+0ee0ba59,audit ( 1138278102.405 : 167249 ) : item = 0 name = #spec# inode = 4026531960 dev = 00 : 00,1
+f70414ae,audit ( 1138278102.405 : 167250 ) : syscall = 197 exit = 0 a0 = 4 a1 = fef0c808 a2 = 68cffc a3 = 87171c0 items = 0 pid = 598 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+50741451,audit ( 1138296102.617 : 183467 ) : syscall = 195 exit = 0 a0 = 80d028c a1 = fefff650 a2 = 68cffc a3 = 80d028c items = 1 pid = 635 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+04798f85,audit ( 1138296102.617 : 183467 ) : item = 0 name = #spec# : 00/0000 : 00 : 1f. #spec# inode = 1290 dev = 00 : 00,1
+731cddcc,audit ( 1138296102.620 : 183525 ) : avc : denied { read } for pid = 651 exe = #spec# name = bNumConfigurations dev = ino = 1290 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysfs_t tclass = file,1
+e1f11111,audit ( 1138296102.620 : 183525 ) : syscall = 5 exit = 3 a0 = fef6de9a a1 = 8000 a2 = 0 a3 = 8000 items = 1 pid = 651 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+f1cb16fb,audit ( 1138296102.620 : 183525 ) : item = 0 name = #spec# : 00/0000 : 00 : 1f. #spec# inode = 1290 dev = 00 : 00,1
+2b674a4a,audit ( 1138296102.645 : 185219 ) : syscall = 21 exit = 0 a0 = 87a8a18 a1 = 87a8a28 a2 = 87a8a40 a3 = c0ed0000 items = 1 pid = 655 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+2036d762,audit ( 1138296102.645 : 185219 ) : item = 0 name = #spec# inode = 4026532078 dev = 00 : 00,1
+06969992,audit ( 1138296102.652 : 185394 ) : syscall = 196 exit = 0 a0 = 87ee038 a1 = fef69978 a2 = 68cffc a3 = 87ee038 items = 1 pid = 647 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+f4514091,audit ( 1138296102.652 : 185394 ) : item = 0 name = /sys inode = 1 dev = 00 : 00,1
+dfd96e5e,audit ( 1138296102.679 : 186228 ) : avc : denied { read } for pid = 658 exe = #spec# name = devices dev = ino = 1268 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : usbdevfs_t tclass = file,1
+9bed019b,audit ( 1138296102.679 : 186228 ) : syscall = 5 exit = 3 a0 = fef14e91 a1 = 8000 a2 = 0 a3 = 8000 items = 1 pid = 658 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+c005a7cc,audit ( 1138296102.679 : 186228 ) : item = 0 name = #spec# inode = 1268 dev = 00 : 00,1
+208ab8b0,audit ( 1138296102.679 : 186229 ) : syscall = 197 exit = 0 a0 = 3 a1 = 805a2e4 a2 = 68cffc a3 = 88237c8 items = 0 pid = 658 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+1f6c870c,audit ( 1138296104.506 : 222519 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef4d420 a2 = fef4d440 a3 = 1 items = 1 pid = 705 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3505a22f,audit ( 1138296104.541 : 222667 ) : syscall = 195 exit = 0 a0 = 80490b4 a1 = fef4d22c a2 = 68cffc a3 = fef4d22c items = 1 pid = 708 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+ea446517,audit ( 1138296104.541 : 222667 ) : item = 0 name = #spec# inode = 1031636 dev = 00 : 00,1
+c91d615e,audit ( 1138296104.542 : 222681 ) : avc : denied { write } for pid = 310 exe = #spec# name = log dev = hda2 ino = 1031636 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = sock_file,1
+0f1898db,audit ( 1138296104.542 : 222681 ) : syscall = 102 exit = 4294967205 a0 = 3 a1 = feee0794 a2 = 68cffc a3 = 2 items = 1 pid = 310 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+a5c26899,audit ( 1138296104.661 : 225142 ) : avc : denied { unlink } for pid = 717 exe = #spec# name = control dev = hda2 ino = 1154199 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = chr_file,1
+0b974e62,audit ( 1138296104.661 : 225142 ) : syscall = 10 exit = 0 a0 = fefb8ea0 a1 = 1 a2 = fef31670 a3 = fefb8ea0 items = 1 pid = 717 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+ccd2d266,audit ( 1138296104.661 : 225142 ) : item = 0 name = #spec# inode = 1154181 dev = 00 : 00,1
+330cfceb,audit ( 1138296104.703 : 225182 ) : avc : denied { read } for pid = 716 exe = #spec# name = device-mapper dev = ino = 1424 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysfs_t tclass = dir,1
+18594c22,audit ( 1138296104.703 : 225182 ) : syscall = 5 exit = 5 a0 = 9d3274a a1 = 18800 a2 = 0 a3 = 9d325a0 items = 1 pid = 716 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+036bedf9,audit ( 1138296104.703 : 225182 ) : item = 0 name = #spec# inode = 1424 dev = 00 : 00,1
+6be46a9f,audit ( 1138296104.727 : 225279 ) : syscall = 14 exit = 0 a0 = 804fffa a1 = 2180 a2 = a3f a3 = 0 items = 1 pid = 719 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+4cba9c75,audit ( 1138296104.727 : 225279 ) : item = 0 name = #spec# inode = 1154181 dev = 00 : 00,1
+e3b9e41a,audit ( 1138296104.780 : 225409 ) : syscall = 4 exit = 28 a0 = 4 a1 = 95a8180 a2 = 1c a3 = 95a9188 items = 0 pid = 720 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+a4b37b0a,audit ( 1138296104.852 : 227147 ) : avc : denied { setattr } for pid = 716 exe = #spec# name = device-mapper dev = hda2 ino = 283649 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = chr_file,1
+d243d1fd,audit ( 1138296104.852 : 227147 ) : syscall = 15 exit = 0 a0 = fef96e54 a1 = 2180 a2 = 0 a3 = a3f items = 1 pid = 716 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+e3f9ec34,audit ( 1138296104.852 : 227147 ) : item = 0 name = #spec# inode = 283649 dev = 0a : 3f,1
+e075f6b6,audit ( 1138296105.156 : 234587 ) : avc : denied { relabelfrom } for pid = 720 exe = #spec# name = control dev = hda2 ino = 1154199 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = chr_file,1
+7fe4e4f0,audit ( 1138296105.156 : 234587 ) : avc : denied { relabelto } for pid = 720 exe = #spec# name = control dev = hda2 ino = 1154199 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : lvm_control_t tclass = chr_file,1
+0f5b6369,audit ( 1138296105.194 : 235300 ) : avc : denied { relabelto } for pid = 724 exe = #spec# name = device-mapper dev = hda2 ino = 283649 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : device_t tclass = chr_file,1
+f1892f4e,audit ( 1138296105.194 : 235300 ) : syscall = 227 exit = 0 a0 = fefbbebe a1 = dd6c6b a2 = 9729088 a3 = 1b items = 1 pid = 724 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+72ee0fc8,audit ( 1138296105.194 : 235300 ) : item = 0 name = #spec# inode = 283649 dev = 0a : 3f,1
+a36cd832,audit ( 1138296105.156 : 234587 ) : syscall = 227 exit = 0 a0 = fef38e8e a1 = dd6c6b a2 = 95aff00 a3 = 20 items = 1 pid = 720 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+5f2ec5d1,audit ( 1138296105.156 : 234587 ) : item = 0 name = #spec# inode = 1154199 dev = 0a : 3f,1
+93846ccd,audit ( 1138296105.200 : 235352 ) : syscall = 195 exit = 0 a0 = 80cfbcc a1 = fefff8d0 a2 = 68cffc a3 = 80cfbcc items = 1 pid = 309 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+d4f0dd80,audit ( 1138296105.200 : 235352 ) : item = 0 name = #spec# inode = 1154199 dev = 0a : 3f,1
+f4b64d83,audit ( 1138296106.081 : 244396 ) : syscall = 195 exit = 0 a0 = 82e3fa0 a1 = fefab170 a2 = 0 a3 = fefab170 items = 1 pid = 725 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+9fcc5fce,audit ( 1138296106.081 : 244396 ) : item = 0 name = #spec# inode = 1 dev = 00 : 00,1
+1641136d,audit ( 1138296106.081 : 244398 ) : syscall = 5 exit = 3 a0 = 82e3fa0 a1 = 18800 a2 = 0 a3 = 82e3fa0 items = 1 pid = 725 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+8c4622cc,audit ( 1138296106.081 : 244398 ) : item = 0 name = #spec# inode = 1 dev = 00 : 00,1
+23bfc263,audit ( 1138296107.529 : 261678 ) : avc : denied { relabelfrom } for pid = 729 exe = #spec# name = mtab dev = hda2 ino = 82456 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = file,1
+b0253493,audit ( 1138296107.529 : 261678 ) : avc : denied { relabelto } for pid = 729 exe = #spec# name = mtab dev = hda2 ino = 82456 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : etc_runtime_t tclass = file,1
+2aa81737,audit ( 1138296107.529 : 261678 ) : syscall = 227 exit = 0 a0 = feff3e98 a1 = dd6c6b a2 = a03fe28 a3 = 20 items = 1 pid = 729 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+977c6cb7,audit ( 1138296107.529 : 261678 ) : item = 0 name = #spec# inode = 82456 dev = 00 : 00,1
+f901450c,audit ( 1138296107.747 : 266162 ) : avc : denied { relabelto } for pid = 730 exe = #spec# name = ld.so.cache dev = hda2 ino = 85502 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : ld_so_cache_t tclass = file,1
+9a1e862f,audit ( 1138296107.747 : 266162 ) : syscall = 227 exit = 0 a0 = fef5fe91 a1 = dd6c6b a2 = 947d6d8 a3 = 20 items = 1 pid = 730 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+dee0c55e,audit ( 1138296107.747 : 266162 ) : item = 0 name = #spec# inode = 85502 dev = 00 : 00,1
+4de47fb6,audit ( 1138296107.867 : 267232 ) : syscall = 195 exit = 0 a0 = 80cfbcc a1 = fefffa10 a2 = 68cffc a3 = 80cfbcc items = 1 pid = 309 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+bcc5210a,audit ( 1138296107.867 : 267232 ) : item = 0 name = #spec# inode = 4026531894 dev = 00 : 00,1
+cb2ee0e0,audit ( 1138296107.869 : 267298 ) : avc : denied { write } for pid = 738 exe = #spec# name = modprobe dev = ino = -268435402 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_modprobe_t tclass = file,1
+65138b95,audit ( 1138296107.869 : 267298 ) : syscall = 5 exit = 3 a0 = 8aac018 a1 = 241 a2 = 1b6 a3 = 1b6 items = 1 pid = 738 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+9b2a8358,audit ( 1138296107.869 : 267298 ) : item = 0 name = #spec# inode = 4026531876 dev = 00 : 00,1
+23d85fff,audit ( 1138296107.872 : 267384 ) : avc : denied { write } for pid = 739 exe = #spec# name = hotplug dev = ino = -268435401 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_hotplug_t tclass = file,1
+695b4eea,audit ( 1138296107.872 : 267384 ) : syscall = 5 exit = 3 a0 = 89c4018 a1 = 241 a2 = 1b6 a3 = 1b6 items = 1 pid = 739 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+733da48d,audit ( 1138296107.872 : 267384 ) : item = 0 name = #spec# inode = 4026531876 dev = 00 : 00,1
+aa55665f,audit ( 1138296107.872 : 267385 ) : syscall = 197 exit = 0 a0 = 3 a1 = fee9c408 a2 = 68cffc a3 = 89c4050 items = 0 pid = 739 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3b489456,audit ( 1138296109.324 : 295942 ) : avc : denied { unlink } for pid = 1123 exe = #spec# name = log dev = hda2 ino = 1031636 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = sock_file,1
+216a9fc8,audit ( 1138296109.324 : 295942 ) : syscall = 10 exit = 0 a0 = 80490b4 a1 = fefaf380 a2 = fefaf3a0 a3 = 1 items = 1 pid = 1123 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3b3d1afb,audit ( 1138296109.324 : 295942 ) : item = 0 name = #spec# inode = 1024129 dev = 00 : 00,1
+a6c35088,audit ( 1138296110.949 : 306401 ) : syscall = 103 exit = 29788 a0 = 3 a1 = 9821858 a2 = 20000 a3 = 3 items = 0 pid = 1178 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+cf61e4ca,audit ( 1138296111.560 : 323542 ) : avc : denied { relabelto } for pid = 1198 exe = #spec# name = vcs1 dev = hda2 ino = 861585 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : tty_device_t tclass = chr_file,1
+51e6063f,audit ( 1138296111.616 : 324631 ) : avc : denied { unlink } for pid = 1205 exe = #spec# name = vcsa1 dev = hda2 ino = 861587 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : tty_device_t tclass = chr_file,1
+043ea8e6,audit ( 1138296111.560 : 323542 ) : syscall = 227 exit = 0 a0 = fef84ed8 a1 = dd6c6b a2 = 8aa1490 a3 = 1f items = 1 pid = 1198 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+4a1c8f51,audit ( 1138296111.560 : 323542 ) : item = 0 name = #spec# inode = 861585 dev = 07 : 01,1
+9f767565,audit ( 1138296111.616 : 324631 ) : syscall = 10 exit = 0 a0 = fef124d0 a1 = 8f30a88 a2 = fef124d0 a3 = fef125e8 items = 1 pid = 1205 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+a69ab6a0,audit ( 1138296111.616 : 324631 ) : item = 0 name = #spec# inode = 276355 dev = 00 : 00,1
+2fcb2d79,audit ( 1138296117.905 : 349720 ) : avc : denied { read } for pid = 1263 exe = #spec# name = 0000 : 01 : 0c.0 dev = ino = 159 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysfs_t tclass = lnk_file,1
+5c852b11,audit ( 1138296117.905 : 349720 ) : syscall = 5 exit = 4 a0 = fef1ae20 a1 = 0 a2 = 1b6 a3 = 1b6 items = 1 pid = 1263 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+e9ae63e4,audit ( 1138296117.905 : 349720 ) : item = 0 name = #spec# : 01 : 0c.0/resource inode = 166 dev = 00 : 00,1
+bae60171,audit ( 1138296118.152 : 350118 ) : avc : denied { search } for pid = 1263 exe = #spec# name = dev dev = ino = -268435240 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_dev_t tclass = dir,1
+3d3e1f55,audit ( 1138296118.152 : 350118 ) : avc : denied { read } for pid = 1263 exe = #spec# name = parport dev = ino = -268434885 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_dev_t tclass = dir,1
+b48c6e2c,audit ( 1138296118.152 : 350118 ) : syscall = 5 exit = 6 a0 = 806aca9 a1 = 18800 a2 = 5fbe83 a3 = 0 items = 1 pid = 1263 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+f8d09764,audit ( 1138296118.152 : 350118 ) : item = 0 name = #spec# inode = 4026532411 dev = 00 : 00,1
+63d44247,audit ( 1138296118.152 : 350119 ) : syscall = 197 exit = 0 a0 = 6 a1 = fef1b7cc a2 = 68cffc a3 = 6 items = 0 pid = 1263 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+5abc4471,audit ( 1138296118.152 : 350122 ) : avc : denied { read } for pid = 1263 exe = #spec# name = autoprobe dev = ino = -268434873 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_dev_t tclass = file,1
+53b9874b,audit ( 1138296118.152 : 350122 ) : syscall = 5 exit = 7 a0 = fef1b880 a1 = 0 a2 = 4 a3 = 0 items = 1 pid = 1263 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+0980a6f6,audit ( 1138296118.152 : 350122 ) : item = 0 name = #spec# inode = 4026532423 dev = 00 : 00,1
+e00fd441,audit ( 1138296120.101 : 365320 ) : avc : denied { read } for pid = 1263 exe = #spec# name = hotplug dev = ino = -268435401 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_hotplug_t tclass = file,1
+77c99cb6,audit ( 1138296120.101 : 365320 ) : syscall = 5 exit = 11 a0 = 806a2d5 a1 = 0 a2 = 100 a3 = 0 items = 1 pid = 1263 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+43488a46,audit ( 1138296120.101 : 365320 ) : item = 0 name = #spec# inode = 4026531895 dev = 00 : 00,1
+5ad9df34,audit ( 1138296120.316 : 368744 ) : avc : denied { relabelfrom } for pid = 1353 exe = #spec# name = fd0 dev = hda2 ino = 283651 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = blk_file,1
+5bb541dd,audit ( 1138296120.316 : 368744 ) : avc : denied { relabelto } for pid = 1353 exe = #spec# name = fd0 dev = hda2 ino = 283651 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : removable_device_t tclass = blk_file,1
+c606541c,audit ( 1138296120.316 : 368744 ) : syscall = 227 exit = 0 a0 = feff6ee1 a1 = dd6c6b a2 = 93b5568 a3 = 25 items = 1 pid = 1353 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+49d4ff73,audit ( 1138296120.316 : 368744 ) : item = 0 name = #spec# inode = 283651 dev = 02 : 00,1
+21244d9d,audit ( 1138296123.351 : 395836 ) : avc : denied { read } for pid = 1437 exe = #spec# name = modprobe dev = ino = -268435402 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_modprobe_t tclass = file,1
+b35c2cf6,audit ( 1138296123.351 : 395836 ) : syscall = 5 exit = 4 a0 = 8051591 a1 = 0 a2 = fee75ba4 a3 = 0 items = 1 pid = 1437 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+868daecd,audit ( 1138296123.351 : 395836 ) : item = 0 name = #spec# inode = 4026531894 dev = 00 : 00,1
+100de5ec,audit ( 1138296123.500 : 397288 ) : syscall = 102 exit = 3 a0 = 1 a1 = fef5c7e0 a2 = 0 a3 = a items = 0 pid = 1445 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3e2f59fc,audit ( 1138296123.500 : 397293 ) : syscall = 54 exit = 0 a0 = 3 a1 = 8933 a2 = fef5d950 a3 = 0 items = 0 pid = 1445 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+915b081b,audit ( 1138296126.464 : 427092 ) : avc : denied { setattr } for pid = 1570 exe = #spec# name = log dev = hda2 ino = 1031637 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = sock_file,1
+a23f4819,audit ( 1138296126.464 : 427092 ) : syscall = 15 exit = 0 a0 = 1fdf0f a1 = 1b6 a2 = 1ff130 a3 = 1b6 items = 1 pid = 1570 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+4c474ee4,audit ( 1138296126.464 : 427092 ) : item = 0 name = #spec# inode = 1031637 dev = 00 : 00,1
+4082f9f9,audit ( 1138296126.645 : 429627 ) : avc : denied { read } for pid = 1574 exe = #spec# name = kmsg dev = ino = -268435446 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : proc_kmsg_t tclass = file,1
+8dbc3464,audit ( 1138296126.645 : 429627 ) : syscall = 5 exit = 0 a0 = 762615 a1 = 0 a2 = fefa8650 a3 = 762615 items = 1 pid = 1574 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+00741213,audit ( 1138296126.645 : 429627 ) : item = 0 name = #spec# inode = 4026531850 dev = 00 : 00,1
+b638307b,audit ( 1138296127.049 : 438389 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef3cbb0 a2 = aea13c a3 = 3 items = 0 pid = 1595 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+264e56ef,audit ( 1138296127.050 : 438399 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef3cbb0 a2 = aea13c a3 = 4 items = 0 pid = 1595 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+9bfafe62,audit ( 1138296128.156 : 454449 ) : avc : denied { search } for pid = 1642 exe = #spec# name = rpc dev = ino = -268434800 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : sysctl_rpc_t tclass = dir,1
+59513ee4,audit ( 1138296128.156 : 454449 ) : syscall = 5 exit = 4294967294 a0 = 80504c6 a1 = 2 a2 = 0 a3 = 80504a0 items = 1 pid = 1642 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+35f49da1,audit ( 1138296128.157 : 454451 ) : avc : denied { read } for pid = 1642 exe = #spec# name = nfs dev = ino = 4 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : rpc_pipefs_t tclass = dir,1
+32edab03,audit ( 1138296128.157 : 454451 ) : syscall = 5 exit = 3 a0 = 804f480 a1 = 0 a2 = 804df6f a3 = 1 items = 1 pid = 1642 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+50b825f8,audit ( 1138296128.157 : 454451 ) : item = 0 name = #spec# inode = 4 dev = 00 : 00,1
+a657634a,audit ( 1138296128.157 : 454455 ) : syscall = 197 exit = 0 a0 = 5 a1 = fef87cec a2 = 68cffc a3 = 5 items = 0 pid = 1642 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+4781839a,audit ( 1138296129.057 : 468261 ) : syscall = 54 exit = 0 a0 = 4 a1 = 800448d2 a2 = 88f8298 a3 = 88f8298 items = 0 pid = 1687 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+0f1260a3,audit ( 1138296132.911 : 505629 ) : avc : denied { relabelfrom } for pid = 1788 exe = #spec# name = ptal-mlcd dev = hda2 ino = 1502894 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = dir,1
+649e53dd,audit ( 1138296132.911 : 505629 ) : avc : denied { relabelto } for pid = 1788 exe = #spec# name = ptal-mlcd dev = hda2 ino = 1502894 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : var_run_t tclass = dir,1
+ec23aa0c,audit ( 1138296132.911 : 505629 ) : syscall = 227 exit = 0 a0 = fefbae57 a1 = dd6c6b a2 = 8d4f3f0 a3 = 1c items = 1 pid = 1788 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+bfc18b53,audit ( 1138296132.911 : 505629 ) : item = 0 name = #spec# inode = 1502894 dev = 00 : 00,1
+e0b3fdd0,audit ( 1138296133.544 : 515571 ) : avc : denied { relabelto } for pid = 1792 exe = #spec# name = ptal dev = hda2 ino = 309507 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : etc_t tclass = dir,1
+63bab04c,audit ( 1138296133.544 : 515571 ) : syscall = 227 exit = 0 a0 = fefece60 a1 = dd6c6b a2 = 92e47c8 a3 = 18 items = 1 pid = 1792 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+866f8ef6,audit ( 1138296133.544 : 515571 ) : item = 0 name = #spec# inode = 309507 dev = 00 : 00,1
+5d76a3d2,audit ( 1138296142.670 : 537277 ) : syscall = 197 exit = 0 a0 = 0 a1 = fef15090 a2 = 227ffc a3 = a043008 items = 0 pid = 1966 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+bf7bb56f,audit ( 1138296147.476 : 547632 ) : syscall = 102 exit = 0 a0 = 2 a1 = feeb3730 a2 = 84251c a3 = 91c7330 items = 0 pid = 1803 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+d9292633,audit ( 1138296147.477 : 547636 ) : syscall = 102 exit = 0 a0 = 2 a1 = feeb3710 a2 = 84251c a3 = 842bb8 items = 0 pid = 1803 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+4dc12882,audit ( 1138296148.005 : 552035 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef0c8d0 a2 = 20 a3 = 9231ca0 items = 0 pid = 1998 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+f6e09863,audit ( 1138296150.551 : 567947 ) : syscall = 102 exit = 0 a0 = 2 a1 = feecd9b0 a2 = 25f104 a3 = 2668e0 items = 0 pid = 2032 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 51 sgid = 51 fsgid = 51,1
+c703fb5f,audit ( 1138296160.391 : 589416 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3b0dc004,audit ( 1138296160.391 : 589420 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+052fe266,audit ( 1138296160.391 : 589425 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+3e73c452,audit ( 1138296160.392 : 589430 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+c0b3728f,audit ( 1138296160.392 : 589436 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+bb568ee0,audit ( 1138296160.392 : 589440 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+b2fa0414,audit ( 1138296160.392 : 589444 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+874eaf02,audit ( 1138296160.393 : 589479 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+dc073eba,audit ( 1138296160.393 : 589484 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 202 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+2bbcfddc,audit ( 1138296160.393 : 589494 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 202 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+e422972d,audit ( 1138296160.393 : 589517 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+5ffeaa04,audit ( 1138296160.393 : 589522 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+a1383f65,audit ( 1138296161.396 : 590201 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+7ae0a1d4,audit ( 1138296161.881 : 590520 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef535e0 a2 = 70aa2c a3 = 200 items = 0 pid = 2013 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+e6824101,audit ( 1138296162.246 : 590992 ) : syscall = 102 exit = 0 a0 = 2 a1 = feebb070 a2 = 7055668 a3 = 83d49b8 items = 0 pid = 2052 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+07741d79,audit ( 1138296164.920 : 606586 ) : syscall = 4 exit = 58 a0 = 3 a1 = 8629f78 a2 = 3a a3 = ffffffff items = 0 pid = 2089 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+e8c921dc,"pam_check_access failed , user does not have proper access : system_u : system_r : kernel_t",1
+fb1885ba,audit ( 1138296165.146 : 606873 ) : syscall = 4 exit = 4294967274 a0 = 3 a1 = 862d3c0 a2 = 1e a3 = 862785d items = 0 pid = 2089 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 100 egid = 0 sgid = 0 fsgid = 101,1
+1adf495b,audit ( 1138296165.180 : 606909 ) : avc : denied { write } for pid = 2089 exe = #spec# name = exec dev = ino = 136904725 scontext = system_u : system_r : kernel_t tcontext = system_u : system_r : kernel_t tclass = file,1
+6c60c0f8,audit ( 1138296165.180 : 606909 ) : syscall = 5 exit = 3 a0 = dd7080 a1 = 2 a2 = fff a3 = 862785d items = 1 pid = 2089 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 100 egid = 0 sgid = 0 fsgid = 101,1
+aae6365d,audit ( 1138296165.180 : 606909 ) : item = 0 name = #spec# inode = 136904725 dev = 00 : 00,1
+789885ea,audit ( 1138296165.182 : 606936 ) : syscall = 4 exit = 25 a0 = 3 a1 = 862a098 a2 = 19 a3 = 862785d items = 0 pid = 2089 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 100 egid = 0 sgid = 0 fsgid = 101,1
+6e4d805e,audit ( 1138296165.211 : 606989 ) : syscall = 11 exit = 0 a0 = fef9be88 a1 = 862c0b0 a2 = 862d358 a3 = 0 items = 2 pid = 2090 loginuid = -1 uid = 100 gid = 101 euid = 100 suid = 100 fsuid = 100 egid = 101 sgid = 101 fsgid = 101,1
+50ba71b8,audit ( 1138296165.211 : 606989 ) : item = 0 name = #spec# inode = 1044632 dev = 00 : 00,1
+65e10fe3,audit ( 1138296184.714 : 671733 ) : syscall = 102 exit = 0 a0 = 2 a1 = fef1dec0 a2 = 1fa990 a3 = 891ed18 items = 0 pid = 2261 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+863d4fd4,audit ( 1138296191.846 : 687489 ) : syscall = 195 exit = 0 a0 = fee8cefe a1 = fee8ce90 a2 = 501ffc a3 = fee8cf06 items = 1 pid = 2275 loginuid = -1 uid = 23 gid = 23 euid = 23 suid = 0 fsuid = 23 egid = 23 sgid = 23 fsgid = 23,1
+ef941b65,audit ( 1138296191.846 : 687489 ) : item = 0 name = /initrd inode = 1021 dev = 00 : 00,1
+07a8c2b6,audit ( 1138296194.864 : 693295 ) : avc : denied { search } for pid = 2285 exe = #spec# name = 2091 dev = ino = 137035778 scontext = system_u : system_r : kernel_t tcontext = user_u : sysadm_r : sysadm_t tclass = dir,1
+4b2ea996,audit ( 1138296194.864 : 693295 ) : avc : denied { read } for pid = 2285 exe = #spec# name = stat dev = ino = 137035789 scontext = system_u : system_r : kernel_t tcontext = user_u : sysadm_r : sysadm_t tclass = file,1
+a602b656,audit ( 1138296194.864 : 693295 ) : syscall = 5 exit = 4 a0 = feeb7580 a1 = 0 a2 = 1b6 a3 = 1b6 items = 1 pid = 2285 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+f973fcb1,audit ( 1138296194.864 : 693295 ) : item = 0 name = #spec# inode = 137035789 dev = 00 : 00,1
+263844eb,audit ( 1138296194.865 : 693309 ) : syscall = 197 exit = 0 a0 = 4 a1 = feeb7270 a2 = 68cffc a3 = 9d49368 items = 0 pid = 2285 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+108f02d1,audit ( 1138296194.865 : 693325 ) : avc : denied { read } for pid = 2285 exe = #spec# name = exe dev = ino = 137035784 scontext = system_u : system_r : kernel_t tcontext = user_u : sysadm_r : sysadm_t tclass = lnk_file,1
+b146304e,audit ( 1138296194.865 : 693325 ) : syscall = 195 exit = 0 a0 = feeb7580 a1 = feeb7354 a2 = 68cffc a3 = feeb7354 items = 1 pid = 2285 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+306f2521,audit ( 1138296194.865 : 693325 ) : item = 0 name = #spec# inode = 1078904 dev = 00 : 00,1
+c5111797,audit ( 1138296198.308 : 701025 ) : syscall = 102 exit = 0 a0 = 2 a1 = f704b4f0 a2 = 7ee138 a3 = 9142ac0 items = 0 pid = 2289 loginuid = -1 uid = 25 gid = 25 euid = 25 suid = 25 fsuid = 25 egid = 25 sgid = 25 fsgid = 25,1
+3a3c2ce8,audit ( 1138296198.308 : 701032 ) : syscall = 102 exit = 0 a0 = 2 a1 = f704b5c0 a2 = 7ee138 a3 = 916c4b8 items = 0 pid = 2289 loginuid = -1 uid = 25 gid = 25 euid = 25 suid = 25 fsuid = 25 egid = 25 sgid = 25 fsgid = 25,1
+638b5f2b,audit ( 1138296202.196 : 708129 ) : syscall = 102 exit = 0 a0 = 2 a1 = feee9ba0 a2 = 1877bc a3 = feee9bdc items = 0 pid = 2300 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+e783f739,audit ( 1138296202.198 : 708174 ) : syscall = 102 exit = 0 a0 = 2 a1 = feee9aa0 a2 = 9682e4 a3 = feee9b60 items = 0 pid = 2300 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+5de63509,audit ( 1138296206.190 : 718151 ) : syscall = 102 exit = 0 a0 = 2 a1 = fee78e80 a2 = 29e60c a3 = fee78eac items = 0 pid = 2309 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+1709d5ba,audit ( 1138296212.406 : 734909 ) : avc : denied { remove_name } for pid = 511 exe = #spec# name = rhgb-socket dev = ino = 1026 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : ramfs_t tclass = dir,1
+37c079e3,audit ( 1138296212.406 : 734909 ) : avc : denied { unlink } for pid = 511 exe = #spec# name = rhgb-socket dev = ino = 1026 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : ramfs_t tclass = sock_file,1
+6e69f222,audit ( 1138296212.406 : 734909 ) : syscall = 10 exit = 0 a0 = 805cd2b a1 = 805cd26 a2 = feee2bd0 a3 = feee2bd5 items = 1 pid = 511 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+e07c8c63,audit ( 1138296212.406 : 734909 ) : item = 0 name = #spec# inode = 1021 dev = 00 : 00,1
+284b2d06,audit ( 1138296212.406 : 734910 ) : avc : denied { unlink } for pid = 511 exe = #spec# name = XFree86.0.log dev = ino = 1027 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : ramfs_t tclass = file,1
+84c738b7,audit ( 1138296212.406 : 734910 ) : syscall = 10 exit = 0 a0 = 805cd3f a1 = 805cd26 a2 = feee2bd0 a3 = feee2bd5 items = 1 pid = 511 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+7dc062f8,audit ( 1138296212.406 : 734910 ) : item = 0 name = #spec# inode = 1021 dev = 00 : 00,1
+f46bf5b2,audit ( 1138296216.366 : 837154 ) : avc : denied { getattr } for pid = 2686 exe = #spec# name = vcsa5 dev = hda2 ino = 283654 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : tty_device_t tclass = chr_file,1
+4743604a,audit ( 1138296216.366 : 837154 ) : syscall = 230 exit = 31 a0 = fef68ed5 a1 = dd6c52 a2 = 894de50 a3 = ff items = 1 pid = 2686 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+84928c7c,audit ( 1138296216.366 : 837154 ) : item = 0 name = #spec# inode = 283654 dev = 07 : 85,1
+0cbe964b,audit ( 1138296225.426 : 965370 ) : avc : denied { unlink } for pid = 2417 exe = #spec# name = .gdmfifo dev = hda2 ino = 943272 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = fifo_file,1
+f463bcd3,audit ( 1138296225.426 : 965370 ) : syscall = 10 exit = 0 a0 = 9e9f968 a1 = 0 a2 = f70ad980 a3 = 1b0 items = 1 pid = 2417 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+b95e74b6,audit ( 1138296225.426 : 965370 ) : item = 0 name = #spec# inode = 1190404 dev = 00 : 00,1
+b4473cee,audit ( 1138296225.596 : 965626 ) : syscall = 14 exit = 0 a0 = 9e9f968 a1 = 11b0 a2 = 0 a3 = 0 items = 1 pid = 2417 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+4c96770f,audit ( 1138296225.596 : 965626 ) : item = 0 name = #spec# inode = 1190404 dev = 00 : 00,1
+692c3549,audit ( 1138296225.596 : 965628 ) : avc : denied { setattr } for pid = 2417 exe = #spec# name = .gdmfifo dev = hda2 ino = 943272 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : file_t tclass = fifo_file,1
+bc8e0ec3,audit ( 1138296225.596 : 965628 ) : syscall = 15 exit = 0 a0 = 9e9f968 a1 = 1b0 a2 = f70ad980 a3 = 1b0 items = 1 pid = 2417 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+039c9f2e,audit ( 1138296225.596 : 965628 ) : item = 0 name = #spec# inode = 943272 dev = 00 : 00,1
+cf78b694,audit ( 1138297993.374 : 1376277 ) : syscall = 4 exit = 52 a0 = 8 a1 = 9245bf8 a2 = 34 a3 = 38b272 items = 0 pid = 3128 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+165e7393,audit ( 1138297993.375 : 1376285 ) : avc : denied { relabelfrom } for pid = 3128 exe = #spec# name = 1 dev = ino = 3 scontext = system_u : system_r : kernel_t tcontext = system_u : object_r : devpts_t tclass = chr_file,1
+483cb121,audit ( 1138297993.375 : 1376285 ) : avc : denied { relabelto } for pid = 3128 exe = #spec# name = 1 dev = ino = 3 scontext = system_u : system_r : kernel_t tcontext = root : object_r : devpts_t tclass = chr_file,1
+9f927622,audit ( 1138297993.375 : 1376285 ) : syscall = 226 exit = 0 a0 = 923ca78 a1 = dd7095 a2 = 9234650 a3 = 17 items = 1 pid = 3128 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+d39716a7,audit ( 1138297993.375 : 1376285 ) : item = 0 name = #spec# inode = 3 dev = 88 : 01,1
+fe665c83,audit ( 1138297993.475 : 1376441 ) : syscall = 54 exit = 0 a0 = 7 a1 = 540e a2 = 0 a3 = fef0c768 items = 0 pid = 3130 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+7329c3f7,audit ( 1138297993.475 : 1376452 ) : avc : denied { read write } for pid = 3130 exe = #spec# name = 1 dev = ino = 3 scontext = system_u : system_r : kernel_t tcontext = root : object_r : devpts_t tclass = chr_file,1
+d2502681,audit ( 1138297993.475 : 1376452 ) : syscall = 5 exit = 6 a0 = 808dd54 a1 = 8002 a2 = 0 a3 = 8002 items = 1 pid = 3130 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+fad2e522,audit ( 1138297993.475 : 1376452 ) : item = 0 name = #spec# inode = 3 dev = 88 : 01,1
+6e32b9da,audit ( 1138297993.581 : 1376686 ) : syscall = 11 exit = 0 a0 = 9234400 a1 = fef0c700 a2 = 9231e40 a3 = 9234400 items = 2 pid = 3130 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+886f81a8,audit ( 1138297993.581 : 1376686 ) : item = 0 name = #spec# inode = 1044632 dev = 00 : 00,1
+cd5f63f6,audit ( 1138298150.141 : 1454728 ) : avc : denied { setattr } for pid = 3128 exe = #spec# name = 1 dev = ino = 3 scontext = system_u : system_r : kernel_t tcontext = root : object_r : devpts_t tclass = chr_file,1
+3e93d4c1,audit ( 1138298150.141 : 1454728 ) : syscall = 212 exit = 0 a0 = 808dd54 a1 = 0 a2 = 0 a3 = 808dd54 items = 1 pid = 3128 loginuid = -1 uid = 0 gid = 0 euid = 0 suid = 0 fsuid = 0 egid = 0 sgid = 0 fsgid = 0,1
+820e6039,audit ( 1138298150.141 : 1454728 ) : item = 0 name = #spec# inode = 3 dev = 88 : 01,1
+f0b56918,"Warning! Could not relabel with system_u : object_r : devpts_t , not relabeling.",1
+e397b5af,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = ftc.fullerproperties.com user = root,3
+7451ac22,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = ast198.internetdsl.tpnet.pl user = root,2
+fb5f107f,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = jwhp5.chem.ncsu.edu user = ftp,21
+213754da,connection from #spec# ( 171-142.240.81.adsl.skynet.be ) at Wed Feb #spec# #spec# #spec#,8
+037531bb,"ANONYMOUS FTP LOGIN FROM #spec# , 171-142.240.81.adsl.skynet.be ( Sgpuser@home.com )",8
+c783c467,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 61-219-105-155.hinet-ip.hinet.net user = root,10
+6330337d,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 217-159-208-230-dsl.est.estpak.ee user = root,10
+0ae7a2ea,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = web003.knoxville.xxpansion.net user = root,17
+f188542f,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = mail.varpalota.hu user = root,3
+5b98ada6,connection from #spec# ( p54B84791.dip0.t-ipconnect.de ) at Sat Feb #spec# #spec# #spec#,19
+ec37d960,connection from #spec# ( dco001.actionhosting.ca ) at Sat Feb #spec# #spec# #spec#,23
+4065ae08,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 66-195-16-3.dimenoc.com user = root,5
+95cef77d,connection from #spec# ( host202-147-190-179.khi.dancom.net.pk ) at Mon Feb #spec# #spec# #spec#,22
+2b8f940a,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = data.nhwsh.tp.edu.tw user = root,1
+dc65e5be,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = host227.infiniconsys.com user = root,1
+e98e660c,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 61-31-236-3.static.tfn.net.tw user = root,1
+7cb91979,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = adsl-126.47.82.info.com.ph user = root,1
+c650ad7c,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 66-169-125-252.dhcp.ftwo.tx.charter.com user = root,1
+c91d16db,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = dialup-mum- #spec# .mtnl.net.in user = test,10
+a5086fed,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 200-103-106-42.pvoce700-nrp1.e.brasiltelecom.net.br user = root,10
+049c591d,connection from #spec# ( #spec# .res-cmts.sm.ptd.net ) at Wed Feb #spec# #spec# #spec#,23
+d46ccbf6,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = #spec# user = fax,6
+1ed1ace2,connection from #spec# ( P6c65.p.pppool.de ) at Thu Feb #spec# #spec# #spec#,2
+a6be0375,"ANONYMOUS FTP LOGIN FROM #spec# , 91.20.102-84.rev.gaoland.net ( anonymous )",1
+f5611350,connection from #spec# ( mx.dyn.com.ar ) at Sat Feb #spec# #spec# #spec#,4
+c440fe82,connection from #spec# ( bby35.neoplus.adsl.tpnet.pl ) at Sun Feb #spec# #spec# #spec#,2
+ffc3707f,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = 202-63-163-84.static.exatt.net user = root,7
+962255b8,connection from #spec# ( alpu2nts.alpura.com ) at Sun Feb #spec# #spec# #spec#,2
+0cae6bcc,authentication failure ; logname = uid = 0 euid = 0 tty = NODEVssh ruser = rhost = www.buller.hoover.fresno.k12.ca.us user = root,10

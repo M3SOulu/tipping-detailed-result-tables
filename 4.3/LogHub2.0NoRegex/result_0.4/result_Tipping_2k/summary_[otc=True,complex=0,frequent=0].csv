@@ -1,0 +1,4 @@
+Dataset,parse_time,identified_templates,ground_templates,GA,PA,FGA,PTA,RTA,FTA
+Proxifier,-1.00,9,8,0.526,0.000,0.824,0.000,0.000,0.000
+Linux,-1.00,105,118,0.466,0.197,0.870,0.543,0.483,0.511
+Apache,-1.00,6,6,1.000,0.270,1.000,0.167,0.167,0.167

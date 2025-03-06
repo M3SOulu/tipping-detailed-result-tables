@@ -1,0 +1,6 @@
+EventID,EventTemplate
+P0,workerEnv.init() ok /etc/httpd/conf/<*>.properties
+P1,<*>_init() Can't find child <*> in scoreboard
+P2,<*>_init() Found child <*> in scoreboard slot <*>
+P3,[client <*>] Directory index forbidden by rule: /var/www/html/
+P4,mod_jk child <*> 

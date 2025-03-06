@@ -1,0 +1,59 @@
+EventID,EventTemplate
+P0,shutting down
+P1,"Expiring session <*>, timeout of <*> exceeded"
+P2,Commiting zxid <*> from /<*>.<*>.<*>.<*>:<*> not first!
+P3,SessionTrackerImpl exited loop!
+P4,minSessionTimeout set to -<*>
+P5,FollowerRequestProcessor exited loop!
+P6,Received connection request /<*>.<*>.<*>.<*>:<*>
+P7,LEADING<*> _/|\\_ LEADING
+P8,Sending <*> _/|\\_ Sending <*> 
+P9,Synchronizing with Follower sid: <*> maxCommittedLog=<*> minCommittedLog=<*> peerLastZxid=<*>
+P10,PrepRequestProcessor exited loop!
+P11,Shutdown called
+P12,Accepted socket connection from /<*>.<*>.<*>.<*>:<*>
+P13,Server environment:<*>.<*>=<*>  _/|\\_ Server environment:<*>.<*>.<*>=<*>:<*>.<*>:<*>.<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*> _/|\\_ Server environment:<*>.<*>.<*>=<*> _/|\\_ Server environment:<*>.<*>=<*>.<*>.<*> _/|\\_ Server environment:<*>.<*>=<*> _/|\\_ Server environment:<*>.<*>=<*>.<*>.<*> :<*> 
+P14,binding to port <*>.<*>.<*>.<*>/<*>.<*>.<*>.<*>:<*>
+P15,Interrupted while waiting for message on queue
+P16,acceptedEpoch not found! Creating with a reasonable default of <*>. This should only happen when you are upgrading your installation
+P17,Revalidating client: <*>
+P18,Have <*> : <*>  _/|\\_ Have <*> : <*>
+P19,Established session <*> with negotiated timeout <*> for client /<*>.<*>.<*>.<*>:<*>
+P20,Exception <*> 
+P21,Notification <*> : <*> _/|\\_ Notification: <*> 
+P22,Getting a <*> from <*> leader <*> _/|\\_ Getting a <*> from leader
+P23,SyncRequestProcessor exited!
+P24,Send worker leaving thread
+P25,FOLLOWING<*> _/|\\_ FOLLOWING
+P26,Client attempting to establish new session at /<*>.<*>.<*>.<*>:<*>
+P27,exception while shutting down acceptor: java.net.SocketException: Socket closed
+P28,Processed session termination for sessionid: <*>
+P29,Interrupting SendWorker
+P30,shutdown <*>  _/|\\_ shutdown <*>
+P31,******* GOODBYE /<*>.<*>.<*>.<*>:<*> ********
+P32,Creating new log file: log.<*>
+P33,currentEpoch not found! Creating with a reasonable default of <*>. This should only happen when you are upgrading your installation
+P34,My election bind port: <*>.<*>.<*>.<*>/<*>.<*>.<*>.<*>:<*>
+P35,Purge task is not scheduled.
+P36,maxSessionTimeout set to -<*>
+P37,Cannot open channel to <*> at election address /<*>.<*>.<*>.<*>:<*>
+P38,Unexpected <*>  _/|\\_ Unexpected <*>
+P39,Shutting down
+P40,autopurge.<*> set to <*>
+P41,Reading <*> /<*>/<*>/zookeeper/<*>/<*>.<*> _/|\\_ Reading <*> /<*>/zookeeper/<*>/<*>.<*>
+P42,Got <*> zxid<*>  _/|\\_ Got zxid <*> 
+P43,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>
+P44,"New election. My id = <*>, proposed zxid=<*>"
+P45,tickTime set to <*>
+P46,Created server with tickTime <*> minSessionTimeout <*> maxSessionTimeout <*> datadir /var/lib/zookeeper/version-<*> snapdir /var/lib/zookeeper/version-<*>
+P47,Defaulting to majority quorums
+P48,LOOKING
+P49,caught end of stream exception
+P50,Connection <*> 
+P51,Closed socket connection for client /<*>.<*>.<*>.<*>:<*>  _/|\\_ Closed socket connection for client /<*>.<*>.<*>.<*>:<*> for client<*>
+P52,TCP NoDelay set to: true
+P53,initLimit set to <*>
+P54,CommitProcessor exited loop!
+P55,Snapshotting: <*> to /var/lib/zookeeper/version-<*>/snapshot.<*>
+P56,First is <*>
+P57,Starting quorum peer

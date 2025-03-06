@@ -1,0 +1,40 @@
+EventID,EventTemplate
+P0,[instance: <*>-<*>-<*>-<*>-<*>] During sync_power_state the instance has a pending task (spawning). Skip.
+P1,[instance: <*>-<*>-<*>-<*>-<*>] Claim successful
+P2,"[instance: <*>-<*>-<*>-<*>-<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU"
+P3,[instance: <*>-<*>-<*>-<*>-<*>] Creating image
+P4,[instance: <*>-<*>-<*>-<*>-<*>] Instance destroyed successfully.
+P5,[instance: <*>-<*>-<*>-<*>-<*>] Instance spawned successfully.
+P6,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P7,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P8,[instance: <*>-<*>-<*>-<*>-<*>] Deletion of /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del complete
+P9,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P10,"[instance: <*>-<*>-<*>-<*>-<*>] Total disk: <*> GB, used: <*>.<*> GB"
+P11,[instance: <*>-<*>-<*>-<*>-<*>] VM Resumed (Lifecycle Event)
+P12,Removable base files: /var/lib/nova/instances/_base/<*>
+P13,Unknown base file: /var/lib/nova/instances/_base/<*>
+P14,Active base files: /var/lib/nova/instances/_base/<*>
+P15,"<*>.<*>.<*>.<*> ""DELETE /<*>/<*>/servers/<*>-<*>-<*>-<*>-<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P16,"[instance: <*>-<*>-<*>-<*>-<*>] vcpu limit not specified, defaulting to unlimited"
+P17,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P18,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P19,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+P20,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*>MB used_ram=<*>MB phys_disk=<*>GB used_disk=<*>GB total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P21,"<*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P22,[instance: <*>-<*>-<*>-<*>-<*>] Terminating instance
+P23,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P24,"[instance: <*>-<*>-<*>-<*>-<*>] Total memory: <*> MB, used: <*>.<*> MB"
+P25,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P26,"[instance: <*>-<*>-<*>-<*>-<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB"
+P27,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P28,"image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+P29,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): checking
+P30,HTTP exception thrown: No instances found for any event
+P31,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> the instance on the hypervisor.
+P32,"[instance: <*>-<*>-<*>-<*>-<*>] disk limit not specified, defaulting to unlimited"
+P33,[instance: <*>-<*>-<*>-<*>-<*>] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del
+P34,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P35,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>-<*>-<*>-<*>-<*>
+P36,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance.
+P37,[instance: <*>-<*>-<*>-<*>-<*>] VM <*> (Lifecycle Event)
+P38,"<*>.<*>.<*>.<*> ""POST /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"

@@ -1,0 +1,75 @@
+EventId,EventTemplate
+b1c996a9,"<*>.<*>.<*>.<*> ""GET /v<*>/<*>fadb<*>c<*>e<*>cdbaed<*>e<*>c<*>a<*>e/servers/detail HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+60b01705,"<*>.<*>.<*>.<*> ""GET <*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+1191cb4c,<*> <*> Creating image
+dd07def0,<*> <*> VM Stopped (Lifecycle Event)
+191f4d3c,While synchronizing instance power states found <*> instances in the database and <*> instances on the hypervisor.
+688fa3f7,<*> <*> VM Started (Lifecycle Event)
+7d8a8aaf,<*> <*> VM Paused (Lifecycle Event)
+c82dac84,<*> <*> During sync_power_state the instance has a pending task (spawning). Skip.
+d5b7deae,image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (/var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>): checking
+3bb9d01d,image <*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> at (/var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>): in use: on this node <*> local <*> on other nodes sharing this instance storage
+7bc5d64e,Active base files: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>
+16f9f039,Creating event <*> for instance <*>
+edb42f2f,"<*>.<*>.<*>.<*> ""POST /v<*>/e<*>ac<*>c<*>b<*>a<*>e<*>f<*>a<*>/os-server-external-events HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+3cb05577,<*> <*> VM Resumed (Lifecycle Event)
+c2c806ea,<*> <*> Instance spawned successfully.
+6f1c5c68,<*> <*> Took <*>.<*> seconds to spawn the instance on the hypervisor.
+7bea9a37,<*> <*> Took <*>.<*> seconds to build instance.
+a6ddccbb,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /openstack/<*>-<*>-<*>/meta_data.json HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+01a9cef4,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /openstack/<*>-<*>-<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+43cf3d95,"<*>.<*>.<*>.<*> ""DELETE <*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+7de26121,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /openstack/<*>-<*>-<*>/vendor_data.json HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+d84b0fcb,<*> <*> Terminating instance
+5a985f79,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /openstack/<*>-<*>-<*>/user_data HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+6ea0b0a8,<*> <*> Instance destroyed successfully.
+f8edc2ee,<*> <*> Deleting instance files <*>
+7c074669,<*> <*> Deletion of <*> complete
+dcb6b11b,<*> <*> Took <*>.<*> seconds to destroy the instance on the hypervisor.
+e3029083,<*> <*> Took <*>.<*> seconds to deallocate network for instance.
+66acd71e,HTTP exception thrown: No instances found for any event
+a7a4ff84,Unknown base file: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>
+6a30fe6e,Removable base files: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>
+f5f5f70f,Removing base or swap file: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>
+fb5f2d88,"<*>.<*>.<*>.<*> ""POST /v<*>/<*>fadb<*>c<*>e<*>cdbaed<*>e<*>c<*>a<*>e/servers HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+c15ffc4d,<*> <*> Attempting claim: memory <*> MB disk <*> GB vcpus <*> CPU
+19497b97,<*> <*> Total memory: <*> MB used: <*>.<*> MB
+003c3e66,<*> <*> memory limit: <*>.<*> MB free: <*>.<*> MB
+73292d5a,<*> <*> Total disk: <*> GB used: <*>.<*> GB
+7252ee50,<*> <*> disk limit not specified defaulting to unlimited
+4a07e3d1,<*> <*> Total vcpu: <*> VCPU used: <*>.<*> VCPU
+9c4c535b,<*> <*> vcpu limit not specified defaulting to unlimited
+dc319841,<*> <*> Claim successful
+304a219c,Auditing locally available compute resources for node cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us
+346c93fc,Total usable vcpus: <*> total allocated vcpus: <*>
+5935193a,Final resource view: name=cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us phys_ram=<*>MB used_ram=<*>MB phys_disk=<*>GB used_disk=<*>GB total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+9d6775a4,Compute_service record updated for cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us:cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us
+732653ea,Successfully synced instances from host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us'.
+7935c571,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+4331feca,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/block-device-mapping/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+07a743c3,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/block-device-mapping/ami HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+ab5876a1,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/block-device-mapping/root HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+41c623ba,The instance sync for host 'cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+1f960aac,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/placement/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+8dfecc4f,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/placement/availability-zone HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+b241f322,"<*>.<*>.<*>.<*> ""GET /v<*>/e<*>ac<*>c<*>b<*>a<*>e<*>f<*>a<*>/servers/detail?all_tenants=True&changes-since=<*>-<*>-<*>T<*>%<*>A<*>%<*>A<*>.<*>%<*>B<*>%<*>A<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+fdc2ed12,"<*>.<*>.<*>.<*> ""GET /v<*>/e<*>ac<*>c<*>b<*>a<*>e<*>f<*>a<*>/servers/detail?all_tenants=True&changes-since=<*>-<*>-<*>T<*>%<*>A<*>%<*>A<*>.<*>%<*>B<*>%<*>A<*>&host=cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+afd7b959,"<*>.<*>.<*>.<*> ""GET /v<*>/e<*>ac<*>c<*>b<*>a<*>e<*>f<*>a<*>/flavors/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+bc4b43ae,"<*>.<*>.<*>.<*> ""GET /v<*>/e<*>ac<*>c<*>b<*>a<*>e<*>f<*>a<*>/images/<*>dd<*>-<*>c<*>-<*>fbb-<*>c<*>-<*>fbe<*>b<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+13866240,Base or swap file too young to remove: /var/lib/nova/instances/_base/a<*>c<*>f<*>c<*>da<*>b<*>c<*>bb<*>ac<*>e<*>
+ee8ec203,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/local-ipv<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+c95fafc4,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/reservation-id HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+8b2dd83c,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/local-hostname HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+76c99562,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+1120dc4c,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/security-groups HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+79b7279a,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/ami-launch-index HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+129d33eb,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/public-hostname HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+535d418b,Running instance usage audit for host cp-<*>.slowvm<*>.tcloud-pg<*>.utah.cloudlab.us from <*>-<*>-<*> <*>:<*>:<*> to <*>-<*>-<*> <*>:<*>:<*>. <*> instances.
+c459db75,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/hostname HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+915e4ea0,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/ami-id HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+6358d352,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET /latest/meta-data/instance-action HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+a283b7c2,"<*>.<*>.<*>.<*><*>.<*>.<*>.<*> ""GET <*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+a4ec7e5b,<*> <*> <*>
+8d7c0e6b,<*> <*> <*> <*> <*> <*> <*>
+de1af8bf,<*> <*> <*> <*> <*> <*> <*> <*>
+73d6de92,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>

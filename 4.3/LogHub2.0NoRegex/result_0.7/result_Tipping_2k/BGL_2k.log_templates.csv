@@ -1,0 +1,99 @@
+EventID,EventTemplate
+P0,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
+P1,<*> floating point alignment exceptions
+P2,program interrupt: imprecise exception......<*>
+P3,rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-
+P4,"PrepareForService shutting down <*> (mLctn(<*>-<*>-<*>), mCardSernum(<*>), mLp(FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), mIp(<*>.<*>.<*>.<*>), mType(<*>)) as part of Service Action <*> _/|\\_ PrepareForService shutting down <*>(mLctn(<*>-<*>-<*>), mCardSernum(<*>), mLp(FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), mIp(<*>.<*>.<*>.<*>), mType(<*>)) as part of Service Action <*>"
+P5,program interrupt: unimplemented operation..<*>
+P6,"CE sym <*>, at <*>, mask <*>"
+P7,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> ) <*>=<*> =<*> PRXF=<*> PIXF=<*>
+P8,debug <*> enable.................<*> _/|\\_ debug <*> enable............<*>
+P9,program interrupt: privileged instruction...<*>
+P10,data address space................<*>
+P11,data cache search parity error detected. attempting to correct
+P12,ciod: pollControlDescriptors: Detected the debugger died.
+P13,store operation.............................<*>
+P14,<*>=<*> dbsr=<*> =<*>
+P15,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>"
+P16,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+P17,"<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."
+P18,ciod: Error creating node map from file /home/<*>/<*>-<*>.<*>/results/<*>-<*>.map: Permission denied
+P19,"ciod: Error reading message prefix on CioStream socket to <*>.<*>.<*>.<*>:<*>, Connection <*> "
+P20,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds
+P21,floating pt ex mode <*> enable......<*>
+P22,iar <*> dear <*>
+P23,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file /p/<*>/<*>/contention-<*>-torus/xyzt-<*>.map
+P24,"problem state (<*>=sup,<*>=usr).......<*>"
+P25,special purpose registers:
+P26,<*> error(s) (<*> ) detected and corrected <*>  _/|\\_ <*> error(s) detected and corrected <*>  _/|\\_ <*> error(s) detected and corrected _/|\\_ <*> error(s) (<*> ) detected and corrected
+P27,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
+P28,auxiliary processor.........................<*>
+P29,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>)
+P30,program interrupt: trap instruction.........<*>
+P31,program interrupt: illegal instruction......<*>
+P32,generating core.<*>
+P33,ciod: Error creating node map from file /p/<*>/cabot/miranda/newmaps/<*>_<*>_<*>.map: No child processes
+P34,program interrupt: fp cr field .............<*>
+P35,rts: kernel terminated for reason <*>: <*> : <*>  _/|\\_ rts: kernel terminated for reason <*>
+P36,data storage interrupt
+P37,"ciod: In packet from node <*>.<*> (<*>-<*>-Nf-C:<*>-<*>), message code <*> is not <*> or <*> (softheader=<*> )"
+P38,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>
+P39,ciod: LOGIN chdir(/p/<*>/stella/RAPTOR/<*>) failed: Input/output error
+P40,data address: <*>
+P41,rts internal error
+P42,instruction address<*>  _/|\\_ instruction address <*>
+P43,ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/mapfiles/bgl.<*>.<*>.map
+P44,Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK.
+P45,ciod: failed to read message prefix on control stream (CioStream socket to <*>.<*>.<*>.<*>:<*>
+P46,"NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)"
+P47,minus normalized number..................<*>
+P48,ciod: Error creating node map from file /p/<*>/<*>/<*>_<*>_<*>.map: Bad file descriptor
+P49,Node card is not fully functional
+P50,exception syndrome register: <*>
+P51,program interrupt: fp cr update.............<*>
+P52,"ciod: Error loading <*>: invalid or missing program image, <*> or <*> _/|\\_ ciod: Error loading <*>: invalid or missing program image, <*> "
+P53,disable store gathering..................<*>
+P54,Machine State Register: <*>
+P55,<*> double-hummer alignment exceptions
+P56,New ido chip inserted into the database: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> ip=<*>.<*>.<*>.<*> v=<*> t=<*>
+P57,<*> suppressing further interrupts of same type _/|\\_ suppressing further interrupts of same type
+P58,machine check enable..............<*>
+P59,size of scratchpad portion of <*>.........<*> (<*>)
+P60,wait state enable.................<*>
+P61,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
+P62,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> ) <*>=<*> =<*> PRXF=<*> PIXF=<*>"
+P63,NodeCard is not fully functional
+P64,data TLB error interrupt
+P65,force load/store alignment...............<*>
+P66,guaranteed <*> cache block touch.<*> _/|\\_ guaranteed <*> cache block touch........<*>
+P67,program interrupt
+P68,ciod: generated <*> core files for program <*>
+P69,icache prefetch <*>................<*> _/|\\_ icache prefetch <*>....................<*>
+P70,<*>=<*> ffffffff ffffffff ffffffff
+P71,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.
+P72,critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire
+P73,instruction cache parity error corrected
+P74,core configuration register: <*>
+P75,"Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK."
+P76,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
+P77,ciod: LOGIN chdir(<*>) failed: No such file or directory
+P78,byte ordering exception.....................<*>
+P79,shutdown complete
+P80,ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/<*>.sequential.mapfile
+P81,data store interrupt caused by <*>.........<*>
+P82,machine <*>: <*> _/|\\_ machine <*> : <*>
+P83,rts panic! - stopping execution
+P84,ciod: Error reading message prefix <*> on CioStream socket to <*>.<*>.<*>.<*>:<*>: Link has been severed _/|\\_ ciod: Error reading message prefix on CioStream socket to <*>.<*>.<*>.<*>:<*> Link has been severed
+P85,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file /p/<*>/<*>/<*>-<*>-<*>-<*>-<*>-sweep/sweep.map
+P86,Lustre mount FAILED : <*> : <*> : <*> _/|\\_ Lustre mount FAILED : <*> : <*> 
+P87,Can not get assembly information for node card
+P88,floating point instr. enabled.....<*>
+P89,ciod: Error creating node map from file /p/<*>/<*>/<*>-<*>-<*>-<*>-<*>-xyzt/xyzt.map: Block device required
+P90,ciod: Message code <*> is not <*> or <*>
+P91,critical input interrupt enable...<*>
+P92,"ciod: Error loading /g/<*>/buber/Yunsic/BlueGene/partad.develf/taddriver.<*>.exe: program image too big, <*> > <*>"
+P93,fraction rounded.........................<*>
+P94,Ido chip status changed: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> ip=<*>.<*>.<*>.<*> v=<*> t=<*> status=M <*> :<*>:<*> PDT <*>
+P95,
+P96,lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000
+P97,r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000

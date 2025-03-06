@@ -1,0 +1,17 @@
+EventID,EventTemplate
+P0,fatal: Write failed: Connection reset by peer [preauth]
+P1,Invalid user <*> from <*>.<*>.<*>.<*> _/|\\_ Invalid user user from <*>.<*>.<*>.<*>
+P2,pam_unix(sshd:<*>): <*>  _/|\\_ pam_unix(sshd:<*>): <*> (<*>) _/|\\_ pam_unix(sshd:<*>): <*> sshd
+P3,Received disconnect from <*>.<*>.<*>.<*>: <*>: <*>  _/|\\_ Received disconnect from <*>.<*>.<*>.<*>: <*>: <*> . <*>
+P4,Failed <*> for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P5,Disconnecting: Too many authentication failures for admin [preauth]
+P6,PAM <*> ; <*> 
+P7,Did not receive identification string from <*>.<*>.<*>.<*>
+P8,input_userauth_request: invalid user <*> [preauth]
+P9,Failed password for <*> from <*>.<*>.<*>.<*> port <*> 
+P10,Connection closed by <*>.<*>.<*>.<*> [preauth]
+P11,reverse mapping checking getaddrinfo for <*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>-<*>-<*>.<*>-<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+P12,Accepted password for fztu from <*>.<*>.<*>.<*> port <*> 
+P13,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: <*>.<*>.<*>.<*>: <*> [preauth] _/|\\_ error: Received disconnect from <*>.<*>.<*>.<*>: <*>: <*> . [preauth]
+P14,Disconnecting: Too many authentication failures for root [preauth]
+P15,message repeated <*> times: [ Failed password for root from <*>.<*>.<*>.<*> port <*> ]

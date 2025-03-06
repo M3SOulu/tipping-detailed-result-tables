@@ -1,0 +1,14 @@
+EventID,EventTemplate
+P0,Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/blk_<*> _/|\\_ Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/<*>/blk_<*>
+P1,BLOCK* NameSystem.<*>: <*> : <*>.<*>.<*>.<*>:<*> is added to blk_<*>  _/|\\_ BLOCK* NameSystem.<*>: blk_<*> is added to <*> .<*>.<*>.<*>:<*>
+P2,<*>.<*>.<*>.<*>:<*>:Got exception while serving blk_<*> to /<*>.<*>.<*>.<*>:
+P3,Verification succeeded for blk_<*>
+P4,Received block blk_<*> of size <*> from /<*>.<*>.<*>.<*>
+P5,Receiving block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*>
+P6,BLOCK* ask <*>.<*>.<*>.<*>:<*> to delete blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> _/|\\_ BLOCK* ask <*>.<*>.<*>.<*>:<*> to delete blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> _/|\\_ BLOCK* ask <*>.<*>.<*>.<*>:<*> to delete blk_<*>
+P7,PacketResponder <*> for block blk_<*> terminating
+P8,BLOCK* NameSystem.allocateBlock: /user/root/<*>/_temporary/_task_<*>_<*>_<*>_<*>_<*>/part-<*>. blk_-<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /user/root/<*>/_temporary/_task_<*>_<*>_<*>_<*>_<*>/part-<*>. blk_<*>
+P9,Received block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*> of size <*>
+P10,<*>.<*>.<*>.<*>:<*> Served block blk_<*> to /<*>.<*>.<*>.<*>
+P11,<*>.<*>.<*>.<*>:<*> Starting thread to transfer block blk_<*> to <*>.<*>.<*>.<*>:<*>
+P12,BLOCK* ask <*>.<*>.<*>.<*>:<*> to replicate blk_-<*> to datanode(s) <*>.<*>.<*>.<*>:<*>

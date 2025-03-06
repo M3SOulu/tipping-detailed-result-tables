@@ -1,0 +1,288 @@
+EventId,EventTemplate
+ff86b16f,Reading configuration from: /etc/zookeeper/conf/zoo.cfg
+91491bf0,Defaulting to majority quorums
+8c716832,autopurge.snapRetainCount set to 3
+3204f3ff,autopurge.purgeInterval set to 0
+0f7cc562,Purge task is not scheduled.
+d459c04c,Starting quorum peer
+2658fd77,binding to port <*><*>
+da7d60d2,tickTime set to 2000
+5bd1f197,minSessionTimeout set to -1
+689b0f5e,maxSessionTimeout set to -1
+dbac73df,initLimit set to 10
+76c99562,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+4cbab665,My election bind port: <*><*>
+00078e14,LOOKING
+cdcf6977,New election. My id = 1 proposed <*>
+6ddd999b,Notification: 1 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x0 (n.peerEPoch) LOOKING (my state)
+5dffcb42,Cannot open channel to 2 at election address <*>
+2e117246,Cannot open channel to 3 at election address <*>
+23071c32,Notification time out: 400
+d060c58c,Notification time out: 800
+3ea5bf52,Notification time out: 1600
+92fc9948,Notification time out: 3200
+d124129b,Notification time out: 6400
+82aa668f,Notification time out: 12800
+db241859,Notification time out: 25600
+9879a9ab,Received connection request <*>
+052edc7b,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x0 (n.peerEPoch) LOOKING (my state)
+25d2b38a,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x0 (n.peerEPoch) LOOKING (my state)
+c172d526,FOLLOWING
+4c226563,TCP NoDelay set to: true
+bdad3d5d,Server environment:zookeeper.version=3.4.5--1 built on 06/10/2013 17:26 GMT
+3b256849,Server environment:host.name=node1
+b1330445,Server environment:java.version=1.7.0_79
+d961f4e8,Server environment:java.vendor=Oracle Corporation
+21f7c76b,Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+c00b2f72,Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar
+6e2bdcc4,Server environment:java.io.tmpdir=/tmp
+8f15bd33,Server environment:java.compiler=<NA>
+467d31ff,Server environment:os.name=Linux
+b9148f39,Server environment:os.arch=amd64
+b3572404,Server environment:os.version=3.16.0-30-generic
+17644875,Server environment:user.name=zookeeper
+c57116c0,Server environment:user.home=/var/lib/zookeeper
+eeb38d12,Server environment:user.dir=/
+72f21490,Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2
+a1237171,FOLLOWING - LEADER ELECTION TOOK - <*>
+ac5f8762,Getting a diff from the leader <*>
+0ce98313,<*> <*> <*> <*>
+fcf4d32a,Notification: 3 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x0 (n.peerEPoch) FOLLOWING (my state)
+cf7def1d,Connection broken for id 188978561024 my id = 1 error =
+273e53f2,Interrupting SendWorker
+45a3ec5d,Interrupted while waiting for message on queue
+7a2ec7d0,Send worker leaving thread
+4ce8c03a,Got zxid <*> expected 0x1
+5cdce00b,Creating new log file: <*>
+abe76bf8,Accepted socket connection from <*>
+1bc7bc65,Connection request from old client <*>; will be dropped if server is in r-o mode
+00a8e7f7,Client attempting to establish new session at <*>
+53abb0ca,Established session <*> with negotiated timeout 10000 for client <*>
+ecefe136,caught end of stream exception
+20d23992,Closed socket connection for client <*> which had sessionid <*>
+1caefedb,Revalidating client: <*>
+62f1350e,Notification: 3 (n.leader) 0x10000006b (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0x1 (n.peerEPoch) FOLLOWING (my state)
+87909d12,Connection broken for id <*> my id = 1 error =
+5955d2e6,<*> when <*> <*> for id <*> my id = <*> error = <*> <*> <*>
+63d9783e,Unexpected Exception:
+a7094666,Exception causing close of session <*> due to java.io.IOException: <*> <*> <*> <*>
+a17da06f,Established session <*> with negotiated timeout 20000 for client <*>
+cec2484c,Reading snapshot <*>
+7a90cbbe,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) LOOKING (my state)
+00f24e2c,Have smaller server identifier so dropping the connection: <*> 1)
+51daaf15,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LEADING (n.state) 2 (n.sid) 0x0 (n.peerEPoch) LOOKING (my state)
+d89cb171,Notification: 3 (n.leader) 0x10000006b (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0x1 (n.peerEPoch) LOOKING (my state)
+f1322f09,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x0 (n.peerEPoch) LOOKING (my state)
+3550ea13,Notification: 1 (n.leader) <*> (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) LOOKING (my state)
+e4dbc5c2,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) FOLLOWING (my state)
+7aa48f9d,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LEADING (n.state) 2 (n.sid) 0x0 (n.peerEPoch) FOLLOWING (my state)
+a1c07d72,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x0 (n.peerEPoch) FOLLOWING (my state)
+b648fa64,Server environment:host.name=mesos-master-1
+1b298505,Exception when following the leader
+de6365a3,Connection broken for id 2 my id = 1 error =
+feceb4c6,shutdown called
+6a7eb108,Shutting down
+68a7558d,shutting down
+874472f8,FollowerRequestProcessor exited loop!
+c7ef5ae9,shutdown of request processor complete
+9891c99c,CommitProcessor exited loop!
+7f667bb2,SyncRequestProcessor exited!
+81b401cb,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) LOOKING (my state)
+47cadae8,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0x1 (n.peerEPoch) LOOKING (my state)
+f0411a20,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) LOOKING (my state)
+be2214fc,<*> <*> <*> <*> <*> <*>
+5c173ec5,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LOOKING (n.state) 1 (n.sid) 0x2 (n.peerEPoch) LOOKING (my state)
+fbf3106a,Notification: 2 (n.leader) 0x100001564 (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x1 (n.peerEPoch) LOOKING (my state)
+558a4116,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LOOKING (n.state) 2 (n.sid) 0x2 (n.peerEPoch) LOOKING (my state)
+23719262,LEADING
+66c79aaa,LEADING - LEADER ELECTION TOOK - <*>
+7c6c9afa,Follower sid: <*> : info : <*>
+3e0d808f,Synchronizing with Follower sid: <*> <*> <*> <*>
+9d86801d,Sending DIFF
+88cb28b3,<*> zxid <*> from <*> not first!
+9cb3def4,First is 0x0
+4d52daa2,Have quorum of supporters; starting up and setting last processed zxid: <*>
+10781966,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LOOKING (n.state) 2 (n.sid) 0x2 (n.peerEPoch) LEADING (my state)
+3c6d6aa7,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x2 (n.peerEPoch) LEADING (my state)
+91e6438a,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LOOKING (n.state) 3 (n.sid) 0x2 (n.peerEPoch) LEADING (my state)
+77765739,Follower sid: 3 : info : <*>
+c338c19e,Synchronizing with Follower sid: 3 <*> <*> <*>
+0eb178bd,Sending SNAP
+82a7affd,<*> <*> <*> zxid of <*> <*> <*> zxid of <*> <*> <*> zxid of <*> <*> <*>
+24022c09,Expiring session <*> timeout of 10000ms exceeded
+61a003ea,Processed session termination for sessionid: <*>
+fbd85e7d,Expiring session <*> timeout of 20000ms exceeded
+0cf47064,Unexpected exception causing shutdown while sock still open
+f311a57e,******* GOODBYE <*> ********
+4e66438e,Shutdown called
+c53f1157,<*> <*> shutting down <*> <*> <*> <*>
+6d0785f5,<*> exited loop!
+6fecbed8,Notification: 1 (n.leader) 0x300000dcd (n.zxid) 0x4 (n.round) LOOKING (n.state) 1 (n.sid) 0x3 (n.peerEPoch) LOOKING (my state)
+06e735c5,Notification time out: 51200
+f3baff5c,Notification time out: 60000
+f705441c,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x3 (n.peerEPoch) LOOKING (my state)
+1df09ea8,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x4 (n.round) LOOKING (n.state) 3 (n.sid) 0x3 (n.peerEPoch) LOOKING (my state)
+4432cc8f,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x4 (n.round) LOOKING (n.state) 1 (n.sid) 0x3 (n.peerEPoch) LOOKING (my state)
+16052e63,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x3 (n.peerEPoch) LOOKING (my state)
+78d9d822,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x3 (n.peerEPoch) LOOKING (my state)
+e858aac9,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x4 (n.round) LOOKING (n.state) 2 (n.sid) 0x3 (n.peerEPoch) LOOKING (my state)
+2a812f55,Notification: 1 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 1 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+85523c8d,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+3e27e33b,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 2 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+092e3fda,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 1 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+f444f0c5,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 2 (n.sid) 0x4 (n.peerEPoch) FOLLOWING (my state)
+2071697e,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) FOLLOWING (my state)
+19530cf8,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) FOLLOWING (my state)
+e995eece,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) LOOKING (my state)
+aac51e6c,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+788a221d,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x5 (n.round) LOOKING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) LOOKING (my state)
+47a1e343,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LEADING (n.state) 2 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+47df763f,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+700df2cc,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LEADING (n.state) 2 (n.sid) 0x4 (n.peerEPoch) FOLLOWING (my state)
+bc3d07a0,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x5 (n.peerEPoch) LOOKING (my state)
+080556bd,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) LOOKING (my state)
+b094d7ab,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x5 (n.peerEPoch) FOLLOWING (my state)
+34648192,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+5961ce09,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+a172be3d,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 2 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+882dd736,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+aae61c76,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) FOLLOWING (my state)
+8c386ee8,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) FOLLOWING (my state)
+1d4de371,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+498b8f95,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+f9a2ec9d,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LEADING (n.state) 2 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+e424b215,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+2b8653b9,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+f0f55a6e,Getting a <*> <*> <*>
+92885705,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+f0252a88,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) FOLLOWING (my state)
+4ebc7e0f,Notification: 1 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+99678b60,Notification: 3 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+4c6abf01,Notification: 3 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+d582ecac,Notification: 3 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 2 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+e7070ce5,Notification: 3 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+5a650318,Notification: 3 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LEADING (n.state) 3 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+7696525a,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+7040ae51,Notification: 3 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+1e093f3d,Notification: 3 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+b82567f5,Notification: 2 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+cbaac138,Notification: 3 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+8c582eb2,Notification: 1 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0xa (n.peerEPoch) LOOKING (my state)
+e0befe7e,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0xa (n.peerEPoch) LOOKING (my state)
+f53272a6,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0xa (n.peerEPoch) LOOKING (my state)
+0c1c0fa1,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0xa (n.peerEPoch) FOLLOWING (my state)
+dffc15dd,Notification: 3 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0xa (n.peerEPoch) FOLLOWING (my state)
+599df709,Notification: 1 (n.leader) 0xb0000007b (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0xb (n.peerEPoch) LOOKING (my state)
+ecf6827a,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running
+bed3680d,Closed socket connection for client <*> (no session established for client)
+744387ac,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) LOOKING (n.state) 2 (n.sid) 0xb (n.peerEPoch) LOOKING (my state)
+0a6319b1,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0xb (n.peerEPoch) LOOKING (my state)
+fc2365a2,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) LEADING (n.state) 2 (n.sid) 0xb (n.peerEPoch) LOOKING (my state)
+0b42fdb0,Got zxid <*> <*> <*>
+de1c881a,Notification: 3 (n.leader) 0xb0000007b (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0xb (n.peerEPoch) FOLLOWING (my state)
+89c93f06,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0xb (n.peerEPoch) FOLLOWING (my state)
+e0032aaf,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) FOLLOWING (n.state) 3 (n.sid) 0xb (n.peerEPoch) FOLLOWING (my state)
+5d49fda2,Notification: 2 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+2b4b4225,Notification: 3 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) <*> (n.peerEPoch) FOLLOWING (my state)
+fd26f01a,Notification: 1 (n.leader) 0xd0000001b (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+eb979b9e,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+2125455e,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+a1fbad0c,Notification: 1 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LOOKING (n.state) 1 (n.sid) 0xe (n.peerEPoch) LOOKING (my state)
+c474a0c6,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0xe (n.peerEPoch) LOOKING (my state)
+8eed0de6,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LOOKING (n.state) 3 (n.sid) 0xe (n.peerEPoch) LOOKING (my state)
+644db57f,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LOOKING (n.state) 1 (n.sid) 0xe (n.peerEPoch) LOOKING (my state)
+4f4f418a,Notification: 2 (n.leader) 0xd0000001b (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) <*> (n.peerEPoch) FOLLOWING (my state)
+69f9b212,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LOOKING (n.state) 2 (n.sid) 0xe (n.peerEPoch) FOLLOWING (my state)
+f455bfc1,New election. My id = 2 <*> <*>
+d12e2072,Server environment:host.name=node2
+567f91d6,Follower sid: 1 : info : <*>
+e3a0c41d,Synchronizing with Follower sid: 1 <*> <*> <*>
+64e2e7e9,Notification: 3 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x0 (n.peerEPoch) LEADING (my state)
+340206c4,<*> <*> <*> zxid of <*> is 0x0 zxid of <*> <*> <*> zxid of <*> <*> <*>
+7f3f8528,Connection broken for id 188978561024 my id = 2 error =
+64869a49,Got user-level KeeperException when processing <*> <*> <*> <*> txntype:-1 reqpath:n/a Error <*> Error:KeeperErrorCode = NodeExists for <*>
+e137769d,Notification: 3 (n.leader) 0x10000006b (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0x1 (n.peerEPoch) LEADING (my state)
+a24a4fae,Connection broken for id <*> my id = 2 error =
+59a570d4,Connection broken for id 1 my id = 2 error =
+31bc5d38,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) LEADING (my state)
+2c8ed9df,Notification: 1 (n.leader) <*> (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) LEADING (my state)
+cb499574,Server environment:host.name=mesos-master-2
+fe41f49c,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LOOKING (n.state) 2 (n.sid) 0x2 (n.peerEPoch) FOLLOWING (my state)
+53b29028,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LEADING (n.state) 1 (n.sid) 0x2 (n.peerEPoch) FOLLOWING (my state)
+44bbae06,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) FOLLOWING (n.state) 2 (n.sid) 0x2 (n.peerEPoch) FOLLOWING (my state)
+a4b42003,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x2 (n.peerEPoch) FOLLOWING (my state)
+553e3d58,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LOOKING (n.state) 3 (n.sid) 0x2 (n.peerEPoch) FOLLOWING (my state)
+f1bdeccb,Cannot open channel to 1 at election address <*>
+88e5254c,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 2 (n.sid) 0x4 (n.peerEPoch) LEADING (my state)
+faa8c5b5,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x4 (n.peerEPoch) LEADING (my state)
+1d871312,Have smaller server identifier so dropping the connection: <*> <*>
+a40e007f,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LEADING (n.state) 2 (n.sid) 0x4 (n.peerEPoch) LEADING (my state)
+8392236d,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) LEADING (my state)
+304bb1c2,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) LOOKING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) LEADING (my state)
+a193afca,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) LEADING (my state)
+994158cc,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x5 (n.round) LOOKING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) LEADING (my state)
+4506574f,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x5 (n.peerEPoch) LEADING (my state)
+d66cad56,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) LEADING (my state)
+0cae0a34,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) LEADING (my state)
+fba812e3,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LEADING (my state)
+1a827b53,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LEADING (my state)
+f59220d3,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LEADING (my state)
+01b12665,Notification: 2 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0x7 (n.peerEPoch) LOOKING (my state)
+c361ac8d,Notification: 1 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) FOLLOWING (my state)
+72a214ac,Notification: 3 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) FOLLOWING (my state)
+fc63f9bc,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) 0xa (n.peerEPoch) LEADING (my state)
+4b885ec3,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 1 (n.sid) 0xa (n.peerEPoch) LEADING (my state)
+f7a026e9,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LEADING (n.state) 2 (n.sid) 0xa (n.peerEPoch) LEADING (my state)
+51372d59,Notification: 3 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0xa (n.peerEPoch) LEADING (my state)
+42a43ef6,Notification: 3 (n.leader) 0xb0000007b (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0xb (n.peerEPoch) LOOKING (my state)
+a4afe168,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) LOOKING (n.state) 3 (n.sid) 0xb (n.peerEPoch) LOOKING (my state)
+3be34b81,Notification: 1 (n.leader) 0xb0000007b (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0xb (n.peerEPoch) LEADING (my state)
+79f3076c,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0xb (n.peerEPoch) LEADING (my state)
+d2965982,Notification: 3 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) <*> (n.peerEPoch) LEADING (my state)
+bd4b2d63,Notification: 2 (n.leader) 0xd0000001b (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+e9ddecc3,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) FOLLOWING (n.state) 1 (n.sid) 0xe (n.peerEPoch) LOOKING (my state)
+305436ac,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LOOKING (n.state) 2 (n.sid) 0xe (n.peerEPoch) LOOKING (my state)
+c44b6b24,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LEADING (n.state) 3 (n.sid) 0xe (n.peerEPoch) LOOKING (my state)
+079576be,New election. My id = 3 proposed <*>
+1fc19fc1,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x0 (n.peerEPoch) LOOKING (my state)
+e3e08264,Notification: 3 (n.leader) 0x0 (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x0 (n.peerEPoch) LOOKING (my state)
+18befef1,Server environment:host.name=node3
+a2afa4e6,Connection broken for id 188978561024 my id = 3 error =
+e177737b,Connection broken for id 2 my id = 3 error =
+58f3e556,Connection broken for id 1 my id = 3 error =
+d689c855,Notification: 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x0 (n.peerEPoch) FOLLOWING (my state)
+c8bfe82c,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) FOLLOWING (my state)
+7a44cc8d,Notification: 1 (n.leader) <*> (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x1 (n.peerEPoch) FOLLOWING (my state)
+8fed101f,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x2 (n.peerEPoch) LOOKING (my state)
+a8305293,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LEADING (n.state) 1 (n.sid) 0x2 (n.peerEPoch) LOOKING (my state)
+097af7bd,Notification: 1 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) FOLLOWING (n.state) 2 (n.sid) 0x2 (n.peerEPoch) LOOKING (my state)
+2e0fde54,Notification: 3 (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x2 (n.peerEPoch) FOLLOWING (my state)
+384073fd,Server environment:host.name=mesos-master-3
+ca458d5c,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+319e4577,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x4 (n.peerEPoch) LOOKING (my state)
+a2b80e27,Notification: 3 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) FOLLOWING (my state)
+76492027,Notification: 2 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x4 (n.peerEPoch) FOLLOWING (my state)
+4432fc3e,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) FOLLOWING (my state)
+7c24f6e3,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x5 (n.round) LOOKING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) FOLLOWING (my state)
+f96c1beb,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x5 (n.peerEPoch) LOOKING (my state)
+28cd0b7e,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x5 (n.peerEPoch) LOOKING (my state)
+14cc3d06,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LEADING (n.state) 2 (n.sid) 0x5 (n.peerEPoch) LOOKING (my state)
+ea987a30,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+6ec2d052,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x6 (n.peerEPoch) LOOKING (my state)
+80b9908f,Notification: 3 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x6 (n.peerEPoch) FOLLOWING (my state)
+7bab9ea2,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) FOLLOWING (n.state) 1 (n.sid) 0x6 (n.peerEPoch) FOLLOWING (my state)
+021e1ce5,Notification: 2 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LEADING (n.state) 2 (n.sid) 0x6 (n.peerEPoch) FOLLOWING (my state)
+83110dcc,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) FOLLOWING (my state)
+0794964d,Notification: 1 (n.leader) 0x50000062e (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) FOLLOWING (my state)
+224fed68,Notification: 1 (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) FOLLOWING (my state)
+69b8f9c4,Notification: 1 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LEADING (my state)
+d51714c5,Notification: 3 (n.leader) 0x700000197 (n.zxid) 0x1 (n.round) LOOKING (n.state) 1 (n.sid) 0x7 (n.peerEPoch) LEADING (my state)
+8b8abf76,Notification: 3 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LOOKING (n.state) 3 (n.sid) 0xa (n.peerEPoch) LOOKING (my state)
+28e145eb,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 1 (n.sid) 0xa (n.peerEPoch) LOOKING (my state)
+2c78e004,Notification: 2 (n.leader) 0xa0000009a (n.zxid) 0x1 (n.round) LEADING (n.state) 2 (n.sid) 0xa (n.peerEPoch) LOOKING (my state)
+f0569eb4,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) LOOKING (n.state) 1 (n.sid) 0xb (n.peerEPoch) FOLLOWING (my state)
+98432601,Notification: 2 (n.leader) 0xb00000084 (n.zxid) 0x2 (n.round) FOLLOWING (n.state) 1 (n.sid) 0xb (n.peerEPoch) FOLLOWING (my state)
+9a1bdd92,Notification: 2 (n.leader) <*> (n.zxid) 0x1 (n.round) FOLLOWING (n.state) 1 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+6303f2fc,Notification: 2 (n.leader) <*> (n.zxid) 0x1 (n.round) LEADING (n.state) 2 (n.sid) <*> (n.peerEPoch) LOOKING (my state)
+6ea57777,Notification: 2 (n.leader) 0xd0000001b (n.zxid) 0x1 (n.round) LOOKING (n.state) 2 (n.sid) <*> (n.peerEPoch) LEADING (my state)
+09fc647a,Notification: 3 (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LOOKING (n.state) 2 (n.sid) 0xe (n.peerEPoch) LEADING (my state)

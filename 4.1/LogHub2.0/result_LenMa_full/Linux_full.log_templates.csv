@@ -1,0 +1,640 @@
+EventId,EventTemplate,Occurrences
+78996bdd,restart.,42
+e2e2f763,syslogd startup succeeded,9
+c4abea2c,klogd startup succeeded,9
+f926f5ed,"klogd 1.4.1, log source = /proc/kmsg started.",9
+2cd6d10d,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 <*> EDT 2004,8
+5cb4dcf4,BIOS-provided physical RAM map:,8
+bd552545,BIOS-e820:  -  (usable),16
+f8749cd8,BIOS-e820:  -  (reserved),24
+70d0b7b3,126MB LOWMEM available.,8
+4475646e,zapping low mappings.,8
+89e41320,On node 0 totalpages: 32430,8
+de566a4c,"DMA zone: 4096 pages, LIFO batch:1",8
+23d512cf,"Normal zone: 28334 pages, LIFO batch:6",8
+f81bd90d,"HighMem zone: 0 pages, LIFO batch:1",8
+c8fb83f1,DMI 2.3 present.,8
+068fbf46,ACPI disabled because your bios is from 2000 and too old,8
+06e4070c,You can enable it with acpi=force,8
+ce85852a,Built 1 zonelists,8
+85a83e6b,irqbalance startup succeeded,8
+6bcffc16,Kernel command line: ro root=LABEL=/ rhgb quiet,7
+867e70a6,mapped 4G/4G trampoline to ffff3000.,8
+11ffa6be,Initializing CPU#0,8
+e052d25e,portmap startup succeeded,8
+ae392113,"CPU 0 irqstacks, hard=02345000 soft=02344000",8
+911f3f5b,PID hash table entries: 512 (order 9: 4096 bytes),8
+26dcb8fa,Detected  MHz processor.,8
+2cacc501,Using tsc for high-res timesource,8
+75194edc,Console: colour VGA+ 80x25,8
+b7ac2ad4,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",8
+090dec09,Calibrating delay loop...  BogoMIPS,8
+625bc432,Security Scaffold v1.0.0 initialized,8
+2e7edb68,SELinux: Initializing.,8
+c73d5365,SELinux: Starting in permissive mode,8
+92f38af7,"There is already a security framework initialized, register_security failed.",8
+f4531fe0,Failure registering capabilities with the kernel,8
+ab0ff39f,selinux_register_security: Registering secondary module capability,8
+995ee000,Capability LSM initialized,8
+c652c002,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",8
+d84d0c25,"Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)",8
+500a6615,"Mount-cache hash table entries: 512 (order: 0, 4096 bytes)",8
+72d065cb,Version 1.0.6 Starting,8
+08cb21a6,rpc.statd startup succeeded,8
+33127630,"CPU: L1 I cache: 16K, L1 D cache: 16K",8
+875bf9ed,CPU: L2 cache: 256K,8
+3797c3f8,Intel machine check architecture supported.,8
+8f3f5cf7,CPU: Intel Pentium III (Coppermine) stepping 06,8
+6840ff9f,Enabling fast FPU save and restore... done.,8
+8d0b0805,Enabling unmasked SIMD FPU exception support... done.,8
+8177bcff,Checking 'hlt' instruction... OK.,8
+cb7aa6e4,POSIX conformance testing by UNIFIX,8
+64c739ef,NET: Registered protocol family ,48
+8630412f,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",8
+05be387f,PCI: Using configuration type 1,8
+ca5bfdc0,ACPI: Subsystem revision 20040326,8
+51836d0d,ACPI: Interpreter disabled.,8
+91511598,Linux Plug and Play Support v0.97 (c) Adam Belay,8
+00835605,usbcore: registered new driver ,32
+d77fb1e6,rpc.idmapd startup succeeded,8
+dbbbedfa,ACPI: ACPI tables contain no PCI IRQ routing entries,8
+dce3be49,PCI: Invalid ACPI-PCI IRQ routing table,8
+9f45ab13,Initializing random number generator: succeeded,8
+01e69759,PCI: Probing PCI hardware,8
+f6612193,PCI: Probing PCI hardware (bus 00),8
+0c202b29,Transparent bridge - 0000:00:1e.0,8
+0eb41a64,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,8
+6927be79,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),8
+e3816864,audit: initializing netlink socket (disabled),7
+985ce293,audit(1118297138.4294965368:0): initialized,1
+add074a6,"Total HugeTLB memory allocated, 0",8
+7e5527d8,Starting pcmcia: succeeded,8
+8ec80336,VFS: Disk quotas dquot_6.5.1,8
+53afafca,"Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",8
+94453cdc,SELinux:  netfilter hooks,15
+d6bd2fc9,Initializing Cryptographic API,8
+2a4a45de,pci_hotplug: PCI Hot Plug PCI Core version: 0.5,8
+7681522b,isapnp: Scanning for PnP cards...,8
+f73b80ae,isapnp: No Plug & Play device found,8
+18c74772,Real Time Clock Driver v1.12,8
+f644054b,Linux agpgart interface v0.100 (c) Dave Jones,8
+ed1f4ac2,agpgart: Detected an Intel i810 E Chipset.,8
+1e72cf9a,agpgart: Maximum main memory to use for agp memory: 93M,8
+ec34de39,hcid startup succeeded,8
+3a5e635e,agpgart: detected 4MB dedicated video ram.,8
+b965288c,HCI daemon ver 2.4 started,8
+aa511af6,Setting network parameters: succeeded,7
+907541ab,sdpd startup succeeded,8
+ef1117e3,agpgart: AGP aperture is 64M @ 0xf4000000,8
+44a8ef10,Bringing up loopback interface: succeeded,7
+361a7041,"Serial: 8250/16550 driver $Revision: 1.90 $ 8 ports, IRQ sharing enabled",8
+60bde91e,RAMDISK driver initialized: 16 RAM disks of 16384K size 1024 blocksize,8
+1564418e,Uniform Multi-Platform E-IDE driver Revision: 7.00alpha2,8
+8631f5fd,Mounting other filesystems: succeeded,8
+7e77542a,ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,8
+a6b6dd2d,ICH: IDE controller at PCI slot 0000:00:1f.1,8
+151f82cd,"Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16ac)",8
+51259001,apmd startup succeeded,8
+63c6a157,ICH: chipset revision 2,8
+523917e5,"ide0: BM-DMA at 0xffa0-0xffa7, BIOS settings: hda:DMA, hdb:pio",8
+49966373,automount startup succeeded,8
+8ea7806f,"ide1: BM-DMA at 0xffa8-0xffaf, BIOS settings: hdc:DMA, hdd:pio",8
+d37bfc40,Using cfq io scheduler,8
+0b6254db,Home page is http://smartmontools.sourceforge.net/,8
+eaa372d7,"ide0 at 0x1f0-0x1f7,0x3f6 on irq 14",8
+5a4503f6,Opened configuration file /etc/smartd.conf,8
+a1670771,Configuration file /etc/smartd.conf parsed.,8
+eec28e96,"Device: /dev/hda, opened",8
+0a7c37c3,"ide1 at 0x170-0x177,0x376 on irq 15",8
+14527e51,Charge: * * * (-1% unknown),8
+0a8b2db1,"Device: /dev/hda, found in smartd database.",8
+2130e76a,hda: max request size: 128KiB,8
+04473c2d,"Device: /dev/hda, is SMART capable. Adding to ""monitor"" list.",8
+9b017fd3,"hda: 29336832 sectors (15020 MB) w/1916KiB Cache, CHS=29104/16/63, UDMA(66)",8
+a2320e3f,Monitoring 1 ATA and 0 SCSI devices,8
+89fcac88,smartd has fork()ed into background mode. New ,8
+c1aec3f3,smartd startup succeeded,8
+bef5e7dc,Uniform CD-ROM driver Revision: 3.20,8
+4f79f867,ide-floppy driver 0.99.newide,8
+7d137d12,mice: PS/2 mouse device common for all mice,8
+90862461,"serio: i8042  port at 0x60,0x64 irq ",16
+f8f02bab,input: ImPS/2 Logitech Wheel Mouse on isa0060/serio1,8
+61e0f1ac,input: AT Translated Set 2 keyboard on isa0060/serio0,8
+c57c9e3b,"md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27",8
+9c8fb69c,"IP: routing cache hash table of 512 buckets, 4Kbytes",8
+19776050,TCP: Hash tables configured (established 8192 bind 16384),8
+31ec7739,Initializing IPsec netlink socket,8
+bbcf9346,checking if image is initramfs...it isn't (no cpio magic); looks like an initrd,8
+160b594f,Freeing initrd memory: 186k freed,8
+2976eb95,md: Autodetecting RAID arrays.,8
+32235261,md: autorun ...,8
+0add59ac,RAMDISK: Compressed image found at block 0,8
+70f723cc,Starting hpoj: succeeded,8
+2c1e5c5b,VFS: Mounted root (ext2 filesystem).,8
+c2f3a71c,EXT3-fs: write access will be enabled during recovery.,4
+ec8854d7,kjournald starting. Commit interval 5 seconds,16
+0f5f660d,EXT3-fs: hda2: 4 orphan inodes deleted,1
+f48ed4b2,EXT3-fs: recovery complete.,4
+015388e9,EXT3-fs: mounted filesystem with ordered data mode.,16
+f0dc3a50,Freeing unused kernel memory: 144k freed,8
+54e84997,SELinux: Disabled at runtime.,7
+fec723ae,Disabled Privacy Extensions on device 022db720(lo),8
+14f1f2c0,IPv6 over IPv4 tunneling driver,8
+dcfd6ab8,USB Universal Host Controller Interface driver v2.2,8
+37ef7b7a,PCI: Found IRQ  for device ,24
+a74b3f4b,uhci_hcd 0000:00:1f.2: UHCI Host Controller,8
+3985cca0,"uhci_hcd 0000:00:1f.2: irq 11, io base 0000ff80",8
+14f741c3,"uhci_hcd 0000:00:1f.2: new USB bus registered, assigned bus number 1",8
+ca19e9d3,EXT3 FS on  internal journal,16
+918c58e2,cdrom: open failed.,8
+50184ac7,Adding 262072k swap on /dev/hda3. Priority:-1 extents:1,8
+c6a757cc,microcode: CPU0 already at revision 0x8 (current=0x8),8
+e4e9ae09,microcode: No suitable data for cpu 0,8
+a2044dbd,"parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]",16
+a143a7c3,parport0: irq 7 detected,16
+a811b34c,SCSI subsystem initialized,8
+c3cec59f,inserting floppy driver for 2.6.5-1.358,8
+1d9bfc43,Floppy drive(s): fd0 is 1.44M,8
+0df1ae9c,FDC 0 is a National Semiconductor PC87306,8
+11933eee,3c59x: Donald Becker and others. www.scyld.com/network/vortex.html,16
+e07cd137,ip_tables: (C) 2000-2002 Netfilter core team,17
+bf61093b,process `syslogd' is using obsolete setsockopt SO_BSDCOMPAT,8
+646a5c5f,Bluetooth: Core ver 2.4,8
+786e72af,Bluetooth: HCI device and connection manager initialized,8
+0efba9fd,Bluetooth:   layer initialized,24
+209d5459,Bluetooth: L2CAP ver 2.1,8
+d7a863dc,Bluetooth: RFCOMM ver 1.2,8
+1337b824,cupsd startup succeeded,41
+32d0250e,succeeded,16
+e3b3c521,xinetd startup succeeded,8
+b3675075,No such internal service: services/stream - DISABLING,8
+ac74e097,sendmail startup succeeded,9
+ac67f555,sm-client startup succeeded,9
+be649d37,bind failed (Address already in use (errno = 98)). service = telnet,8
+eb072cc2,Service telnet failed to start and is deactivated.,8
+99d1e3fb,xinetd Version 2.3.13 started with libwrap loadavg options compiled in.,8
+ff6da2ce,Started working: 30 available services,8
+032a3bc3,spamd startup succeeded,8
+74758846,Jun  <*>  Info: loading configuration file '/etc/privoxy/config':,2
+98fef271,creating device node ,268
+043b7eba,privoxy startup succeeded,8
+5857ec9a,*** info [startup.c(95)]:,8
+a0f36799,Started gpm successfully. Entered daemon mode.,8
+0c4ed6cb,*** info [mice.c(1766)]:,15
+6281818e,imps2: Auto-detected intellimouse PS/2,15
+c1cd3db1,gpm startup succeeded,8
+a3697c22,session opened for user  by ,561
+9a85d647,session closed for user ,561
+f472eb53,htt startup succeeded,8
+4e287fe6,started.,8
+a4c10530,crond startup succeeded,8
+78fcfdec,xfs startup succeeded,8
+7e31404a,anacron startup succeeded,8
+452a7966,atd startup succeeded,8
+e0abe6c9,Starting background readahead:,8
+09640dff,Starting readahead: succeeded,8
+271cc766,messagebus startup succeeded,8
+baef46da,httpd startup succeeded,8
+0bd33e43,Squid Parent: child process  started,8
+6880de23,starting BIND 9.2.3 -u named -t /var/named/chroot,8
+95b1a825,using 1 CPU,8
+8c68af4c,named startup succeeded,8
+018ef2a8,loading configuration from '/etc/named.conf',8
+f920ba7b,listening on IPv4 interface  <*>#53,192
+10964d0b,snmpd startup succeeded,8
+45ce1e6f,NET-SNMP version 5.1.1,8
+73b63daf,ntpd startup succeeded,8
+2eba815d,precision =  usec,8
+cfb119db,kernel time sync  ,24
+77ca5b48,frequency initialized 0.000 PPM from /var/lib/ntp/drift,8
+9b97e6f4,"configure: keyword ""authenticate"" unknown, line ignored",8
+f2acc4c2,couldn't add command channel  not found,16
+fd02d829,Starting MySQL: succeeded,9
+ea31f21f,running,8
+180292b1,"rsyncd version 2.6.2 starting, listening on port 873",8
+aa555282,removing device node ,216
+675d6466,"synchronized to LOCAL(0), stratum=10",8
+d5908ef6,file descriptor of service comsat has been closed,8
+ee330b69,select reported EBADF but no bad file descriptors were found,8
+f1f7711d,ALERT exited abnormally with [1],231
+fad3f5f8,audit(1118403053.397:0): initialized,1
+6686ef46,kernel.core_uses_pid = 1,4
+5fe6f5c0,check pass; user unknown,1043
+5103f88d,connection from <*> () at    <*> ,1580
+ac015b1d,authentication failure;   euid=0  ruser=  ,2879
+8531a26e,cupsd shutdown succeeded,37
+52bc648f,connection from <*>  at    <*> ,1777
+982e97ff,bad username [;;],1
+6444ea09,Couldn't authenticate user,10
+6d866ac9,bad username [],9
+0b46abb4,User unknown timed out after 900 seconds at    <*> ,36
+e56ad209,Received SNMP packet(s) from <*>,4
+a7b2643f,Authentication failed from <*> (<*>): Permission denied in replay cache code,8
+7fe2186b,Kerberos authentication failed,25
+60a3091e,Authentication failed from <*> (<*>): Software caused connection abort,15
+aec4de61,notify question section contains no SOA,16
+a45f76b2,getpeername (ftpd): Transport endpoint is not connected,43
+44330be5,warning: can't get client address: Connection reset by peer,18
+d0e853c1,audit(1122475266.4294965305:0): initialized,1
+7aba8e64,Jul 27 <*> Privoxy(-150806400) Info: loading configuration file '/etc/privoxy/config':,1
+98fa0d41,ttloop: peer died: Invalid or incomplete multibyte or wide character,112
+6aa0efd8,Stopping MySQL: succeeded,3
+c2096aa8,*** info [client.c(137)]:,1
+f9441506,Connecting at fd 6,1
+063ccac4,*** info [client.c(275)]:,1
+3a3d3786,*** info [client.c(284)]:,1
+8f50abd3,bad username [ ],2
+1aab8bf8,"FAILED LOGIN  FROM (null) FOR , Authentication failure",4
+63439419,service(sshd) ignoring max retries;  > 3,11
+7fb6ca22,ttloop: read: Connection reset by peer,10
+9f28d074,tty2: invalid character 0x1b in login name,1
+31b189f7,audit(1127109407.969:0): initialized,1
+faded370,Sep  <*>  Info: loading configuration file '/etc/privoxy/config':,2
+f1497fd7,sendmail shutdown failed,5
+4661d1f7,sm-client shutdown succeeded,3
+c8855186,shutting down for system reboot,4
+0d6f5de2,Switching to runlevel: 6,4
+4d105a66,messagebus -TERM succeeded,3
+bc58d29a,atd shutdown succeeded,4
+468ac748,privoxy shutdown succeeded,4
+c0393cd4,terminating,3
+f0f15d83,xfs shutdown succeeded,3
+93da9db0,jserver shutdown succeeded,3
+ab089e79,Stopping Canna server: succeeded,4
+dca49ef0,gpm shutdown succeeded,4
+83308403,httpd shutdown succeeded,4
+a17b99aa,Stopping squid:,4
+1eea39ad,Squid Parent: child process  exited with status 0,4
+f8ff1509,Stopping squid: succeeded,4
+b717dcb2,sshd -TERM succeeded,4
+0e697671,spamd shutdown succeeded,4
+7c9fc153,smartd received signal 15: Terminated,4
+fe6458c2,smartd is exiting (exit status 0),4
+7327bc4e,smartd shutdown succeeded,4
+bd167261,shutting down,2
+6d0a0066,no longer listening on <*>#53,48
+8d218b43,exiting,2
+e697e623,named shutdown succeeded,2
+28a4242e,snmpd shutdown succeeded,4
+5f266c00,xinetd shutdown succeeded,4
+1c424845,crond shutdown succeeded,4
+a2790190,Exiting,4
+a1bca92d,apmd shutdown succeeded,4
+c4b9be2e,ntpd exiting on signal 15,4
+3b19fca5,ntpd shutdown succeeded,4
+d8595ace,1+0 records in,4
+247ff452,1+0 records out,4
+5094c608,"Caught signal 15, un-registering and exiting.",3
+22d8ced3,rpc.statd shutdown succeeded,3
+bd9326d4,portmap shutdown succeeded,3
+65a6d07f,Kernel logging (proc) stopped.,5
+b4bfecf1,Kernel log daemon terminating.,5
+3acb8bf8,klogd shutdown succeeded,5
+8e657ab9,audit(1127898608.244:0): initialized,1
+f40f4789,sm-client shutdown failed,3
+d56cbdee,open(/dev/pts/0): No such file or directory,5
+b161bbd2,password changed for test,4
+d46cb631,1 more authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser=  user=test,5
+ef037a49,wall: user test broadcasted 1 lines (36 chars),1
+a7f2aba4,Client hung up - probable port-scan,1
+28f0462a,rsync: connection unexpectedly closed (0 bytes read so far),1
+306bc20e,rsync error: error in rsync protocol data stream (code 12) at io.c(342),1
+20b28dfc,connect from 88-213-181-81-cable.canals.ro,1
+79880953,[smux_accept] accepted fd 12 from <*>:1896,1
+d38490a8,Unable to get command line from client!,1
+4a269702,Authentication failed from <*> (88-213-181-81-cable.canals.ro): Software caused connection abort,2
+2b72d353,Connection from <*> on illegal port,2
+788f107b,1 more authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=88-213-181-81-cable.canals.ro user=root,1
+b4c66d13,sendmail shutdown succeeded,3
+effdfd21,net.ipv4.conf.default.rp_filter = 1,2
+a051941d,kernel.sysrq = 0,2
+86c5b897,audit(1130234885.488:0): initialized,1
+35f66d59,Oct 25 <*> Privoxy(-150089600) Info: loading configuration file '/etc/privoxy/config':,1
+5d295536,hda: dma_timer_expiry: dma status == 0x20,1
+71f5ab28,hda: status timeout: status=0xd0 { Busy },1
+e4cb7fc4,Out of Memory: Killed process  ,10404
+0c6916b5,"httpd: page allocation failure. order:0, ",77
+0df7787a,[<0212ebf3>] __alloc_pages+0x274/0x281,90
+7573d017,[<0213d341>] read_swap_cache_async+0x41/0x84,44
+a6e53e0d,[<02135dee>] swapin_readahead+0x2c/0x47,23
+b8dfdee8,[<02135e66>] do_swap_page+0x5d/0x1f9,23
+97f24b7a,[<021364a7>] handle_mm_fault+0x9d/0xe2,40
+6694669d,[<02114537>] do_page_fault+0x12f/0x446,73
+386194fe,[<0210737b>] do_IRQ+0x15d/0x169,11
+b79e6728,[<0227ecc1>] schedule+0x3ed/0x44d,63
+eff892fe,[<0215242b>] dput+0x12c/0x13a,5
+68bec427,[<02114408>] do_page_fault+0x0/0x446,102
+cf59332b,[<02135e6d>] do_swap_page+0x64/0x1f9,17
+a11e8c31,VM: killing process ,28
+fd3de9d9,[<021303bd>] do_page_cache_readahead+0xa3/0x101,23
+b838f5c0,[<0212c71b>] filemap_nopage+0x119/0x26d,23
+591297a3,[<021361c7>] do_no_page+0xa1/0x235,30
+21cd362c,[<02135fdc>] do_swap_page+0x1d3/0x1f9,1
+8885d816,[<0213647b>] handle_mm_fault+0x71/0xe2,30
+c9776184,[<02135342>] follow_page+0xda/0xe5,19
+973a9595,[<0213f1ba>] rw_vm+0x1ce/0x1ea,16
+4001d0a6,[<0212bd04>] find_or_create_page+0x39/0x70,14
+5dcecb7e,[<02142ed7>] grow_dev_page+0x27/0xc3,14
+8cf23c1b,[<02143014>] __getblk_slow+0xa1/0xcb,14
+bc3830ae,[<0214328d>] __getblk+0x25/0x2b,14
+5af537a9,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3],12
+9aed7a01,[<0212db65>] mempool_alloc+0x5d/0xf6,11
+4a2c05be,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3],14
+ff84ebe1,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3],14
+34a731e4,[<0a8b23ef>] journal_start+0x78/0x9e [jbd],14
+89dca3c2,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3],14
+b95d2666,[<02158800>] __mark_inode_dirty+0x20/0xca,14
+786d6cbc,[<0215456f>] inode_update_time+0x8e/0x96,14
+384388a4,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e,14
+e678dab3,[<021c8bda>] vt_console_print+0x64/0x28f,11
+235cb9db,[<021288cf>] __print_symbol+0x110/0x121,12
+7fb88b7a,[<0212d602>] generic_file_aio_write+0x69/0x7c,15
+2270df45,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3],15
+e15f9948,[<02141447>] do_sync_write+0x68/0x9d,15
+29635c6b,[<021c8b76>] vt_console_print+0x0/0x28f,5
+ad959993,[<02118726>] __call_console_drivers+0x36/0x42,5
+04e7f091,[<021189cd>] printk+0x106/0x113,11
+ec3f055e,[<021060c2>] show_trace+0x92/0x97,11
+3dde4f87,[<02106159>] dump_stack+0x11/0x13,13
+de3681da,[<02129a6c>] do_acct_process+0x283/0x297,15
+9e46de7e,[<02129a95>] acct_process+0x15/0x1f,15
+4daae537,[<02119ccc>] do_exit+0x9f/0x2e3,15
+f9ae2daf,[<0211476a>] do_page_fault+0x362/0x446,15
+b75eae8e,[<0211c38d>] proc_dointvec+0x11/0x15,4
+280c1e1c,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36,4
+4ae94460,[<0211bdc5>] do_rw_proc+0x79/0x8d,3
+fb199083,[<02142d47>] invalidate_inode_buffers+0x9/0x33,3
+4a38e55f,[<0227e913>] schedule+0x3f/0x44d,9
+ef39b53c,[<0212d1de>] generic_file_aio_write_nolock+0x4fe/0x84e,1
+ce569b59,[<02115f01>] __wake_up+0xe/0x16,10
+236e1564,[<02115ed2>] __wake_up_common+0x2f/0x50,9
+4f669238,[<0213f423>] put_user_size+0x29/0x2d,49
+3710b84c,[<021295e4>] check_free_space+0x1b5/0x1cb,4
+f7c691f3,[<0212c5b2>] page_cache_read+0x2a/0x7a,10
+39b8af8b,[<0212c784>] filemap_nopage+0x182/0x26d,7
+cce7207a,[<02115617>] recalc_task_prio+0x141/0x14c,20
+d56b2b30,"sendmail: page allocation failure. order:0, ",11
+4ab05509,[<021359c3>] do_wp_page+0x97/0x21c,5
+e5a3e837,[<0214201b>] __fput+0xb3/0xd1,2
+ec16e441,[<021208bf>] sys_rt_sigaction+0x6b/0x80,5
+90574c6a,[<0213f3d3>] get_user_size+0x30/0x57,6
+21e62631,[<021287f4>] __print_symbol+0x35/0x121,3
+455bc6db,[<021284a0>] module_text_address+0x3a/0x5d,1
+6859ca7a,[<02135b2f>] do_wp_page+0x203/0x21c,2
+e872c240,[<021359f7>] do_wp_page+0xcb/0x21c,3
+0c848096,[<021364c6>] handle_mm_fault+0xbc/0xe2,3
+d1d2097d,[<02107352>] do_IRQ+0x134/0x169,2
+09e65bc2,[<021529bb>] d_alloc+0x38/0x1b0,5
+6faef453,[<02152b72>] d_instantiate+0x3f/0x42,5
+facbfc78,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a,5
+8d44b0a4,[<0a8e11ed>] ext3_get_inode_loc+0x119/0x201 [ext3],2
+e6a183d3,[<02221a76>] input_unregister_device+0xd/0xc1,2
+72d79e38,printk: 185 messages suppressed.,1
+17b51ac7,[<02134aa0>] clear_page_tables+0x7c/0x8f,1
+b93704f8,[<02137b89>] free_pgtables+0x76/0x7b,1
+3566cf55,[<02137ca8>] unmap_region+0x80/0xaa,1
+9c1c10ac,[<02137c1f>] unmap_vma_list+0xe/0x17,1
+be6c2cad,[<0212144c>] sys_setuid+0xdd/0xe9,1
+7dcc9d4d,Master rebooting...,1
+909fe4a1,messagebus shutdown failed,1
+fb367da3,xfs shutdown failed,1
+fa2c4292,jserver shutdown failed,1
+55cbf517,Stopping MySQL: failed,2
+581533bf,named shutdown failed,2
+4f0e1b2c,rpc.statd shutdown failed,1
+ab09cc9a,portmap shutdown failed,1
+afe128ff,audit(1133871737.703:0): initialized,1
+4acc3b94,Dec 06 <*> Privoxy(-150085504) Info: loading configuration file '/etc/privoxy/config':,1
+dcaf5bad,bad username [\],1
+faf9fd4d,ttloop: read: Connection timed out,57
+43b38dee,syslogd shutdown succeeded,1
+1c67a930,audit: enabled (after initialization),1
+dbe95ad1,audit(1138278081.612:0): initialized,1
+66d5a320,"security: 5 users, 7 roles, 1244 types, 1 bools",1
+f5efd6f1,"security: 30 classes, 303377 rules",1
+4d56730d,SELinux: Completing initialization.,1
+8c6a60dc,SELinux: Setting up existing superblocks.,1
+74236350,"SELinux: initialized (dev , type  uses genfs_contexts",11
+a6e8df62,"SELinux: initialized (dev , type  not configured for labeling",2
+880b4728,"SELinux: initialized (dev , type  uses  SIDs",5
+89373646,audit(1138278089.855:0): avc: denied { read write } for pid=1 exe=/sbin/init name=initctl dev=hda2 ino=1031635 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=fifo_file,1
+9bab8f7c,audit(1138278091.510:111925): syscall=103 exit=0 a0=8 a1=0 a2=3 a3=3 items=0 pid=506 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+f84c0c2c,audit(1138278092.486:112647): avc: denied { setattr } for pid=509 exe=/usr/bin/rhgb name=/ dev= ino=1021 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=dir,1
+70af2c90,audit(1138278092.486:112647): syscall=15 exit=0 a0=805ccbd a1=1c0 a2=9a397c8 a3=1c0 items=1 pid=509 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+2ef8c09e,audit(1138278092.486:112647): item=0 name=/initrd inode=1021 dev=00:00,1
+6a6f9d4c,audit(1138278092.509:112888): avc: denied { search } for pid=512 exe=/sbin/ifconfig name=net dev= ino=-268435354 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_net_t tclass=dir,1
+b34384f4,audit(1138278092.509:112888): syscall=33 exit=4294967294 a0=8051f0f a1=4 a2=80545a0 a3=8054460 items=1 pid=512 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+5f6ac051,audit(1138278092.594:113949): syscall=102 exit=0 a0=2 a1=feee2dd0 a2=2 a3=1 items=1 pid=511 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+4507018b,audit(1138278092.594:113951): avc: denied { setattr } for pid=511 exe=/usr/bin/rhgb name=rhgb-socket dev= ino=1026 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=sock_file,1
+f5de0e2f,audit(1138278092.594:113951): syscall=15 exit=0 a0=805cd2b a1=1c0 a2=2 a3=1 items=1 pid=511 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+9c1ab9da,audit(1138278092.594:113951): item=0 name=/initrd/rhgb-socket inode=1026 dev=00:00,1
+44eb0b3e,audit(1138278092.998:114103): syscall=5 exit=0 a0=8fea430 a1=241 a2=1b6 a3=1b6 items=1 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+fd98c932,audit(1138278092.998:114103): item=0 name=/initrd/XFree86.0.log inode=1021 dev=00:00,1
+67881a73,audit(1138278093.406:116163): syscall=102 exit=0 a0=2 a1=fee65200 a2=1770 a3=fee65260 items=0 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+65cd536b,audit(1138278093.540:118407): syscall=4 exit=11 a0=0 a1=81f6f20 a2=b a3=b items=0 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+0a6b3f1d,audit(1138278093.880:123407): avc: denied { write } for pid=513 exe=/usr/X11R6/bin/Xorg name=00.0 dev= ino=-268435176 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:proc_t tclass=file,1
+f9d4891d,audit(1138278093.880:123407): syscall=5 exit=6 a0=fee652b0 a1=2 a2=0 a3=0 items=1 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+13e41056,audit(1138278093.880:123407): item=0 name=/proc/bus/pci/00/00.0 inode=4026532120 dev=00:00,1
+cfb507fb,audit(1138278094.933:149104): syscall=192 exit=983040 a0=f0000 a1=10000 a2=5 a3=11 items=0 pid=513 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+c7e2f7a2,audit(1138278101.742:164003): syscall=5 exit=3 a0=682cc3 a1=2 a2=0 a3=0 items=1 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0,1
+41da0254,audit(1138278101.742:164003): item=0 name=/dev/ptmx inode=1025790 dev=05:02,1
+00635918,audit(1138278101.749:164007): syscall=195 exit=0 a0=fef6c158 a1=fef6c0ac a2=68cffc a3=fef6c09f items=1 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0,1
+63811516,audit(1138278101.749:164007): item=0 name=/dev/pts/0 inode=2 dev=88:00,1
+ce3fc4a1,audit(1138278101.749:164013): avc: denied { read write } for pid=594 exe=/usr/lib/vte/gnome-pty-helper name=0 dev= ino=2 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=chr_file,1
+e8e48e08,audit(1138278101.749:164013): syscall=5 exit=4 a0=fef6d1cc a1=102 a2=1000 a3=0 items=1 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0,1
+5d60c668,audit(1138278101.749:164013): item=0 name=/dev/pts/0 inode=2 dev=88:00,1
+86d95bcd,audit(1138278101.749:164014): syscall=54 exit=0 a0=4 a1=5404 a2=fef6d168 a3=fef6d168 items=0 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=22 fsgid=0,1
+619fa80d,audit(1138278101.766:164029): avc: denied { setattr } for pid=594 exe=/usr/lib/vte/gnome-pty-helper name=0 dev= ino=2 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:devpts_t tclass=chr_file,1
+c1586eee,audit(1138278101.766:164029): syscall=207 exit=0 a0=4 a1=0 a2=5 a3=0 items=0 pid=594 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=22 sgid=22 fsgid=22,1
+0df06109,audit(1138278102.349:166029): avc: denied { write } for pid=596 exe=/usr/bin/rhgb-client name=rhgb-socket dev= ino=1026 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=sock_file,1
+2f3505f8,audit(1138278102.349:166029): syscall=102 exit=0 a0=3 a1=feea18b0 a2=68cffc a3=9bc9858 items=1 pid=596 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+0e71f46f,audit(1138278102.405:167249): avc: denied { write } for pid=598 exe=/sbin/sysctl name=ip_forward dev= ino=-268435331 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_net_t tclass=file,1
+f430a82f,audit(1138278102.405:167249): syscall=5 exit=4 a0=8717180 a1=241 a2=1b6 a3=1b6 items=1 pid=598 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+71682ebf,audit(1138278102.405:167249): item=0 name=/proc/sys/net/ipv4/ip_forward inode=4026531960 dev=00:00,1
+2fb2d885,audit(1138278102.405:167250): syscall=197 exit=0 a0=4 a1=fef0c808 a2=68cffc a3=87171c0 items=0 pid=598 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+b415a484,audit(1138296102.617:183467): syscall=195 exit=0 a0=80d028c a1=fefff650 a2=68cffc a3=80d028c items=1 pid=635 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+fb55bf90,audit(1138296102.617:183467): item=0 name=/sys//devices/pci0000:00/0000:00:1f.2/usb1/bNumConfigurations inode=1290 dev=00:00,1
+8f4cf6c7,audit(1138296102.620:183525): avc: denied { read } for pid=651 exe=/bin/cat name=bNumConfigurations dev= ino=1290 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysfs_t tclass=file,1
+ae933e5e,audit(1138296102.620:183525): syscall=5 exit=3 a0=fef6de9a a1=8000 a2=0 a3=8000 items=1 pid=651 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+8cdd4540,audit(1138296102.620:183525): item=0 name=/sys//devices/pci0000:00/0000:00:1f.2/usb1/bNumConfigurations inode=1290 dev=00:00,1
+d3543b63,audit(1138296102.645:185219): syscall=21 exit=0 a0=87a8a18 a1=87a8a28 a2=87a8a40 a3=c0ed0000 items=1 pid=655 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+78499975,audit(1138296102.645:185219): item=0 name=/proc/bus/usb inode=4026532078 dev=00:00,1
+a14f0626,audit(1138296102.652:185394): syscall=196 exit=0 a0=87ee038 a1=fef69978 a2=68cffc a3=87ee038 items=1 pid=647 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+2f8da9e0,audit(1138296102.652:185394): item=0 name=/sys inode=1 dev=00:00,1
+655f2083,audit(1138296102.679:186228): avc: denied { read } for pid=658 exe=/bin/grep name=devices dev= ino=1268 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:usbdevfs_t tclass=file,1
+80225039,audit(1138296102.679:186228): syscall=5 exit=3 a0=fef14e91 a1=8000 a2=0 a3=8000 items=1 pid=658 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+15e736f0,audit(1138296102.679:186228): item=0 name=/proc/bus/usb/devices inode=1268 dev=00:00,1
+ea3f46c3,audit(1138296102.679:186229): syscall=197 exit=0 a0=3 a1=805a2e4 a2=68cffc a3=88237c8 items=0 pid=658 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+a6a43239,audit(1138296104.506:222519): syscall=102 exit=0 a0=2 a1=fef4d420 a2=fef4d440 a3=1 items=1 pid=705 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+523f8606,audit(1138296104.541:222667): syscall=195 exit=0 a0=80490b4 a1=fef4d22c a2=68cffc a3=fef4d22c items=1 pid=708 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+461859b1,audit(1138296104.541:222667): item=0 name=/dev/log inode=1031636 dev=00:00,1
+2d72d425,audit(1138296104.542:222681): avc: denied { write } for pid=310 exe=/sbin/initlog name=log dev=hda2 ino=1031636 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=sock_file,1
+91cb3be5,audit(1138296104.542:222681): syscall=102 exit=4294967205 a0=3 a1=feee0794 a2=68cffc a3=2 items=1 pid=310 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+9084eb0f,audit(1138296104.661:225142): avc: denied { unlink } for pid=717 exe=/bin/rm name=control dev=hda2 ino=1154199 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=chr_file,1
+b1f149a5,audit(1138296104.661:225142): syscall=10 exit=0 a0=fefb8ea0 a1=1 a2=fef31670 a3=fefb8ea0 items=1 pid=717 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+647e92c3,audit(1138296104.661:225142): item=0 name=/dev/mapper/control inode=1154181 dev=00:00,1
+2d111fe8,audit(1138296104.703:225182): avc: denied { read } for pid=716 exe=/sbin/udev name=device-mapper dev= ino=1424 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysfs_t tclass=dir,1
+01addd37,audit(1138296104.703:225182): syscall=5 exit=5 a0=9d3274a a1=18800 a2=0 a3=9d325a0 items=1 pid=716 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+3a089f4f,audit(1138296104.703:225182): item=0 name=/sys/class/misc/device-mapper inode=1424 dev=00:00,1
+213e28f0,audit(1138296104.727:225279): syscall=14 exit=0 a0=804fffa a1=2180 a2=a3f a3=0 items=1 pid=719 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+7781e991,audit(1138296104.727:225279): item=0 name=/dev/mapper/control inode=1154181 dev=00:00,1
+32420cfe,audit(1138296104.780:225409): syscall=4 exit=28 a0=4 a1=95a8180 a2=1c a3=95a9188 items=0 pid=720 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+ce2f774e,audit(1138296104.852:227147): avc: denied { setattr } for pid=716 exe=/sbin/udev name=device-mapper dev=hda2 ino=283649 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=chr_file,1
+61284ffc,audit(1138296104.852:227147): syscall=15 exit=0 a0=fef96e54 a1=2180 a2=0 a3=a3f items=1 pid=716 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+4909ad62,audit(1138296104.852:227147): item=0 name=/udev/device-mapper inode=283649 dev=0a:3f,1
+4de11eaf,audit(1138296105.156:234587): avc: denied {  } for pid=720 exe=/sbin/restorecon name=control dev=hda2 ino=1154199 scontext=system_u:system_r:kernel_t  tclass=chr_file,2
+02bc21c8,audit(1138296105.194:235300): avc: denied { relabelto } for pid=724 exe=/sbin/restorecon name=device-mapper dev=hda2 ino=283649 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:device_t tclass=chr_file,1
+9bd61c8b,audit(1138296105.194:235300): syscall=227 exit=0 a0=fefbbebe a1=dd6c6b a2=9729088 a3=1b items=1 pid=724 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+5af44508,audit(1138296105.194:235300): item=0 name=/udev/device-mapper inode=283649 dev=0a:3f,1
+fbc0afe3,audit(1138296105.156:234587): syscall=227 exit=0 a0=fef38e8e a1=dd6c6b a2=95aff00 a3=20 items=1 pid=720 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+a5c2fca3,audit(1138296105.156:234587): item=0 name=/dev/mapper/control inode=1154199 dev=0a:3f,1
+341362c2,audit(1138296105.200:235352): syscall=195 exit=0 a0=80cfbcc a1=fefff8d0 a2=68cffc a3=80cfbcc items=1 pid=309 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+d59f3f49,audit(1138296105.200:235352): item=0 name=/dev/mapper/control inode=1154199 dev=0a:3f,1
+5af95444,audit(1138296106.081:244396): syscall=195 exit=0 a0=82e3fa0 a1=fefab170 a2=0 a3=fefab170 items=1 pid=725 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+245f9173,audit(1138296106.081:244396): item=0 name=/dev/pts inode=1 dev=00:00,1
+832b2f79,audit(1138296106.081:244398): syscall=5 exit=3 a0=82e3fa0 a1=18800 a2=0 a3=82e3fa0 items=1 pid=725 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+116c96ff,audit(1138296106.081:244398): item=0 name=/dev/pts inode=1 dev=00:00,1
+510310d9,audit(1138296107.529:261678): avc: denied {  } for pid=729 exe=/sbin/restorecon name=mtab dev=hda2 ino=82456 scontext=system_u:system_r:kernel_t  tclass=file,2
+1ecf497d,audit(1138296107.529:261678): syscall=227 exit=0 a0=feff3e98 a1=dd6c6b a2=a03fe28 a3=20 items=1 pid=729 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+efdfdd70,audit(1138296107.529:261678): item=0 name=/etc/mtab inode=82456 dev=00:00,1
+8d04c6e4,audit(1138296107.747:266162): avc: denied { relabelto } for pid=730 exe=/sbin/restorecon name=ld.so.cache dev=hda2 ino=85502 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ld_so_cache_t tclass=file,1
+0d8989ef,audit(1138296107.747:266162): syscall=227 exit=0 a0=fef5fe91 a1=dd6c6b a2=947d6d8 a3=20 items=1 pid=730 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+583be08f,audit(1138296107.747:266162): item=0 name=/etc/ld.so.cache inode=85502 dev=00:00,1
+73e88890,audit(1138296107.867:267232): syscall=195 exit=0 a0=80cfbcc a1=fefffa10 a2=68cffc a3=80cfbcc items=1 pid=309 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+91149c32,audit(1138296107.867:267232): item=0 name=/proc/sys/kernel/modprobe inode=4026531894 dev=00:00,1
+b3c015d4,audit(1138296107.869:267298): avc: denied { write } for pid=738 exe=/sbin/sysctl name=modprobe dev= ino=-268435402 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_modprobe_t tclass=file,1
+ab9efa90,audit(1138296107.869:267298): syscall=5 exit=3 a0=8aac018 a1=241 a2=1b6 a3=1b6 items=1 pid=738 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+28220167,audit(1138296107.869:267298): item=0 name=/proc/sys/kernel/modprobe inode=4026531876 dev=00:00,1
+a56141da,audit(1138296107.872:267384): avc: denied { write } for pid=739 exe=/sbin/sysctl name=hotplug dev= ino=-268435401 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_hotplug_t tclass=file,1
+7adeb002,audit(1138296107.872:267384): syscall=5 exit=3 a0=89c4018 a1=241 a2=1b6 a3=1b6 items=1 pid=739 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+7d90c307,audit(1138296107.872:267384): item=0 name=/proc/sys/kernel/hotplug inode=4026531876 dev=00:00,1
+22ff060c,audit(1138296107.872:267385): syscall=197 exit=0 a0=3 a1=fee9c408 a2=68cffc a3=89c4050 items=0 pid=739 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+f771f336,audit(1138296109.324:295942): avc: denied { unlink } for pid=1123 exe=/sbin/minilogd name=log dev=hda2 ino=1031636 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=sock_file,1
+94257807,audit(1138296109.324:295942): syscall=10 exit=0 a0=80490b4 a1=fefaf380 a2=fefaf3a0 a3=1 items=1 pid=1123 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+a69e1d0f,audit(1138296109.324:295942): item=0 name=/dev/log inode=1024129 dev=00:00,1
+42c1a2a1,audit(1138296110.949:306401): syscall=103 exit=29788 a0=3 a1=9821858 a2=20000 a3=3 items=0 pid=1178 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+b57da5bf,audit(1138296111.560:323542): avc: denied { relabelto } for pid=1198 exe=/sbin/restorecon name=vcs1 dev=hda2 ino=861585 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:tty_device_t tclass=chr_file,1
+3f87e038,audit(1138296111.616:324631): avc: denied { unlink } for pid=1205 exe=/sbin/udev name=vcsa1 dev=hda2 ino=861587 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:tty_device_t tclass=chr_file,1
+947d7ca3,audit(1138296111.560:323542): syscall=227 exit=0 a0=fef84ed8 a1=dd6c6b a2=8aa1490 a3=1f items=1 pid=1198 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+fd104e42,audit(1138296111.560:323542): item=0 name=/udev/vcs1 inode=861585 dev=07:01,1
+a5278a53,audit(1138296111.616:324631): syscall=10 exit=0 a0=fef124d0 a1=8f30a88 a2=fef124d0 a3=fef125e8 items=1 pid=1205 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+41dc84f0,audit(1138296111.616:324631): item=0 name=/udev/vcsa1 inode=276355 dev=00:00,1
+f3eced58,audit(1138296117.905:349720): avc: denied { read } for pid=1263 exe=/usr/sbin/kudzu name=0000:01:0c.0 dev= ino=159 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysfs_t tclass=lnk_file,1
+ee691d0d,audit(1138296117.905:349720): syscall=5 exit=4 a0=fef1ae20 a1=0 a2=1b6 a3=1b6 items=1 pid=1263 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+4c4bacb7,audit(1138296117.905:349720): item=0 name=/sys/bus/pci/devices/0000:01:0c.0/resource inode=166 dev=00:00,1
+38a04a5b,audit(1138296118.152:350118): avc: denied {  } for pid=1263 exe=/usr/sbin/kudzu  dev=  scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_dev_t tclass=dir,2
+cce9e88f,audit(1138296118.152:350118): syscall=5 exit=6 a0=806aca9 a1=18800 a2=5fbe83 a3=0 items=1 pid=1263 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+3976a8e2,audit(1138296118.152:350118): item=0 name=/proc/sys/dev/parport inode=4026532411 dev=00:00,1
+79a9e80b,audit(1138296118.152:350119): syscall=197 exit=0 a0=6 a1=fef1b7cc a2=68cffc a3=6 items=0 pid=1263 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+62e5959c,audit(1138296118.152:350122): avc: denied { read } for pid=1263 exe=/usr/sbin/kudzu name=autoprobe dev= ino=-268434873 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_dev_t tclass=file,1
+503e4bca,audit(1138296118.152:350122): syscall=5 exit=7 a0=fef1b880 a1=0 a2=4 a3=0 items=1 pid=1263 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+6ede8cde,audit(1138296118.152:350122): item=0 name=/proc/sys/dev/parport/parport0/autoprobe inode=4026532423 dev=00:00,1
+991f540d,audit(1138296120.101:365320): avc: denied { read } for pid=1263 exe=/usr/sbin/kudzu name=hotplug dev= ino=-268435401 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_hotplug_t tclass=file,1
+454ea621,audit(1138296120.101:365320): syscall=5 exit=11 a0=806a2d5 a1=0 a2=100 a3=0 items=1 pid=1263 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+33a7ba21,audit(1138296120.101:365320): item=0 name=/proc/sys/kernel/hotplug inode=4026531895 dev=00:00,1
+59ef0fab,audit(1138296120.316:368744): avc: denied {  } for pid=1353 exe=/sbin/restorecon name=fd0 dev=hda2 ino=283651 scontext=system_u:system_r:kernel_t  tclass=blk_file,2
+3c4a8adf,audit(1138296120.316:368744): syscall=227 exit=0 a0=feff6ee1 a1=dd6c6b a2=93b5568 a3=25 items=1 pid=1353 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+7d86ce80,audit(1138296120.316:368744): item=0 name=/udev/fd0 inode=283651 dev=02:00,1
+7aabd098,audit(1138296123.351:395836): avc: denied { read } for pid=1437 exe=/sbin/iptables name=modprobe dev= ino=-268435402 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_modprobe_t tclass=file,1
+dc623cea,audit(1138296123.351:395836): syscall=5 exit=4 a0=8051591 a1=0 a2=fee75ba4 a3=0 items=1 pid=1437 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+01f1c3ee,audit(1138296123.351:395836): item=0 name=/proc/sys/kernel/modprobe inode=4026531894 dev=00:00,1
+9495b6bd,audit(1138296123.500:397288): syscall=102 exit=3 a0=1 a1=fef5c7e0 a2=0 a3=a items=0 pid=1445 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+e46e65ac,audit(1138296123.500:397293): syscall=54 exit=0 a0=3 a1=8933 a2=fef5d950 a3=0 items=0 pid=1445 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+8344fbd5,Jan 26 <*> Privoxy(-150327168) Info: loading configuration file '/etc/privoxy/config':,1
+01994659,audit(1138296126.464:427092): avc: denied { setattr } for pid=1570 exe=/sbin/syslogd name=log dev=hda2 ino=1031637 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=sock_file,1
+eb7a2ef6,audit(1138296126.464:427092): syscall=15 exit=0 a0=1fdf0f a1=1b6 a2=1ff130 a3=1b6 items=1 pid=1570 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+6b3ab8d9,audit(1138296126.464:427092): item=0 name=/dev/log inode=1031637 dev=00:00,1
+f8438c15,audit(1138296126.645:429627): avc: denied { read } for pid=1574 exe=/sbin/klogd name=kmsg dev= ino=-268435446 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:proc_kmsg_t tclass=file,1
+ded43df3,audit(1138296126.645:429627): syscall=5 exit=0 a0=762615 a1=0 a2=fefa8650 a3=762615 items=1 pid=1574 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+3ebe2284,audit(1138296126.645:429627): item=0 name=/proc/kmsg inode=4026531850 dev=00:00,1
+e132e7a9,audit(1138296127.049:438389): syscall=102 exit=0 a0=2 a1=fef3cbb0 a2=aea13c a3=3 items=0 pid=1595 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+bf91f0e9,audit(1138296127.050:438399): syscall=102 exit=0 a0=2 a1=fef3cbb0 a2=aea13c a3=4 items=0 pid=1595 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+71fb8865,audit(1138296128.156:454449): avc: denied { search } for pid=1642 exe=/usr/sbin/rpc.idmapd name=rpc dev= ino=-268434800 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:sysctl_rpc_t tclass=dir,1
+be871c79,audit(1138296128.156:454449): syscall=5 exit=4294967294 a0=80504c6 a1=2 a2=0 a3=80504a0 items=1 pid=1642 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+353050df,audit(1138296128.157:454451): avc: denied { read } for pid=1642 exe=/usr/sbin/rpc.idmapd name=nfs dev= ino=4 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:rpc_pipefs_t tclass=dir,1
+15d463b4,audit(1138296128.157:454451): syscall=5 exit=3 a0=804f480 a1=0 a2=804df6f a3=1 items=1 pid=1642 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+2f7f095e,audit(1138296128.157:454451): item=0 name=/var/lib/nfs/rpc_pipefs/nfs inode=4 dev=00:00,1
+7d1d0e8f,audit(1138296128.157:454455): syscall=197 exit=0 a0=5 a1=fef87cec a2=68cffc a3=5 items=0 pid=1642 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+0a316093,audit(1138296129.057:468261): syscall=54 exit=0 a0=4 a1=800448d2 a2=88f8298 a3=88f8298 items=0 pid=1687 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+09971cc3,audit(1138296132.911:505629): avc: denied {  } for pid=1788 exe=/sbin/restorecon name=ptal-mlcd dev=hda2 ino=1502894 scontext=system_u:system_r:kernel_t  tclass=dir,2
+b5b0226e,audit(1138296132.911:505629): syscall=227 exit=0 a0=fefbae57 a1=dd6c6b a2=8d4f3f0 a3=1c items=1 pid=1788 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+7286ae17,audit(1138296132.911:505629): item=0 name=/var/run/ptal-mlcd inode=1502894 dev=00:00,1
+5f4d1678,audit(1138296133.544:515571): avc: denied { relabelto } for pid=1792 exe=/sbin/restorecon name=ptal dev=hda2 ino=309507 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:etc_t tclass=dir,1
+54e82793,audit(1138296133.544:515571): syscall=227 exit=0 a0=fefece60 a1=dd6c6b a2=92e47c8 a3=18 items=1 pid=1792 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+c19afafc,audit(1138296133.544:515571): item=0 name=/etc/ptal inode=309507 dev=00:00,1
+d0bd33ea,audit(1138296142.670:537277): syscall=197 exit=0 a0=0 a1=fef15090 a2=227ffc a3=a043008 items=0 pid=1966 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+c8831600,audit(1138296147.476:547632): syscall=102 exit=0 a0=2 a1=feeb3730 a2=84251c a3=91c7330 items=0 pid=1803 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+aa020281,audit(1138296147.477:547636): syscall=102 exit=0 a0=2 a1=feeb3710 a2=84251c a3=842bb8 items=0 pid=1803 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+c21528e1,audit(1138296148.005:552035): syscall=102 exit=0 a0=2 a1=fef0c8d0 a2=20 a3=9231ca0 items=0 pid=1998 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+fa6c6df3,audit(1138296150.551:567947): syscall=102 exit=0 a0=2 a1=feecd9b0 a2=25f104 a3=2668e0 items=0 pid=2032 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=51 sgid=51 fsgid=51,1
+7c85f899,audit(1138296160.391:589416): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+208062f5,audit(1138296160.391:589420): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+fbcb6878,audit(1138296160.391:589425): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+fde8b7d1,audit(1138296160.392:589430): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+df9c0ddb,audit(1138296160.392:589436): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+399275bf,audit(1138296160.392:589440): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+833e3b7c,audit(1138296160.392:589444): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+6e244f8e,audit(1138296160.393:589479): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+09ebd398,audit(1138296160.393:589484): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=202 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+ffbd1f19,audit(1138296160.393:589494): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=202 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+9b07bc3d,audit(1138296160.393:589517): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+59d18fca,audit(1138296160.393:589522): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+cfde0bce,audit(1138296161.396:590201): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+797c17a0,audit(1138296161.881:590520): syscall=102 exit=0 a0=2 a1=fef535e0 a2=70aa2c a3=200 items=0 pid=2013 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+1ad7ac4d,audit(1138296162.246:590992): syscall=102 exit=0 a0=2 a1=feebb070 a2=7055668 a3=83d49b8 items=0 pid=2052 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+6fc8c6dc,audit(1138296164.920:606586): syscall=4 exit=58 a0=3 a1=8629f78 a2=3a a3=ffffffff items=0 pid=2089 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+f9ec8a97,"pam_check_access failed, user does not have proper access: system_u:system_r:kernel_t",1
+3f25c427,audit(1138296165.146:606873): syscall=4 exit=4294967274 a0=3 a1=862d3c0 a2=1e a3=862785d items=0 pid=2089 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=100 egid=0 sgid=0 fsgid=101,1
+eb138e01,audit(1138296165.180:606909): avc: denied { write } for pid=2089 exe=/bin/su name=exec dev= ino=136904725 scontext=system_u:system_r:kernel_t tcontext=system_u:system_r:kernel_t tclass=file,1
+241f2372,audit(1138296165.180:606909): syscall=5 exit=3 a0=dd7080 a1=2 a2=fff a3=862785d items=1 pid=2089 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=100 egid=0 sgid=0 fsgid=101,1
+67f50914,audit(1138296165.180:606909): item=0 name=/proc/self/attr/exec inode=136904725 dev=00:00,1
+c68e32e2,audit(1138296165.182:606936): syscall=4 exit=25 a0=3 a1=862a098 a2=19 a3=862785d items=0 pid=2089 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=100 egid=0 sgid=0 fsgid=101,1
+91b159f2,audit(1138296165.211:606989): syscall=11 exit=0 a0=fef9be88 a1=862c0b0 a2=862d358 a3=0 items=2 pid=2090 loginuid=-1 uid=100 gid=101 euid=100 suid=100 fsuid=100 egid=101 sgid=101 fsgid=101,1
+25ade6eb,audit(1138296165.211:606989): item=0 name=/bin/bash inode=1044632 dev=00:00,1
+87d76a27,audit(1138296184.714:671733): syscall=102 exit=0 a0=2 a1=fef1dec0 a2=1fa990 a3=891ed18 items=0 pid=2261 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+9b6de2ad,audit(1138296191.846:687489): syscall=195 exit=0 a0=fee8cefe a1=fee8ce90 a2=501ffc a3=fee8cf06 items=1 pid=2275 loginuid=-1 uid=23 gid=23 euid=23 suid=0 fsuid=23 egid=23 sgid=23 fsgid=23,1
+0cabca75,audit(1138296191.846:687489): item=0 name=/initrd inode=1021 dev=00:00,1
+55416fcf,audit(1138296194.864:693295): avc: denied {  } for pid=2285 exe=/sbin/killall5  dev=  scontext=system_u:system_r:kernel_t tcontext=user_u:sysadm_r:sysadm_t ,2
+35a1e0b5,audit(1138296194.864:693295): syscall=5 exit=4 a0=feeb7580 a1=0 a2=1b6 a3=1b6 items=1 pid=2285 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+5a33531d,audit(1138296194.864:693295): item=0 name=/proc/2091/stat inode=137035789 dev=00:00,1
+5dfc68af,audit(1138296194.865:693309): syscall=197 exit=0 a0=4 a1=feeb7270 a2=68cffc a3=9d49368 items=0 pid=2285 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+91d8b8e6,audit(1138296194.865:693325): avc: denied { read } for pid=2285 exe=/sbin/killall5 name=exe dev= ino=137035784 scontext=system_u:system_r:kernel_t tcontext=user_u:sysadm_r:sysadm_t tclass=lnk_file,1
+45aec2d5,audit(1138296194.865:693325): syscall=195 exit=0 a0=feeb7580 a1=feeb7354 a2=68cffc a3=feeb7354 items=1 pid=2285 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+a9bcfe5c,audit(1138296194.865:693325): item=0 name=/proc/2091/exe inode=1078904 dev=00:00,1
+8630d1a5,audit(1138296198.308:701025): syscall=102 exit=0 a0=2 a1=f704b4f0 a2=7ee138 a3=9142ac0 items=0 pid=2289 loginuid=-1 uid=25 gid=25 euid=25 suid=25 fsuid=25 egid=25 sgid=25 fsgid=25,1
+44738e9a,audit(1138296198.308:701032): syscall=102 exit=0 a0=2 a1=f704b5c0 a2=7ee138 a3=916c4b8 items=0 pid=2289 loginuid=-1 uid=25 gid=25 euid=25 suid=25 fsuid=25 egid=25 sgid=25 fsgid=25,1
+a2b71356,audit(1138296202.196:708129): syscall=102 exit=0 a0=2 a1=feee9ba0 a2=1877bc a3=feee9bdc items=0 pid=2300 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+adbee114,audit(1138296202.198:708174): syscall=102 exit=0 a0=2 a1=feee9aa0 a2=9682e4 a3=feee9b60 items=0 pid=2300 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+d28cdf3a,audit(1138296206.190:718151): syscall=102 exit=0 a0=2 a1=fee78e80 a2=29e60c a3=fee78eac items=0 pid=2309 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+8dced969,audit(1138296212.406:734909): avc: denied {  } for pid=511 exe=/usr/bin/rhgb name=rhgb-socket dev= ino=1026 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t ,2
+976070f5,audit(1138296212.406:734909): syscall=10 exit=0 a0=805cd2b a1=805cd26 a2=feee2bd0 a3=feee2bd5 items=1 pid=511 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+2b6f8f77,audit(1138296212.406:734909): item=0 name=/initrd/rhgb-socket inode=1021 dev=00:00,1
+8757c722,audit(1138296212.406:734910): avc: denied { unlink } for pid=511 exe=/usr/bin/rhgb name=XFree86.0.log dev= ino=1027 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:ramfs_t tclass=file,1
+448aa45b,audit(1138296212.406:734910): syscall=10 exit=0 a0=805cd3f a1=805cd26 a2=feee2bd0 a3=feee2bd5 items=1 pid=511 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+619ba2de,audit(1138296212.406:734910): item=0 name=/initrd/XFree86.0.log inode=1021 dev=00:00,1
+6f2f7260,audit(1138296216.366:837154): avc: denied { getattr } for pid=2686 exe=/sbin/restorecon name=vcsa5 dev=hda2 ino=283654 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:tty_device_t tclass=chr_file,1
+55195b61,audit(1138296216.366:837154): syscall=230 exit=31 a0=fef68ed5 a1=dd6c52 a2=894de50 a3=ff items=1 pid=2686 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+2b33531d,audit(1138296216.366:837154): item=0 name=/udev/vcsa5 inode=283654 dev=07:85,1
+251a6e7e,audit(1138296225.426:965370): avc: denied { unlink } for pid=2417 exe=/usr/bin/gdm-binary name=.gdmfifo dev=hda2 ino=943272 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=fifo_file,1
+44acdde7,audit(1138296225.426:965370): syscall=10 exit=0 a0=9e9f968 a1=0 a2=f70ad980 a3=1b0 items=1 pid=2417 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+c10d2f5b,audit(1138296225.426:965370): item=0 name=/var/gdm/.gdmfifo inode=1190404 dev=00:00,1
+42f6566e,audit(1138296225.596:965626): syscall=14 exit=0 a0=9e9f968 a1=11b0 a2=0 a3=0 items=1 pid=2417 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+b85ff796,audit(1138296225.596:965626): item=0 name=/var/gdm/.gdmfifo inode=1190404 dev=00:00,1
+4b13b12d,audit(1138296225.596:965628): avc: denied { setattr } for pid=2417 exe=/usr/bin/gdm-binary name=.gdmfifo dev=hda2 ino=943272 scontext=system_u:system_r:kernel_t tcontext=system_u:object_r:file_t tclass=fifo_file,1
+75577dd1,audit(1138296225.596:965628): syscall=15 exit=0 a0=9e9f968 a1=1b0 a2=f70ad980 a3=1b0 items=1 pid=2417 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+cb407fac,audit(1138296225.596:965628): item=0 name=/var/gdm/.gdmfifo inode=943272 dev=00:00,1
+5d83bd99,audit(1138297993.374:1376277): syscall=4 exit=52 a0=8 a1=9245bf8 a2=34 a3=38b272 items=0 pid=3128 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+2a0b6cc3,audit(1138297993.375:1376285): avc: denied {  } for pid=3128 exe=/usr/sbin/sshd name=1 dev= ino=3 scontext=system_u:system_r:kernel_t  tclass=chr_file,2
+4fd73765,audit(1138297993.375:1376285): syscall=226 exit=0 a0=923ca78 a1=dd7095 a2=9234650 a3=17 items=1 pid=3128 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+69d50bc0,audit(1138297993.375:1376285): item=0 name=/dev/pts/1 inode=3 dev=88:01,1
+26dfabd2,audit(1138297993.475:1376441): syscall=54 exit=0 a0=7 a1=540e a2=0 a3=fef0c768 items=0 pid=3130 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+4fda1717,audit(1138297993.475:1376452): avc: denied { read write } for pid=3130 exe=/usr/sbin/sshd name=1 dev= ino=3 scontext=system_u:system_r:kernel_t tcontext=root:object_r:devpts_t tclass=chr_file,1
+5b1fae4a,audit(1138297993.475:1376452): syscall=5 exit=6 a0=808dd54 a1=8002 a2=0 a3=8002 items=1 pid=3130 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+44ef23e5,audit(1138297993.475:1376452): item=0 name=/dev/pts/1 inode=3 dev=88:01,1
+2287a221,audit(1138297993.581:1376686): syscall=11 exit=0 a0=9234400 a1=fef0c700 a2=9231e40 a3=9234400 items=2 pid=3130 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+d9c2b4af,audit(1138297993.581:1376686): item=0 name=/bin/bash inode=1044632 dev=00:00,1
+d09e9c8c,audit(1138298150.141:1454728): avc: denied { setattr } for pid=3128 exe=/usr/sbin/sshd name=1 dev= ino=3 scontext=system_u:system_r:kernel_t tcontext=root:object_r:devpts_t tclass=chr_file,1
+d41fae21,audit(1138298150.141:1454728): syscall=212 exit=0 a0=808dd54 a1=0 a2=0 a3=808dd54 items=1 pid=3128 loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,1
+cb82ae7a,audit(1138298150.141:1454728): item=0 name=/dev/pts/1 inode=3 dev=88:01,1
+daa8038d,"Warning! Could not relabel with system_u:object_r:devpts_t, not relabeling.",1
+fa991e58,"ANONYMOUS FTP LOGIN FROM <*>,  ",9

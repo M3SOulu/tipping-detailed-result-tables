@@ -1,0 +1,11 @@
+EventId,EventTemplate,Occurrences
+d41d8cd9,,3306
+2d5a7d18,startup succeeded,358
+67869858,listening on IPv4 interface #53,325
+a757c0c2,ALERT exited abnormally with [1],412
+5943ae99,creating device node,524
+b780997e,check pass; user unknown,1089
+d8a910d3,session for user,1145
+6c6aa688,connection from at 2005,3357
+da153daf,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost= user=root,2997
+dd6ced08,Out of Memory: Killed process (httpd).,10408

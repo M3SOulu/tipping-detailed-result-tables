@@ -1,0 +1,111 @@
+EventID,EventTemplate
+P0,Adding #<*> tokens and #<*> secret keys for NM use for launching container
+P1,Using callQueue class java.util.concurrent.LinkedBlockingQueue
+P2,Processing the event EventType: <*>_<*>
+P3,Adding protocol org.apache.hadoop.mapreduce.<*>.api.MRClientProtocolPB to the server
+P4,"getResources() for application_<*>_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=<*>"
+P5,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_<*>_<*>_<*>_<*> taskAttempt attempt_<*>_<*>_m_<*>_<*>
+P6,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED
+P7,All maps assigned. Ramping up all remaining reduces:<*>
+P8,"Recalculating schedule, headroom=<memory:<*>, vCores:-<*>>"
+P9,Executing with tokens:
+P10,Resolved <*>-<*>-<*>.fareast.corp.microsoft.com to /default-rack _/|\\_ Resolved <*>-<*>.fareast.corp.microsoft.com to /default-rack _/|\\_ Resolved <*>.fareast.corp.microsoft.com to /default-rack
+P11,MRAppMaster metrics system started
+P12,Connecting to ResourceManager at msra-sa-<*>/<*>.<*>.<*>.<*>:<*>
+P13,Logging to org.<*>.impl.<*>(org.mortbay.log) via org.mortbay.log.<*>
+P14,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+P15,Shuffle port returned by ContainerManager for attempt_<*>_<*>_m_<*>_<*> : <*>
+P16,Diagnostics report from attempt_<*>_<*>_m_<*>_<*>: Container killed by the ApplicationMaster.
+P17,Http request log for http.requests.mapreduce is not defined
+P18,job_<*>_<*> Transitioned from INITED to SETUP
+P19,DFSOutputStream ResponseProcessor exception for block BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*>
+P20,Auth successful for job_<*>_<*> (auth:SIMPLE)
+P21,Added attempt_<*>_<*>_m_<*>_<*> to list of failed maps
+P22,The job-<*> file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job.<*> _/|\\_ The job-<*> file on the remote FS is <*>//<*>-<*>-<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job.<*>
+P23,Added global filter 'safety' (class=org.apache.hadoop.http.<*>$QuotingInputFilter)
+P24,JVM with ID: jvm_<*>_<*>_m_<*> given task: attempt_<*>_<*>_m_<*>_<*>
+P25,queue: default
+P26,Container complete event for unknown container id container_<*>_<*>_<*>_<*>
+P27,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static
+P28,Opening proxy : <*>.fareast.corp.microsoft.com:<*>
+P29,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from NEW to UNASSIGNED
+P30,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP
+P31,"Cannot assign container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=true"
+P32,Scheduled snapshot period at <*> second(s).
+P33,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+P34,<*>_<*>_<*> Transitioned from <*> to RUNNING _/|\\_ <*>_<*>_<*>_<*>_<*>_<*> Transitioned from RUNNING to <*>_<*>_<*>
+P35,"MRAppMaster launching normal, non-uberized, multi-container job job_<*>_<*>."
+P36,task_<*>_<*>_m_<*> Task Transitioned from RUNNING to SUCCEEDED
+P37,Address change detected. Old: msra-sa-<*>/<*>.<*>.<*>.<*>:<*> New: msra-sa-<*>:<*>
+P38,Upper limit on the thread pool size is <*>
+P39,JOB_CREATE job_<*>_<*>
+P40,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce
+P41,Failed to renew lease for [DFSClient_NONMAPREDUCE_<*>_<*>] for <*> seconds. Will retry shortly ...
+P42,Starting Socket Reader #<*> for port <*>
+P43,We launched <*> speculations. Sleeping <*> milliseconds.
+P44,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+P45,Task: attempt_<*>_<*>_m_<*>_<*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*>.<*>.<*>.<*> to msra-sa-<*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+P46,task_<*>_<*>_<*>_<*> Task Transitioned from NEW to SCHEDULED
+P47,Done acknowledgement from attempt_<*>_<*>_m_<*>_<*>
+P48,OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+P49,ERROR IN CONTACTING RM.
+P50,Adding job token for job_<*>_<*> to jobTokenSecretManager
+P51,Created MRAppMaster for application appattempt_<*>_<*>_<*>
+P52,Scheduling a redundant attempt for task task_<*>_<*>_m_<*>
+P53,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>
+P54,ATTEMPT_START task_<*>_<*>_m_<*>
+P55,Assigned container container_<*>_<*>_<*>_<*> to attempt_<*>_<*>_m_<*>_<*>
+P56,Reduce slow start threshold reached. Scheduling reduces.
+P57,IPC Server Responder: starting
+P58,maxTaskFailuresPerNode is <*>
+P59,Started <*>$SelectChannelConnectorWithSafeStartup@<*>.<*>.<*>.<*>:<*>
+P60,loaded properties from hadoop-<*>.properties
+P61,Num completed Tasks: <*>
+P62,task_<*>_<*>_m_<*> Task Transitioned from SCHEDULED to RUNNING
+P63,Input size for job job_<*>_<*> = <*>. Number of splits = <*>
+P64,DataStreamer Exception
+P65,Number of reduces for job job_<*>_<*> = <*>
+P66,Using mapred newApiCommitter.
+P67,"Thread Thread[eventHandlingThread,<*>,main] threw an Exception."
+P68,Putting shuffle token in serviceData
+P69,<*> attempt_<*>_<*>_m_<*>_<*> _/|\\_ <*> attempt attempt_<*>_<*>_m_<*>_<*>
+P70,JVM with ID : jvm_<*>_<*>_m_<*> asked for a task
+P71,IPC Server listener on <*>: starting
+P72,TaskAttempt: [attempt_<*>_<*>_m_<*>_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [<*>.fareast.corp.microsoft.com:<*>]
+P73,Emitting job history data to the timeline server is not enabled
+P74,Got allocated containers <*>
+P75,Instantiated MRClientService at MININT-<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>
+P76,"Event Writer setup for JobId: job_<*>_<*>, File: hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job_<*>_<*>_<*>.jhist"
+P77,<*> failures on node MININT-<*>.fareast.corp.microsoft.com
+P78,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP
+P79,"Retrying connect to server: msra-sa-<*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)"
+P80,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_<*>_<*>_<*>_<*> taskAttempt attempt_<*>_<*>_m_<*>_<*>
+P81,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: -<*>)"
+P82,Received completed container container_<*>_<*>_<*>_<*>
+P83,adding path spec: /<*>/*
+P84,Web app /mapreduce started at <*>
+P85,Extract jar:file:/D:/hadoop-<*>.<*>.<*>-localbox/share/hadoop/yarn/hadoop-yarn-common-<*>.<*>.<*>-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_<*>_<*>_<*>_<*>_<*>_mapreduce____.<*>\\webapp
+P86,"Error Recovery for block BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*> in pipeline <*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>: bad datanode <*>.<*>.<*>.<*>:<*>"
+P87,blacklistDisablePercent is <*>
+P88,OutputCommitter set in config null
+P89,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED
+P90,Default file system [hdfs://msra-sa-<*>:<*>]
+P91,Progress of TaskAttempt attempt_<*>_<*>_m_<*>_<*> is : <*>.<*>
+P92,Jetty bound to port <*>
+P93,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+P94,Not uberizing job_<*>_<*> because: not enabled; too many maps; too much input;
+P95,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_<*>_<*>_m_<*>
+P96,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: -<*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>]"
+P97,Diagnostics report from attempt_<*>_<*>_m_<*>_<*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*>.<*>.<*>.<*> to msra-sa-<*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+P98,Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>
+P99,Registered webapp guice modules
+P100,Size of containertokens_dob is <*>
+P101,job_<*>_<*> Transitioned from NEW to INITED
+P102,Registering class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>.<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>.<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>
+P103,
+P104,jetty-6.1.26
+P105,nodeBlacklistingEnabled:true
+P106,"maxContainerCapability: <memory:8192, vCores:32>"
+P107,yarn.client.max-cached-nodemanagers-proxies : 0
+P108,"mapResourceRequest:<memory:1024, vCores:1>"
+P109,"reduceResourceRequest:<memory:1024, vCores:1>"

@@ -1,0 +1,371 @@
+EventId,EventTemplate,Occurrences
+6f97e9d4,restart.,42
+ceae4977,<*> <*> succeeded,261
+ceae4977,"klogd 1.4.1, log source = /proc/kmsg started.",261
+4124b970,Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8  EDT 2004,9
+51a63c76,BIOS-provided physical RAM map:,8
+8c537990,BIOS-e820: <*> - <*> (usable),8
+6dc36b09,BIOS-e820: <*> - <*> (reserved),16
+0f5f997d,126MB LOWMEM available.,24
+6dc36b09,zapping low mappings.,16
+0f5f997d,On node 0 totalpages: 32430,24
+0f5f997d,"<*> zone: <*> pages, LIFO <*>",24
+6b643c98,DMI 2.3 present.,8
+42e1da55,ACPI disabled because your bios is from 2000 and too old,8
+a9678e83,You can enable it with acpi=force,8
+d657dc84,Built 1 zonelists,24
+d657dc84,Kernel command line: ro root=LABEL=/ rhgb quiet,24
+d657dc84,mapped 4G/4G trampoline to ffff3000.,24
+90cdab58,Initializing CPU#0,8
+3c5b4adb,"CPU 0 irqstacks, hard=02345000 soft=02344000",8
+29249ae3,<*> hash table entries: <*> <*> <*> <*> bytes),8
+de6cd9cf,Detected <*> MHz processor.,8
+ceae4977,Using tsc for high-res timesource,261
+2ec79755,Console: colour VGA+ 80x25,7
+4845b66c,"Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)",8
+fe3c862d,Calibrating delay loop... <*> BogoMIPS,8
+ceae4977,Security Scaffold v1.0.0 initialized,261
+2c065952,SELinux:  Initializing.,8
+694e91c5,SELinux:  Starting in permissive mode,32
+481e7ae7,"There is already a security framework initialized, register_security failed.",7
+85959353,Failure registering capabilities with the kernel,8
+a5b547df,selinux_register_security:  Registering secondary module capability,8
+1559494b,Capability LSM initialized,8
+4e8c467f,"Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",8
+3c5e98a7,Version 1.0.6 Starting,8
+7c9bb995,"CPU: L1 I cache: 16K, L1 D cache: 16K",8
+8480cb7e,CPU: L2 cache: 256K,8
+e0661b3c,Intel machine check architecture supported.,8
+a31006da,CPU: Intel Pentium III (Coppermine) stepping 06,8
+4b75bf96,Enabling fast FPU save and restore... done.,8
+48a493b0,Enabling unmasked SIMD FPU exception support... done.,8
+19af522a,Checking 'hlt' instruction... OK.,8
+694e91c5,POSIX conformance testing by UNIFIX,32
+694e91c5,NET: Registered protocol family <*>,32
+8c112e82,"PCI: PCI BIOS revision 2.10 entry at 0xfc0ce, last bus=1",8
+ceae4977,PCI: Using configuration type 1,261
+97d5ba9f,ACPI: Subsystem revision 20040326,8
+d678ffa6,ACPI: Interpreter disabled.,8
+53650236,Linux Plug and Play Support v0.97 (c) Adam Belay,8
+7e048621,usbcore: registered new driver <*>,8
+1d8fe60a,ACPI: ACPI tables contain no PCI IRQ routing entries,8
+5de744ee,PCI: Invalid ACPI-PCI IRQ routing table,8
+0dfe904f,Initializing random number generator:  succeeded,8
+60696e47,PCI: Probing PCI hardware <*> <*>,8
+4af88f8f,Transparent bridge - 0000:00:1e.0,48
+cd385546,PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,8
+607eef3d,apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac),8
+4ed240a7,audit: initializing netlink socket (disabled),8
+cf383357,<*> initialized,8
+18330ef6,"Total HugeTLB memory allocated, 0",8
+f1205e3c,Starting <*> succeeded,32
+f1205e3c,VFS: Disk quotas dquot_6.5.1,32
+ceae4977,SELinux: <*> netfilter hooks,261
+cafc1bbd,Initializing Cryptographic API,8
+ea8a8d97,pci_hotplug: PCI Hot Plug PCI Core version: 0.5,8
+b54f3664,isapnp: Scanning for PnP cards...,8
+917d6f3a,isapnp: No Plug & Play device found,9
+917d6f3a,Real Time Clock Driver v1.12,9
+4fb9993c,Linux agpgart interface v0.100 (c) Dave Jones,8
+2e450820,agpgart: Detected an Intel i810 E Chipset.,8
+f028e8c1,agpgart: Maximum main memory to use for agp memory: 93M,8
+4b7e6959,agpgart: detected 4MB dedicated video ram.,7
+90a1588b,HCI daemon ver 2.4 started,8
+98908df9,Setting network parameters:  succeeded,8
+ea2ebcf2,agpgart: AGP aperture is 64M @ 0xf4000000,33
+4d73c3e7,Bringing up loopback interface:  succeeded,8
+694e91c5,"Serial: 8250/16550 driver $Revision: 1.90 $ 8 ports, IRQ sharing enabled",32
+ee2ae22f,RAMDISK driver initialized: 16 RAM disks of 16384K size 1024 blocksize,14
+2b566107,Uniform Multi-Platform E-IDE driver Revision: 7.00alpha2,8
+48462f84,Mounting other filesystems:  succeeded,8
+2bf1954b,ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx,8
+2e3d6c0c,ICH: IDE controller at PCI slot 0000:00:1f.1,8
+25be35b6,"Version 3.0.2 (APM BIOS 1.2, Linux driver 1.16ac)",8
+e27b23bc,ICH: chipset revision 2,8
+a15eff8f,<*> BM-DMA at <*> BIOS settings: <*> <*>,8
+ef003ae8,Using cfq io scheduler,8
+ceae4977,Home page is http://smartmontools.sourceforge.net/,261
+24c24e18,<*> at <*> on irq <*>,8
+1a06754d,Opened configuration file /etc/smartd.conf,8
+7035af19,Configuration file /etc/smartd.conf parsed.,7
+ceae4977,"Device: /dev/hda, opened",261
+5a7291ac,Charge: * * * (-1% unknown),8
+f518230d,"Device: /dev/hda, found in smartd database.",7
+f3957b35,hda: max request size: 128KiB,8
+b0ef9ace,"Device: /dev/hda, is SMART capable. Adding to ""monitor"" list.",8
+e171a347,"hda: 29336832 sectors (15020 MB) w/1916KiB Cache, CHS=29104/16/63, UDMA(66)",8
+bcc66c27,Monitoring 1 ATA and 0 SCSI devices,8
+b79529df,smartd has fork()ed into background mode. New <*>,8
+90cad8da,Uniform CD-ROM driver Revision: 3.20,8
+9fbe6496,ide-floppy driver 0.99.newide,8
+ceae4977,mice: PS/2 mouse device common for all mice,261
+66d568ef,"serio: i8042 <*> port at 0x60,0x64 irq <*>",8
+dc64cabd,input: ImPS/2 Logitech Wheel Mouse on isa0060/serio1,16
+ceae4977,input: AT Translated Set 2 keyboard on isa0060/serio0,261
+dc64cabd,"md: md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27",16
+a3bd2f17,"IP: routing cache hash table of 512 buckets, 4Kbytes",8
+09c1f876,TCP: Hash tables configured (established 8192 bind 16384),8
+e8287044,Initializing IPsec netlink socket,16
+3425827a,checking if image is initramfs...it isn't (no cpio magic); looks like an initrd,8
+3adcc40c,Freeing initrd memory: 186k freed,8
+82fec567,md: Autodetecting RAID arrays.,8
+e8287044,md: autorun ...,16
+a99e56dc,RAMDISK: Compressed image found at block 0,8
+24406284,VFS: Mounted root (ext2 filesystem).,8
+41b966de,EXT3-fs: write access will be enabled during recovery.,8
+94079a98,kjournald starting.  Commit interval 5 seconds,8
+d07a82b9,EXT3-fs: hda2: 4 orphan inodes deleted,8
+3af6f1b1,EXT3-fs: recovery complete.,8
+37e2e5f0,EXT3-fs: mounted filesystem with ordered data mode.,8
+ceae4977,Freeing unused kernel memory: 144k freed,261
+e7e3802d,SELinux:  Disabled at runtime.,8
+03a92354,Disabled Privacy Extensions on device 022db720(lo),8
+f1205e3c,IPv6 over IPv4 tunneling driver,32
+f1205e3c,USB Universal Host Controller Interface driver v2.2,32
+28d86c57,PCI: Found IRQ <*> for device <*>,8
+2bf09b69,uhci_hcd 0000:00:1f.2: UHCI Host Controller,16
+e9d4960b,"uhci_hcd 0000:00:1f.2: irq 11, io base 0000ff80",8
+2bf09b69,"uhci_hcd 0000:00:1f.2: new USB bus registered, assigned bus number 1",16
+bc5b27be,EXT3 FS on <*> internal journal,8
+7ca9033b,cdrom: open failed.,8
+4af88f8f,Adding 262072k swap on /dev/hda3.  Priority:-1 extents:1,48
+f816645a,microcode: CPU0 already at revision 0x8 (current=0x8),8
+ac2dfaa9,microcode: No suitable data for cpu 0,8
+3637fd61,"parport0: PC-style at 0x378 (0x778) [PCSPP,TRISTATE,EPP]",8
+4af88f8f,parport0: irq 7 detected,48
+4af88f8f,SCSI subsystem initialized,48
+d36fc8e6,inserting floppy driver for 2.6.5-1.358,8
+414e6be4,Floppy drive(s): fd0 is 1.44M,8
+38fe4fa3,FDC 0 is a National Semiconductor PC87306,8
+b5e84bfb,3c59x: Donald Becker and others. www.scyld.com/network/vortex.html,8
+2baa413e,ip_tables: (C) 2000-2002 Netfilter core team,8
+ea2ebcf2,process `syslogd' is using obsolete setsockopt SO_BSDCOMPAT,33
+26dd0661,Bluetooth: <*> ver <*>,8
+602f282b,Bluetooth: HCI device and connection manager initialized,4
+a71f3b46,Bluetooth: <*> <*> layer initialized,16
+ad68f265,succeeded,1
+bdb7ce49,No such internal service: services/stream - DISABLING,4
+09cd9ade,bind failed (Address already in use (errno = 98)). service = telnet,16
+772b0ffc,Service telnet failed to start and is deactivated.,8
+f8cb09e0,xinetd Version 2.3.13 started with libwrap loadavg options compiled in.,7
+ee2ae22f,Started working: 30 available services,14
+4af88f8f,<*> <*> <*> Info: loading configuration file '/etc/privoxy/config':,48
+0439b300,<*> device node <*>,8
+1da5319d,*** info <*>,8
+3684cf74,Started gpm successfully. Entered daemon mode.,8
+0add29d8,imps2: Auto-detected intellimouse PS/2,24
+0af48ab8,session <*> for user <*> <*> <*>,8
+612822b6,started.,8
+23070491,Starting background readahead:,8
+c75567e3,Squid Parent: child process <*> <*> <*> <*> <*>,16
+71245fa0,starting BIND 9.2.3 -u named -t /var/named/chroot,8
+17a5e9db,using 1 CPU,8
+a71f3b46,loading configuration from '/etc/named.conf',16
+c75567e3,listening on IPv4 interface <*> #53,16
+09cd9ade,NET-SNMP version 5.1.1,16
+f086245a,precision = <*> usec,8
+3db3775c,kernel time sync <*> <*>,8
+c2fb0ec9,frequency initialized 0.000 PPM from /var/lib/ntp/drift,16
+30151f0c,"configure: keyword ""authenticate"" unknown, line ignored",16
+cecc13aa,couldn't add command channel <*> not found,8
+5aefd8c8,running,8
+2327d00d,"rsyncd version 2.6.2 starting, listening on port 873",8
+2a1ff46a,"synchronized to LOCAL(0), stratum=10",8
+0add29d8,file descriptor of service comsat has been closed,24
+7640830c,select reported EBADF but no bad file descriptors were found,16
+6427c534,ALERT exited abnormally with [1],17
+0add29d8,PCI: Probing PCI hardware,24
+7640830c,<*> = 1,16
+6427c534,check pass; user unknown,17
+1bef8313,connection from <*> at <*> <*> <*> <*>,8
+734221aa,authentication failure; <*> <*> euid=0 <*> ruser= <*> <*>,24
+4af88f8f,<*> shutdown succeeded,48
+cd4e8007,bad username <*> <*>,8
+b630a605,Couldn't authenticate user,24
+734221aa,User unknown timed out after 900 seconds at <*> <*> <*> <*>,24
+734221aa,Received SNMP packet(s) from ,24
+b630a605,Authentication failed from  (): Permission denied in replay cache code,24
+b630a605,Kerberos authentication failed,24
+c2fb0ec9,Authentication failed from <*> Software caused connection abort,16
+30151f0c,notify question section contains no SOA,16
+ceae4977,getpeername (ftpd): Transport endpoint is not connected,261
+9b1751bd,warning: can't get client address: Connection reset by peer,16
+ceae4977,ttloop:  peer died: Invalid or incomplete multibyte or wide character,261
+8db4d1ba,Stopping <*> <*>,8
+ceae4977,Connecting at fd 6,261
+ceae4977,"FAILED LOGIN <*> FROM (null) FOR , Authentication failure",261
+bedb8153,service(sshd) ignoring max retries; <*> > 3,8
+e7d54ca8,ttloop: read: Connection <*> <*> <*>,8
+3f023526,tty2: invalid character 0x1b in login name,8
+d7422524,<*> shutdown <*>,8
+ceae4977,shutting down for system reboot,261
+044940cc,Switching to runlevel: 6,8
+a8220517,<*> -TERM succeeded,484
+ceae4977,terminating,261
+f2487cd5,Stopping Canna server: succeeded,26
+26de28f7,Stopping squid: <*>,8
+f2487cd5,smartd received signal 15: Terminated,26
+c80127b9,smartd is exiting (exit status 0),15
+ceae4977,shutting down,261
+5ecc02a2,no longer listening on #53,1122
+5ecc02a2,exiting,1122
+ceae4977,Exiting,261
+2de79c1b,ntpd exiting on signal 15,8
+9b1751bd,1+0 records <*>,16
+ceae4977,"Caught signal 15, un-registering and exiting.",261
+ceae4977,Kernel logging (proc) stopped.,261
+ceae4977,Kernel log daemon terminating.,261
+ceae4977,open(/dev/pts/0): No such file or directory,261
+a57547ae,password changed for test,8
+ea2ebcf2,1 more authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> <*>,33
+ceae4977,wall: user test broadcasted 1 lines (36 chars),261
+ceae4977,Client hung up - probable port-scan,261
+f31bfb78,rsync: connection unexpectedly closed (0 bytes read so far),12
+01ec844e,rsync error: error in rsync protocol data stream (code 12) at io.c(342),8
+b9d1e65f,connect from 88-213-181-81-cable.canals.ro,8
+ceae4977,[smux_accept] accepted fd 12 from :1896,261
+91e13621,Unable to get command line from client!,8
+36c89b1a,Connection from  on illegal port,192
+36c89b1a,Stopping squid:,192
+36c89b1a,kernel.sysrq = 0,192
+36c89b1a,hda: dma_timer_expiry: dma status == 0x20,192
+36c89b1a,hda: status timeout: status=0xd0 { Busy },192
+36c89b1a,Out of Memory: Killed process <*> <*>,192
+36c89b1a,"<*> page allocation failure. order:0, <*>",192
+36c89b1a,[<0212ebf3>] __alloc_pages+0x274/0x281,192
+36c89b1a,[<0213d341>] read_swap_cache_async+0x41/0x84,192
+36c89b1a,[<02135dee>] swapin_readahead+0x2c/0x47,192
+36c89b1a,[<02135e66>] do_swap_page+0x5d/0x1f9,192
+36c89b1a,[<021364a7>] handle_mm_fault+0x9d/0xe2,192
+ceae4977,[<02114537>] do_page_fault+0x12f/0x446,261
+36c89b1a,[<0210737b>] do_IRQ+0x15d/0x169,192
+36c89b1a,[<0227ecc1>] schedule+0x3ed/0x44d,192
+6eaf2c08,[<0215242b>] dput+0x12c/0x13a,8
+36c89b1a,[<02114408>] do_page_fault+0x0/0x446,192
+ceae4977,[<02135e6d>] do_swap_page+0x64/0x1f9,261
+36c89b1a,VM: killing process <*>,192
+36c89b1a,[<021303bd>] do_page_cache_readahead+0xa3/0x101,192
+36c89b1a,[<0212c71b>] filemap_nopage+0x119/0x26d,192
+36c89b1a,[<021361c7>] do_no_page+0xa1/0x235,192
+5ba16b80,[<02135fdc>] do_swap_page+0x1d3/0x1f9,8
+36c89b1a,[<0213647b>] handle_mm_fault+0x71/0xe2,192
+36c89b1a,[<02135342>] follow_page+0xda/0xe5,192
+99132f5d,[<0213f1ba>] rw_vm+0x1ce/0x1ea,24
+36c89b1a,[<0212bd04>] find_or_create_page+0x39/0x70,192
+d2b15686,[<02142ed7>] grow_dev_page+0x27/0xc3,8
+36c89b1a,[<02143014>] __getblk_slow+0xa1/0xcb,192
+36c89b1a,[<0214328d>] __getblk+0x25/0x2b,192
+8517948b,[<0a8e1123>] ext3_get_inode_loc+0x4f/0x201 [ext3],8
+e7715c43,[<0212db65>] mempool_alloc+0x5d/0xf6,16
+e7715c43,[<0a8e1ba6>] ext3_reserve_inode_write+0x21/0x81 [ext3],16
+ea2ebcf2,[<0a8e1c17>] ext3_mark_inode_dirty+0x11/0x27 [ext3],33
+75101dcd,[<0a8b23ef>] journal_start+0x78/0x9e [jbd],8
+aff251f2,[<0a8e1c7c>] ext3_dirty_inode+0x4f/0x5f [ext3],8
+a8220517,[<02158800>] __mark_inode_dirty+0x20/0xca,484
+a8220517,[<0215456f>] inode_update_time+0x8e/0x96,484
+a8220517,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e,484
+a8220517,[<021c8bda>] vt_console_print+0x64/0x28f,484
+a8220517,[<021288cf>] __print_symbol+0x110/0x121,484
+a8220517,[<0212d602>] generic_file_aio_write+0x69/0x7c,484
+a8220517,[<0a8ddb99>] ext3_file_write+0x19/0x88 [ext3],484
+a8220517,[<02141447>] do_sync_write+0x68/0x9d,484
+a8220517,[<021c8b76>] vt_console_print+0x0/0x28f,484
+a8220517,[<02118726>] __call_console_drivers+0x36/0x42,484
+a8220517,[<021189cd>] printk+0x106/0x113,484
+a8220517,[<021060c2>] show_trace+0x92/0x97,484
+a8220517,[<02106159>] dump_stack+0x11/0x13,484
+a8220517,[<02129a6c>] do_acct_process+0x283/0x297,484
+a8220517,[<02129a95>] acct_process+0x15/0x1f,484
+a8220517,[<02119ccc>] do_exit+0x9f/0x2e3,484
+a8220517,[<0211476a>] do_page_fault+0x362/0x446,484
+a8220517,[<0211c38d>] proc_dointvec+0x11/0x15,484
+a8220517,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36,484
+a8220517,[<0211bdc5>] do_rw_proc+0x79/0x8d,484
+a8220517,[<02142d47>] invalidate_inode_buffers+0x9/0x33,484
+a8220517,[<0227e913>] schedule+0x3f/0x44d,484
+a8220517,[<0212d1de>] generic_file_aio_write_nolock+0x4fe/0x84e,484
+a8220517,[<02115f01>] __wake_up+0xe/0x16,484
+a8220517,[<02115ed2>] __wake_up_common+0x2f/0x50,484
+a8220517,[<0213f423>] put_user_size+0x29/0x2d,484
+a8220517,[<021295e4>] check_free_space+0x1b5/0x1cb,484
+a8220517,[<0212c5b2>] page_cache_read+0x2a/0x7a,484
+a8220517,[<0212c784>] filemap_nopage+0x182/0x26d,484
+a8220517,[<02115617>] recalc_task_prio+0x141/0x14c,484
+a8220517,[<021359c3>] do_wp_page+0x97/0x21c,484
+a8220517,[<0214201b>] __fput+0xb3/0xd1,484
+a8220517,[<021208bf>] sys_rt_sigaction+0x6b/0x80,484
+a8220517,[<0213f3d3>] get_user_size+0x30/0x57,484
+a8220517,[<021287f4>] __print_symbol+0x35/0x121,484
+a8220517,[<021284a0>] module_text_address+0x3a/0x5d,484
+a8220517,[<02135b2f>] do_wp_page+0x203/0x21c,484
+a8220517,[<021359f7>] do_wp_page+0xcb/0x21c,484
+a8220517,[<021364c6>] handle_mm_fault+0xbc/0xe2,484
+a8220517,[<02107352>] do_IRQ+0x134/0x169,484
+a8220517,[<021529bb>] d_alloc+0x38/0x1b0,484
+a8220517,[<02152b72>] d_instantiate+0x3f/0x42,484
+a8220517,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a,484
+a8220517,[<0a8e11ed>] ext3_get_inode_loc+0x119/0x201 [ext3],484
+021b66e3,[<02221a76>] input_unregister_device+0xd/0xc1,8
+99132f5d,VM: killing process httpd,24
+99132f5d,printk: 185 messages suppressed.,24
+0e8eb195,[<02134aa0>] clear_page_tables+0x7c/0x8f,8
+e09949fa,[<02137b89>] free_pgtables+0x76/0x7b,8
+5ecc02a2,[<02137ca8>] unmap_region+0x80/0xaa,1122
+5ecc02a2,[<02137c1f>] unmap_vma_list+0xe/0x17,1122
+a757c0c2,[<0212144c>] sys_setuid+0xdd/0xe9,231
+5ecc02a2,Master rebooting...,1122
+5ecc02a2,connection from <*> at <*> <*> <*> 2006,1122
+6f97e9d4,audit: enabled (after initialization),42
+ceae4977,Detected 731.214 MHz processor.,261
+4124b970,SELinux:  Registering netfilter hooks,9
+51a63c76,"security:  5 users, 7 roles, 1244 types, 1 bools",8
+8c537990,"security:  30 classes, 303377 rules",8
+6dc36b09,SELinux:  Completing initialization.,16
+0f5f997d,SELinux:  Setting up existing superblocks.,24
+6dc36b09,"SELinux: initialized (dev , type <*> <*> <*> <*> <*>",16
+0f5f997d,<*> avc: denied { read write } for <*> <*> <*> <*> <*> scontext=system_u:system_r:kernel_t <*> <*>,24
+0f5f997d,<*> <*> <*> <*> <*> <*> <*> <*> <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 <*> <*> <*> <*>,24
+6b643c98,<*> avc: denied { <*> } for <*> <*> <*> <*> <*> scontext=system_u:system_r:kernel_t <*> <*>,8
+42e1da55,<*> item=0 <*> inode=1021 dev=00:00,8
+a9678e83,<*> item=0 name=/initrd/rhgb-socket <*> dev=00:00,8
+ceae4977,audit(1138278093.880:123407): item=0 name=/proc/bus/pci/00/00.0 inode=4026532120 dev=00:00,261
+d657dc84,audit(1138278101.742:164003): item=0 name=/dev/ptmx inode=1025790 dev=05:02,24
+d657dc84,<*> item=0 name=/dev/pts/0 inode=2 dev=88:00,24
+ceae4977,audit(1138278102.405:167249): item=0 name=/proc/sys/net/ipv4/ip_forward inode=4026531960 dev=00:00,261
+d657dc84,<*> item=0 name=/sys//devices/pci0000:00/0000:00:1f.2/usb1/bNumConfigurations inode=1290 dev=00:00,24
+90cdab58,audit(1138296102.645:185219): item=0 name=/proc/bus/usb inode=4026532078 dev=00:00,8
+3c5b4adb,<*> item=0 <*> inode=1 dev=00:00,8
+29249ae3,audit(1138296102.679:186228): item=0 name=/proc/bus/usb/devices inode=1268 dev=00:00,8
+de6cd9cf,<*> item=0 name=/dev/log <*> dev=00:00,8
+2ec79755,<*> item=0 name=/dev/mapper/control inode=1154181 dev=00:00,7
+4845b66c,audit(1138296104.703:225182): item=0 name=/sys/class/misc/device-mapper inode=1424 dev=00:00,8
+fe3c862d,<*> item=0 name=/udev/device-mapper inode=283649 dev=0a:3f,8
+2c065952,<*> item=0 name=/dev/mapper/control inode=1154199 dev=0a:3f,8
+694e91c5,audit(1138296107.529:261678): item=0 name=/etc/mtab inode=82456 dev=00:00,32
+481e7ae7,audit(1138296107.747:266162): item=0 name=/etc/ld.so.cache inode=85502 dev=00:00,7
+85959353,<*> item=0 name=/proc/sys/kernel/modprobe <*> dev=00:00,8
+a5b547df,<*> item=0 name=/proc/sys/kernel/hotplug <*> dev=00:00,8
+1559494b,audit(1138296111.560:323542): item=0 name=/udev/vcs1 inode=861585 dev=07:01,8
+4e8c467f,audit(1138296111.616:324631): item=0 name=/udev/vcsa1 inode=276355 dev=00:00,8
+3c5e98a7,audit(1138296117.905:349720): item=0 name=/sys/bus/pci/devices/0000:01:0c.0/resource inode=166 dev=00:00,8
+ceae4977,audit(1138296118.152:350118): item=0 name=/proc/sys/dev/parport inode=4026532411 dev=00:00,261
+7c9bb995,audit(1138296118.152:350122): item=0 name=/proc/sys/dev/parport/parport0/autoprobe inode=4026532423 dev=00:00,8
+8480cb7e,audit(1138296120.316:368744): item=0 name=/udev/fd0 inode=283651 dev=02:00,8
+e0661b3c,audit(1138296126.645:429627): item=0 name=/proc/kmsg inode=4026531850 dev=00:00,8
+8c112e82,audit(1138296128.157:454451): item=0 name=/var/lib/nfs/rpc_pipefs/nfs inode=4 dev=00:00,8
+a31006da,audit(1138296132.911:505629): item=0 name=/var/run/ptal-mlcd inode=1502894 dev=00:00,8
+ceae4977,audit(1138296133.544:515571): item=0 name=/etc/ptal inode=309507 dev=00:00,261
+4b75bf96,"pam_check_access failed, user does not have proper access: system_u:system_r:kernel_t",8
+48a493b0,<*> <*> <*> <*> <*> <*> <*> <*> <*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 <*> egid=0 sgid=0 <*>,8
+19af522a,audit(1138296165.180:606909): item=0 name=/proc/self/attr/exec inode=136904725 dev=00:00,8
+694e91c5,audit(1138296165.211:606989): syscall=11 exit=0 a0=fef9be88 a1=862c0b0 a2=862d358 a3=0 items=2 pid=2090 loginuid=-1 uid=100 gid=101 euid=100 suid=100 fsuid=100 egid=101 sgid=101 fsgid=101,32
+694e91c5,<*> item=0 name=/bin/bash inode=1044632 dev=00:00,32
+97d5ba9f,audit(1138296191.846:687489): syscall=195 exit=0 a0=fee8cefe a1=fee8ce90 a2=501ffc a3=fee8cf06 items=1 pid=2275 loginuid=-1 uid=23 gid=23 euid=23 suid=0 fsuid=23 egid=23 sgid=23 fsgid=23,8
+d678ffa6,audit(1138296194.864:693295): item=0 name=/proc/2091/stat inode=137035789 dev=00:00,8
+53650236,audit(1138296194.865:693325): item=0 name=/proc/2091/exe inode=1078904 dev=00:00,8
+7e048621,<*> syscall=102 exit=0 a0=2 <*> a2=7ee138 <*> items=0 pid=2289 loginuid=-1 uid=25 gid=25 euid=25 suid=25 fsuid=25 egid=25 sgid=25 fsgid=25,8
+ceae4977,audit(1138296216.366:837154): item=0 name=/udev/vcsa5 inode=283654 dev=07:85,261
+1d8fe60a,<*> item=0 name=/var/gdm/.gdmfifo <*> dev=00:00,8
+5de744ee,<*> item=0 name=/dev/pts/1 inode=3 dev=88:01,8
+0dfe904f,"Warning!  Could not relabel  with system_u:object_r:devpts_t, not relabeling.",8
+60696e47,"ANONYMOUS FTP LOGIN FROM , <*> <*>",8

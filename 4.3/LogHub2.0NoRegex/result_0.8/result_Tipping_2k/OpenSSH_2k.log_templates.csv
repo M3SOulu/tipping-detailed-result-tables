@@ -1,0 +1,21 @@
+EventID,EventTemplate
+P0,pam_unix(sshd:auth): check pass; user unknown
+P1,Invalid user <*> from <*>.<*>.<*>.<*> _/|\\_ Invalid user user from <*>.<*>.<*>.<*>
+P2,<*> Failed password for <*> from <*>.<*>.<*>.<*> port <*>  _/|\\_ Failed password for <*> from <*>.<*>.<*>.<*> port <*> 
+P3,Received disconnect from <*>.<*>.<*>.<*>: <*>: Closed due to user request. [preauth]
+P4,Failed none for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P5,Received disconnect from <*>.<*>.<*>.<*>: <*>: Bye Bye [preauth]
+P6,<*> authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*> _/|\\_ <*> authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> =<*> _/|\\_ <*> authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ <*> authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> =<*>
+P7,pam_unix(sshd:session): session <*> for user fztu _/|\\_ pam_unix(sshd:session): session <*> for user fztu <*> (<*>)
+P8,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> =<*> _/|\\_ PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> =<*>
+P9,Accepted password for fztu from <*>.<*>.<*>.<*> port <*> 
+P10,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth]
+P11,Connection closed by <*>.<*>.<*>.<*> [preauth]
+P12,reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>-<*>-<*>.<*>-<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+P13,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: No more user authentication methods available. [preauth]
+P14,Disconnecting: Too many authentication failures for <*> [preauth]
+P15,PAM service(sshd) ignoring max retries; <*> > <*>
+P16,input_userauth_request: invalid user user [preauth] _/|\\_ input_userauth_request: invalid user <*> [preauth]
+P17,fatal: Write failed: Connection reset by peer [preauth]
+P18,Did not receive identification string from <*>.<*>.<*>.<*>
+P19,Received disconnect from <*>.<*>.<*>.<*>: <*>: disconnected by user

@@ -1,0 +1,36 @@
+EventID,EventTemplate
+P0,[instance: <*>-<*>-<*>-<*>-<*>] During sync_power_state the instance has a pending task (spawning). Skip.
+P1,[instance: <*>-<*>-<*>-<*>-<*>] Claim successful
+P2,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P3,<*>instance: <*>-<*>-<*>-<*>-<*> Creating <*> _/|\\_ Creating <*> -<*>-<*>:<*>-<*>-<*>-<*>-<*> instance <*>-<*>-<*>-<*>-<*>
+P4,[instance: <*>-<*>-<*>-<*>-<*>] Instance spawned successfully.
+P5,HTTP exception thrown: No instances found for any event
+P6,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P7,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P8,Unknown base file: /var/lib/nova/instances/_base/<*>
+P9,"[instance: <*>-<*>-<*>-<*>-<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU"
+P10,[instance: <*>-<*>-<*>-<*>-<*>] Instance destroyed successfully.
+P11,"image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+P12,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P13,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): checking
+P14,"<*>.<*>.<*>.<*> ""DELETE /<*>/<*>/servers/<*>-<*>-<*>-<*>-<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P15,"[instance: <*>-<*>-<*>-<*>-<*>] Total memory: <*> MB, used: <*>.<*> MB"
+P16,Active base files: /var/lib/nova/instances/_base/<*>
+P17,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*>MB used_ram=<*>MB phys_disk=<*>GB used_disk=<*>GB total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P18,"[instance: <*>-<*>-<*>-<*>-<*>] <*> limit not specified, defaulting to unlimited"
+P19,Removable base files: /var/lib/nova/instances/_base/<*>
+P20,"<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P21,[instance: <*>-<*>-<*>-<*>-<*>] Terminating instance
+P22,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P23,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P24,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+P25,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P26,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P27,[instance: <*>-<*>-<*>-<*>-<*>] Deletion of /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del complete
+P28,[instance: <*>-<*>-<*>-<*>-<*>] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del
+P29,"[instance: <*>-<*>-<*>-<*>-<*>] Total disk: <*> GB, used: <*>.<*> GB"
+P30,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P31,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance <*> . _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance.
+P32,"[instance: <*>-<*>-<*>-<*>-<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB"
+P33,[instance: <*>-<*>-<*>-<*>-<*>] VM <*> (Lifecycle Event)
+P34,"<*>.<*>.<*>.<*> ""POST /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"

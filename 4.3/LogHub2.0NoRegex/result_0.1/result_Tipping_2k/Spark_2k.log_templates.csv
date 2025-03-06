@@ -1,0 +1,34 @@
+EventID,EventTemplate
+P0,Starting executor ID <*> on host mesos-slave-<*>
+P1,Registered BlockManager
+P2,Running task <*>.<*> in stage <*>.<*> (TID <*>)
+P3,"Block broadcast_<*> stored as values in memory (estimated size <*>.<*> KB, free <*>.<*> KB)"
+P4,Found block rdd_<*>_<*> locally
+P5,Connecting to driver: spark://CoarseGrainedScheduler@<*>.<*>.<*>.<*>:<*>
+P6,"Changing view acls to: yarn,curi"
+P7,Finished task <*>.<*> in stage <*>.<*> (TID <*>). <*> bytes result sent to driver
+P8,Reading broadcast variable <*> took <*> ms
+P9,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>
+P10,"Registered signal handlers for [TERM, HUP, INT]"
+P11,Trying to register BlockManager
+P12,Server created on <*>
+P13,"Changing modify acls to: yarn,curi"
+P14,Input split: hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/logs/<*>.log:<*>+<*>
+P15,"Block broadcast_<*> stored as values in memory (estimated size <*>.<*> B, free <*>.<*> KB)"
+P16,<*> started
+P17,attempt_<*>_<*>_m_<*>_<*>: Committed
+P18,Starting remoting
+P19,Successfully registered with driver
+P20,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+P21,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+P22,"Block broadcast_<*>_<*> stored as bytes in memory (estimated size <*>.<*> KB, free <*>.<*> KB)"
+P23,Successfully started service '<*>' on port <*>. _/|\\_ Successfully started service '<*>.<*>.<*>.<*>.<*>.<*>' on port <*>.
+P24,MemoryStore started with capacity <*>.<*> GB
+P25,Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/test/<*>/_temporary/<*>/task_<*>_<*>_m_<*>
+P26,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-<*>:<*>]
+P27,Got assigned task <*>
+P28,File Output Committer Algorithm version is <*>
+P29,Started reading broadcast variable <*>
+P30,"Partition rdd_<*>_<*> not found, computing it"
+P31,"mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*>.<*> _/|\\_ mapred.<*>.is.<*> is deprecated. Instead, use mapreduce.<*>.<*>"
+P32,"Block <*>_<*>_<*> stored as bytes in memory (estimated size <*>.<*> B, free <*>.<*> KB)"

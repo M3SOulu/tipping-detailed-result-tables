@@ -1,0 +1,78 @@
+EventId,EventTemplate,Occurrences
+fa824279,Reading configuration from : #spec#,36
+91491bf0,Defaulting to majority quorums,36
+b44e3b69,* set to #spec#,216
+0f7cc562,Purge task is not scheduled.,36
+d459c04c,Starting quorum peer,36
+f93ea45a,binding to port #spec# #spec#,36
+84296b03,* not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,3
+05afa652,acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,3
+86f0c2ce,My election bind port : #spec# #spec#,36
+00078e14,LOOKING,49
+f1cdb205,"New election. My id = * , proposed zxid = #spec#",49
+03bd3e4c,"Notification : #spec# ( n.leader ) , #spec# ( n.zxid ) , #spec# ( n.round ) , * ( n.state ) , #spec# ( n.sid ) , #spec# ( n.peerEPoch ) , * ( my state )",505
+898149aa,Cannot open channel to #spec# at election address #spec#,2584
+f55d1820,Notification time out : #spec#,1322
+ea4035a0,Received connection request #spec#,10429
+c172d526,FOLLOWING,34
+cad53f78,TCP NoDelay set to : true,39
+be368f24,"Server environment : zookeeper.version = 3.4.5--1 , built on #spec# #spec# GMT",36
+54f3b451,Server environment : * = *,360
+1a20f8dd,Server environment : java.vendor = Oracle Corporation,36
+d431dfbc,Server environment : java.class.path = #spec# : #spec# : #spec# : #spec# : #spec# : #spec# : #spec# : #spec# : #spec#,36
+cf59d9ff,Server environment : java.compiler = < NA >,36
+02b990c9,Created server with tickTime #spec# minSessionTimeout #spec# maxSessionTimeout #spec# datadir #spec# snapdir #spec#,49
+eaaaf1d0,FOLLOWING - LEADER ELECTION TOOK - #spec#,34
+7e9d2f4b,Getting a diff from the leader #spec#,28
+f9492089,Snapshotting : #spec# to #spec#,65
+20ef1042,"Connection broken for id * , my id = * , error =",10388
+273e53f2,Interrupting SendWorker,10390
+45a3ec5d,Interrupted while waiting for message on queue,10386
+7a2ec7d0,Send worker leaving thread,10390
+3012415b,Got zxid #spec# expected #spec#,28
+30be35ed,Creating new log file : *,25
+6341512a,Accepted socket connection from #spec#,2020
+0aff4557,Connection request from old client #spec# ; will be dropped if server is in r-o mode,1861
+2ba98df9,Client attempting to establish new session at #spec#,1790
+6af6912a,Established session #spec# with negotiated timeout #spec# for client #spec#,1856
+ecefe136,caught end of stream exception,1670
+15106d8f,Closed socket connection for client #spec# which had sessionid #spec#,1749
+99d3c1e9,Revalidating client : #spec#,55
+ce124deb,Exception when using channel : for id #spec# my id = #spec# error = java.net.SocketException : Broken pipe,4
+0aa902cb,Unexpected Exception :,27
+44f8ebc0,Exception causing close of session #spec# due to java.io.IOException : Connection reset by peer,8
+5963969d,Reading snapshot #spec#,60
+b1ff30f8,"Have smaller server identifier , so dropping the connection : ( 2 , 1 )",9
+ceb83ef3,"Have smaller server identifier , so dropping the connection : ( 3 , 1 )",7
+1b298505,Exception when following the leader,11
+feceb4c6,shutdown called,11
+6a7eb108,Shutting down,58
+68a7558d,shutting down,13
+08a002c3,* exited loop!,26
+c7ef5ae9,shutdown of request processor complete,13
+7f667bb2,SyncRequestProcessor exited!,13
+c434d6af,"Unexpected exception , tries = 0 , connecting to #spec#",8
+23719262,LEADING,15
+9352f21a,LEADING - LEADER ELECTION TOOK - #spec#,15
+73e4621a,Follower sid : #spec# : info : *,34
+9801341f,Synchronizing with Follower sid : #spec# maxCommittedLog = #spec# minCommittedLog = #spec# peerLastZxid = #spec#,34
+9d86801d,Sending DIFF,28
+8a55800e,Commiting zxid #spec# from #spec# not first!,15
+1da09702,First is #spec#,15
+436b3447,Have quorum of supporters ; starting up and setting last processed zxid : #spec#,15
+0eb178bd,Sending SNAP,6
+e7515e69,Sending snapshot last zxid of peer is #spec# zxid of leader is #spec# zxid of db as #spec#,6
+a9ecd631,"Expiring session #spec# , timeout of * exceeded",1762
+e593b57c,Processed session termination for sessionid : #spec#,1790
+0cf47064,Unexpected exception causing shutdown while sock still open,590
+8fb1965d,******* GOODBYE #spec# ********,590
+4e66438e,Shutdown called,2
+01a6e357,exception while shutting down acceptor : java.net.SocketException : Socket closed,2
+5b6c983c,SessionTrackerImpl exited loop!,2
+4c5926a1,Getting a snapshot from leader,6
+3bc76cd4,Exception causing close of session #spec# due to java.io.IOException : ZooKeeperServer not running,159
+bd96b1be,Closed socket connection for client #spec# ( no session established for client ),159
+a9de30e4,Got user-level KeeperException when processing sessionid : #spec# type : create cxid : #spec# zxid : #spec# txntype : -1 reqpath : n/a Error Path : /home Error : KeeperErrorCode = NodeExists for /home,3
+a70906f9,Got user-level KeeperException when processing sessionid : #spec# type : create cxid : #spec# zxid : #spec# txntype : -1 reqpath : n/a Error Path : #spec# Error : KeeperErrorCode = NodeExists for #spec#,12
+4a697f94,Got user-level KeeperException when processing sessionid : #spec# type : create cxid : #spec# zxid : #spec# txntype : -1 reqpath : n/a Error Path : /hdfs-mesos Error : KeeperErrorCode = NodeExists for /hdfs-mesos,4
+1dab4e0e,"Have smaller server identifier , so dropping the connection : ( 3 , 2 )",4

@@ -1,0 +1,67 @@
+EventID,EventTemplate
+P0,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>
+P1,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
+P2,generating <*>
+P3,debug <*> enable............<*> _/|\\_ debug <*> enable.................<*>
+P4,fraction rounded.........................<*>
+P5,ciod: pollControlDescriptors: Detected the debugger died.
+P6,store operation.............................<*>
+P7,<*> torus <*> error(s) (dcr <*>) detected and corrected <*>  _/|\\_ <*> torus <*> error(s) (dcr <*>) detected and corrected
+P8,disable store gathering..................<*>
+P9,size of scratchpad portion of <*>.........<*> (<*>)
+P10,<*>=<*> dbsr=<*> =<*>
+P11,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
+P12,byte ordering exception.....................<*>
+P13,NodeCard is not fully functional
+P14,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file /p/<*>/<*>/<*>-<*>-<*>-<*>-<*>-sweep/sweep.map
+P15,ciod: LOGIN chdir(<*>) failed: <*> 
+P16,rts <*> 
+P17,Can not get assembly information for node card
+P18,auxiliary processor.........................<*>
+P19,<*> EDRAM error(s) (dcr <*>) detected and corrected <*>  _/|\\_ <*> EDRAM error(s) (dcr <*>) detected and corrected
+P20,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.
+P21,icache prefetch <*>....................<*> _/|\\_ icache prefetch <*>................<*>
+P22,suppressing further interrupts of same type
+P23,data <*> 
+P24,<*> floating <*>  _/|\\_ floating <*> 
+P25,instruction <*> 
+P26,iar <*> dear <*>
+P27,exception syndrome register: <*>
+P28,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected <*>  _/|\\_ <*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
+P29,ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/<*>.<*>.<*> _/|\\_ ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/<*>/bgl.<*>.<*>.map
+P30,"NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)"
+P31,shutdown complete
+P32,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> ) <*>=<*> =<*> PRXF=<*> PIXF=<*>
+P33,"problem state (<*>=sup,<*>=usr).......<*>"
+P34,guaranteed <*> cache block touch.<*> _/|\\_ guaranteed <*> cache block touch........<*>
+P35,total <*>  _/|\\_ <*> total <*> total <*> 
+P36,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>)
+P37,Ido chip status changed: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> ip=<*>.<*>.<*>.<*> v=<*> t=<*> status=M <*> :<*>:<*> PDT <*>
+P38,Error <*>  _/|\\_ <*> Error <*> 
+P39,ciod: failed to read message prefix on control stream (CioStream socket to <*>.<*>.<*>.<*>:<*>
+P40,wait state enable.................<*>
+P41,<*> double-hummer alignment exceptions
+P42,Machine State Register: <*>
+P43,force load/store alignment...............<*>
+P44,"<*> ddr <*>(s) detected and corrected on rank <*>, symbol <*>  _/|\\_ <*> ddr <*>(s) detected and corrected on rank <*>, symbol <*>, <*> "
+P45,program interrupt _/|\\_ program interrupt<*> 
+P46,<*>=<*> ffffffff ffffffff ffffffff
+P47,minus normalized number..................<*>
+P48,New ido chip inserted into the database: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> ip=<*>.<*>.<*>.<*> v=<*> t=<*>
+P49,Lustre mount FAILED : <*> : <*> : <*> _/|\\_ Lustre mount FAILED : <*> : <*> 
+P50,"CE sym <*>, at <*>, mask <*>"
+P51,Node card <*> not <*>  _/|\\_ Node card <*> not <*> not <*>  _/|\\_ Node card <*> card <*> not <*> 
+P52,critical input interrupt <*>  _/|\\_ critical input interrupt <*>
+P53,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file /p/<*>/<*>/contention-<*>-torus/xyzt-<*>.map
+P54,machine <*> 
+P55,ciod: generated <*> core files for program <*>
+P56,ciod: Message code <*> is not <*> or <*>
+P57,special purpose registers:
+P58,core configuration register: <*>
+P59,"PrepareForService shutting down <*> (mLctn(<*>-<*>-<*>), mCardSernum(<*>), mLp(FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), mIp(<*>.<*>.<*>.<*>), mType(<*>)) as part of Service Action <*> _/|\\_ PrepareForService shutting down <*>(mLctn(<*>-<*>-<*>), mCardSernum(<*>), mLp(FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), mIp(<*>.<*>.<*>.<*>), mType(<*>)) as part of Service Action <*>"
+P60,rts: kernel terminated for reason <*>: <*> : <*>  _/|\\_ rts: kernel terminated for reason <*>
+P61,"ciod: In packet from node <*>.<*> (<*>-<*>-Nf-C:<*>-<*>), message code <*> is not <*> or <*> (softheader=<*> )"
+P62,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+P63,
+P64,lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000
+P65,r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000

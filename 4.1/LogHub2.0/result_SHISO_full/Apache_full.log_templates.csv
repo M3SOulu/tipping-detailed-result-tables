@@ -1,0 +1,36 @@
+EventId,EventTemplate,Occurrences
+fa3d9885,LDAP: Built with OpenLDAP LDAP SDK,53
+587e40ef,LDAP: SSL support unavailable,53
+e3c91fa1,suEXEC mechanism enabled (wrapper: /usr/sbin/suexec),8
+05ce27cc,Digest: generating secret for digest authentication ...,45
+94488b1e,config.update(): Can't create channel.jni:jni,45
+d4907dc9,config.update(): Can't create vm:,45
+924109ad,config.update(): Can't create *,90
+1e262a4d,"Graceful restart requested, doing restart",37
+d492bd9d,Digest: done,45
+a105f4d0,"env.createBean2(): Factory error creating channel.jni:jni ( channel.jni, jni)",45
+9883f6cf,"env.createBean2(): Factory error creating vm: ( vm, )",45
+64d08e83,"env.createBean2(): Factory error creating * ( worker.jni, *",90
+4d804580,mod_security/1.9dev2 configured,45
+e3dc5d82,workerEnv.init() ok /etc/httpd/conf/workers2.properties,5708
+d23ad5dd,mod_jk2 Shutting down,1336
+3ca3c51e,mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.,45
+dfd50a7a,Apache/2.0.49 (Fedora) configured -- resuming normal operations,45
+ed253718,jk2_init() Found child * in scoreboard slot *,6335
+73abaa68,mod_jk child init 1 0,288
+ef7e6353,"[client <*>] mod_security: Access denied with code 403. Error reading POST data, error_code=104 [hostname ""<*>""] [uri ""/xmlrpc.php""]",1
+dc4edb17,[client <*>] Directory index forbidden by rule: /var/www/html/,6745
+568dae7c,[client <*>] File does not exist: *,20860
+b9aaac83,jk2_init() Can't find child * in scoreboard,971
+ac4a0b70,[client <*>] File does not exist: /var/www/html/scripts/..%5c%5c..,1
+a5bd6947,mod_jk child init 1 -2,971
+05bccf06,[client <*>] script not found or unable to stat: *,3301
+b82a4d10,[client <*>] request failed: URI too long (longer than 8190),39
+63843054,[client <*>] request failed: error reading the headers,14
+562ad683,[client <*>] attempt to invoke directory as script: /var/www/cgi-bin/,92
+b13a7d5f,mod_jk child workerEnv in error state *,4349
+5267abf7,[client <*>] Attempt to serve directory: /var/www/html/,1
+fba91338,[client <*>] Invalid URI in request GET HTTP/1.1,27
+c09eaca8,uriMap.mapUri() uri must start with /,27
+ce64eb73,"child process * still did not exit, sending a SIGTERM",168
+60ff0064,[client <*>] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /,8

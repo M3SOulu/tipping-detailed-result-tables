@@ -1,0 +1,75 @@
+EventId,EventTemplate,Occurrences
+52ece972,Synchronizing with Follower sid <*> maxCommittedLog <*> minCommittedLog <*> peerLastZxid <*>,34
+84760e47,Exception when using channel for id 3 my id <*> error java.net.SocketException Broken pipe,4
+31bdce23,Connection request from old client ; will be dropped if server is in r-o mode,1861
+11b247b3,Notification <*> (n.leader) <*> (n.zxid) <*> (n.round) <*> (n.state) <*> (n.sid) <*> (n.peerEPoch) <*> (my state),505
+c74ac368,Sending snapshot last zxid of peer is <*> zxid of leader is <*> zxid of db as <*>,6
+7b734081,<*> not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,6
+ec443350,Got user-level KeeperException when processing sessionid <*> type create cxid <*> zxid <*> txntype -1 reqpath n/a Error Path <*> Error KeeperErrorCode NodeExists for <*>,19
+00078e14,LOOKING,49
+c172d526,FOLLOWING,34
+23719262,LEADING,15
+d459c04c,Starting quorum peer,36
+c6d384b4,binding to port,36
+663a6d5a,Received connection request,10429
+3ca44635,Revalidating client <*>,55
+cec2484c,Reading snapshot <*>,60
+6d0785f5,<*> exited loop!,28
+9cb3def4,First is 0x0,15
+e9225b3a,******* GOODBYE ********,590
+3d06e4a1,Reading configuration from /etc/zookeeper/conf/zoo.cfg,36
+91491bf0,Defaulting to majority quorums,36
+8c716832,autopurge.snapRetainCount set to 3,36
+3204f3ff,autopurge.purgeInterval set to 0,36
+da7d60d2,tickTime set to 2000,36
+5bd1f197,minSessionTimeout set to -1,36
+689b0f5e,maxSessionTimeout set to -1,36
+dbac73df,initLimit set to 10,36
+ee5abedc,My election bind port,36
+cb66604c,Notification time out <*>,1322
+54cb9693,Server environment <*> <*>,396
+3c93f357,Snapshotting <*> to <*>,65
+7a2ec7d0,Send worker leaving thread,10390
+d6afa32e,Accepted socket connection from,2020
+0f7cc562,Purge task is not scheduled.,36
+5b896ba3,TCP NoDelay set to true,39
+b29376b2,Server environment java.vendor Oracle Corporation,36
+cea40c10,Got zxid <*> expected <*>,28
+a9981d58,Creating new log file <*>,25
+ecefe136,caught end of stream exception,1670
+1b298505,Exception when following the leader,11
+c7ef5ae9,shutdown of request processor complete,13
+b0527618,Follower sid <*> info <*>,34
+4c5926a1,Getting a snapshot from leader,6
+e3aaa020,Unexpected exception tries 0 connecting to,8
+b6d2ae83,Commiting zxid <*> from not first!,15
+86757490,Processed session termination for sessionid <*>,1790
+01597f40,<*> - LEADER ELECTION TOOK - <*>,49
+ac5f8762,Getting a diff from the leader <*>,28
+45a3ec5d,Interrupted while waiting for message on queue,10386
+1849cbeb,Client attempting to establish new session at,1790
+f8c6d06b,Expiring session <*> timeout of <*> exceeded,1762
+f20cad37,New election. My id <*> proposed zxid <*>,49
+5a503d0b,Cannot open channel to <*> at election address,2584
+0cf47064,Unexpected exception causing shutdown while sock still open,590
+a819b437,exception while shutting down acceptor java.net.SocketException Socket closed,2
+495b290d,Connection broken for id <*> my id <*> error,10388
+7d52b44f,Established session <*> with negotiated timeout <*> for client,1856
+af5d070c,Closed socket connection for client which had sessionid <*>,1749
+27abbd8d,Server environment zookeeper.version 3.4.5--1 built on 06/10/2013 17 26 GMT,36
+3a1c32d7,Have smaller server identifier so dropping the connection <*> <*>,20
+ee015cf3,Closed socket connection for client (no session established for client),159
+7ec47079,Server environment java.class.path /etc/zookeeper/conf /usr/share/java/jline.jar /usr/share/java/log4j-1.2.jar /usr/share/java/xercesImpl.jar /usr/share/java/xmlParserAPIs.jar /usr/share/java/netty.jar /usr/share/java/slf4j-api.jar /usr/share/java/slf4j-log4j12.jar /usr/share/java/zookeeper.jar,36
+9b3aac2c,Have quorum of supporters; starting up and setting last processed zxid <*>,15
+a4f8027c,Exception causing close of session 0x0 due to java.io.IOException ZooKeeperServer not running,159
+72f21490,Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2,49
+5cd4f13c,Exception causing close of session <*> due to java.io.IOException Connection reset by peer,8
+273e53f2,Interrupting SendWorker,10390
+029a7bf2,Unexpected Exception,27
+feceb4c6,shutdown called,11
+4e66438e,Shutdown called,2
+6a7eb108,Shutting down,58
+68a7558d,shutting down,13
+7f667bb2,SyncRequestProcessor exited!,13
+9d86801d,Sending DIFF,28
+0eb178bd,Sending SNAP,6

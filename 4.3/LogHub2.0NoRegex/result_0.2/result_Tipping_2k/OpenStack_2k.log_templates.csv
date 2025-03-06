@@ -1,0 +1,42 @@
+EventID,EventTemplate
+P0,[instance: <*>-<*>-<*>-<*>-<*>] During sync_power_state the instance has a pending task (spawning). Skip.
+P1,[instance: <*>-<*>-<*>-<*>-<*>] Claim successful
+P2,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to deallocate network for instance.
+P3,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to build instance.
+P4,"[instance: <*>-<*>-<*>-<*>-<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB"
+P5,[instance: <*>-<*>-<*>-<*>-<*>] Creating image
+P6,[instance: <*>-<*>-<*>-<*>-<*>] VM Paused (Lifecycle Event)
+P7,[instance: <*>-<*>-<*>-<*>-<*>] Instance destroyed successfully.
+P8,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P9,[instance: <*>-<*>-<*>-<*>-<*>] Instance spawned successfully.
+P10,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to destroy the instance on the hypervisor.
+P11,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P12,[instance: <*>-<*>-<*>-<*>-<*>] VM Resumed (Lifecycle Event)
+P13,[instance: <*>-<*>-<*>-<*>-<*>] Deletion of /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del complete
+P14,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+P15,[instance: <*>-<*>-<*>-<*>-<*>] VM Started (Lifecycle Event)
+P16,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P17,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P18,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P19,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P20,Active base files: /var/lib/nova/instances/_base/<*>
+P21,[instance: <*>-<*>-<*>-<*>-<*>] VM Stopped (Lifecycle Event)
+P22,"[instance: <*>-<*>-<*>-<*>-<*>] vcpu limit not specified, defaulting to unlimited"
+P23,"<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P24,Unknown base file: /var/lib/nova/instances/_base/<*>
+P25,HTTP exception thrown: No instances found for any event
+P26,Removable base files: /var/lib/nova/instances/_base/<*>
+P27,"[instance: <*>-<*>-<*>-<*>-<*>] Total memory: <*> MB, used: <*>.<*> MB"
+P28,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P29,[instance: <*>-<*>-<*>-<*>-<*>] Terminating instance
+P30,"[instance: <*>-<*>-<*>-<*>-<*>] Total disk: <*> GB, used: <*>.<*> GB"
+P31,"[instance: <*>-<*>-<*>-<*>-<*>] disk limit not specified, defaulting to unlimited"
+P32,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to spawn the instance on the hypervisor.
+P33,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P34,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P35,"image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+P36,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): checking
+P37,"[instance: <*>-<*>-<*>-<*>-<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU"
+P38,[instance: <*>-<*>-<*>-<*>-<*>] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del
+P39,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P40,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>-<*>-<*>-<*>-<*>

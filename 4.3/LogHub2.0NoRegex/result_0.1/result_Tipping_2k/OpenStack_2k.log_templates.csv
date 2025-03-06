@@ -1,0 +1,42 @@
+EventID,EventTemplate
+P0,[instance: <*>-<*>-<*>-<*>-<*>] Claim successful
+P1,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to destroy the instance on the hypervisor.
+P2,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P3,"[instance: <*>-<*>-<*>-<*>-<*>] disk limit not specified, defaulting to unlimited"
+P4,"[instance: <*>-<*>-<*>-<*>-<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB"
+P5,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to deallocate network for instance.
+P6,[instance: <*>-<*>-<*>-<*>-<*>] VM Paused (Lifecycle Event)
+P7,"image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+P8,[instance: <*>-<*>-<*>-<*>-<*>] Instance spawned successfully.
+P9,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P10,[instance: <*>-<*>-<*>-<*>-<*>] Instance destroyed successfully.
+P11,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P12,[instance: <*>-<*>-<*>-<*>-<*>] Deletion of /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del complete
+P13,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+P14,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P15,[instance: <*>-<*>-<*>-<*>-<*>] VM Stopped (Lifecycle Event)
+P16,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P17,[instance: <*>-<*>-<*>-<*>-<*>] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del
+P18,[instance: <*>-<*>-<*>-<*>-<*>] During sync_power_state the instance has a pending task (spawning). Skip.
+P19,Unknown base file: /var/lib/nova/instances/_base/<*>
+P20,Active base files: /var/lib/nova/instances/_base/<*>
+P21,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P22,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P23,"<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P24,HTTP exception thrown: No instances found for any event
+P25,Removable base files: /var/lib/nova/instances/_base/<*>
+P26,[instance: <*>-<*>-<*>-<*>-<*>] Terminating instance
+P27,"[instance: <*>-<*>-<*>-<*>-<*>] Total memory: <*> MB, used: <*>.<*> MB"
+P28,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P29,"[instance: <*>-<*>-<*>-<*>-<*>] Total disk: <*> GB, used: <*>.<*> GB"
+P30,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P31,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to build instance.
+P32,"[instance: <*>-<*>-<*>-<*>-<*>] vcpu limit not specified, defaulting to unlimited"
+P33,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): checking
+P34,[instance: <*>-<*>-<*>-<*>-<*>] VM Started (Lifecycle Event)
+P35,"[instance: <*>-<*>-<*>-<*>-<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU"
+P36,[instance: <*>-<*>-<*>-<*>-<*>] VM Resumed (Lifecycle Event)
+P37,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P38,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>-<*>-<*>-<*>-<*>
+P39,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to spawn the instance on the hypervisor.
+P40,[instance: <*>-<*>-<*>-<*>-<*>] Creating image

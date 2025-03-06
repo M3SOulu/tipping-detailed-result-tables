@@ -1,0 +1,34 @@
+EventID,EventTemplate
+P0,[instance: <*>-<*>-<*>-<*>-<*>] Claim successful
+P1,"[instance: <*>-<*>-<*>-<*>-<*>] <*> memory: <*> MB, <*>: <*>.<*> MB _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] memory <*>: <*>.<*> MB, <*>: <*>.<*> MB"
+P2,<*>instance: <*>-<*>-<*>-<*>-<*> Creating <*> _/|\\_ Creating <*> -<*>-<*>:<*>-<*>-<*>-<*>-<*> instance <*>-<*>-<*>-<*>-<*>
+P3,[instance: <*>-<*>-<*>-<*>-<*>] Instance spawned successfully.
+P4,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P5,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P6,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P7,"[instance: <*>-<*>-<*>-<*>-<*>] Total disk: <*> GB, used: <*>.<*> GB"
+P8,Unknown base file: /var/lib/nova/instances/_base/<*>
+P9,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): checking
+P10,[instance: <*>-<*>-<*>-<*>-<*>] Instance destroyed successfully.
+P11,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance. _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance <*> .
+P12,[instance: <*>-<*>-<*>-<*>-<*>] VM <*> (Lifecycle Event)
+P13,"image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+P14,[instance: <*>-<*>-<*>-<*>-<*>] During sync_power_state the instance has a pending task (spawning). Skip.
+P15,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P16,"<*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P17,"[instance: <*>-<*>-<*>-<*>-<*>] <*> limit not specified, defaulting to unlimited"
+P18,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P19,"[instance: <*>-<*>-<*>-<*>-<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU"
+P20,[instance: <*>-<*>-<*>-<*>-<*>] Terminating instance
+P21,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P22,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to deallocate network for instance.
+P23,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P24,Active base files: /var/lib/nova/instances/_base/<*>
+P25,[instance: <*>-<*>-<*>-<*>-<*>] Deletion of /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del complete
+P26,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P27,Removable base files: /var/lib/nova/instances/_base/<*>
+P28,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P29,[instance: <*>-<*>-<*>-<*>-<*>] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del
+P30,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+P31,HTTP exception thrown: No instances found for any event
+P32,Removing base or swap file: /var/lib/nova/instances/_base/<*>

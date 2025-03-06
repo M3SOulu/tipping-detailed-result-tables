@@ -1,0 +1,76 @@
+EventID,EventTemplate
+P0,Commiting zxid <*> from <*> not first!
+P1,Defaulting to majority quorums
+P2,<*> not found! Creating with a reasonable default of <*>. This should only happen when you are upgrading your installation
+P3,shutting down
+P4,Exception when following the leader
+P5,Established session <*> with negotiated timeout <*> for client <*>
+P6,minSessionTimeout set to -<*>
+P7,Accepted socket connection from <*>
+P8,FollowerRequestProcessor exited loop!
+P9,<*>LEADING<*> _/|\\_ <*>LEADING<*>LEADING<*> _/|\\_ LEADING
+P10,shutdown of request processor complete
+P11,Exception causing close of session <*> due to java.io.IOException: Connection reset by peer
+P12,SessionTrackerImpl exited loop!
+P13,PrepRequestProcessor exited loop!
+P14,Shutdown called
+P15,Getting a diff from the leader <*>
+P16,exception while shutting down acceptor: java.net.SocketException: Socket closed
+P17,binding to port <*>
+P18,Cannot open channel to <*> at election address <*>
+P19,Revalidating client: <*>
+P20,Created server with tickTime <*> minSessionTimeout <*> maxSessionTimeout <*> datadir /var/lib/zookeeper/version-<*> snapdir /var/lib/zookeeper/version-<*>
+P21,Interrupting SendWorker
+P22,"Unexpected exception, tries=<*>, connecting to <*>"
+P23,Getting a snapshot from leader
+P24,Shutting down
+P25,"Connection broken for id <*>, my id = <*>, error ="
+P26,Got zxid <*> expected <*>
+P27,SyncRequestProcessor exited!
+P28,<*>FOLLOWING<*> _/|\\_ <*>FOLLOWING<*>FOLLOWING<*> _/|\\_ FOLLOWING
+P29,"New election. My id = <*>, proposed zxid=<*>"
+P30,Send worker leaving thread
+P31,Have quorum of supporters; starting up and setting last processed zxid: <*>
+P32,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>
+P33,Purge task is not scheduled.
+P34,Closed socket connection for client <*> (no session established for client)
+P35,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
+P36,******* GOODBYE <*> ********
+P37,Received connection request <*>
+P38,Server environment:<*>.<*>.<*>=<*> _/|\\_ Server environment:<*>.<*>=<*> _/|\\_ Server environment:<*>.<*>=<*>.<*>.<*> _/|\\_ Server environment:<*>.<*>.<*>=<*>:<*>.<*>:<*>.<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>
+P39,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/<*> Error:KeeperErrorCode = NodeExists for /<*> _/|\\_ Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/<*>/<*>/<*> Error:KeeperErrorCode = NodeExists for /<*>/<*>/<*> _/|\\_ Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/<*>/<*> Error:KeeperErrorCode = NodeExists for /<*>/<*> _/|\\_ Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/<*>/<*>/<*>/<*> Error:KeeperErrorCode = NodeExists for /<*>/<*>/<*>/<*> _/|\\_ Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/<*>-<*>/<*> Error:KeeperErrorCode = NodeExists for /<*>-<*>/<*> _/|\\_ Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/<*>-<*> Error:KeeperErrorCode = NodeExists for /<*>-<*>
+P40,Unexpected exception causing shutdown while sock still open
+P41,TCP NoDelay set to: true
+P42,Sending DIFF
+P43,Synchronizing with Follower sid: <*> maxCommittedLog=<*> minCommittedLog=<*> peerLastZxid=<*>
+P44,Sending snapshot last zxid of peer is <*> zxid of leader is <*> zxid of db as <*>
+P45,maxSessionTimeout set to -<*>
+P46,Sending SNAP
+P47,Server environment:java.vendor=Oracle Corporation
+P48,Reading snapshot /var/lib/zookeeper/version-<*>/snapshot.<*>
+P49,Unexpected Exception:
+P50,autopurge.<*> set to <*>
+P51,Client attempting to establish new session at <*>
+P52,Notification time out: <*>
+P53,Exception when using channel: for id <*> my id = <*> error = java.net.SocketException: Broken pipe
+P54,Interrupted while waiting for message on queue
+P55,tickTime set to <*>
+P56,Reading configuration from: /etc/zookeeper/conf/zoo.cfg
+P57,Closed socket connection for client <*> which had sessionid <*>
+P58,shutdown called
+P59,"Server environment:zookeeper.version=<*>.<*>.<*>--<*>, built on <*>/<*>/<*> :<*> GMT"
+P60,LOOKING
+P61,caught end of stream exception
+P62,Processed session termination for sessionid: <*>
+P63,"Have smaller server identifier, so dropping the connection: (<*>, <*>)"
+P64,Connection request from old client <*>; will be dropped if server is in r-o mode
+P65,Starting quorum peer
+P66,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state) _/|\\_ Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state) _/|\\_ Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)"
+P67,initLimit set to <*>
+P68,Creating new log file: log.<*>
+P69,"Expiring session <*>, timeout of <*> exceeded"
+P70,CommitProcessor exited loop!
+P71,<*> - LEADER ELECTION TOOK - <*>
+P72,Snapshotting: <*> to /var/lib/zookeeper/version-<*>/snapshot.<*>
+P73,First is <*>
+P74,My election bind port: <*>

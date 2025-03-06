@@ -1,0 +1,254 @@
+EventId,EventTemplate,Occurrences
+ca7d7941,loaded properties from hadoop-metrics2.properties,977
+9e8ad6ab,Scheduled snapshot period at 10 second(s).,978
+01ae6026,MapTask metrics system started,838
+3c5bb15c,Executing with tokens:,978
+3df7e054,"Kind: mapreduce.job, Service: <*> Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@<*>)",751
+42bce2da,Sleeping for 0ms before retrying again. Got null now.,909
+4a1105fa,mapreduce.cluster.local.dir for child: <*>,907
+39006874,"session.id is deprecated. Instead, use dfs.metrics.session-id",907
+fc4324dd,ProcfsBasedProcessTree currently is supported only on Linux.,905
+e96ec3b5,Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@<*>,748
+787da076,Processing split: hdfs://msra-sa-41:9000/<*>,834
+2ed317a9,(EQUATOR) 0 kvi 26214396(104857584),834
+6f0184ed,<*> <*> <*> : <*> <*> <*> <*> <*>,5733
+0cb5b599,soft limit at 83886080,834
+db0c6791,bufstart = 0; bufvoid = 104857600,834
+97159e80,kvstart = 26214396; length = 6553600,834
+e7eee7f1,Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer,834
+895d7761,Spilling map output,5339
+167c88ff,bufstart = <*>; bufend = <*>; bufvoid = 104857600,4836
+7e099317,kvstart = 26214396(104857584); kvend = 1<*>); length = <*>/6553600,824
+150f6473,(EQUATOR) <*> kvi <*>),4708
+00cd85d9,Finished spill 0,815
+960b4f80,(RESET) equator <*> kv <*>) kvi <*>),4579
+55e5a192,kvstart = <*>); kvend = <*>); length = <*>/6553600,4515
+e7a7798b,Finished spill 1,786
+f99fadc8,Finished spill 2,761
+c0641e15,Finished spill 3,696
+1d44a39c,Finished spill 4,666
+2e114f93,Finished spill 5,606
+b50339a1,NONE,843
+1b96598a,<*> <*> <*> <*> for <*>,5765
+0491d81f,Starting flush of map output,644
+c7cc77fb,Finished spill 6,594
+7707888f,Merging <*> sorted segments,678
+5be2cae8,"Down to the last merge-pass, with <*> segments left of total size: <*> bytes",398
+f92a2591,Task:attempt_1445<*> is done. And is in the process of committing,625
+419ba77e,Task 'attempt_1445<*>' done.,616
+36ab94b8,bufstart = <*>; bufend = <*>; bufvoid = <*>,503
+82b54a4b,<*> metrics system started,140
+ebe3cd45,Assigning MSRA-SA-39.fareast.corp.microsoft.com:13562 with <*> to fetcher#<*>,192
+fb269c09,Assigning MSRA-SA-41.fareast.corp.microsoft.com:13562 with <*> to fetcher#<*>,205
+d4fc625f,assigned <*> of <*> to MSRA-SA-41.fareast.corp.microsoft.com:13562 to fetcher#<*>,205
+5bac2e49,assigned <*> of <*> to MSRA-SA-39.fareast.corp.microsoft.com:13562 to fetcher#<*>,192
+71db9a1a,for url=13562/mapOutput?job=job_1445<*> sent hash and received reply,469
+0f29a0ec,attempt_1445<*>: Shuffling to disk since <*> is greater than maxSingleShuffleLimit (32663142),396
+204af8e4,fetcher#<*> about to shuffle output of map attempt_1445<*> decomp: <*> len: <*> to DISK,664
+7cc0bb15,<*> <*> <*> <*> <*> on <*>,490
+661f59ff,Kind: <*> Service: <*> Ident: (<*>,69
+3e5a7e37,OutputCommitter <*> <*>,138
+c377416b,Registering class org.apache.hadoop.mapreduce.<*>Type for class org.apache.hadoop.mapreduce.<*>er,621
+7ced323b,Default file system [hdfs://msra-sa-41:9000],226
+12be3fca,<*> <*> <*> <*> not <*> <*> <*>,147
+72910007,Adding <*> <*> <*> <*> <*>,207
+0103ec39,MRAppMaster <*> <*> <*>,69
+916d4a74,Using callQueue class java.util.concurrent.LinkedBlockingQueue,138
+192d0e3e,Starting Socket Reader #1 for port <*>,138
+73b103d7,IPC Server listener on <*>: starting,138
+bf887a97,<*> <*> at <*>,138
+10c9deb4,<*> <*> to <*>,374
+20c7f364,Added <*> <*> <*> <*>,79
+ae2086c0,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context <*>,138
+e28c596c,<*> <*> <*> <*> is <*>,459
+97990e7d,Resolved MININT-FNANLI5.fareast.corp.microsoft.com to /default-rack,268
+ac22b5ea,Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack,1377
+c118d060,task_1445<*> Task Transitioned from NEW to SCHEDULED,684
+e70584d7,Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack,1072
+a6673ff8,Resolved 04DN8IQ.fareast.corp.microsoft.com to /default-rack,373
+eba928da,Resolved MININT-75DGDAM1.fareast.corp.microsoft.com to /default-rack,207
+adf972d0,attempt_1445<*> TaskAttempt Transitioned from NEW to UNASSIGNED,951
+35bbb19a,"getResources() for <*> ask=<*> release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> <*>",144
+718bfb9c,"Recalculating schedule, headroom=<memory:<*>, vCores:-<*>>",4156
+773f4a2b,Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,3841
+0f71bb1f,Got allocated containers <*>,606
+30fa700f,Assigned container container_1445<*> to attempt_1445<*>,906
+d2c1250a,The job-<*> file on the remote FS is <*>,138
+3cc7693b,<*>ing <*> token <*> <*>,69
+5fc68452,attempt_1445<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED,906
+b5722524,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445<*> taskAttempt attempt_1445<*>,906
+ece597f4,Launching attempt_1445<*>,906
+5eaae61c,Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:30535,161
+56cd7c31,Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:49130,296
+7bbba36d,Shuffle port returned by ContainerManager for attempt_1445<*> : 13562,906
+4a021505,TaskAttempt: [attempt_14450<*>] using containerId: [container_14450<*> on NM: [MSRA-SA-39.fareast.corp.microsoft.com:49130],178
+a57faed5,attempt_1445<*> TaskAttempt Transitioned from ASSIGNED to RUNNING,905
+7e9f7c5b,TaskAttempt: [attempt_1445<*>] using containerId: [container_1445<*> on NM: <*>,722
+75b6767e,ATTEMPT_START task_1445<*>,905
+49bc7598,task_1445<*> Task Transitioned from SCHEDULED to RUNNING,673
+71c7c3bf,Auth successful for <*> (auth:SIMPLE),962
+0457bf46,JVM with ID : jvm_1445<*> asked for a task,902
+3d5b47eb,JVM with ID: jvm_1445<*> given task: attempt_1445<*>,902
+b9f16be9,Progress of TaskAttempt attempt_1445<*> is : <*>,34447
+941421d6,<*> <*> 0,55
+273dfea1,Progress of TaskAttempt attempt_1445<*> is : 0.667,2258
+4a7afd4a,"getResources() for <*> ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",141
+2ad2006b,"getResources() for <*> ask=4 release= 0 <*> finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",28
+9c47a5d1,Progress of TaskAttempt attempt_1445<*> is : 1.0,757
+7449a240,Done acknowledgement from attempt_1445<*>,605
+1ce49c5b,attempt_1445<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP,558
+e2576a06,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445<*> taskAttempt attempt_1445<*>,838
+2067388c,KILLING attempt_1445<*>,851
+4f7fd077,attempt_1445<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED,605
+917aab22,Task succeeded with attempt attempt_1445<*>,701
+edd1a267,task_1445<*> Task Transitioned from RUNNING to SUCCEEDED,605
+cd678305,Reduce slow start threshold <*> <*> <*>,65
+b9773dd6,"getResources() for <*> <*> release= 0 newContainers=0 <*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",11
+79ece0c1,Received completed container container_1445<*>,826
+4ec351bd,Diagnostics report from attempt_1445<*>: Container killed by the ApplicationMaster.,733
+4153a3e2,Assigned <*> <*>,73
+b2d5e21b,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:<*> AssignedReds:1 <*> CompletedReds:0 ContAlloc:<*> ContRel:0 HostLocal:<*> <*>,505
+ac1d46c4,"getResources() for <*> <*> release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",35
+7bb38462,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_1445<*>,255
+6710d7b8,Scheduling a redundant attempt for task task_1445<*>,194
+5a4d5186,MapCompletionEvents request from <*> startIndex <*> maxEvents 10000,6595
+48128604,MapCompletionEvents request from attempt_1445<*>0. startIndex 3 maxEvents 10000,486
+ff33a940,attempt_1445<*> TaskAttempt Transitioned from RUNNING to KILL_CONTAINER_CLEANUP,215
+f1cf2f67,Diagnostics report from attempt_1445<*>: <*> <*> <*> <*>,102
+f8cc59b3,attempt_1445<*> TaskAttempt Transitioned from KILL_CONTAINER_CLEANUP to KILL_TASK_CLEANUP,206
+f9c4335f,Could not delete hdfs://msra-sa-41:9000/<*>,216
+b933fbdc,attempt_1445<*> TaskAttempt Transitioned from KILL_TASK_CLEANUP to KILLED,206
+7548b4f3,"completedMapPercent 0.<*> totalResourceLimit:<memory:<*>, vCores:-<*>> finalMapResourceLimit:<memory:<*>, <*> finalReduceResourceLimit:<memory:<*>, vCores:-2> netScheduledMapResource:<memory:<*>, vCores:<*>> netScheduledReduceResource:<memory:0, vCores:0>",106
+f6b1ab74,Ramping <*> <*>,131
+4674b6aa,Socket Reader #1 for port <*> readAndProcess from client <*> threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host],217
+aa26d2a8,MapCompletionEvents request from attempt_1445<*>. startIndex 9 maxEvents 10000,931
+0c9c04ca,MapCompletionEvents request from attempt_1445087491445_0005_r_000000_1. startIndex <*> maxEvents 10000,127
+b8e35b8d,Progress of TaskAttempt attempt_1445087491445_0005_r_000000_1 is : <*>,202
+a487385a,Issuing kill to other attempt attempt_1445<*>,182
+ee774a66,attempt_1445<*> TaskAttempt Transitioned from <*> to KILLED,50
+06d65ccb,"getResources() for application_1445<*>: ask=<*> release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:0, vCores:-<*>> knownNMs=<*>",271
+c5bd5b40,<*> <*> <*> from <*>,417
+8da2978c,attempt_1445<*> TaskAttempt Transitioned from RUNNING to <*>,76
+b32980ad,attempt_1445<*> TaskAttempt Transitioned from <*> to SUCCESS_CONTAINER_CLEANUP,47
+26ba31a1,Moved tmp to done: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging,141
+bd4b5a08,<*> <*> <*> to,48
+b9ddfb75,Stopping <*> <*> <*>,48
+e7fe6560,Read <*> bytes from map-output for attempt_1445<*>,649
+261dd3d2,MSRA-SA-41.fareast.corp.microsoft.com:13562 freed by fetcher#<*> in <*>ms,198
+8a90feb0,MSRA-SA-39.fareast.corp.microsoft.com:13562 freed by <*> in <*>ms,185
+8ef40fcb,<*> <*> with <*> <*>,58
+86562c2b,Merging <*> <*> <*>,7
+3729a2cd,"<*> is deprecated. Instead, use <*>",56
+df61709d,<*> of <*> <*> <*>,49
+9700f81b,<*> <*> file <*> <*> <*>,19
+42e1e401,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> was <*>,142
+d44ceee0,attempt_1445<*> TaskAttempt Transitioned from NEW to <*>,97
+0239ec71,"completedMapPercent 0.<*> totalResourceLimit:<memory:<*>, <*> finalMapResourceLimit:<memory:<*>, vCores:<*>> finalReduceResourceLimit:<memory:<*>, vCores:<*>> netScheduledMapResource:<memory:<*>, vCores:<*>> netScheduledReduceResource:<memory:0, vCores:0>",275
+9b596753,"getResources() for <*> <*> release= 0 <*> finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",7
+ee6d4c96,MapCompletionEvents request from attempt_1445062781478_0018_r_000000_1000. startIndex 9 maxEvents 10000,158
+713d2aac,Progress of TaskAttempt attempt_1445<*> is : 0.16666667,192
+4e267ec0,Assigning <*>.fareast.corp.microsoft.com:13562 with 1 to fetcher#<*>,70
+f6b96d1b,assigned 1 of 1 to <*>.fareast.corp.microsoft.com:13562 to fetcher#<*>,70
+30746ef7,<*> freed by fetcher#<*> in <*>ms,72
+7263e411,Finished spill 7,280
+1ee71d96,"Down to the last merge-pass, with 8 segments left of total size: 288<*> bytes",280
+1f3b539d,Stopping MapTask metrics system...,302
+58e2370e,MapTask metrics system stopped.,302
+4ae2b9bb,MapTask metrics system shutdown complete.,302
+bb0dd956,"Kind: mapreduce.job, Service: <*> Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@1623b78d)",158
+15db7cef,Using ResourceCalculatorProcessTree : org.apache.hadoop.yarn.util.WindowsBasedProcessTree@db57326,157
+08b842ef,Retrying connect to server: <*> Already tried <*> time(s); maxRetries=45,459
+1bc76ef1,"getResources() for <*> ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=5",70
+5b4567d6,"getResources() for <*> ask=4 release= 0 <*> finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=5",27
+31ef968d,"getResources() for <*> <*> release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=5",13
+d2801da7,"getResources() for <*> <*> release= 0 <*> <*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=5",4
+01f7c028,Progress of TaskAttempt attempt_1445<*> is : 0.36388028,164
+9e41e801,attempt_1445<*>: Shuffling to disk since <*> is greater than maxSingleShuffleLimit (35232152),271
+fdbce09b,"Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",219
+4bccb264,"getResources() for application_1445<*>: ask=<*> release= 0 <*> <*> resourcelimit=<memory:0, vCores:-<*>> knownNMs=<*>",88
+2402708d,"completedMapPercent <*> totalResourceLimit:<memory:<*>, vCores:-26> finalMapResourceLimit:<memory:<*>, vCores:-24> finalReduceResourceLimit:<memory:<*>, vCores:-2> netScheduledMapResource:<memory:<*>, vCores:<*>> netScheduledReduceResource:<memory:0, vCores:0>",148
+fc15d5e4,"getResources() for <*> <*> release= 0 newContainers=0 <*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=5",2
+3464c567,MapCompletionEvents request from attempt_1445087491445_0002_r_000000_0. startIndex <*> maxEvents 10000,500
+c8401ed8,Progress of TaskAttempt attempt_1445087491445_0002_r_000000_0 is : <*>,284
+69b8c60e,Address change detected. Old: msra-sa-41/<*>:9000 New: msra-sa-41:9000,5313
+b4ff2357,ERROR IN CONTACTING RM.,480
+037adbe8,Address change detected. Old: msra-sa-41/<*>:8030 New: msra-sa-41:8030,482
+ca099a77,"Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",482
+fd37ef60,task_1445<*> Task Transitioned from <*> to SCHEDULED,16
+69433779,Progress of TaskAttempt attempt_1445087491445_0002_r_000000_1000 is : <*>,186
+a605d5d6,"getResources() for <*> <*> release= 0 <*> <*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",3
+56292a40,Stopping <*> metrics system...,15
+6c99f440,<*> metrics system stopped.,15
+a0763413,<*> metrics system shutdown complete.,15
+526d69d6,"getResources() for <*> ask=4 release= 0 newContainers=0 <*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=5",3
+5312cf89,MapCompletionEvents request from attempt_1445062781478_0016_r_000000_0. startIndex 10 maxEvents 10000,165
+c6a3285c,Opening proxy : MSRA-SA-39.fareast.corp.microsoft.com:28345,246
+d41a9767,TaskAttempt: [attempt_14451<*>] using containerId: [container_14451<*> on NM: [MSRA-SA-39.fareast.corp.microsoft.com:28345],133
+b207ac0b,"getResources() for <*> ask=<*> release= 0 newContainers=0 <*> resourcelimit=<memory:<*>, vCores:-<*>> <*>",12
+f1df4b95,Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/<*>:62270. Already tried <*> time(s); maxRetries=45,238
+054176c2,attempt_1445<*> TaskAttempt Transitioned from <*> to <*>,21
+1214e335,Progress of TaskAttempt attempt_1445175094696_0005_r_000000_0 is : <*>,146
+6fcc4492,Progress of TaskAttempt attempt_1445175094696_0002_r_000000_0 is : <*>,179
+18f80c95,"Recalculating schedule, headroom=<memory:16384, vCores:-<*>>",259
+6887c235,Progress of TaskAttempt attempt_1445062781478_0017_m_000006_0 is : <*>,125
+7f266e99,Progress of TaskAttempt attempt_1445062781478_0017_m_000001_0 is : <*>,133
+71e24817,Progress of TaskAttempt attempt_1445062781478_0017_m_000005_0 is : <*>,137
+f5f8e924,MapCompletionEvents request from attempt_1445062781478_0017_r_000000_0. startIndex 7 maxEvents 10000,3312
+d1cb91dd,Progress of TaskAttempt attempt_1445062781478_0017_r_000000_0 is : 0.23333333,1086
+412257d1,Retrying connect to server: MININT-75DGDAM1.fareast.corp.microsoft.com/<*>:51951. Already tried <*> time(s); maxRetries=45,415
+15b38bb1,Progress of TaskAttempt attempt_1445087491445_0003_r_000000_0 is : <*>,358
+eb5ac326,"getResources() for <*> ask=<*> release= 0 <*> finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> <*>",15
+7da4f375,MapCompletionEvents request from attempt_1445087491445_0004_r_000000_1000. startIndex <*> maxEvents 10000,219
+7da6f9a9,"completedMapPercent 0.<*> totalResourceLimit:<memory:<*>, <*> finalMapResourceLimit:<memory:<*>, vCores:<*>> finalReduceResourceLimit:<memory:<*>, vCores:<*>> netScheduledMapResource:<memory:<*>, vCores:<*>> <*> <*>",2
+fd4d16a2,MapCompletionEvents request from attempt_1445087491445_0004_r_000000_1001. startIndex <*> maxEvents 10000,140
+2c84dd21,Progress of TaskAttempt attempt_1445087491445_0004_r_000000_1001 is : <*>,228
+835b0b51,"getResources() for <*> <*> release= 0 <*> finishedContainers=0 resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=5",3
+c8efaeec,MapCompletionEvents request from attempt_1445087491445_0004_r_000000_0. startIndex <*> maxEvents 10000,330
+9f2194a9,Progress of TaskAttempt attempt_1445087491445_0004_r_000000_0 is : <*>,362
+5a3a3a1a,Assigning <*> with <*> to fetcher#5,4
+0cbfaf5b,assigned <*> of <*> to <*> to fetcher#5,4
+8723f720,Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:10769,153
+8da1c90c,Progress of TaskAttempt attempt_1445182159119_0005_r_000000_0 is : <*>,125
+2b9a4ffc,Progress of TaskAttempt attempt_1445182159119_0002_r_000000_1000 is : <*>,183
+c500de0b,Progress of TaskAttempt attempt_1445094324383_0001_r_000000_0 is : <*>,181
+e0a6d381,Progress of TaskAttempt attempt_1445182159119_0003_r_000000_1 is : <*>,165
+e29360ea,MapCompletionEvents request from attempt_1445182159119_0003_r_000000_1. startIndex 11 maxEvents 10000,290
+ff8849fd,Progress of TaskAttempt attempt_1445182159119_0003_r_000000_1 is : 0.3,145
+f59b5322,MapCompletionEvents request from attempt_1445182159119_0003_r_000000_1. startIndex 12 maxEvents 10000,144
+57422c6e,"getResources() for <*> ask=<*> release= 0 <*> <*> resourcelimit=<memory:<*>, vCores:-<*>> <*>",1
+5f6f5545,Progress of TaskAttempt attempt_1445182159119_0004_r_000000_0 is : <*>,279
+087dd35d,MapCompletionEvents request from attempt_1445182159119_0004_r_000000_0. startIndex 11 maxEvents 10000,188
+29c46e5e,MapCompletionEvents request from attempt_1445182159119_0019_r_000000_1000. startIndex 10 maxEvents 10000,130
+6dab05ce,"getResources() for <*> ask=4 release= 0 <*> <*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",1
+5dbe1b1d,MapCompletionEvents request from attempt_1445182159119_0016_r_000000_0. startIndex 4 maxEvents 10000,130
+7cf990e4,"Retrying connect to server: MININT-75DGDAM1.fareast.corp.microsoft.com/<*>:58081. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",150
+cc3164b8,MapCompletionEvents request from attempt_1445182159119_0016_r_000000_0. startIndex 9 maxEvents 10000,1168
+8df7b013,Progress of TaskAttempt attempt_1445182159119_0016_r_000000_0 is : 0.3,380
+0aa69f28,MapCompletionEvents request from attempt_1445182159119_0020_r_000000_0. startIndex 10 maxEvents 10000,212
+3d95b42f,Progress of TaskAttempt attempt_1445182159119_0018_r_000000_1000 is : <*>,140
+e7645c18,Retrying connect to server: MININT-FNANLI5.fareast.corp.microsoft.com/<*>:55135. Already tried <*> time(s); maxRetries=45,163
+7e24a631,Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/<*>:62304. Already tried <*> time(s); maxRetries=45,131
+87717048,Progress of TaskAttempt attempt_1445175094696_0001_r_000000_0 is : <*>,181
+51ef1db6,Progress of TaskAttempt attempt_1445087491445_0001_r_000000_0 is : <*>,389
+a6d0f600,MapCompletionEvents request from attempt_1445087491445_0001_r_000000_0. startIndex 13 maxEvents 10000,169
+e119db3a,Progress of TaskAttempt attempt_1445062781478_0012_m_000006_0 is : <*>,129
+8acc395b,Retrying connect to server: 04DN8IQ.fareast.corp.microsoft.com/<*>:64484. Already tried <*> time(s); maxRetries=45,427
+743c8a7f,"Retrying connect to server: 04DN8IQ.fareast.corp.microsoft.com/<*>:64484. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",197
+60ffa8dd,Progress of TaskAttempt attempt_1445144423722_0022_r_000000_0 is : <*>,128
+d95ade0d,MapCompletionEvents request from attempt_1445144423722_0022_r_000000_0. startIndex 8 maxEvents 10000,139
+33c75f6c,Retrying connect to server: 04dn8iq.fareast.corp.microsoft.com/<*>:49470. Already tried <*> time(s); maxRetries=45,264
+984b91bd,"getResources() for <*> ask=4 release= 0 newContainers=0 <*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=4",3
+1ce52868,Progress of TaskAttempt attempt_1445087491445_0007_r_000000_1000 is : <*>,163
+62e820ac,Progress of TaskAttempt attempt_1445182159119_0001_r_000000_0 is : <*>,166
+7c8b39e4,Progress of TaskAttempt attempt_1445094324383_0004_r_000000_1 is : <*>,438
+b7bbf4b8,MapCompletionEvents request from attempt_1445094324383_0004_r_000000_1. startIndex 12 maxEvents 10000,767
+4b2969b8,Progress of TaskAttempt attempt_1445094324383_0003_r_000000_0 is : <*>,351
+e8fa226e,Progress of TaskAttempt attempt_1445094324383_0002_r_000000_0 is : <*>,253
+20b19764,MapCompletionEvents request from attempt_1445094324383_0002_r_000000_0. startIndex 10 maxEvents 10000,405
+a2531b5e,MapCompletionEvents request from attempt_1445094324383_0002_r_000000_1. startIndex 10 maxEvents 10000,452
+b3c333bd,Progress of TaskAttempt attempt_1445094324383_0002_r_000000_2 is : <*>,131
+6ae2394e,Progress of TaskAttempt attempt_1445094324383_0005_r_000000_1 is : <*>,586
+043cbf36,MapCompletionEvents request from attempt_1445094324383_0005_r_000000_1. startIndex 12 maxEvents 10000,847
+d8e0c784,Progress of TaskAttempt attempt_1445094324383_0005_r_000000_2 is : <*>,125
+ef0e0863,MapCompletionEvents request from attempt_1445182159119_0014_r_000000_1000. startIndex 9 maxEvents 10000,136
+f5064915,Retrying connect to server: minint-fnanli5.fareast.corp.microsoft.com/<*>:52839. Already tried <*> time(s); maxRetries=45,420

@@ -1,0 +1,42 @@
+EventID,EventTemplate
+P0,BLOCK* ask <*>.<*>.<*>.<*>:<*> to replicate blk_<*> to datanode(s) <*>.<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*> _/|\\_ BLOCK* ask <*>.<*>.<*>.<*>:<*> to replicate blk_<*> to datanode(s) <*>.<*>.<*>.<*>:<*>
+P1,writeBlock blk_<*> received exception java.io.<*>  _/|\\_ writeBlock blk_<*> received exception java.io.<*>
+P2,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>.<*>.<*>.<*>:<*> is added to blk_<*> size <*>
+P3,<*>.<*>.<*>.<*>:<*>:<*> blk_<*> .<*>.<*>.<*>:<*> java.io.IOException: Connection reset by peer _/|\\_ <*> blk_<*> java.io.IOException: Connection reset by peer
+P4,Received block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*> of size <*>
+P5,"writeBlock blk_<*> received exception java.io.IOException: Block blk_<*> is valid, and cannot be written to."
+P6,PacketResponder blk_<*> Exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]
+P7,PacketResponder blk_<*> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <*> millis timeout left.
+P8,Exception in receiveBlock for block blk_<*> java.io.EOFException
+P9,Receiving block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*>
+P10,BLOCK* Removing block blk_<*> from neededReplications as it does not belong to any file.
+P11,Verification succeeded for blk_<*>
+P12,writeBlock blk_<*> received exception java.io.IOException: Could not read from stream
+P13,Received block blk_<*> of size <*> from /<*>.<*>.<*>.<*>
+P14,BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/<*>/<*>_<*>_<*>/<*>.<*>. blk_<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>.<*>. blk_<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>_<*>. blk_<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/_<*>_<*>_<*>_<*>_<*>_<*>/<*>. blk_<*>
+P15,Adding an already existing block blk_<*>
+P16,PacketResponder <*> for block blk_<*> terminating
+P17,Exception in receiveBlock for block blk_<*> java.io.IOException: Connection reset by peer
+P18,Reopen Block blk_<*>
+P19,<*>.<*>.<*>.<*>:<*>:Got exception while serving blk_<*> to /<*>.<*>.<*>.<*>:
+P20,PacketResponder blk_<*> Exception java.<*>.<*>.<*> _/|\\_ PacketResponder blk_<*> Exception java.<*>.<*>
+P21,PacketResponder blk_<*> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]. <*> millis timeout left.
+P22,Changing block file offset of block blk_<*> from <*> to <*> meta file offset to <*>
+P23,writeBlock blk_<*> received exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]. <*> millis timeout left.
+P24,<*>.<*>.<*>.<*>:<*> Served block blk_<*> to /<*>.<*>.<*>.<*>
+P25,PacketResponder blk_<*> Exception java.io.IOException: The stream is closed
+P26,BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>.<*>.<*>.<*>:<*>
+P27,<*>.<*>.<*>.<*>:<*>:Exception writing block blk_<*> to mirror <*>.<*>.<*>.<*>:<*>
+P28,PendingReplicationMonitor timed out block blk_<*>
+P29,<*> blk_<*> java.io.IOException: Broken pipe
+P30,Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/<*>/blk_<*> _/|\\_ Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/blk_<*>
+P31,writeBlock blk_<*> received exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for <*>. ch : java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]
+P32,Exception in receiveBlock for block blk_<*> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]. <*> millis timeout left.
+P33,PacketResponder blk_<*> Exception java.io.IOException: Connection reset by peer
+P34,<*>.<*>.<*>.<*>:<*>:Transmitted block blk_<*> to /<*>.<*>.<*>.<*>:<*>
+P35,"<*>.<*>.<*>.<*>:<*> Starting thread to transfer block blk_<*> to <*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>"
+P36,BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_<*> on <*>.<*>.<*>.<*>:<*> size <*> But it does not belong to any file.
+P37,writeBlock blk_<*> received exception java.net.NoRouteToHostException: No route to host
+P38,Unexpected error trying to delete block blk_<*>. BlockInfo not found in volumeMap.
+P39,Exception in receiveBlock for block blk_<*> java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]
+P40,Receiving empty packet for block blk_<*>

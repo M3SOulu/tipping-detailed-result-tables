@@ -1,0 +1,250 @@
+EventId,EventTemplate
+6f97e9d4,restart.
+2315719c,<*> startup succeeded
+8d7c0e6b,<*> <*> <*> <*> <*> <*> <*>
+db4c402a,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+0ce98313,<*> <*> <*> <*>
+fb195195,<*> <*> <*> <*> <*>
+a4ec7e5b,<*> <*> <*>
+be2214fc,<*> <*> <*> <*> <*> <*>
+2f7082b2,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+fe3c862d,Initializing CPU#0
+9d892b9c,<*> <*> <*> <*> <*> <*> <*> <*> <*>
+71585e7e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+158c34d8,SELinux: Initializing.
+82e013db,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+de1af8bf,<*> <*> <*> <*> <*> <*> <*> <*>
+557d5caa,audit(1118297138.4294965368:0): initialized
+73d6de92,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+1f1c0422,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+9b1751bd,succeeded
+961489c4,creating device node <*>
+788ad22d,session opened for user <*> by (uid=0)
+27624832,session closed for user <*>
+2de79c1b,started.
+1d3bddc6,listening on IPv4 interface <*> <*>
+75101dcd,running
+f4a362c1,<*> <*> <*> <*> listening on <*> <*>
+3d002f62,removing device node <*>
+115d0538,session opened for user cyrus by (uid=0)
+fe6f65a7,session closed for user cyrus
+a757c0c2,ALERT exited abnormally with [1]
+08a3a001,session opened for user news by (uid=0)
+70fd00b7,session closed for user news
+5be92e73,audit(1118403053.397:0): initialized
+757e2d1c,<*> 10 <*> <*> <*> <*> <*> <*> <*>
+b780997e,check pass; user unknown
+99eeebc7,connection from <*> () at Sat <*> 11 <*> 2005
+1fef1b25,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> user=root
+144710e5,connection from <*> () at Sun <*> 12 <*> 2005
+cd67dd85,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> user=test
+4c379b7b,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> <*>
+1f5db5de,session opened for user test <*> <*>
+91b7ca30,session closed for user test
+fee33ebb,connection from <*> <*> at Mon <*> 13 <*> 2005
+490a5097,connection from <*> <*> at Fri <*> 17 <*> 2005
+c23549ff,connection from <*> <*> at Sat <*> <*> <*> 2005
+3dd67632,<*> <*> <*> <*> <*> <*> <*> at Sat <*> <*> <*> 2005
+2bfd6799,connection from <*> () at Mon <*> <*> <*> 2005
+1dda12c0,connection from <*> () at Wed <*> 22 <*> 2005
+004dfb02,connection from <*> () at Fri <*> <*> <*> 2005
+45c25d47,connection from <*> () at Sat <*> 25 <*> 2005
+52808683,connection from <*> () at Wed <*> <*> <*> 2005
+bb2bb2f4,connection from <*> <*> at Sun Jul <*> <*> 2005
+5ad2d78c,connection from <*> <*> at Mon <*> <*> <*> 2005
+6c68b589,connection from <*> () at Tue <*> 5 <*> 2005
+a3302c5d,connection from <*> () at Wed <*> 6 <*> 2005
+30f6a0f6,session opened for user <*> <*> <*>
+ac286bec,connection from <*> () at Thu <*> 7 <*> 2005
+15ed753e,connection from <*> () at Sat <*> 9 <*> 2005
+9b9e85a6,connection from <*> <*> at Sat <*> 9 <*> 2005
+2f8d1f63,connection from <*> () at Sun Jul 10 <*> 2005
+8bb128f0,connection from <*> <*> at Sun Jul 10 <*> 2005
+091d119d,connection from 211.107.232.1 () at Fri <*> <*> <*> 2005
+c99d7dfb,connection from <*> () at Sat <*> <*> <*> 2005
+2fe23955,connection from <*> <*> at Sun Jul 17 <*> 2005
+7c6d7f17,connection from <*> () at Sun Jul 17 <*> 2005
+b6e5f6f0,connection from <*> () at Thu <*> <*> <*> 2005
+79f245aa,connection from <*> () at Fri <*> 22 <*> 2005
+ceb0a0b3,connection from <*> () at Sun Jul <*> <*> 2005
+8c3be477,connection from 211.107.232.1 () at Sun Jul <*> <*> 2005
+a11684a8,connection from <*> () at Mon <*> 25 <*> 2005
+f4901614,connection from <*> () at Tue <*> <*> <*> 2005
+5661f4eb,audit(1122475266.4294965305:0): initialized
+980efd56,ttloop: peer died: Invalid or incomplete multibyte or wide character
+7b4b03c9,connection from 211.107.232.1 () at Wed <*> <*> <*> 2005
+b1cbf898,connection from 211.107.232.1 () at Sat <*> 6 <*> 2005
+2c7f1278,connection from <*> <*> at Sun <*> 7 <*> 2005
+facfe727,<*> <*> <*> <*> <*> <*> <*> at Sun <*> 7 <*> 2005
+4bcded12,authentication failure; <*> uid=0 euid=0 <*> <*> <*> user=root
+ace122c8,connection from <*> <*> at Tue <*> 9 <*> 2005
+574aeceb,connection from <*> () at Tue <*> 9 <*> 2005
+af691eac,connection from <*> () at Fri <*> 12 <*> 2005
+5431bc7f,connection from <*> <*> at Sat <*> 13 <*> 2005
+888272c1,connection from <*> <*> at Tue <*> <*> <*> 2005
+d0dee2db,connection from 211.107.232.1 () at Wed <*> 17 <*> 2005
+4b39cfa8,connection from <*> <*> at Fri <*> <*> <*> 2005
+fed1fde8,connection from <*> <*> at Mon <*> 22 <*> 2005
+65eb2c7c,connection from <*> () at Thu <*> 25 <*> 2005
+2b7cfbeb,connection from <*> <*> at Sun <*> <*> <*> 2005
+12025fb9,connection from 211.107.232.1 () at Mon <*> 5 <*> 2005
+5c00250e,connection from <*> () at Mon <*> 5 <*> 2005
+8e4c953e,connection from <*> <*> at Tue <*> 6 <*> 2005
+baa50ae8,connection from <*> <*> at Wed <*> 7 <*> 2005
+9423e6b2,connection from <*> <*> at Mon <*> 12 <*> 2005
+f6d73fa4,connection from <*> () at Tue <*> 13 <*> 2005
+89207ef1,connection from 211.107.232.1 () at Tue <*> 13 <*> 2005
+46f5e6d2,connection from <*> <*> at Wed <*> <*> <*> 2005
+bed2bc12,<*> <*> <*> <*> <*> <*> <*> at Wed <*> <*> <*> 2005
+01bb469a,connection from <*> <*> at Thu <*> <*> <*> 2005
+5e6f9ffb,<*> <*> <*> <*> <*> <*> <*> at Thu <*> <*> <*> 2005
+849b193e,audit(1127109407.969:0): initialized
+113953a0,connection from <*> <*> at Thu <*> 22 <*> 2005
+2a70c8fd,terminating
+f8f8ce9d,Stopping squid:
+68a7558d,shutting down
+34f6d984,<*> <*> listening on <*>
+17b54006,exiting
+0657d962,Exiting
+82e2a343,audit(1127898608.244:0): initialized
+d0bf7fe6,connection from 211.107.232.1 () at Fri <*> 7 <*> 2005
+457ecfb1,<*> <*> authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= <*> <*>
+ee9dda30,authentication failure; <*> <*> <*> <*> <*> <*> user=test
+ff2d07ae,<*> user test <*> <*> <*> <*> <*>
+007995bd,connection from <*> <*> at Wed <*> 12 <*> 2005
+2cbcf4be,connection from <*> () at Wed <*> 12 <*> 2005
+0d868a40,connection from <*> <*> at Thu <*> 13 <*> 2005
+ac3440f6,connection from 211.107.232.1 () at Sun <*> <*> <*> 2005
+a1b08359,connection from <*> () at Mon <*> 17 <*> 2005
+87b9a9bf,connection from <*> <*> at Sat <*> 22 <*> 2005
+f4441af9,audit(1130234885.488:0): initialized
+7705f25b,<*> 25 <*> <*> <*> <*> <*> <*> <*>
+a5cecffb,connection from 84.57.172.16 (dslb-084-057-172-016.pools.arcor-ip.net) at Sat Nov 5 <*> 2005
+31e2bd51,connection from <*> <*> at Mon <*> 7 <*> 2005
+a1dac897,connection from <*> () at Mon <*> 7 <*> 2005
+b1cb0917,connection from 211.107.232.1 () at Fri <*> 11 <*> 2005
+75e8b335,connection from <*> <*> at Sat Nov 12 <*> 2005
+107715b9,connection from <*> <*> at Sun <*> 13 <*> 2005
+d72f76c6,Out of Memory: Killed process <*> (httpd).
+1f2bb2e2,Out of Memory: Killed process <*> (python).
+2d396a21,connection from <*> <*> at Sat Nov <*> <*> 2005
+7bf1de0a,Out of Memory: Killed process <*> (sendmail).
+e3d9fb97,Out of Memory: Killed process <*> <*>
+ba4102d6,[<0212ebf3>] __alloc_pages+0x274/0x281
+4bf02dfe,[<0213d341>] read_swap_cache_async+0x41/0x84
+2bc00a63,[<02135dee>] swapin_readahead+0x2c/0x47
+dfa75a99,[<02135e66>] do_swap_page+0x5d/0x1f9
+3bdf1a56,[<021364a7>] handle_mm_fault+0x9d/0xe2
+843622f0,[<02114537>] do_page_fault+0x12f/0x446
+853b53c2,[<0210737b>] do_IRQ+0x15d/0x169
+18f70ff3,[<0227ecc1>] schedule+0x3ed/0x44d
+e3cd8a5e,[<0215242b>] dput+0x12c/0x13a
+b418db8f,[<02114408>] do_page_fault+0x0/0x446
+37fb3836,[<02135e6d>] do_swap_page+0x64/0x1f9
+fb31caa2,[<021303bd>] do_page_cache_readahead+0xa3/0x101
+e5c3c52e,[<0212c71b>] filemap_nopage+0x119/0x26d
+dff879e3,[<021361c7>] do_no_page+0xa1/0x235
+f9add6d6,[<02135fdc>] do_swap_page+0x1d3/0x1f9
+fd04d033,[<0213647b>] handle_mm_fault+0x71/0xe2
+c2411201,[<02135342>] follow_page+0xda/0xe5
+928b60c1,[<0213f1ba>] rw_vm+0x1ce/0x1ea
+78ce9066,[<0212bd04>] find_or_create_page+0x39/0x70
+a1c02ebd,[<02142ed7>] grow_dev_page+0x27/0xc3
+25179587,[<02143014>] __getblk_slow+0xa1/0xcb
+8a67813e,[<0214328d>] __getblk+0x25/0x2b
+70cf6e47,[<0212db65>] mempool_alloc+0x5d/0xf6
+f30f67b4,[<02158800>] __mark_inode_dirty+0x20/0xca
+9ae66066,[<0215456f>] inode_update_time+0x8e/0x96
+a9a4f636,[<0212cfe2>] generic_file_aio_write_nolock+0x302/0x84e
+06de9b08,[<021c8bda>] vt_console_print+0x64/0x28f
+69f11e7b,[<021288cf>] __print_symbol+0x110/0x121
+96fa064c,[<0212d602>] generic_file_aio_write+0x69/0x7c
+33f0ced6,[<02141447>] do_sync_write+0x68/0x9d
+9729a3d7,[<021c8b76>] vt_console_print+0x0/0x28f
+b376a63a,[<02118726>] __call_console_drivers+0x36/0x42
+09220f31,[<021189cd>] printk+0x106/0x113
+c9894375,[<021060c2>] show_trace+0x92/0x97
+734d92b2,[<02106159>] dump_stack+0x11/0x13
+fd782663,[<02129a6c>] do_acct_process+0x283/0x297
+3573d6b4,[<02129a95>] acct_process+0x15/0x1f
+171c478e,[<02119ccc>] do_exit+0x9f/0x2e3
+8074c478,[<0211476a>] do_page_fault+0x362/0x446
+bb4029c7,[<0211c38d>] proc_dointvec+0x11/0x15
+ac2d3c99,[<0211c01d>] do_proc_dointvec_conv+0x0/0x36
+af47455f,[<0211bdc5>] do_rw_proc+0x79/0x8d
+c0066d78,[<02142d47>] invalidate_inode_buffers+0x9/0x33
+75a2cef0,[<0227e913>] schedule+0x3f/0x44d
+b6ca1d51,[<0212d1de>] generic_file_aio_write_nolock+0x4fe/0x84e
+a5164001,[<02115f01>] __wake_up+0xe/0x16
+4a60777d,[<02115ed2>] __wake_up_common+0x2f/0x50
+92496dde,[<0213f423>] put_user_size+0x29/0x2d
+40a3bd24,[<021295e4>] check_free_space+0x1b5/0x1cb
+a9f351ce,[<0212c5b2>] page_cache_read+0x2a/0x7a
+d9c44a86,[<0212c784>] filemap_nopage+0x182/0x26d
+d5f5c938,[<02115617>] recalc_task_prio+0x141/0x14c
+87b9983c,[<021359c3>] do_wp_page+0x97/0x21c
+57020539,[<0214201b>] __fput+0xb3/0xd1
+9914f6ae,[<021208bf>] sys_rt_sigaction+0x6b/0x80
+12a0e496,[<0213f3d3>] get_user_size+0x30/0x57
+3c917faa,[<021287f4>] __print_symbol+0x35/0x121
+e5aa9792,[<021284a0>] module_text_address+0x3a/0x5d
+82d3490f,[<02135b2f>] do_wp_page+0x203/0x21c
+145bf27c,[<021359f7>] do_wp_page+0xcb/0x21c
+29f47509,[<021364c6>] handle_mm_fault+0xbc/0xe2
+91cd6eed,[<02107352>] do_IRQ+0x134/0x169
+2bcf9d42,[<021529bb>] d_alloc+0x38/0x1b0
+7b6db774,[<02152b72>] d_instantiate+0x3f/0x42
+7a1d07c4,[<0211fc74>] sys_rt_sigprocmask+0x87/0x9a
+8565c957,[<02221a76>] input_unregister_device+0xd/0xc1
+eb74dc98,connection from <*> <*> at Fri <*> 25 <*> 2005
+ead33d09,connection from <*> () at Sat Nov <*> <*> 2005
+b926b427,[<02134aa0>] clear_page_tables+0x7c/0x8f
+d7f56a7a,[<02137b89>] free_pgtables+0x76/0x7b
+c62e3c54,[<02137ca8>] unmap_region+0x80/0xaa
+1cfe04fc,[<02137c1f>] unmap_vma_list+0xe/0x17
+b660b31a,[<0212144c>] sys_setuid+0xdd/0xe9
+de05a126,Master rebooting...
+a32a4a07,audit(1133871737.703:0): initialized
+68ade163,connection from <*> () at Wed <*> 7 <*> 2005
+63288f57,connection from <*> () at Fri <*> 9 <*> 2005
+f19aeaf8,connection from <*> <*> at Fri <*> 6 <*> 2006
+a9679981,connection from <*> <*> at Sun <*> <*> <*> 2006
+f1220f84,connection from <*> <*> at Mon <*> 9 <*> 2006
+c8a3ad2f,connection from <*> () at Mon <*> 9 <*> 2006
+82d4a770,connection from <*> <*> at Tue <*> 10 <*> 2006
+0747e479,connection from <*> <*> at Wed <*> 11 <*> 2006
+c709796b,connection from <*> <*> at Thu <*> 12 <*> 2006
+d39c68b9,connection from <*> () at Fri <*> 13 <*> 2006
+5583ea31,connection from 211.107.232.1 () at Sat <*> <*> <*> 2006
+1a0c17f4,connection from <*> () at Wed <*> <*> <*> 2006
+fccbfb3c,connection from <*> () at Thu <*> <*> <*> 2006
+f0744c1d,connection from <*> <*> at Thu <*> <*> <*> 2006
+b2718fcf,connection from <*> <*> at Mon <*> <*> <*> 2006
+6e5ba999,connection from <*> <*> at Wed <*> 25 <*> 2006
+6290fba1,audit(1138278081.612:0): initialized
+be644734,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+3f9a77f1,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0
+f18edf6e,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+47addcb8,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> gid=0 euid=0 suid=0 <*> <*> <*> <*>
+fe6df8d7,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> gid=0 euid=0 <*> <*> <*> <*> <*>
+a96198c6,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> gid=0 <*> <*> <*> <*> <*> <*>
+023c9167,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+d9b682ad,connection from <*> () at Tue <*> <*> <*> 2006
+9035478d,connection from <*> <*> at Wed <*> <*> <*> 2006
+a204d7a4,connection from <*> () at Mon <*> 6 <*> 2006
+a1859a3f,<*> <*> <*> <*> <*> <*> <*> at Mon <*> 6 <*> 2006
+e4902d8b,connection from <*> () at Tue <*> 7 <*> 2006
+70cdc5ae,connection from <*> <*> at Fri <*> 10 <*> 2006
+0c389506,connection from <*> <*> at Sat <*> 11 <*> 2006
+68d1221c,connection from <*> () at Sat <*> 11 <*> 2006
+997b2be6,connection from <*> () at Sun <*> 12 <*> 2006
+ef470efa,connection from <*> <*> at Mon <*> 13 <*> 2006
+0be9d52b,connection from <*> () at Fri <*> 17 <*> 2006
+de790908,connection from <*> () at Mon <*> <*> <*> 2006
+ba8c29f0,connection from <*> () at Wed <*> 22 <*> 2006
+3059beb2,connection from <*> <*> at Wed <*> 22 <*> 2006
+2a8184e9,connection from <*> <*> at Fri <*> <*> <*> 2006
+9254de93,connection from <*> () at Fri <*> <*> <*> 2006
+1b44f69f,connection from <*> <*> at Sat <*> 25 <*> 2006
+74214730,connection from <*> () at Sat <*> 25 <*> 2006
+19911cd4,connection from <*> () at Sun <*> <*> <*> 2006

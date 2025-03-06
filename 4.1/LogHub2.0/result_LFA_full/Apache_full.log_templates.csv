@@ -1,0 +1,27 @@
+EventId,EventTemplate,Occurrences
+736e8914,LDAP: <*> <*> <*> <*> <*>,53
+7633cc5d,LDAP: <*> <*> <*>,53
+1a56a395,suEXEC mechanism enabled (wrapper: /usr/sbin/suexec),8
+12606591,Digest: <*> <*> <*> <*> <*> <*>,45
+39578926,Digest: <*>,45
+20542a98,env.createBean2(): Factory error creating <*> ( <*> <*>,180
+4edc4123,<*> Can't <*> <*>,180
+1e72aea0,mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.,45
+7ab07b67,mod_security/1.9dev2 configured,45
+e49f68bd,Apache/2.0.49 (Fedora) configured -- resuming normal operations,45
+b6d728be,jk2_init() Found child <*> in scoreboard slot <*>,6335
+d2da2e6d,workerEnv.init() ok /etc/httpd/conf/workers2.properties,5708
+3f476428,mod_jk child <*> <*> <*>,1259
+0b4f5ed1,[client <*>] <*> <*> <*> <*> <*> <*>,6786
+98c2a17b,[client <*>] File does not exist: <*>,20861
+03942246,jk2_init() <*> <*> <*> <*> <*> <*>,971
+598c6e32,[client <*>] <*> <*> <*> <*> <*> <*> <*> <*>,3340
+7a92da8c,mod_jk2 Shutting down,1336
+1120614e,"Graceful restart requested, doing restart",37
+6db8da48,mod_jk child workerEnv in error state <*>,4349
+d0c87d66,[client <*>] <*> <*> <*> <*> <*> <*> <*>,92
+9cc31950,[client <*>] <*> <*> <*> <*> <*>,1
+aa57a711,"child process <*> still did not exit, sending a SIGTERM",168
+2cc9216b,[client <*>] <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+067b2aa6,uriMap.mapUri() uri must start with /,27
+54536de4,[client <*>] <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,8

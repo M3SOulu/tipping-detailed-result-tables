@@ -1,0 +1,42 @@
+EventId,EventTemplate,Occurrences
+be2214fc,<*> <*> <*> <*> <*> <*>,3343
+21ec1a33,<*> <*> <*> <*> at <*> <*>,1966
+e5d07738,<*> <*> <*> <*> <*> <*> <*> 1,270
+231ea5b1,<*> from <*> <*> <*> <*>,58
+397fa3cc,<*> <*> <*> <*> at <*> <*> 12,8
+bf0642c1,creating device node '/udev/<*>',268
+788ad22d,session opened for user <*> by (uid=0),23
+27624832,session closed for user <*>,99
+3d29cf3f,"listening on IPv4 interface <*>, <*>#53",192
+10e55edb,removing device node '/udev/vcs<*>',216
+115d0538,session opened for user cyrus by (uid=0),231
+fe6f65a7,session closed for user cyrus,231
+a757c0c2,ALERT exited abnormally with [1],231
+08a3a001,session opened for user news by (uid=0),231
+70fd00b7,session closed for user news,231
+b780997e,check pass; user unknown,1043
+c23549ff,connection from <*> <*> at Sat <*> <*> <*> 2005,349
+ed15dfad,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*> user=root,2244
+8852b201,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*> user=test,405
+b143180f,authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=<*> <*>,227
+09789b2b,session opened for user <*> by <*>,76
+4b39cfa8,connection from <*> <*> at Fri <*> <*> <*> 2005,285
+bb2bb2f4,connection from <*> <*> at Sun Jul <*> <*> 2005,336
+d2c54d45,ttloop: <*> <*> <*> <*>,179
+c5434242,connection from <*> <*> at Tue Aug <*> <*> 2005,106
+699df450,authentication failure; <*> uid=0 euid=0 <*> ruser= <*> user=root,1
+7af01352,connection from <*> <*> at Thu Sep <*> <*> 2005,117
+cc4f2415,connection from <*> <*> at Fri Oct <*> <*> 2005,102
+e83b9bff,authentication failure; <*> <*> euid=0 <*> ruser= <*> user=test,2
+2d396a21,connection from <*> <*> at Sat Nov <*> <*> 2005,232
+d72f76c6,Out of Memory: Killed process <*> (httpd).,8903
+1f2bb2e2,Out of Memory: Killed process <*> (python).,1153
+7bf1de0a,Out of Memory: Killed process <*> (sendmail).,230
+e3d9fb97,Out of Memory: Killed process <*> <*>,118
+b418db8f,[<02114408>] do_page_fault+0x0/0x446,102
+0919312d,audit(11382<*>): syscall=<*> <*> <*> <*> a2=<*> a3=<*> items=<*> pid=<*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0,100
+79cab02e,audit(11382<*>): syscall=<*> <*> <*> <*> a2=<*> a3=<*> items=<*> pid=<*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 <*> fsgid=0,4
+412ef731,audit(11382<*>): syscall=<*> <*> <*> <*> a2=<*> a3=<*> items=<*> pid=<*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 fsuid=0 <*> <*> <*>,2
+9b329d71,audit(11382<*>): syscall=<*> <*> <*> <*> a2=<*> a3=<*> items=<*> pid=<*> loginuid=-1 uid=0 gid=0 euid=0 suid=0 <*> egid=0 sgid=0 <*>,3
+ed5ed94c,audit(11382<*>): syscall=<*> <*> <*> <*> a2=<*> a3=<*> items=<*> pid=<*> loginuid=-1 <*> <*> <*> <*> <*> <*> <*> <*>,3
+cf103fc0,audit(11382<*>): syscall=<*> <*> <*> <*> a2=<*> a3=<*> items=<*> pid=<*> loginuid=-1 <*> <*> <*> suid=0 <*> <*> <*> <*>,1

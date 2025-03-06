@@ -1,0 +1,24 @@
+EventId,EventTemplate,Occurrences
+c0c6e3a7,Address change detected. Old: msra-sa-41/:9000 New: msra-sa-41:9000,7457
+9e8ad6ab,Scheduled snapshot period at 10 second(s).,1464
+d41d8cd9,,18870
+3907ee1a,Retrying connect to server: Already tried time(s); maxRetries=45,4618
+726da3b6,(RESET) equator kv kvi,6651
+42bce2da,Sleeping for 0ms before retrying again. Got null now.,1765
+8e28ab47,MapCompletionEvents request from startIndex maxEvents 10000,19099
+7b42553e,"Recalculating schedule, headroom=<memory:0,",6289
+47cb5594,bufstart = bufend = bufvoid = 104857600,7852
+1df1f5e3,(EQUATOR) kvi,5661
+599850bf,mapreduce.task.io.sort.mb: 100,1305
+6d736089,Failed to renew lease for for seconds. Will retry shortly ...,7154
+61c8013f,kvstart = kvend = length =,7271
+895d7761,Spilling map output,6979
+45d55ca3,Finished spill,5893
+efd54b08,TaskAttempt Transitioned from to,8173
+22c4f07b,for a task,2060
+b8ae61a6,Resolved to /default-rack,3590
+f57c3911,Assigned container to,1307
+dd88a26c,Opening proxy :,3100
+773f4a2b,Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,6072
+f9285a03,Progress of TaskAttempt is :,46076
+d5171b24,Received completed container,1287

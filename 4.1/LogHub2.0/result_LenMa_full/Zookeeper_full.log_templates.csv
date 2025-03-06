@@ -1,0 +1,163 @@
+EventId,EventTemplate,Occurrences
+1a0cddec,Reading configuration from: /etc/zookeeper/conf/zoo.cfg,36
+a9f56924,Defaulting to majority quorums,36
+7ce6ebaa,autopurge.snapRetainCount set to 3,36
+09fb92f8,autopurge.purgeInterval set to 0,36
+c4418d31,Purge task is not scheduled.,36
+0511920d,Starting quorum peer,36
+697e188a,binding to port <*><*>,36
+f3711f1b,tickTime set to 2000,36
+7afd854e,minSessionTimeout set to -1,36
+3e6b6468,maxSessionTimeout set to -1,36
+2f34d2af,initLimit set to 10,36
+440142cb,currentEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,3
+83ba0fbe,acceptedEpoch not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,3
+b203390b,My election bind port: <*><*>,36
+d8b815b6,LOOKING,49
+81032f3e,New election. My id =  proposed ,49
+73407c50,"Notification:  (n.leader),  (n.zxid),  (n.round),  (n.state),  (n.sid),  (n.peerEPoch),  (my state)",505
+3b7aae9b,Cannot open channel to  at election address <*>,2584
+2f812e41,Notification time out: ,1322
+e8d8d50d,Received connection request <*>,10429
+3370cdfe,FOLLOWING,34
+6fa42e40,TCP NoDelay set to: true,39
+c91ddb28,"Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT",36
+aec952b1,Server environment:host.name=node1,1
+430fa5c6,Server environment:java.version=1.7.0_79,36
+8fc4030d,Server environment:java.vendor=Oracle Corporation,36
+45688c52,Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre,36
+f04e1bf5,Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar,36
+ae57d41f,Server environment:java.io.tmpdir=/tmp,36
+e0081596,Server environment:java.compiler=<NA>,36
+a2c69338,Server environment:os.name=Linux,36
+6d504c5a,Server environment:os.arch=amd64,36
+71922061,Server environment:os.version=3.16.0-30-generic,36
+a1bf33cd,Server environment:user.name=zookeeper,36
+3fde7d63,Server environment:user.home=/var/lib/zookeeper,36
+b318128d,Server environment:user.dir=/,36
+0ecf9420,Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2,49
+9c23f19e,FOLLOWING - LEADER ELECTION TOOK - ,34
+b8312150,Getting a diff from the leader 0x0,1
+fdcd078a,Snapshotting: 0x0 to /var/lib/zookeeper/version-2/snapshot.0,3
+0cace660,"Connection broken for id 188978561024, my id =  error =",10356
+c392bf2d,Interrupting SendWorker,10390
+0780b54c,Interrupted while waiting for message on queue,10386
+2f792fdd,Send worker leaving thread,10390
+69b58fcf,Got zxid  expected ,28
+296cc037,Creating new log file: ,25
+5f33d890,Accepted socket connection from <*>,2020
+62370915,Connection request from old client <*>; will be dropped if server is in r-o mode,1861
+5c70aa69,Client attempting to establish new session at <*>,1790
+1e0768c1,Established session  with negotiated timeout  for client <*>,1856
+e4df7d6f,caught end of stream exception,1670
+87226ad0,Closed socket connection for client <*> which had sessionid ,1749
+00d6cbe4,Revalidating client: 0x34ed9348509000b,1
+4ef14000,Revalidating client: 0x34ed93485090007,1
+7fed37e8,Revalidating client: 0x34ed93485090005,1
+455af2d2,Connection broken for id  my id =  error =,32
+3ee084d4,Exception when using channel: for id 3 my id =  error = java.net.SocketException: Broken pipe,4
+97d23d47,Revalidating client: 0x24ed93119420016,1
+68eb6b09,Unexpected Exception:,27
+a6ce58c6,Exception causing close of session  due to java.io.IOException: Connection reset by peer,8
+3d75957d,Reading snapshot /var/lib/zookeeper/version-2/snapshot.0,2
+75e16e9f,"Have smaller server identifier, so dropping the connection:  ",20
+3ccafedd,Server environment:host.name=mesos-master-1,11
+26e3b750,Getting a diff from the leader ,27
+3c7f0e23,Snapshotting: 0x100001546 to /var/lib/zookeeper/version-2/snapshot.100001546,1
+f89dedff,Exception when following the leader,11
+7cbd888c,shutdown called,11
+38341b31,Shutting down,58
+bd167261,shutting down,13
+ab5a46e3,FollowerRequestProcessor exited loop!,11
+2511521c,shutdown of request processor complete,13
+a064e858,CommitProcessor exited loop!,13
+18929670,SyncRequestProcessor exited!,13
+5a890bf7,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100001546,1
+53d9f5b5,"Unexpected exception, tries=0, connecting to <*>",8
+c0f71489,Snapshotting: 0x100001564 to /var/lib/zookeeper/version-2/snapshot.100001564,6
+5251daf6,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100001564,5
+db26891e,LEADING,15
+e643b284,LEADING - LEADER ELECTION TOOK - ,15
+16903648,Follower sid:  : info : ,34
+9ff86aae,Synchronizing with Follower sid:    ,34
+cdc119d1,Sending DIFF,28
+33559dfe,Commiting zxid  from <*> not first!,15
+159f6506,First is 0x0,15
+4ff785f5,Have quorum of supporters; starting up and setting last processed zxid: ,15
+015210a4,Sending SNAP,6
+273ffa07,Sending snapshot last zxid of peer is  zxid of leader is  zxid of db as ,6
+d99e8832,Expiring session  timeout of  exceeded,1762
+601b70f5,Processed session termination for sessionid: ,1790
+34153587,Unexpected exception causing shutdown while sock still open,590
+9dde456f,******* GOODBYE <*> ********,590
+93bc7e70,Shutdown called,2
+cf7d3a7b,exception while shutting down acceptor: java.net.SocketException: Socket closed,2
+23c68fef,PrepRequestProcessor exited loop!,2
+9d806e61,SessionTrackerImpl exited loop!,2
+3c7b03d0,Snapshotting: 0x300000dcd to /var/lib/zookeeper/version-2/snapshot.300000dcd,7
+f1549b46,Reading snapshot /var/lib/zookeeper/version-2/snapshot.300000dcd,7
+2882eb9c,Snapshotting: 0x50000062e to /var/lib/zookeeper/version-2/snapshot.50000062e,8
+2a301ee3,Reading snapshot /var/lib/zookeeper/version-2/snapshot.50000062e,7
+e1dd5530,Getting a snapshot from leader,6
+e39ae9af,Snapshotting: 0x700000000 to /var/lib/zookeeper/version-2/snapshot.700000000,4
+37ad0f76,Reading snapshot /var/lib/zookeeper/version-2/snapshot.700000000,5
+6dc8f0bb,Snapshotting: 0x700000197 to /var/lib/zookeeper/version-2/snapshot.700000197,4
+5ccffdd5,Reading snapshot /var/lib/zookeeper/version-2/snapshot.700000197,4
+49e898ae,Snapshotting: 0x8000000bc to /var/lib/zookeeper/version-2/snapshot.8000000bc,5
+e59cc966,Revalidating client: 0x14f05578bd80014,2
+84bfd465,Revalidating client: 0x14f05578bd80016,2
+73b6a9ae,Revalidating client: 0x14f05578bd80013,2
+13a7b1ad,Revalidating client: 0x14f05578bd80017,2
+a22d3f18,Revalidating client: 0x14f05578bd80018,2
+941f9c90,Revalidating client: 0x14f05578bd80015,2
+962aec0c,Revalidating client: 0x14f05578bd8001c,2
+5fd7ab8d,Revalidating client: 0x14f05578bd8001b,2
+d5a07f78,Revalidating client: 0x14f05578bd8001a,2
+d5e5f11c,Revalidating client: 0x14f05578bd80019,2
+d12cf058,Revalidating client: 0x14f05578bd8001d,2
+a2b497a3,Revalidating client: 0x14f05578bd8001e,2
+4a6d8f86,Reading snapshot /var/lib/zookeeper/version-2/snapshot.8000000bc,4
+4d52bf3b,Snapshotting: 0x900000007 to /var/lib/zookeeper/version-2/snapshot.900000007,4
+9a5b2932,Reading snapshot /var/lib/zookeeper/version-2/snapshot.900000007,4
+a604422a,Snapshotting: 0xa0000009a to /var/lib/zookeeper/version-2/snapshot.a0000009a,4
+67df9565,Revalidating client: 0x34f3fdb1f230008,1
+69f4df5e,Reading snapshot /var/lib/zookeeper/version-2/snapshot.a0000009a,4
+12842c62,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running,159
+4fb07033,Closed socket connection for client <*> (no session established for client),159
+12e57a54,Snapshotting: 0xc00000001 to /var/lib/zookeeper/version-2/snapshot.c00000001,1
+19a25941,Reading snapshot /var/lib/zookeeper/version-2/snapshot.c00000001,1
+1feff8cf,Snapshotting: 0xc0000018f to /var/lib/zookeeper/version-2/snapshot.c0000018f,3
+3d2d9057,Reading snapshot /var/lib/zookeeper/version-2/snapshot.c0000018f,2
+1a4a9494,Snapshotting: 0xd0000001b to /var/lib/zookeeper/version-2/snapshot.d0000001b,7
+ba205c2d,Reading snapshot /var/lib/zookeeper/version-2/snapshot.d0000001b,5
+b2da6e65,Server environment:host.name=node2,1
+d535b726,Got user-level KeeperException when processing  type:create   txntype:-1 reqpath:n/a Error  Error:KeeperErrorCode = NodeExists for ,19
+77f15d49,Server environment:host.name=mesos-master-2,11
+f65d7a5f,Revalidating client: 0x24f0557806a001a,2
+c0c2ed39,Revalidating client: 0x24f0557806a001d,2
+45b1895f,Revalidating client: 0x24f0557806a0021,2
+539bbb8d,Revalidating client: 0x24f0557806a001f,2
+6ed39f5e,Revalidating client: 0x24f0557806a0018,2
+4f896601,Revalidating client: 0x24f0557806a0019,2
+65b14ba3,Revalidating client: 0x24f0557806a001b,2
+a0609df7,Revalidating client: 0x24f0557806a001c,2
+82e338f9,Revalidating client: 0x24f0557806a0022,2
+ab92e389,Revalidating client: 0x24f0557806a0020,2
+ce8776fa,Revalidating client: 0x24f0557806a0023,2
+63877bed,Snapshotting: 0xb00000084 to /var/lib/zookeeper/version-2/snapshot.b00000084,3
+4c6e7ad9,Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084,3
+8400039d,Snapshotting: 0xf00000000 to /var/lib/zookeeper/version-2/snapshot.f00000000,1
+dd1d69bb,Server environment:host.name=node3,1
+87a0d753,Snapshotting: 0x100000000 to /var/lib/zookeeper/version-2/snapshot.100000000,1
+6464c8cb,Revalidating client: 0x24ed9311942000f,1
+cc2c025d,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100000000,1
+ba5d0f96,Snapshotting: 0x100000082 to /var/lib/zookeeper/version-2/snapshot.100000082,1
+4f19bed1,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100000082,2
+450300fa,Server environment:host.name=mesos-master-3,11
+50654fa4,Snapshotting: 0x300000000 to /var/lib/zookeeper/version-2/snapshot.300000000,1
+5d8e4731,Reading snapshot /var/lib/zookeeper/version-2/snapshot.300000000,2
+01a4a10b,Snapshotting: 0x500000000 to /var/lib/zookeeper/version-2/snapshot.500000000,1
+25067200,Reading snapshot /var/lib/zookeeper/version-2/snapshot.500000000,1
+643d98a7,Revalidating client: 0x14f3fdae8ba0013,1
+ce51557d,Revalidating client: 0x14f3fdae8ba0010,1
+8bde0600,Revalidating client: 0x14f3fdae8ba0012,1

@@ -1,0 +1,38 @@
+EventID,EventTemplate
+P0,[instance: <*>-<*>-<*>-<*>-<*>] During sync_power_state the instance has a pending task (spawning). Skip.
+P1,[instance: <*>-<*>-<*>-<*>-<*>] Claim successful
+P2,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P3,"Identity response: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML <*>.<*>//EN"">"
+P4,"[instance: <*>-<*>-<*>-<*>-<*>] Total <*>: <*> , used: <*>.<*> "
+P5,"[instance: <*>-<*>-<*>-<*>-<*>] memory limit: <*>.<*> MB, free: <*>.<*> MB"
+P6,[instance: <*>-<*>-<*>-<*>-<*>] Creating image
+P7,Unable to validate token: Failed to fetch token data from identity server
+P8,[instance: <*>-<*>-<*>-<*>-<*>] Instance spawned successfully.
+P9,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P10,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P11,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P12,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P13,Bad response code while validating token: <*>
+P14,Unknown base file: /var/lib/nova/instances/_base/<*>
+P15,"image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage"
+P16,[instance: <*>-<*>-<*>-<*>-<*>] VM <*> (Lifecycle Event)
+P17,Removable base files: /var/lib/nova/instances/_base/<*>
+P18,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): checking
+P19,Active base files: /var/lib/nova/instances/_base/<*>
+P20,[instance: <*>-<*>-<*>-<*>-<*>] Instance destroyed successfully.
+P21,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P22,"<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P23,"[instance: <*>-<*>-<*>-<*>-<*>] <*> limit not specified, defaulting to unlimited"
+P24,[instance: <*>-<*>-<*>-<*>-<*>] Terminating instance
+P25,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P26,"couldn't obtain the vcpu count from domain id: <*>-<*>-<*>-<*>-<*>, exception: Requested operation is not valid: cpu affinity is not supported"
+P27,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P28,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>-<*>-<*>-<*>-<*>
+P29,[instance: <*>-<*>-<*>-<*>-<*>] Deletion of /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del complete
+P30,[instance: <*>-<*>-<*>-<*>-<*>] Deleting instance files /var/lib/nova/instances/<*>-<*>-<*>-<*>-<*>_del
+P31,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P32,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P33,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"
+P34,HTTP exception thrown: No instances found for any event
+P35,[instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance. _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] Took <*>.<*> seconds to <*> instance <*> .
+P36,Error during ComputeManager._run_image_cache_manager_pass

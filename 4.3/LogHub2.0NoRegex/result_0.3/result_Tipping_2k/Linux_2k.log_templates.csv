@@ -1,0 +1,123 @@
+EventID,EventTemplate
+P0,session opened for user test by (uid=<*>)
+P1,Setting network parameters: succeeded
+P2,VFS: Disk quotas dquot_<*>.<*>.<*>
+P3,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Software caused connection abort
+P4,Checking 'hlt' instruction... OK.
+P5,mapped <*>/<*> trampoline to <*>.
+P6,audit(<*>.<*>:<*>): initialized
+P7,Console: colour VGA+ <*>
+P8,ALERT exited abnormally with [<*>]
+P9,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>
+P10,DMI <*>.<*> present.
+P11,Initializing random number generator: succeeded
+P12,"klogd <*>.<*>.<*>, log source = /proc/kmsg started."
+P13,On node <*> totalpages: <*>
+P14,You can enable it with acpi=force
+P15,BIOS-provided physical RAM map:
+P16,<*> HIGHMEM available.
+P17,removing device node '/udev/<*>'
+P18,audit: initializing netlink socket (disabled)
+P19,"Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+P20,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=root
+P21,Detected <*>.<*> MHz processor.
+P22,NET: Registered protocol family <*>
+P23,Kerberos authentication failed
+P24,SELinux: Registering netfilter hooks
+P25,"PCI: PCI BIOS revision <*>.<*> entry at <*>, last bus=<*>"
+P26,CPU: Intel Pentium III (Coppermine) stepping <*>
+P27,"Total HugeTLB memory allocated, <*>"
+P28,*** info [mice.c(<*>)]:
+P29,Capability LSM initialized
+P30,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>:<*>:<*>.<*>
+P31,sdpd <*>.<*> started
+P32,notify question section contains no SOA
+P33,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*>
+P34,isapnp: No Plug & Play device found
+P35,check pass; user unknown
+P36,session opened for user news by (uid=<*>)
+P37,PCI: Invalid ACPI-PCI IRQ routing table
+P38,session opened for user root by LOGIN(uid=<*>)
+P39,connection from <*>.<*>.<*>.<*> () at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*> 
+P40,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Permission denied in replay cache code
+P41,"Normal zone: <*> pages, LIFO batch:<*>"
+P42,<*>: Auto-detected intellimouse PS/<*>
+P43,PID hash table entries: <*> (order <*>: <*> bytes)
+P44,<*> LOWMEM available.
+P45,BIOS-<*>: <*> - <*> (usable)
+P46,isapnp: Scanning for PnP cards...
+P47,<*> startup succeeded
+P48,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=<*>
+P49,Using tsc for high-res timesource
+P50,PCI: Using configuration type <*>
+P51,ACPI: Interpreter disabled.
+P52,"CPU <*> irqstacks, hard=<*> soft=<*>"
+P53,Real Time Clock Driver <*>.<*>
+P54,Received SNMP packet(s) from <*>.<*>.<*>.<*>
+P55,connection from <*>.<*>.<*>.<*> () at <*> Jun <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at <*> Jun <*> :<*>:<*> 
+P56,session closed for user root
+P57,"ANONYMOUS FTP LOGIN FROM <*>.<*>.<*>.<*>, (anonymous)"
+P58,usbcore: registered new driver hub
+P59,Enabling fast FPU save and restore... done.
+P60,Intel machine check architecture supported.
+P61,"DMA zone: <*> pages, LIFO batch:<*>"
+P62,Calibrating delay loop... <*>.<*> BogoMIPS
+P63,Bringing up loopback interface: succeeded
+P64,usbcore: registered new driver usbfs
+P65,Enabling unmasked SIMD FPU exception support... done.
+P66,SELinux: Starting in permissive mode
+P67,HCI daemon ver <*>.<*> started
+P68,creating device node '/udev/<*>'
+P69,zapping low mappings.
+P70,Security Scaffold <*>.<*>.<*> initialized
+P71,Initializing CPU#<*>
+P72,getpeername (ftpd): Transport endpoint is not connected
+P73,Linux version <*>.<*>.<*>-<*>.<*> (bhcompile@bugs.build.redhat.com) (gcc version <*>.<*>.<*> (Red Hat Linux <*>.<*>.<*>-<*>)) #<*> Sat May <*> :<*>:<*> EDT <*>
+P74,Intel machine check reporting enabled on CPU#<*>.
+P75,"CPU: <*> I cache: <*>, <*> D cache: <*>"
+P76,Version <*>.<*>.<*> Starting
+P77,Couldn't authenticate user
+P78,Transparent bridge - <*>:<*>:<*>.<*>
+P79,ROOT LOGIN ON <*>
+P80,Initializing Cryptographic API
+P81,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>.<*>)
+P82,selinux_register_security: Registering secondary module capability
+P83,Built <*> zonelists
+P84,session closed for user test
+P85,ACPI disabled because your bios is from <*> and too old
+P86,ACPI: ACPI tables contain no PCI IRQ routing entries
+P87,BIOS-<*>: <*> - <*> (reserved)
+P88,PCI: Probing PCI hardware
+P89,warning: can't get client address: Connection reset by peer
+P90,authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=
+P91,"HighMem zone: <*> pages, LIFO batch:<*>"
+P92,POSIX conformance testing by UNIFIX
+P93,cupsd shutdown succeeded
+P94,cupsd startup succeeded
+P95,Linux Plug and Play Support <*>.<*> (c) Adam Belay
+P96,session closed for user news
+P97,Kernel command line: ro root=LABEL=/ rhgb quiet
+P98,Linux agpgart interface <*>.<*> (c) Dave Jones
+P99,PCI: Probing PCI hardware (bus <*>)
+P100,User unknown timed out after <*> seconds at Sat Jun <*> :<*>:<*> 
+P101,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)"
+P102,session opened for user cyrus by (uid=<*>)
+P103,"There is already a security framework initialized, register_security failed."
+P104,"<*> cache hash table entries: <*> (order: <*>, <*> bytes) _/|\\_ <*>cache hash table entries: <*> (order: <*>, <*> bytes)"
+P105,ACPI: Subsystem revision <*>
+P106,Failure registering capabilities with the kernel
+P107,session closed for user cyrus
+P108,Starting pcmcia: succeeded
+P109,connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>.<*>.at) at Sun Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>) at Sun Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at Sun Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> () at Sun Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>) at Sun Jul <*> :<*>:<*> 
+P110,
+P111,restart.
+P112,restart.
+P113,restart.
+P114,restart.
+P115,restart.
+P116,restart.
+P117,restart.
+P118,SELinux:  Initializing.
+P119,CPU: L2 cache: 256K
+P120,mtrr: v2.0 (20020519)
+P121,kernel.core_uses_pid = 1

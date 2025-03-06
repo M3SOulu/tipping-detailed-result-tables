@@ -1,0 +1,7 @@
+EventID,EventTemplate
+P0,<*> error : Could not connect <*> proxy <*> - <*>  _/|\\_ <*> error : Could not connect <*> proxy <*> - <*> error <*> _/|\\_ <*>:<*> error : Could not connect <*> proxy <*> - Could not <*> error <*> _/|\\_ <*> error : Could not connect <*> proxy <*> - Could not <*> error <*>
+P1,<*> open through proxy <*> 
+P2,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*> _/|\\_ <*>:<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code <*>"
+P3,<*> open through proxy <*> HTTPS
+P4,"<*> close, <*> bytes <*> sent, <*> bytes received, lifetime <*> _/|\\_ <*> close, <*> bytes sent, <*> bytes <*> received, lifetime <*> _/|\\_ <*> close, <*> bytes sent, <*> bytes received, lifetime <*> _/|\\_ <*> close, <*> bytes <*> sent, <*> bytes <*> received, lifetime <*>"
+P5,<*> error : A connection request was canceled before the completion.

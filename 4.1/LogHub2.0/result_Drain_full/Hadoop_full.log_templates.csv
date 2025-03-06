@@ -1,0 +1,323 @@
+EventId,EventTemplate,Occurrences
+ca7d7941,loaded properties from hadoop-metrics2.properties,977
+9e8ad6ab,Scheduled snapshot period at 10 second(s).,978
+d39dd8df,MapTask metrics system <*>,1140
+3c5bb15c,Executing with tokens:,978
+007a0b6e,"Kind: mapreduce.job, Service: <*> Ident: <*>",909
+42bce2da,Sleeping for 0ms before retrying again. Got null now.,909
+4a1105fa,mapreduce.cluster.local.dir for child: <*>,907
+39006874,"session.id is deprecated. Instead, use dfs.metrics.session-id",907
+fc4324dd,ProcfsBasedProcessTree currently is supported only on Linux.,905
+ce10d82c,Using ResourceCalculatorProcessTree : <*>,905
+b063b233,Processing split: <*>,834
+2de11eed,(EQUATOR) <*> kvi <*>,5542
+599850bf,mapreduce.task.io.sort.mb: 100,834
+0cb5b599,soft limit at 83886080,834
+db0c6791,bufstart = 0; bufvoid = 104857600,834
+97159e80,kvstart = 26214396; length = 6553600,834
+e7eee7f1,Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer,834
+895d7761,Spilling map output,5339
+29807074,bufstart = <*> bufend = <*> bufvoid = <*>,5339
+5fc5069a,kvstart = <*> kvend = <*> length = <*>,5339
+cdf7dd93,Finished spill <*>,5204
+0a8f9393,(RESET) equator <*> kv <*> kvi <*>,4579
+4ccea502,I/O error constructing remote block reader.,16
+9e83c7d2,"Failed to connect to /<*>:50010 for block, add to deadNodes and continue. java.net.ConnectException: Connection timed out: no further information",5
+958e6355,Successfully connected to /<*>:50010 for <*>,6
+0491d81f,Starting flush of map output,644
+7707888f,Merging <*> sorted segments,678
+5be2cae8,"Down to the last merge-pass, with <*> segments left of total size: <*> bytes",678
+dfe6ae4e,<*> is done. And is in the process of committing,625
+cf0f4f26,Task <*> done.,616
+b93d1be1,"Failed to connect to /<*>:50010 for block, add to deadNodes and continue. java.net.ConnectException: Connection refused: no further information",1
+09dbac83,ReduceTask metrics system <*>,86
+e223c99a,Using ShuffleConsumerPlugin: <*>,71
+9095c9cb,"MergerManager: <*> <*> <*> ioSortFactor=10, memToMemMergeOutputsThreshold=10",71
+1ad5a5a0,<*> Thread started: EventFetcher for fetching Map Completion Events,71
+1404cebf,<*> Got <*> new map-outputs,414
+25269816,Assigning <*> with <*> to <*>,472
+32b73354,assigned <*> of <*> to <*> to <*>,472
+156223b0,for <*> sent hash and received reply,469
+1ebd5cd1,<*> Shuffling to disk since <*> is greater than maxSingleShuffleLimit <*>,667
+9ad20d76,<*> about to shuffle output of map <*> decomp: <*> len: <*> to DISK,664
+883e9ddb,Ignoring obsolete output of KILLED map-task: <*>,66
+aa171447,Created MRAppMaster for application <*>,69
+c849bc2c,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>",69
+c0c8618d,OutputCommitter set in config null,69
+d79644a2,OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter,69
+3a2b3aef,Registering class <*> for class <*>,621
+7ced323b,Default file system [hdfs://msra-sa-41:9000],226
+3a03968c,Emitting job history data to the timeline server is not enabled,69
+fc657c96,MRAppMaster metrics system started,69
+9c396752,Adding job token for <*> to jobTokenSecretManager,69
+ce54fccc,Not uberizing <*> because: not enabled; too many maps; too much input;,69
+655c64ba,Input size for job <*> = <*> Number of splits = <*>,69
+6519c35c,Number of reduces for job <*> = 1,69
+3230e4ad,"MRAppMaster launching normal, non-uberized, multi-container job <*>",69
+916d4a74,Using callQueue class java.util.concurrent.LinkedBlockingQueue,138
+192d0e3e,Starting Socket Reader #1 for port <*>,138
+8c4d0a72,Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server,69
+ccc17099,IPC Server Responder: starting,138
+0c5b0a59,IPC Server listener on <*> starting,138
+81b07bff,Instantiated MRClientService at <*>,69
+a79a1702,Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog,69
+0859dbfb,Http request log for http.requests.mapreduce is not defined,69
+a8927e0e,Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter),69
+ae2086c0,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context <*>,138
+c5e95c21,adding path spec: <*>,138
+8aa20788,Jetty bound to port <*>,69
+6b77fa65,jetty-6.1.26,69
+1205e906,Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to <*>,69
+00ac854a,Started <*>,69
+01425cf2,Web app /mapreduce started at <*>,69
+5ba9445a,Registered webapp guice modules,69
+6af6b73e,JOB_CREATE <*>,69
+8b1732f5,nodeBlacklistingEnabled:true,69
+17dc3b51,maxTaskFailuresPerNode is 3,69
+93a481e4,blacklistDisablePercent is 33,69
+4de40bfa,Connecting to ResourceManager at <*>,69
+d0cf8682,"maxContainerCapability: <memory:8192, vCores:32>",69
+62365dbe,queue: default,69
+361211a0,Upper limit on the thread pool size is 500,69
+2b3d75c5,yarn.client.max-cached-nodemanagers-proxies : 0,69
+6659e8b0,Resolved <*> to /default-rack,3297
+d39a94e7,<*> <*> Transitioned from NEW to <*>,1859
+5f986200,"mapResourceRequest:<memory:1024, vCores:1>",65
+0d2504bd,Event Writer setup for JobId: <*> File: <*>,69
+64499391,Before Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,64
+3e154a6b,getResources() for application_1445087491445_0005: <*> release= 0 <*> finishedContainers=0 <*> <*> <*>,21
+bae0e03b,"Recalculating schedule, <*> <*>",4415
+773f4a2b,Reduce slow start threshold not met. completedMapsForReduceSlowstart 1,3841
+0f71bb1f,Got allocated containers <*>,606
+5e5f5ff9,Assigned container <*> to <*>,906
+ffb8e2a9,After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 CompletedMaps:0 CompletedReds:0 <*> <*> <*> <*>,277
+c9ebd122,The <*> file on the remote FS is <*>,138
+60d079c6,Adding #0 tokens and #1 secret keys for NM use for launching container,69
+a83c59ee,Size of containertokens_dob is 1,69
+944f8887,Putting shuffle token in serviceData,69
+63fbbb87,<*> TaskAttempt Transitioned from <*> to <*>,3764
+9f1747b1,Processing the event EventType: <*> for container <*> taskAttempt <*>,1744
+df347da1,Launching <*>,906
+fc9ef42a,Opening proxy : <*>,1757
+4f591581,Shuffle port returned by ContainerManager for <*> : 13562,906
+c1fd6443,TaskAttempt: <*> using containerId: <*> on NM: <*>,1033
+e215e532,ATTEMPT_START <*>,905
+3be0b589,<*> Task Transitioned from <*> to <*>,1294
+71c7c3bf,Auth successful for <*> (auth:SIMPLE),962
+60675cee,JVM with ID : <*> asked for a task,902
+2a1c144a,JVM with ID: <*> given task: <*>,902
+3670935b,Progress of TaskAttempt <*> is : <*>,45882
+a018cf56,Exception in createBlockOutputStream,30
+21f96340,Abandoning <*>,30
+0eb94950,Excluding datanode <*>:50010,30
+31cf9f34,Done acknowledgement from <*>,605
+da04743d,KILLING <*>,851
+007ded00,Task succeeded with attempt <*>,701
+3a2741bf,Num completed Tasks: <*>,701
+ec6b84b4,Reduce slow start threshold reached. Scheduling reduces.,65
+28e777aa,All maps assigned. Ramping up all remaining reduces:1,43
+25a71e90,After Scheduling: PendingReds:0 ScheduledMaps:0 <*> <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> RackLocal:8,72
+187d6d6d,getResources() for <*> <*> release= 0 newContainers=0 <*> <*> <*> knownNMs=4,126
+ba0e1b89,Received completed container <*>,826
+b0f66195,Diagnostics report from <*> Container killed by the ApplicationMaster.,733
+ff65c706,Assigned to reduce,73
+be4da74d,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>,255
+6e264523,We launched 1 speculations. Sleeping 15000 milliseconds.,255
+1a8c09a8,Scheduling a redundant attempt for task <*>,194
+b8e0e972,Before Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> RackLocal:8,50
+5a4d5186,MapCompletionEvents request from <*> startIndex <*> maxEvents 10000,18140
+eff2f8ad,Killing <*> because it is running on unusable <*>,55
+14101cba,Diagnostics report from <*> Container released on a *lost* node,55
+1511363c,Could not delete <*>,216
+a2c458cf,"completedMapPercent <*> <*> <*> <*> <*> <*> vCores:-2> netScheduledMapResource:<memory:12288, vCores:12> netScheduledReduceResource:<memory:0, vCores:0>",101
+6ed15688,Ramping up 1,31
+f19ab52d,After Scheduling: PendingReds:0 <*> <*> <*> <*> CompletedMaps:7 CompletedReds:0 <*> ContRel:0 HostLocal:11 <*>,16
+4674b6aa,Socket Reader #1 for port <*> readAndProcess from client <*> threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host],217
+b4c03c0a,Issuing kill to other attempt <*>,182
+ceedbd54,Before Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,341
+cf50fb6a,After Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,492
+71c3d1dc,Commit-pending state update from <*>,47
+7d812712,<*> given a go for committing the task output.,47
+3650dc5c,Commit go/no-go request from <*>,47
+fe6107f0,Result of canCommit for <*>,47
+81e00d20,Calling handler for JobFinishedEvent,47
+dad8f9fa,We are finishing cleanly so this is the last retry,50
+7d839d47,Notify <*> isAMLastRetry: <*>,104
+0d329d05,RMCommunicator notified that shouldUnregistered is: <*>,52
+c1b01598,JobHistoryEventHandler notified that forceJobCompletion is <*>,52
+2784eb31,Calling stop for all the services,52
+c02382a8,Stopping JobHistoryEventHandler. Size of the outstanding queue size is <*>,52
+de83b5b5,Copying <*> to hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging,94
+a218aeb7,Copied to done location: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging,94
+26ba31a1,Moved tmp to done: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging,141
+9ae352d7,Setting job diagnostics to,48
+c45e2735,History url is <*>,48
+fd178178,Waiting for application to be successfully unregistered.,45
+a29742c1,Final Stats: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:0 <*> <*> <*> <*> ContRel:0 <*> <*>,36
+676b71a8,Deleting staging directory hdfs://msra-sa-41:9000 <*>,45
+fa5d86c2,Stopping server on <*>,48
+da6217eb,Stopping IPC Server listener on <*>,48
+8429e6cc,Stopping IPC Server Responder,48
+f495a4dd,TaskHeartbeatHandler thread interrupted,48
+806d6f9b,Read <*> bytes from map-output for <*>,649
+f28f8b0a,<*> freed by <*> in <*>,455
+d120a818,EventFetcher is interrupted.. Returning,54
+8d376f37,finalMerge called with 0 in-memory map-outputs and <*> on-disk map-outputs,56
+105acdeb,"Merging <*> files, <*> bytes from disk",56
+ce9ca9c9,"Merging 0 segments, 0 bytes from memory into reduce",56
+91c8784e,Merging 4 intermediate segments out of a total of 13,7
+9789556a,"mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords",56
+3766cffb,Task <*> is allowed to commit now,48
+e967b817,Saved output of task <*> to <*>,48
+198f3928,Recovery is enabled. Will try to recover from previous life on best effort basis.,15
+36c7effb,Previous history file is at <*>,19
+f5694858,Read from history task <*>,96
+34e334b2,Read completed tasks from history <*>,11
+a4f4ef26,"Recovering task <*> from prior app attempt, status was SUCCEEDED",96
+5120978d,"completedMapPercent 0.9 <*> <*> finalMapResourceLimit:<memory:1024, vCores:1> <*> <*> netScheduledMapResource:<memory:1024, vCores:1> netScheduledReduceResource:<memory:0, vCores:0>",2
+3d42a708,After Scheduling: PendingReds:0 <*> ScheduledReds:1 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,119
+cbe5e85f,getResources() for application_1445062781478_0018: <*> release= 0 <*> finishedContainers=0 <*> <*> <*>,25
+56292a40,Stopping <*> metrics system...,317
+4ae2b9bb,MapTask metrics system shutdown complete.,302
+c379abfc,Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: <*> destination host is: <*>,44
+08b842ef,Retrying connect to server: <*> Already tried <*> time(s); maxRetries=45,2517
+da886403,"Releasing unassigned and invalid container Container: [ContainerId: <*> NodeId: <*> NodeHttpAddress: <*> Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: <*> }, ]. RM may have assignment issues",7
+9f13e455,getResources() for application_1445062781478_0018: <*> release= <*> <*> finishedContainers=1 <*> <*> knownNMs=5,3
+85b23688,Container complete event for unknown container id <*>,19
+cfaf44fe,"Cannot assign container Container: [ContainerId: <*> NodeId: <*> NodeHttpAddress: <*> Resource: <memory:1024, vCores:1>, Priority: <*> Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:1024, vCores:1> or no pending map tasks - maps.isEmpty=true",12
+11f2a971,Before Scheduling: <*> <*> <*> AssignedMaps:9 AssignedReds:0 <*> CompletedReds:0 ContAlloc:12 ContRel:2 HostLocal:2 RackLocal:8,3
+bb6d0a47,After Scheduling: PendingReds:0 <*> <*> AssignedMaps:9 <*> <*> CompletedReds:0 <*> ContRel:2 <*> RackLocal:8,4
+0d55bf0e,Before Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:2 <*> <*>,45
+eaac77da,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> <*> <*> <*>,139
+8b6ad6b4,Exception in getting events,3
+8a4817bd,"Retrying connect to server: <*> Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)",1048
+751ff32f,getResources() for application_1445087491445_0002: <*> release= 0 <*> <*> <*> <*> knownNMs=5,7
+0302036a,"completedMapPercent 0.07692308 <*> <*> <*> <*> <*> vCores:-2> netScheduledMapResource:<memory:13312, vCores:13> netScheduledReduceResource:<memory:0, vCores:0>",2
+2d1ec2eb,After Scheduling: <*> <*> <*> <*> AssignedReds:0 <*> CompletedReds:0 ContAlloc:9 ContRel:0 HostLocal:9 RackLocal:0,7
+aa8a109c,"completedMapPercent 0.15384616 <*> <*> <*> <*> <*> vCores:-4> netScheduledMapResource:<memory:12288, vCores:12> netScheduledReduceResource:<memory:0, vCores:0>",2
+e14db0d0,"getResources() for <*> <*> release= 0 <*> <*> resourcelimit=<memory:0, vCores:-27> knownNMs=4",193
+c8ced535,Address change detected. Old: <*> New: <*>,5795
+78939ff3,Failed to renew lease for <*> for <*> seconds. Will retry shortly ...,5300
+b4ff2357,ERROR IN CONTACTING RM.,480
+5904380e,Communication exception: java.net.ConnectException: Call From MSRA-SA-39/<*> to minint-fnanli5.fareast.corp.microsoft.com:49594 failed on connection exception: java.net.ConnectException: Connection timed out: no further information; For more details see: http://wiki.apache.org/hadoop/ConnectionRefused,1
+77de7fd6,TaskAttempt killed because it ran on unusable node <*> <*>,25
+fcfdfc1a,Before Scheduling: PendingReds:0 ScheduledMaps:1 <*> <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> RackLocal:0,18
+131cd6bf,getResources() for <*> <*> release= 0 newContainers=0 finishedContainers=0 <*> <*> <*>,197
+081bc798,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> <*> <*> ContRel:0 <*> <*>,16
+b80a1f3b,"completedMapPercent 0.1 <*> <*> <*> <*> <*> <*> netScheduledMapResource:<memory:11264, vCores:11> netScheduledReduceResource:<memory:0, vCores:0>",15
+b602c71a,getResources() for <*> <*> release= 0 newContainers=1 <*> <*> <*> knownNMs=4,19
+17af1c22,ReduceTask metrics system shutdown complete.,15
+87eccd92,getResources() for application_1445062781478_0016: <*> release= 0 <*> <*> <*> <*> knownNMs=5,3
+ea166ab4,"getResources() for <*> <*> release= 0 <*> <*> resourcelimit=<memory:0, vCores:-35> knownNMs=5",98
+e6d2bc87,DFSOutputStream ResponseProcessor exception for block <*>,14
+82f495ac,"Error Recovery for block <*> in pipeline <*>:50010, <*>:50010: bad datanode <*>:50010",14
+37d34f0b,"completedMapPercent 0.1 <*> <*> <*> <*> <*> <*> netScheduledMapResource:<memory:9216, vCores:9> netScheduledReduceResource:<memory:0, vCores:0>",77
+0445a860,After Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,19
+6ebcd482,Before Scheduling: PendingReds:0 ScheduledMaps:1 <*> <*> <*> CompletedMaps:1 CompletedReds:0 <*> ContRel:0 <*> <*>,8
+2551a26a,getResources() for <*> ask=4 release= 0 newContainers=0 <*> <*> <*> <*>,9
+e15e98a9,"Failed to connect to /<*>:50010 for block, add to deadNodes and continue. java.net.NoRouteToHostException: No route to host: no further information",10
+289bb297,"Could not obtain <*> from any node: java.io.IOException: No live nodes contain block <*> after checking nodes = [<*>:50010, <*>:50010], ignoredNodes = null No live nodes contain current block Block locations: <*>:50010 <*>:50010 Dead nodes: <*>:50010 <*>:50010. Will get new block locations from namenode and retry...",5
+d012f973,"DFS chooseDataNode: got # 1 IOException, will wait for <*> msec.",6
+8a08c061,DFS Read,3
+7cec9f06,Exception running child : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/<*> to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,2
+b99c6b8e,Runnning cleanup for the task,6
+54544868,Exception cleaning up: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/<*> to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,2
+ea133138,"getResources() for <*> <*> release= <*> newContainers=0 <*> resourcelimit=<memory:1024, vCores:-26> knownNMs=4",17
+692aaa05,Before Scheduling: <*> <*> <*> <*> AssignedReds:0 CompletedMaps:1 CompletedReds:0 <*> ContRel:1 <*> RackLocal:3,6
+ccfd4cc9,After Scheduling: PendingReds:0 <*> <*> <*> <*> CompletedMaps:1 CompletedReds:0 <*> ContRel:1 <*> RackLocal:3,8
+30c29183,"Slow ReadProcessor read fields took <*> (threshold=30000ms); ack: seqno: -2 status: SUCCESS status: ERROR downstreamAckTimeNanos: 0, targets: [<*>:50010, <*>:50010]",9
+2ef07439,DataStreamer Exception,3
+44c82a06,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/<*> to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,2
+811a1e12,Diagnostics report from <*> Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/<*> to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,4
+fb4ab5cb,Task cleanup failed for attempt <*>,2
+16ffd5a6,Error writing History Event: <*>,4
+0e4be9d6,<*> failures on node <*>,10
+410c36f9,Added <*> to list of failed maps,10
+ab7229ba,Could not contact RM after 360000 milliseconds.,3
+8fa4158f,Error communicating with RM: Could not contact RM after 360000 milliseconds.,3
+4a3798b7,"In stop, writing event <*>",6
+e7389c32,Service <*> failed in state STOPPED; cause: org.apache.avro.AvroTypeException: Attempt to process a enum when a union was expected.,2
+62fbe130,Diagnostics report from <*> cleanup failed for container <*> : java.lang.IllegalArgumentException: java.net.UnknownHostException: <*>,12
+625aadcb,Exception while unregistering,3
+7d76b35b,Final Stats: PendingReds:0 ScheduledMaps:3 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3,1
+98ad1203,Graceful stop failed,3
+6f3c40b7,Before Scheduling: PendingReds:0 <*> ScheduledReds:1 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,41
+0f64ee10,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:0 <*> <*> <*> <*> ContRel:0 <*> <*>,17
+8a4f7af0,getResources() for <*> <*> release= 0 <*> finishedContainers=0 <*> <*> knownNMs=5,37
+e1b6242e,Diagnostics report from <*> <*> Timed out after 600 secs,7
+7802bb18,Ramping down all scheduled reduces:0,100
+6e6828d7,Going to preempt 1 due to lack of space for maps,100
+68b2df4e,"completedMapPercent 0.15384616 <*> <*> <*> <*> <*> <*> netScheduledMapResource:<memory:11264, vCores:11> netScheduledReduceResource:<memory:0, vCores:0>",84
+e1c82851,getResources() for <*> <*> release= 0 <*> finishedContainers=0 <*> <*> knownNMs=3,7
+678229a7,Preempting attempt_1445087491445_0004_r_000000_1000,1
+04717c2b,Before Scheduling: PendingReds:1 <*> ScheduledReds:0 AssignedMaps:0 <*> <*> CompletedReds:0 <*> ContRel:0 <*> RackLocal:0,57
+6e8fc6ca,"completedMapPercent 0.9230769 totalResourceLimit:<memory:1024, vCores:-12> finalMapResourceLimit:<memory:512, vCores:-6> finalReduceResourceLimit:<memory:512, vCores:-6> netScheduledMapResource:<memory:1024, vCores:1> netScheduledReduceResource:<memory:1024, vCores:1>",1
+ba668177,Reduce preemption successful attempt_1445087491445_0004_r_000000_1000,1
+4e031e32,Connection retry failed with 4 attempts in 180 seconds,1
+0db206bd,Failed to connect to MININT-FNANLI5.fareast.corp.microsoft.com:13562 with 1 map outputs,1
+3ff11e72,Reporting fetch failure for attempt_1445087491445_0004_m_000005_0 to jobtracker.,1
+0a3e99f9,getResources() for <*> <*> release= 1 newContainers=0 finishedContainers=1 <*> <*> <*>,8
+d94f3218,Before Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:1 <*> <*>,74
+89474ed0,After Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:1 <*> <*>,17
+56f1f7d9,Error communicating with RM: Resource Manager doesn't recognize AttemptId: <*>,2
+2786c026,Found jobId <*> to have not been closed. Will close,2
+ec73d7a1,Communication exception: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI5/<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost,10
+bdca8fec,Process Thread Dump: Communication exception,5
+ecd92ac1,"Last retry, killing <*>",5
+4431bdde,"Could not obtain BP-1347369012-<*>-1444972147527:blk_1073742989_2201 from any node: java.io.IOException: No live nodes contain block BP-1347369012-<*>-1444972147527:blk_1073742989_2201 after checking nodes = [<*>:50010, <*>:50010], ignoredNodes = null No live nodes contain current block Block locations: <*>:50010 <*>:50010 Dead nodes: <*>:50010 <*>:50010 <*>:50010. Will get new block locations from namenode and retry...",1
+e4a9aeee,getResources() for <*> ask=4 release= 0 <*> finishedContainers=0 <*> <*> <*>,78
+9abf1347,Diagnostics report from attempt_1445182159119_0002_m_000007_0: Error: org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for output/attempt_1445182159119_0002_m_000007_0/file.out,2
+7531be8f,Ignoring exception during close for org.apache.hadoop.mapred.MapTask$NewOutputCollector@6a6585ee,1
+ceff1dfa,Exception running child : org.apache.hadoop.util.DiskChecker$DiskErrorException: Could not find any valid local directory for output/attempt_1445182159119_0002_m_000007_0/file.out,1
+2e7db2fa,Task: <*> - failed due to FSError: java.io.IOException: There is not enough space on the disk,2
+28061564,Diagnostics report from <*> Error: org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in <*>,4
+3e77ada7,Before Scheduling: <*> <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 HostLocal:9 RackLocal:4,18
+0e9d7c3c,"completedMapPercent 0.7 totalResourceLimit:<memory:9216, vCores:-18> finalMapResourceLimit:<memory:4608, vCores:-9> finalReduceResourceLimit:<memory:4608, vCores:-9> netScheduledMapResource:<memory:7168, vCores:7> netScheduledReduceResource:<memory:1024, vCores:1>",1
+55a1930a,After Scheduling: PendingReds:0 <*> <*> AssignedMaps:6 <*> CompletedMaps:7 CompletedReds:0 <*> ContRel:0 <*> RackLocal:4,5
+c7e58401,"Assigning container Container: [ContainerId: <*> NodeId: <*> NodeHttpAddress: <*> Resource: <memory:1024, vCores:1>, Priority: 5, Token: Token { kind: ContainerToken, service: <*> }, ] to fast fail map",8
+a275647a,Assigned from earlierFailedMaps,8
+c7648d69,Exception running child : org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in <*>,2
+a28cf59b,Task: <*> - exited : java.io.IOException: There is not enough space on the disk,6
+34ea6faa,Diagnostics report from <*> Error: java.io.IOException: There is not enough space on the disk,12
+d2bc910f,Task: <*> - exited : java.io.IOException: Spill failed,3
+b7d2bfa2,Diagnostics report from <*> Error: java.io.IOException: Spill failed,6
+2291b148,Before Scheduling: PendingReds:1 <*> ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> <*> HostLocal:6 RackLocal:4,4
+fc99d38c,After Scheduling: PendingReds:0 <*> <*> AssignedMaps:10 <*> CompletedMaps:1 CompletedReds:0 <*> ContRel:2 <*> <*>,4
+7fb30f39,getResources() for <*> <*> release= 0 newContainers=1 <*> <*> <*> knownNMs=3,4
+fda781d7,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 CompletedMaps:10 CompletedReds:1 <*> <*> <*> <*>,26
+8eafe63c,Final Stats: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:0 <*> CompletedMaps:10 <*> <*> <*> <*> <*>,10
+23a63b1d,"Unable to parse prior job history, aborting recovery",4
+a0380f1e,Could not parse the old history file. Will not have old AMinfos,4
+039c163e,"getResources() for <*> <*> release= <*> newContainers=0 <*> resourcelimit=<memory:4096, vCores:-23> knownNMs=4",5
+62cca54e,Before Scheduling: <*> ScheduledMaps:1 <*> <*> AssignedReds:0 <*> CompletedReds:0 ContAlloc:12 ContRel:2 HostLocal:4 RackLocal:6,4
+f8ac6ab5,After Scheduling: PendingReds:0 ScheduledMaps:0 <*> <*> <*> <*> CompletedReds:0 <*> ContRel:2 HostLocal:5 RackLocal:6,6
+1e0d85b4,Before Scheduling: <*> <*> <*> AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 <*> <*>,8
+23a8de7a,After Scheduling: PendingReds:0 <*> ScheduledReds:1 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:1 <*> <*>,11
+f244738e,getResources() for <*> <*> release= 0 newContainers=1 <*> <*> <*> knownNMs=5,3
+aeb93eb4,getResources() for application_1445087491445_0010: <*> release= 0 <*> <*> <*> <*> knownNMs=7,6
+e5b047b8,getResources() for application_1445076437777_0003: <*> release= 1 <*> finishedContainers=1 <*> <*> knownNMs=5,2
+25a1b4d1,"completedMapPercent 0.2 <*> <*> <*> <*> <*> vCores:-5> netScheduledMapResource:<memory:9216, vCores:9> netScheduledReduceResource:<memory:0, vCores:0>",2
+53df69ff,After Scheduling: PendingReds:0 <*> ScheduledReds:1 AssignedMaps:8 AssignedReds:0 <*> CompletedReds:0 <*> <*> <*> RackLocal:6,3
+036f1451,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:1 <*> <*> <*> <*>,12
+62412d2a,"completedMapPercent 0.1 totalResourceLimit:<memory:1024, vCores:-26> finalMapResourceLimit:<memory:922, vCores:-24> finalReduceResourceLimit:<memory:102, vCores:-2> <*> <*> netScheduledReduceResource:<memory:0, vCores:0>",115
+b3eec993,"completedMapPercent 0.2 <*> <*> <*> <*> <*> <*> netScheduledMapResource:<memory:8192, vCores:8> netScheduledReduceResource:<memory:0, vCores:0>",122
+92242dd5,Error closing writer for JobID: job_1445144423722_0023,1
+0103f0da,Final Stats: PendingReds:1 ScheduledMaps:6 ScheduledReds:0 AssignedMaps:4 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:4 ContRel:0 HostLocal:3 RackLocal:1,1
+dc575160,"completedMapPercent 0.07692308 totalResourceLimit:<memory:13312, vCores:-22> finalMapResourceLimit:<memory:12288, vCores:-21> finalReduceResourceLimit:<memory:1024, vCores:-1> netScheduledMapResource:<memory:14336, vCores:14> netScheduledReduceResource:<memory:0, vCores:0>",1
+bb2ef533,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:1 ContAlloc:23 ContRel:0 HostLocal:18 RackLocal:4,2
+d1fa68c6,"getResources() for <*> <*> release= 0 <*> <*> resourcelimit=<memory:16384, vCores:-34> knownNMs=7",8
+d0814af9,getResources() for application_1445087491445_0006: ask=1 release= 0 newContainers=0 <*> <*> <*> <*>,4
+6fb03ef5,getResources() for application_1445062781478_0015: <*> release= 0 newContainers=0 <*> <*> <*> knownNMs=5,6
+a6449db6,"getResources() for <*> ask=5 release= 0 newContainers=0 finishedContainers=1 resourcelimit=<memory:16384, <*> <*>",3
+413c0461,Before Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,4
+a482325e,After Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> RackLocal:3,5
+aadad897,"getResources() for application_1445062781478_0013: ask=4 release= 2 newContainers=1 finishedContainers=2 resourcelimit=<memory:9216, vCores:-26> knownNMs=5",1
+4c0e2fc4,"completedMapPercent 0.1 <*> <*> <*> <*> <*> <*> netScheduledMapResource:<memory:10240, vCores:10> netScheduledReduceResource:<memory:0, vCores:0>",3
+a3ff4bdf,After Scheduling: PendingReds:0 <*> <*> <*> <*> <*> CompletedReds:0 ContAlloc:14 ContRel:0 HostLocal:9 RackLocal:4,16
+7781c474,"completedMapPercent 0.2 totalResourceLimit:<memory:9216, vCores:-18> finalMapResourceLimit:<memory:7373, vCores:-15> finalReduceResourceLimit:<memory:1843, vCores:-3> <*> <*> netScheduledReduceResource:<memory:0, vCores:0>",2
+be989392,Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 <*> AssignedReds:0 <*> CompletedReds:0 <*> <*> HostLocal:7 RackLocal:3,8
+582d021c,"IPC Server handler 29 on 58622, call statusUpdate(attempt_1445094324383_0003_m_000000_0, org.apache.hadoop.mapred.MapTaskStatus@cdcdbf7), rpc version=2, client version=19, methodsFingerPrint=937413979 from <*>:52490 Call#68 Retry#0: output error",1
+1d8015da,IPC Server handler 29 on 58622 caught an exception,1
+034a16ba,"completedMapPercent 0.6 totalResourceLimit:<memory:5120, vCores:-22> finalMapResourceLimit:<memory:2560, vCores:-11> finalReduceResourceLimit:<memory:2560, vCores:-11> netScheduledMapResource:<memory:7168, vCores:7> netScheduledReduceResource:<memory:0, vCores:0>",1
+38f0cf45,Shuffle failed : local error on this node: 04DN8IQ/<*>,2
+859b5952,getResources() for application_1445076437777_0001: <*> release= 0 <*> finishedContainers=0 <*> <*> knownNMs=4,9

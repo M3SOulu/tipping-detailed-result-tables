@@ -1,0 +1,163 @@
+EventId,EventTemplate
+fa3d9885,LDAP: Built with OpenLDAP LDAP SDK
+587e40ef,LDAP: SSL support unavailable
+fb195195,<*> <*> <*> <*> <*>
+05ce27cc,Digest: generating secret for digest authentication ...
+d492bd9d,Digest: done
+1ec54bde,env.createBean2(): Factory error creating channel.jni:jni ( channel.jni jni)
+94488b1e,config.update(): Can't create channel.jni:jni
+d3ed35bb,env.createBean2(): Factory error creating vm: ( vm )
+d4907dc9,config.update(): Can't create vm:
+460c659e,env.createBean2(): Factory error creating worker.jni:onStartup ( worker.jni onStartup)
+25819414,config.update(): Can't create worker.jni:onStartup
+56944f9e,env.createBean2(): Factory error creating worker.jni:onShutdown ( worker.jni onShutdown)
+175bf5b5,config.update(): Can't create worker.jni:onShutdown
+3ca3c51e,mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.
+4d804580,mod_security/1.9dev2 configured
+dfd50a7a,Apache/2.0.49 (Fedora) configured -- resuming normal operations
+eac1b08e,jk2_init() Found child <*> in scoreboard slot 0
+4a6623f5,jk2_init() Found child <*> in scoreboard slot 7
+2191dd94,jk2_init() Found child <*> in scoreboard slot 2
+576a6aac,jk2_init() Found child <*> in scoreboard slot 1
+5bc32376,jk2_init() Found child <*> in scoreboard slot 3
+a5b45776,jk2_init() Found child <*> in scoreboard slot 5
+fe62314c,jk2_init() Found child <*> in scoreboard slot 4
+706ce419,jk2_init() Found child <*> in scoreboard slot 6
+e3dc5d82,workerEnv.init() ok /etc/httpd/conf/workers2.properties
+73abaa68,mod_jk child init 1 0
+dc4edb17,[client <*>] Directory index forbidden by rule: /var/www/html/
+fda9e654,[client <*>] File does not exist: /var/www/html/sumthin
+010f5be2,jk2_init() Found child <*> in scoreboard slot 8
+d550524b,jk2_init() Can't find child <*> in scoreboard
+a5bd6947,mod_jk child init 1 -2
+ac4a0b70,[client <*>] File does not exist: /var/www/html/scripts/..%5c%5c..
+8a7af621,[client <*>] File does not exist: /var/www/html/scripts/root.exe
+3a42b8c7,[client <*>] File does not exist: /var/www/html/MSADC
+e461c138,[client <*>] File does not exist: /var/www/html/c
+0613a368,[client <*>] File does not exist: /var/www/html/d
+01774052,[client <*>] File does not exist: /var/www/html/scripts/..%5c..
+ce70b65f,[client <*>] File does not exist: /var/www/html/_vti_bin
+e7a74437,[client <*>] File does not exist: /var/www/html/_mem_bin
+65e2ae3d,[client <*>] File does not exist: /var/www/html/msadc
+f6de93f6,[client <*>] File does not exist: /var/www/html/scripts/..\xc1\x1c..
+58c2b8ab,[client <*>] File does not exist: /var/www/html/scripts/..\xc0\xaf..
+2f3c1f03,[client <*>] File does not exist: /var/www/html/scripts/..\xc1\x9c..
+1cbd1344,[client <*>] File does not exist: /var/www/html/scripts/..%2f..
+9c659243,[client <*>] script not found or unable to stat: /var/www/cgi-bin/awstats
+b7ffa55b,[client <*>] script not found or unable to stat: /var/www/cgi-bin/awstats.pl
+82309c7b,[client <*>] File does not exist: /var/www/html/cgi
+6d907e32,jk2_init() Found child <*> in scoreboard slot 12
+c31cf24e,[client <*>] File does not exist: /var/www/html/awstats/awstats.pl
+3a62effe,jk2_init() Found child <*> in scoreboard slot 17
+0a284fd9,jk2_init() Found child <*> in scoreboard slot 22
+bf97b60d,[client <*>] script not found or unable to stat: /var/www/cgi-bin/stats
+000687af,jk2_init() Found child <*> in scoreboard slot 27
+b00729be,jk2_init() Found child <*> in scoreboard slot <*>
+36f9392b,[client <*>] File does not exist: /var/www/html/stats/awstats.pl
+ee21f334,[client <*>] File does not exist: /var/www/html/awstats.pl
+d23ad5dd,mod_jk2 Shutting down
+e95f98b1,[client <*>] script not found or unable to stat: /var/www/cgi-bin/openwebmail
+b899c686,Graceful restart requested doing restart
+c3c4479a,jk2_init() Found child <*> in scoreboard slot 19
+21fbe8ea,jk2_init() Found child <*> in scoreboard slot 21
+b82a4d10,[client <*>] request failed: URI too long (longer than 8190)
+847822c6,jk2_init() Found child <*> in scoreboard slot 10
+6e6cd296,mod_jk child workerEnv in error state 1
+a95f986c,[client <*>] File does not exist: /var/www/html/scripts/nsiislog.dll
+63843054,[client <*>] request failed: error reading the headers
+6a1fafa7,mod_jk child workerEnv in error state 2
+aece611f,[client <*>] File does not exist: /var/www/html/NULL.printer
+2a86bb28,mod_jk child workerEnv in error state 3
+ef8fda21,mod_jk child workerEnv in error state 4
+766832ef,mod_jk child workerEnv in error state 5
+8a9bc13b,[client <*>] File does not exist: /var/www/html/default.shtml
+d87e52bd,jk2_init() Found child <*> in scoreboard slot 11
+7573c7e2,mod_jk child workerEnv in error state 6
+29c66b3a,[client <*>] File does not exist: /var/www/html/cacti
+4b19d79d,mod_jk child workerEnv in error state 7
+5e779484,jk2_init() Found child <*> in scoreboard slot 20
+5861de1f,mod_jk child workerEnv in error state 8
+f82a5f02,[client <*>] script not found or unable to stat: /var/www/cgi-bin/WebApp.pl
+0c3ba193,[client <*>] File does not exist: /var/www/html/...
+21227b70,[client <*>] File does not exist: /var/www/html/adm
+ee69f32b,[client <*>] File does not exist: /var/www/html/admin
+55f83f19,[client <*>] File does not exist: /var/www/html/aws
+7b4bbd0c,[client <*>] File does not exist: /var/www/html/awstats-cgibin
+091b50a4,[client <*>] File does not exist: /var/www/html/awstats/awstats.
+a323cc1e,[client <*>] File does not exist: /var/www/html/awstats/cgi-bin
+c7c5a651,[client <*>] File does not exist: /var/www/html/bin
+562ad683,[client <*>] attempt to invoke directory as script: /var/www/cgi-bin/
+d39a2211,[client <*>] script not found or unable to stat: /var/www/cgi-bin/awstats.
+dd8901db,[client <*>] script not found or unable to stat: /var/www/cgi-bin/logs
+1732054e,[client <*>] File does not exist: /var/www/html/cgi-bin2
+55c99ad0,[client <*>] File does not exist: <*>
+d7344a0d,mod_jk child workerEnv in error state 9
+76215676,[client <*>] File does not exist: /var/www/html/favicon.ico
+89869584,[client <*>] script not found or unable to stat: /var/www/cgi-bin/proxy.cgi
+0ac45832,jk2_init() Found child <*> in scoreboard slot 9
+9f94214f,[client <*>] File does not exist: /var/www/html/phpmyadmin
+b8aec1b5,[client <*>] script not found or unable to stat: /var/www/cgi-bin/textenv.pl
+9a72633f,jk2_init() Found child <*> in scoreboard slot 13
+7f68ff40,jk2_init() Found child <*> in scoreboard slot 14
+ba514153,jk2_init() Found child <*> in scoreboard slot 16
+9a949807,[client <*>] script not found or unable to stat: /var/www/cgi-bin/jud.cgi
+bca0830f,[client <*>] File does not exist: /var/www/html/bbs
+60d0a4c7,[client <*>] File does not exist: /var/www/html/zboard
+e8cce26f,[client <*>] script not found or unable to stat: /var/www/cgi-bin/prxjdg.cgi
+ae4de736,jk2_init() Found child <*> in scoreboard slot 24
+13549428,[client <*>] <*> <*> <*> <*> /var/www/html/
+17b78d59,jk2_init() Found child <*> in scoreboard slot 15
+44c7fb6a,child process <*> still did not exit sending a SIGTERM
+a53d45cf,[client <*>] File does not exist: /var/www/html/mute
+57999e03,[client <*>] File does not exist: /var/www/html/blog
+34c231d4,jk2_init() Found child <*> in scoreboard slot 18
+4c50642c,[client <*>] File does not exist: /var/www/html/xmlrpc
+7c611ab3,[client <*>] File does not exist: /var/www/html/xmlsrv
+d0b2c29b,[client <*>] File does not exist: /var/www/html/drupal
+1cb750e0,[client <*>] File does not exist: /var/www/html/community
+4abf9962,[client <*>] File does not exist: /var/www/html/blogs
+58657eef,[client <*>] File does not exist: /var/www/html/blogtest
+37e61994,[client <*>] File does not exist: /var/www/html/b2
+db3c0337,[client <*>] File does not exist: /var/www/html/b2evo
+4dc61285,[client <*>] File does not exist: /var/www/html/wordpress
+72c6ad2e,[client <*>] File does not exist: /var/www/html/phpgroupware
+1a5fbafe,[client <*>] File does not exist: /var/www/html/WebCalendar
+fe8f5579,[client <*>] File does not exist: /var/www/html/webcalendar
+282c0231,jk2_init() Found child <*> in scoreboard slot 23
+a45a747b,[client <*>] script not found or unable to stat: /var/www/cgi-bin/proxycheck.pl
+d7f89b55,[client <*>] File does not exist: /var/www/html/cp
+a073ffb1,[client <*>] File does not exist: /var/www/html/stat-cgi
+439448aa,[client <*>] File does not exist: /var/www/html/awstats/perl
+62d2d988,[client <*>] File does not exist: /var/www/html/services
+7548cf6c,[client <*>] <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+a54f5ca4,mod_jk child workerEnv in error state <*>
+2e6ea6f0,[client <*>] File does not exist: /var/www/html/mambo
+cea5e821,[client <*>] File does not exist: /var/www/html/cvs
+f747cae4,[client <*>] File does not exist: /var/www/html/wing-calendar
+61d23b8d,[client <*>] File does not exist: /var/www/html/Mambo
+2a705bff,[client <*>] File does not exist: /var/www/html/include
+f925856a,[client <*>] File does not exist: /var/www/html/forum/include
+022b0320,[client <*>] File does not exist: /var/www/html/qnews
+86549fe6,[client <*>] File does not exist: /var/www/html/file
+ca6dbe01,[client <*>] File does not exist: /var/www/html/log
+bbdc205d,[client <*>] File does not exist: /var/www/html/trunk
+e5bc4a4c,[client <*>] File does not exist: /var/www/html/html
+c09eaca8,uriMap.mapUri() uri must start with /
+fba91338,[client <*>] Invalid URI in request GET HTTP/1.1
+da9ba5cf,[client <*>] File does not exist: /var/www/html/forms
+be815da0,[client <*>] File does not exist: /var/www/html/pavon
+2c65886d,[client <*>] File does not exist: /var/www/html/star
+2a4261c1,[client <*>] File does not exist: /var/www/html/b2exo
+356aab1a,[client <*>] File does not exist: /var/www/html/local_graph_id
+82a93c4f,[client <*>] script not found or unable to stat: /var/www/cgi-bin/ip.cgi
+4f16b393,[client <*>] File does not exist: /var/www/html/modules
+49ed2b32,[client <*>] File does not exist: /var/www/html/ip1.cgi
+5858fce3,[client <*>] <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+e5738fcc,[client <*>] File does not exist: /var/www/html/Forums
+ed25023c,[client <*>] File does not exist: /var/www/html/~ipcom
+7c1fb5b9,[client <*>] File does not exist: /var/www/html/level
+00d1d639,[client <*>] File does not exist: /var/www/html/cache
+40f094fa,[client <*>] File does not exist: /var/www/html/articles
+75bee2b9,[client <*>] File does not exist: /var/www/html/cal
+5f8d8c81,[client <*>] File does not exist: /var/www/html/Calendar
+8c3beca8,[client <*>] File does not exist: /var/www/html/calendar

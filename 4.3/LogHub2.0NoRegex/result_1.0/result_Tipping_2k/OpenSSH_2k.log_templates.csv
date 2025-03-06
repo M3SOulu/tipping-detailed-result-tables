@@ -1,0 +1,15 @@
+EventID,EventTemplate
+P0,input_userauth_request: invalid user user [preauth] _/|\\_ input_userauth_request: invalid user <*> [preauth]
+P1,Invalid user user from <*>.<*>.<*>.<*> _/|\\_ Invalid user <*> from <*>.<*>.<*>.<*>
+P2,reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>-<*>-<*>.<*>-<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+P3,Connection closed by <*>.<*>.<*>.<*> [preauth]
+P4,fatal: Write failed: Connection reset by peer [preauth]
+P5,Disconnecting: Too many authentication failures for <*> [preauth]
+P6,pam_unix(sshd:<*>): <*> (<*>) _/|\\_ pam_unix(sshd:<*>): <*> sshd _/|\\_ pam_unix(sshd:<*>): <*> 
+P7,Accepted password for fztu from <*>.<*>.<*>.<*> port <*> 
+P8,Received disconnect from <*>.<*>.<*>.<*>: <*>: <*>  _/|\\_ Received disconnect from <*>.<*>.<*>.<*>: <*>: <*> . <*>
+P9,PAM <*> ; <*> 
+P10,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: <*>.<*>.<*>.<*>: <*> [preauth] _/|\\_ error: Received disconnect from <*>.<*>.<*>.<*>: <*>: <*> . [preauth]
+P11,Did not receive identification string from <*>.<*>.<*>.<*>
+P12,Failed <*> for <*> from <*>.<*>.<*>.<*> port <*> 
+P13,message repeated <*> times: [ Failed password for root from <*>.<*>.<*>.<*> port <*> ]

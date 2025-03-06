@@ -1,0 +1,49 @@
+EventID,EventTemplate
+P0,Command has been aborted
+P1,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+P2,starting
+P3,warning
+P4,power/control problem
+P5,blocked
+P6,Temperature (<*>) exceeds warning threshold
+P7,not responding
+P8,Fan speeds ( <*> **** <*> )
+P9,Targeting domains:node-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>
+P10,active
+P11,Command has completed successfully
+P12,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+P13,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+P14,running
+P15,ClusterFileSystem: ServerFileSystem domain <*>domain is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain<*> is no longer served by node node-<*>
+P16,wait (command <*>)
+P17,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P18,configured out
+P19,ServerFileSystem: ServerFileSystem domain <*>_<*> is full
+P20,Fan speeds ( <*> )
+P21,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface alt0
+P22,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface ee0
+P23,ambient<*>
+P24,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface scip0
+P25,normal
+P26,halt (command <*>)
+P27,Failed subcommands <*>
+P28,risBoot (command <*>)
+P29,Linkerror event interval expired
+P30,Component State Change: Component \\<*>alt0\\<*> is in the unavailable state (HWID<*>)
+P31,closing
+P32,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface alt0
+P33,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P34,link errors remain current
+P35,bootGenvmunix (command <*>)
+P36,critical
+P37,Link ok
+P38,psu failure\\ ambient<*>
+P39,ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+P40,Link in reset
+P41,boot (command <*>) Error: HALT asserted\\ cannot continue
+P42,boot (command <*>)
+P43,clusterAddMember (command <*>)
+P44,Component State Change: Component \\<*>-WWID:<*>:<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>\\<*> is in the unavailable state (HWID<*>)
+P45,Link error
+P46,
+P47,not-responding

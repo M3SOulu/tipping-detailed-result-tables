@@ -1,0 +1,21 @@
+EventID,EventTemplate
+P0,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P1,[instance: <*>-<*>-<*>-<*>-<*>] <*> instance _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> : <*> : <*>  _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> -<*>-<*>-<*>-<*>  _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*>  _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> instance <*> -<*>-<*>-<*>-<*> _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> instance <*>  _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> : <*>  _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> instance<*>
+P2,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P3,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P4,"<*>.<*>.<*>.<*> ""GET /<*>/<*>/servers/detail?all_tenants=True&changes-since=<*>-<*>-<*>%<*>%<*>.<*>%<*>%<*>&<*>=<*>-<*>.<*>.<*>-<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/servers/detail?all_tenants=True&changes-since=<*>-<*>-<*>%<*>%<*>.<*>%<*>%<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P5,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P6,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P7,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>-<*>-<*>-<*>-<*>
+P8,"<*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""<*> /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P9,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P10,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P11,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P12,HTTP exception thrown: No instances found for any event
+P13,"<*>.<*>.<*>.<*>,<*>.<*>.<*>.<*> ""GET /openstack/<*>-<*>-<*>/user_data HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P14,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): <*> : <*>  _/|\\_ image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): <*>
+P15,Active base files: /var/lib/nova/instances/_base/<*>
+P16,Unknown base file: /var/lib/nova/instances/_base/<*>
+P17,Removable base files: /var/lib/nova/instances/_base/<*>
+P18,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P19,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]

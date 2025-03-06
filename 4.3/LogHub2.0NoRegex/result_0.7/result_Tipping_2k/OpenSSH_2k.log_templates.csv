@@ -1,0 +1,23 @@
+EventID,EventTemplate
+P0,Failed none for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P1,Invalid user user from <*>.<*>.<*>.<*> _/|\\_ Invalid user <*> from <*>.<*>.<*>.<*>
+P2,<*> Failed password for <*> from <*>.<*>.<*>.<*> port <*>  _/|\\_ Failed password for <*> from <*>.<*>.<*>.<*> port <*> 
+P3,Received disconnect from <*>.<*>.<*>.<*>: <*>: Closed due to user request. [preauth]
+P4,Received disconnect from <*>.<*>.<*>.<*>: <*>: disconnected by user
+P5,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> =sshd _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> =<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> =<*>
+P6,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth]
+P7,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P8,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> =<*> _/|\\_ PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> =<*>
+P9,Accepted password for fztu from <*>.<*>.<*>.<*> port <*> 
+P10,pam_unix(sshd:session): session closed for user fztu
+P11,Connection closed by <*>.<*>.<*>.<*> [preauth]
+P12,reverse mapping checking getaddrinfo for <*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>-<*>-<*>.<*>-<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+P13,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: No more user authentication methods available. [preauth]
+P14,Received disconnect from <*>.<*>.<*>.<*>: <*>: Bye Bye [preauth]
+P15,pam_unix(sshd:session): session opened for user fztu by (uid=<*>)
+P16,Disconnecting: Too many authentication failures for <*> [preauth]
+P17,PAM service(sshd) ignoring max retries; <*> > <*>
+P18,input_userauth_request: invalid user <*> [preauth] _/|\\_ input_userauth_request: invalid user user [preauth]
+P19,fatal: Write failed: Connection reset by peer [preauth]
+P20,pam_unix(sshd:auth): check pass; user unknown
+P21,Did not receive identification string from <*>.<*>.<*>.<*>

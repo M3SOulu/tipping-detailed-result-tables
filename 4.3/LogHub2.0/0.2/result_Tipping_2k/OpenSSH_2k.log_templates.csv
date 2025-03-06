@@ -1,0 +1,77 @@
+EventID,EventTemplate
+P0,Invalid user www from <*>.<*>.<*>.<*>
+P1,Received disconnect from <*>.<*>.<*>.<*>: <*>: Bye Bye [preauth]
+P2,pam_unix(sshd:auth): check pass; user unknown
+P3,Invalid user chen from <*>.<*>.<*>.<*>
+P4,Invalid user ftpuser from <*>.<*>.<*>.<*>
+P5,Invalid user zhangyan from <*>.<*>.<*>.<*>
+P6,Connection closed by <*>.<*>.<*>.<*> [preauth]
+P7,Invalid user support from <*>.<*>.<*>.<*>
+P8,Invalid user ted from <*>.<*>.<*>.<*>
+P9,Received disconnect from <*>.<*>.<*>.<*>: <*>: disconnected by user
+P10,Invalid user pi from <*>.<*>.<*>.<*>
+P11,Invalid user postgres from <*>.<*>.<*>.<*>
+P12,Invalid user PlcmSpIp from <*>.<*>.<*>.<*>
+P13,Invalid user test from <*>.<*>.<*>.<*>
+P14,Failed password for <*> from <*>.<*>.<*>.<*> port <*> 
+P15,PAM service(sshd) ignoring max retries; <*> > <*>
+P16,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P17,Failed password for invalid user admin from <*>.<*>.<*>.<*> port <*> 
+P18,PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P19,Invalid user Management from <*>.<*>.<*>.<*>
+P20,Invalid user oralce from <*>.<*>.<*>.<*>
+P21,Invalid user monitor from <*>.<*>.<*>.<*>
+P22,Invalid user default from <*>.<*>.<*>.<*>
+P23,Invalid user magnos from <*>.<*>.<*>.<*>
+P24,Invalid user deploy from <*>.<*>.<*>.<*>
+P25,Invalid user ghost from <*>.<*>.<*>.<*>
+P26,Invalid user abc from <*>.<*>.<*>.<*>
+P27,Disconnecting: Too many authentication failures for root [preauth]
+P28,Invalid user inspur from <*>.<*>.<*>.<*>
+P29,Invalid user ubnt from <*>.<*>.<*>.<*>
+P30,pam_unix(sshd:session): session closed for user fztu
+P31,Failed none for invalid user admin from <*>.<*>.<*>.<*> port <*> 
+P32,<*>: Received disconnect from <*>.<*>.<*>.<*>: <*>: <*>.<*>.<*>.<*>: <*> [preauth] _/|\\_ Received disconnect from <*>.<*>.<*>.<*>: <*>: <*> . [preauth]
+P33,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=<*> _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=sshd
+P34,Invalid user eoor from <*>.<*>.<*>.<*>
+P35,Invalid user guest from <*>.<*>.<*>.<*>
+P36,Invalid user FILTER from <*>.<*>.<*>.<*>
+P37,Did not receive identification string from <*>.<*>.<*>.<*>
+P38,Invalid user ubuntu from <*>.<*>.<*>.<*>
+P39,Invalid user operator from <*>.<*>.<*>.<*>
+P40,Invalid user user from <*>.<*>.<*>.<*> _/|\\_ Invalid user <*> from <*>.<*>.<*>.<*>
+P41,Invalid user anonymous from <*>.<*>.<*>.<*>
+P42,Invalid user bssh from <*>.<*>.<*>.<*>
+P43,Invalid user api from <*>.<*>.<*>.<*>
+P44,Invalid user pgadmin from <*>.<*>.<*>.<*>
+P45,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=root _/|\\_ pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root
+P46,<*> Failed password for root from <*>.<*>.<*>.<*> port <*>  _/|\\_ Failed password for root from <*>.<*>.<*>.<*> port <*> 
+P47,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>
+P48,Invalid user boot from <*>.<*>.<*>.<*>
+P49,Invalid user cyrus from <*>.<*>.<*>.<*>
+P50,Invalid user cheng from <*>.<*>.<*>.<*>
+P51,reverse mapping checking getaddrinfo for <*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>.<*>.<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT! _/|\\_ reverse mapping checking getaddrinfo for <*>-<*>-<*>-<*>-<*>-<*>.<*>-<*>.<*>.<*> [<*>.<*>.<*>.<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+P52,Invalid user butter from <*>.<*>.<*>.<*>
+P53,Invalid user ingrid from <*>.<*>.<*>.<*>
+P54,Invalid user jay from <*>.<*>.<*>.<*>
+P55,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root _/|\\_ PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>.<*>.<*>.<*> user=root
+P56,input_userauth_request: invalid user <*> [preauth]
+P57,Invalid user sandeep from <*>.<*>.<*>.<*>
+P58,Failed password for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P59,input_userauth_request: invalid user admin [preauth]
+P60,pam_unix(sshd:session): session opened for user fztu by (uid=<*>)
+P61,Accepted password for fztu from <*>.<*>.<*>.<*> port <*> 
+P62,Invalid user webmaster from <*>.<*>.<*>.<*>
+P63,Failed none for invalid user <*> from <*>.<*>.<*>.<*> port <*> 
+P64,Invalid user matlab from <*>.<*>.<*>.<*>
+P65,Invalid user admin from <*>.<*>.<*>.<*>
+P66,Invalid user redhat from <*>.<*>.<*>.<*>
+P67,Invalid user dff from <*>.<*>.<*>.<*>
+P68,Invalid user nagios from <*>.<*>.<*>.<*>
+P69,error: Received disconnect from <*>.<*>.<*>.<*>: <*>: No more user authentication methods available. [preauth]
+P70,Disconnecting: Too many authentication failures for admin [preauth]
+P71,Invalid user cisco from <*>.<*>.<*>.<*>
+P72,Invalid user vnc from <*>.<*>.<*>.<*>
+P73,Invalid user oracle from <*>.<*>.<*>.<*>
+P74,Invalid user utsims from <*>.<*>.<*>.<*>
+P75,fatal: Write failed: Connection reset by peer [preauth]

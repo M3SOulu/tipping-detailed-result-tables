@@ -1,0 +1,109 @@
+EventID,EventTemplate
+P0,Enabling unmasked SIMD FPU exception support... done.
+P1,Setting network parameters: succeeded
+P2,audit(<*>.<*>:<*>): initialized
+P3,selinux_register_security: Registering secondary module capability
+P4,Checking 'hlt' instruction... OK.
+P5,Console: colour VGA+ <*>
+P6,mapped <*>/<*> trampoline to <*>.
+P7,ALERT exited abnormally with [<*>]
+P8,Enabling fast FPU save and restore... done.
+P9,DMI <*>.<*> present.
+P10,On node <*> totalpages: <*>
+P11,You can enable it with acpi=force
+P12,PCI: Invalid ACPI-PCI IRQ routing table
+P13,PCI: Probing PCI hardware <*>  _/|\\_ PCI: Probing PCI hardware
+P14,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=root
+P15,Detected <*>.<*> MHz processor.
+P16,PCI: Using configuration type <*>
+P17,NET: Registered protocol family <*>
+P18,ACPI disabled because your bios is from <*> and too old
+P19,audit: initializing netlink socket (disabled)
+P20,"ANONYMOUS FTP LOGIN FROM <*>.<*>.<*>.<*>, (anonymous)"
+P21,"PCI: PCI BIOS revision <*>.<*> entry at <*>, last bus=<*>"
+P22,"klogd <*>.<*>.<*>, log source = /proc/kmsg started."
+P23,<*> device node '/udev/<*>'
+P24,*** info [mice.c(<*>)]:
+P25,Capability LSM initialized
+P26,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>
+P27,notify question section contains no SOA
+P28,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>
+P29,Intel machine check reporting enabled on CPU#<*>.
+P30,check pass; user unknown
+P31,SELinux: Starting in permissive mode
+P32,HCI daemon ver <*>.<*> started
+P33,connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>.<*>.at) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> () at <*> Jul <*> :<*>:<*> 
+P34,"<*> zone: <*> pages, LIFO batch:<*>"
+P35,<*>: Auto-detected intellimouse PS/<*>
+P36,<*> LOWMEM available.
+P37,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>.<*>)
+P38,<*> startup succeeded
+P39,isapnp: Scanning for PnP cards...
+P40,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=<*>
+P41,Kerberos authentication failed
+P42,BIOS-<*>: <*> - <*> (usable)
+P43,"CPU <*> irqstacks, hard=<*> soft=<*>"
+P44,ACPI: Interpreter disabled.
+P45,SELinux: Registering netfilter hooks
+P46,Received SNMP packet(s) from <*>.<*>.<*>.<*>
+P47,connection from <*>.<*>.<*>.<*> () at <*> Jun <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at <*> Jun <*> :<*>:<*> 
+P48,Linux Plug and Play Support <*>.<*> (c) Adam Belay
+P49,cupsd shutdown succeeded
+P50,Calibrating delay loop... <*>.<*> BogoMIPS
+P51,Bringing up loopback interface: succeeded
+P52,Initializing Cryptographic API
+P53,ACPI: Subsystem revision <*>
+P54,CPU: Intel Pentium III (Coppermine) stepping <*>
+P55,Security Scaffold <*>.<*>.<*> initialized
+P56,Initializing CPU#<*>
+P57,Version <*>.<*>.<*> Starting
+P58,getpeername (ftpd): Transport endpoint is not connected
+P59,zapping low mappings.
+P60,isapnp: No Plug & Play device found
+P61,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Software caused connection abort
+P62,session opened for user root by LOGIN(uid=<*>)
+P63,Linux version <*>.<*>.<*>-<*>.<*> (bhcompile@bugs.build.redhat.com) (gcc version <*>.<*>.<*> (Red Hat Linux <*>.<*>.<*>-<*>)) #<*> Sat May <*> :<*>:<*> EDT <*>
+P64,Couldn't authenticate user
+P65,Intel machine check architecture supported.
+P66,"Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+P67,session opened for user <*> by (uid=<*>)
+P68,Real Time Clock Driver <*>.<*>
+P69,"CPU: <*> I cache: <*>, <*> D cache: <*>"
+P70,ROOT LOGIN ON <*>
+P71,Transparent bridge - <*>:<*>:<*>.<*>
+P72,session closed for user <*>
+P73,Linux agpgart interface <*>.<*> (c) Dave Jones
+P74,Built <*> zonelists
+P75,Initializing random number generator: succeeded
+P76,BIOS-<*>: <*> - <*> (reserved)
+P77,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Permission denied in replay cache code
+P78,warning: can't get client address: Connection reset by peer
+P79,authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=
+P80,POSIX conformance testing by UNIFIX
+P81,"Total HugeTLB memory allocated, <*>"
+P82,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>:<*>:<*>.<*>
+P83,<*> HIGHMEM available.
+P84,Failure registering capabilities with the kernel
+P85,BIOS-provided physical RAM map:
+P86,Kernel command line: ro root=LABEL=/ rhgb quiet
+P87,User unknown timed out after <*> seconds at Sat Jun <*> :<*>:<*> 
+P88,usbcore: registered new driver <*>
+P89,ACPI: ACPI tables contain no PCI IRQ routing entries
+P90,"There is already a security framework initialized, register_security failed."
+P91,<*> hash table entries: <*> (order: <*> bytes) _/|\\_ <*> hash table entries: <*> (order <*> bytes) _/|\\_ <*> hash table entries: <*> (order <*>: <*> bytes)
+P92,VFS: Disk quotas dquot_<*>.<*>.<*>
+P93,sdpd <*>.<*> started
+P94,Using tsc for high-res timesource
+P95,Starting pcmcia: succeeded
+P96,
+P97,restart.
+P98,restart.
+P99,restart.
+P100,restart.
+P101,restart.
+P102,restart.
+P103,restart.
+P104,SELinux:  Initializing.
+P105,CPU: L2 cache: 256K
+P106,mtrr: v2.0 (20020519)
+P107,kernel.core_uses_pid = 1

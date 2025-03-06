@@ -1,0 +1,9 @@
+EventId,EventTemplate,Occurrences
+d41d8cd9,,395
+b87e6f53,env.createBean2(): Factory error creating (,241
+d23ad5dd,mod_jk2 Shutting down,1463
+1d4a8247,jk2_init() Found child in scoreboard slot,7306
+e3dc5d82,workerEnv.init() ok /etc/httpd/conf/workers2.properties,5708
+8d599e1a,mod_jk child workerEnv in error state,5776
+3a7385cd,[client ] Directory index forbidden by rule: /var/www/html/,6835
+6a0b0510,[client ] File does not exist:,24254

@@ -1,0 +1,75 @@
+EventId,EventTemplate,Occurrences
+bd210b0f,Reading <*> <*> <*>,36
+a731801a,<*> to <*> <*>,72
+de4ecee6,<*> <*> to <*>,281
+c4418d31,Purge task is not scheduled.,36
+8484005d,<*> quorum <*>,36
+ba5cfe17,<*> not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,6
+b203390b,My election bind port: <*><*>,36
+d8b815b6,LOOKING,49
+5f7e8dce,<*> <*> <*> id <*> <*> <*> <*>,49
+de0a0d54,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",280
+8898078d,Cannot open channel to <*> at election address <*>,2584
+13b943ea,Notification time out: <*>,1322
+6038b3f0,<*> <*> request <*>,10429
+3370cdfe,FOLLOWING,34
+6fa42e40,TCP NoDelay set to: true,39
+b058f136,Server <*> <*> <*> <*> <*> <*>,36
+a15439ee,Server <*>,432
+f729530c,Server <*> <*>,36
+0ecf9420,Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2,49
+2540fbfe,FOLLOWING - LEADER ELECTION TOOK - <*>,34
+3d62467d,<*> <*> <*> from <*> <*> <*>,43
+d01fbfd0,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)",103
+ec51ce5b,"Connection broken for id 188978561024, my id = <*> error =",10356
+c392bf2d,Interrupting SendWorker,10390
+84d99a6c,<*> <*> <*> for <*> <*> <*>,10386
+2f792fdd,Send worker leaving thread,10390
+eddac2d8,Got zxid <*> expected 0x1,25
+d96149d1,Creating new log file: <*>,25
+c15c4d04,<*> socket connection <*> <*>,2020
+efa49dce,Connection <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1861
+818aea54,<*> <*> to <*> <*> <*> <*> <*>,1790
+93109d74,<*> session <*> <*> <*> <*> <*> <*> <*> <*>,1856
+4a6a3cbe,<*> <*> of <*> <*>,1670
+4497e31d,<*> <*> <*> for <*> <*> <*> <*> <*> <*>,1749
+c7b2318f,Revalidating client: <*>,55
+d7af0a3b,Connection broken for id <*> my id = <*> error =,32
+17118c4a,Exception <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,4
+d65494ad,Unexpected <*>,27
+2d7d95a5,Exception causing close of session <*> due to java.io.IOException: <*> <*> <*> <*>,8
+51108382,Reading snapshot <*>,60
+8baf68ca,Have <*> <*> <*> <*> <*> <*> <*> <*> <*>,20
+40c731a7,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)",61
+194e41ca,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)",48
+df25c83b,Exception <*> <*> <*> <*>,11
+423dd82d,shutdown <*>,11
+f9c2bbdb,<*> down,71
+729e4480,<*> exited loop!,28
+66787885,<*> <*> request <*> <*>,13
+18929670,SyncRequestProcessor exited!,13
+17a70a34,Unexpected <*> <*> <*> <*> <*>,8
+db26891e,LEADING,15
+d8572bc0,LEADING - LEADER ELECTION TOOK - <*>,15
+c0d3673b,Follower sid: <*> : info : <*>,15
+5d77e240,<*> <*> <*> <*> 2 <*> <*> <*>,6
+097ca07b,Sending <*>,34
+159f6506,First is 0x0,15
+5bb0b781,<*> <*> of <*> <*> <*> <*> <*> <*> <*> <*> <*>,15
+de19b5a7,<*> <*> <*> <*> 3 <*> <*> <*>,9
+0afd06d1,<*> <*> <*> <*> of <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*>,6
+77239bf9,<*> session <*> <*> <*> <*> <*>,1762
+3cf49fdb,<*> <*> <*> for <*> <*>,1790
+855da42b,Unexpected <*> <*> <*> <*> <*> <*> <*>,590
+9dde456f,******* GOODBYE <*> ********,590
+d36a2ad1,<*> called,2
+951b5d28,<*> while <*> <*> <*> <*> <*> <*>,2
+64f4093a,<*> <*> <*> from <*>,6
+70747224,"Notification: 3 (n.leader), <*> (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), <*> (n.peerEPoch), LOOKING (my state)",7
+1b38cb88,"Notification: 2 (n.leader), <*> (n.zxid), 0x1 (n.round), LOOKING (n.state), 1 (n.sid), <*> (n.peerEPoch), LOOKING (my state)",6
+db7b8293,Exception <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,159
+8f7cdfb4,<*> <*> <*> for <*> <*> <*> <*> <*> <*> <*>,159
+2cd8fde0,Got zxid <*> expected <*>,3
+e927f6ed,Follower sid: 1 : info : <*>,19
+cc18ae0d,Synchronizing with Follower sid: 1 <*> <*> <*>,19
+d41ddb16,Got <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,19

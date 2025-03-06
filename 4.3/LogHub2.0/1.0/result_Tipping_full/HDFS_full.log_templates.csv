@@ -1,0 +1,20 @@
+EventID,EventTemplate
+P0,PendingReplicationMonitor timed out block <*>
+P1,Exception in receiveBlock for block <*> java.<*>.<*>  _/|\\_ Exception in receiveBlock for block <*> java.<*>.<*> for <*> java.<*>.<*>.<*> . <*> . _/|\\_ Exception in receiveBlock for block <*> java.<*>.<*> for <*> for <*>. <*> java.<*>.<*>.<*>  _/|\\_ Exception in receiveBlock for block <*> java.<*>.<*>
+P2,PacketResponder <*> 
+P3,Received block <*> of size <*> /<*> _/|\\_ Received block <*> /<*> /<*> of size <*>
+P4,<*> Served block <*> to /<*>
+P5,writeBlock <*> received exception java.<*>.<*> . _/|\\_ writeBlock <*> received exception java.<*>.<*> java.<*>.<*>.<*> . <*> . _/|\\_ writeBlock <*> received exception java.<*>.<*> . <*> java.<*>.<*>.<*>  _/|\\_ writeBlock <*> received exception java.<*>.<*> _/|\\_ writeBlock <*> received exception java.<*>.<*> 
+P6,Receiving block <*>  _/|\\_ Receiving <*> block <*>
+P7,Reopen Block <*>
+P8,Deleting block <*> file /mnt/hadoop/dfs/data/current/<*> _/|\\_ Deleting block <*> file /mnt/hadoop/dfs/data/current/<*>/<*>
+P9,<*>:Failed to transfer <*> to <*> got java.io.IOException: Connection reset by peer
+P10,Verification succeeded for <*>
+P11,BLOCK* <*> 
+P12,<*>:Transmitted block <*> to /<*>
+P13,Unexpected error trying to delete block <*>. BlockInfo not found in volumeMap.
+P14,Changing block file offset of block <*> from <*> to <*> meta file offset to <*>
+P15,<*>:Got exception while serving <*> to /<*>:
+P16,<*>:Exception writing block <*> to mirror <*>
+P17,"<*> Starting thread to transfer block <*> to <*>, <*>"
+P18,Adding an already existing block <*>

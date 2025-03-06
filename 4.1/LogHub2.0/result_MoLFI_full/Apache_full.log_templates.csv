@@ -1,0 +1,35 @@
+EventId,EventTemplate,Occurrences
+69e4adbb,LDAP : Built with OpenLDAP LDAP SDK,53
+756a9628,LDAP : SSL support unavailable,53
+6ecf7017,suEXEC mechanism enabled ( wrapper : #spec# ),8
+eafe96cf,Digest : generating secret for digest authentication ...,45
+c7f1f652,Digest : done,45
+3f994eab,"env.createBean2 ( ) : Factory error creating channel.jni : jni ( channel.jni , jni )",45
+7ceac502,config.update ( ) : Can ' t create * : *,135
+86e42362,"env.createBean2 ( ) : Factory error creating vm : ( vm , )",45
+e221735c,config.update ( ) : Can ' t create vm :,45
+c27a4f8e,"env.createBean2 ( ) : Factory error creating worker.jni : onStartup ( worker.jni , onStartup )",45
+1e2c7537,"env.createBean2 ( ) : Factory error creating worker.jni : onShutdown ( worker.jni , onShutdown )",45
+4999d47c,mod_python : Creating #spec# session mutexes based on #spec# max processes and #spec# max threads.,45
+cf1a0bae,#spec# configured,45
+13b768b4,#spec# ( Fedora ) configured -- resuming normal operations,45
+541a379a,jk2_init ( ) Found child #spec# in scoreboard slot #spec#,6335
+e05fdab5,workerEnv.init ( ) ok #spec#,5708
+da75dd4d,mod_jk child init #spec# *,1259
+7d9fae74,[ client #spec# ] Directory index forbidden by rule : #spec#,6745
+1d5c747d,[ client #spec# ] File does not exist : #spec#,20302
+144cb64a,jk2_init ( ) Can ' t find child #spec# in scoreboard,971
+15956744,[ client #spec# ] File does not exist : #spec# *,559
+0470f7e3,[ client #spec# ] script not found or unable to stat : #spec#,3301
+d23ad5dd,mod_jk2 Shutting down,1336
+f10ec031,"Graceful restart requested , doing restart",37
+825cb769,[ client #spec# ] request failed : URI too long ( longer than 8190 ),39
+2880ed24,mod_jk child workerEnv in error state #spec#,4349
+44c5d853,[ client #spec# ] request failed : error reading the headers,14
+c722c7fa,[ client #spec# ] attempt to invoke directory as script : #spec#,92
+5a85648d,[ client #spec# ] Attempt to serve directory : #spec#,1
+86bd0807,"child process #spec# still did not exit , sending a SIGTERM",168
+ecc5b78b,"[ client #spec# ] mod_security : Access denied with code 403. Error reading POST data , error_code = 104 [ hostname "" #spec# "" ] [ uri "" #spec# "" ]",1
+c089dd40,uriMap.mapUri ( ) uri must start with /,27
+03da8a2b,[ client #spec# ] Invalid URI in request GET #spec#,27
+19831406,[ client #spec# ] client sent #spec# request without hostname ( see RFC2616 section 14.23 ) : /,8

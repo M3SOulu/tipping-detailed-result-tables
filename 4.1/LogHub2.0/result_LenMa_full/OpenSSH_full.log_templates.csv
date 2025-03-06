@@ -1,0 +1,43 @@
+EventId,EventTemplate,Occurrences
+83ec8cd5,reverse mapping checking getaddrinfo for  [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,18908
+77eb491f,Invalid user  from <*>,14581
+09329d4c,input_userauth_request: invalid user  [preauth],14581
+526267b4,pam_unix(sshd:auth): check pass; user unknown,19852
+d82fd287,Failed password for invalid user  from <*> port  ssh2,19848
+cd9f0efa,Connection closed by <*> [preauth],68958
+12ca011b,Received disconnect from <*>: 11: Bye Bye [preauth],46593
+02878bda,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser=  ,140701
+f4166045,Failed password for  from <*> port  ssh2,140768
+edccc431,message repeated  times: [ Failed password for  from <*> port  ssh2],36967
+d60c6095,Disconnecting: Too many authentication failures for  [preauth],37298
+1b46bf97,PAM  more authentication failures; logname= uid=0 euid=0 tty=ssh ruser=  ,36966
+f3426a91,PAM service(sshd) ignoring max retries;  > 3,37963
+50840386,Did not receive identification string from <*>,838
+6edd49cd,error: Received disconnect from <*>: 3: <*>: Auth fail [preauth],176
+18ccbaf4,Received disconnect from <*>: 11:      ,595
+0cf3b342,error: Received disconnect from <*>: 14: No more user authentication methods available. [preauth],930
+6c227435,Accepted password for  from <*> port  ssh2,182
+dacbb06d,pam_unix(sshd:session): session opened for user  by (uid=0),182
+9439f964,Received disconnect from <*>: 11: disconnected by user,34
+deb3418e,pam_unix(sshd:session): session closed for user ,182
+9e3975c8,fatal: Write failed: Connection reset by peer [preauth],3
+c1a849d9,fatal: Read from socket failed: Connection reset by peer [preauth],952
+3bbd38b6,reverse mapping checking getaddrinfo for host-<*>.tedata.net [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,1
+0f9d7e4a,Bad packet length 1819045217. [preauth],1
+2503515a,Disconnecting: Packet corrupt [preauth],1
+829cb07e,"Address <*> maps to <*>, but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!",475
+96125d20,Received disconnect from <*>: 11: [preauth],108
+9b4dcb02,fatal: no hostkey alg [preauth],6
+38ad02c3,Bad protocol version identification  from <*> port ,14
+9d3699a3,Bad protocol version identification 'GET /  from <*> port ,4
+a71b62d1,Received disconnect from <*>: 11: Client disconnecting normally [preauth],81
+4e198a8a,error: Received disconnect from <*>: 3: <*>: timeout in waiting for rekeying process. [preauth],3
+542e3648,Failed password for invalid user from <*> port  ssh2,4
+5f0c31e6,error: connect_to <*> port 22: failed.,6
+1e88c957,Corrupted MAC on input. [preauth],1
+a2393779,Bad protocol version identification   HTTP/1.1' from <*> port ,4
+3b346dcd,error: Received disconnect from <*>: 3: <*>: User authentication canceled by user [preauth],2
+42d8cda7,Address <*> maps to  but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!,22
+9b9040b6,Received disconnect from <*>: 11: disconnect [preauth],60
+288e7dc9,error: Received disconnect from <*>: 13: Authentication cancelled by user. [preauth],4
+1c9fde19,"Received disconnect from <*>: 11: Normal Shutdown, Thank you for playing [preauth]",92

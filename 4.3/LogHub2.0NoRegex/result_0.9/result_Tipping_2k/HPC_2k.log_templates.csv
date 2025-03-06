@@ -1,0 +1,45 @@
+EventID,EventTemplate
+P0,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+P1,Command has been aborted
+P2,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface <*>
+P3,starting
+P4,warning
+P5,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+P6,blocked
+P7,Component State Change: Component \\<*>\\<*> is in the unavailable state (HWID=<*>) _/|\\_ Component State Change: Component \\<*>:<*>:<*>\\<*> is in the unavailable state (HWID=<*>)
+P8,boot (command <*>)
+P9,not responding
+P10,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface <*>
+P11,ServerFileSystem: ServerFileSystem domain <*>_<*> is full
+P12,Command has completed successfully
+P13,wait (command <*>)
+P14,ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+P15,running
+P16,Link in reset
+P17,Targeting domains:node-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>
+P18,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P19,configured out
+P20,Temperature (<*>) exceeds warning threshold
+P21,Fan speeds ( <*> )
+P22,halt (command <*>)
+P23,Failed subcommands <*>
+P24,ambient=<*>
+P25,active
+P26,normal
+P27,ClusterFileSystem: ServerFileSystem domain <*>domain is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain<*> is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>
+P28,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+P29,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P30,Linkerror event interval expired
+P31,power/control problem
+P32,closing
+P33,risBoot (command <*>)
+P34,link errors remain current
+P35,bootGenvmunix (command <*>)
+P36,psu failure\\ ambient=<*>
+P37,Link ok
+P38,critical
+P39,boot (command <*>) Error: HALT asserted\\ cannot continue
+P40,clusterAddMember (command <*>)
+P41,Link error
+P42,
+P43,not-responding

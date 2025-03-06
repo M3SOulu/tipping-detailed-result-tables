@@ -1,0 +1,35 @@
+EventID,EventTemplate
+P0,BLOCK* ask <*>.<*>.<*>.<*>:<*> to replicate blk_<*> to datanode(s) <*>.<*>.<*>.<*>:<*> _/|\\_ BLOCK* ask <*>.<*>.<*>.<*>:<*> to replicate blk_<*> to datanode(s) <*>.<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*>
+P1,BLOCK* NameSystem.<*>: <*> : <*>.<*>.<*>.<*>:<*> is added to blk_<*>  _/|\\_ BLOCK* NameSystem.<*>: blk_<*> is added to <*> .<*>.<*>.<*>:<*>
+P2,<*> blk_<*> java.io.IOException: Connection reset by peer _/|\\_ <*>.<*>.<*>.<*>:<*>:<*> blk_<*> .<*>.<*>.<*>:<*> java.io.IOException: Connection reset by peer
+P3,Received block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*> of size <*>
+P4,PacketResponder blk_<*> Exception java.<*>.<*> _/|\\_ PacketResponder blk_<*> Exception java.<*>.<*>.<*>
+P5,Receiving block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*>
+P6,Reopen Block blk_<*>
+P7,<*> blk_<*> java.<*>.<*>: <*> while waiting for <*> channel java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]. <*> millis timeout <*>. _/|\\_ <*> for <*> blk_<*> java.<*>.<*>: <*> while waiting for <*> channel java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]. <*> millis timeout <*>. _/|\\_ <*> blk_<*> java.<*>.<*>: <*> millis timeout while waiting for channel <*> for <*>. <*> : java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>] _/|\\_ <*> for <*> blk_<*> java.<*>.<*>: <*> millis timeout while waiting for channel <*> for <*>. <*> : java.nio.channels.SocketChannel[connected local=/<*>.<*>.<*>.<*>:<*> remote=/<*>.<*>.<*>.<*>:<*>]
+P8,Verification succeeded for blk_<*>
+P9,BLOCK* Removing block blk_<*> from neededReplications as it does not belong to any file.
+P10,PacketResponder <*> for block blk_<*> terminating
+P11,BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>_<*>. blk_<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/<*>/<*>_<*>_<*>/<*>.<*>. blk_<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/_<*>_<*>_<*>_<*>_<*>_<*>/<*>. blk_<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>.<*>. blk_<*>
+P12,Adding an already existing block blk_<*>
+P13,writeBlock blk_<*> received exception java.io.IOException: Interrupted receiveBlock
+P14,Received block blk_<*> of size <*> from /<*>.<*>.<*>.<*>
+P15,<*>.<*>.<*>.<*>:<*>:Got exception while serving blk_<*> to /<*>.<*>.<*>.<*>:
+P16,Unexpected error trying to delete block blk_<*>. BlockInfo not found in volumeMap.
+P17,Changing block file offset of block blk_<*> from <*> to <*> meta file offset to <*>
+P18,writeBlock blk_<*> received exception java.io.EOFException
+P19,<*>.<*>.<*>.<*>:<*> Served block blk_<*> to /<*>.<*>.<*>.<*>
+P20,PendingReplicationMonitor timed out block blk_<*>
+P21,PacketResponder blk_<*> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <*> millis timeout left.
+P22,<*>.<*>.<*>.<*>:<*>:Exception writing block blk_<*> to mirror <*>.<*>.<*>.<*>:<*>
+P23,PacketResponder blk_<*> Exception java.io.IOException: The stream is closed
+P24,<*> blk_<*> java.io.IOException: Broken pipe
+P25,Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/blk_<*> _/|\\_ Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/<*>/blk_<*>
+P26,Exception in receiveBlock for block blk_<*> java.io.EOFException
+P27,<*>.<*>.<*>.<*>:<*>:Transmitted block blk_<*> to /<*>.<*>.<*>.<*>:<*>
+P28,"<*>.<*>.<*>.<*>:<*> Starting thread to transfer block blk_<*> to <*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>"
+P29,BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for blk_<*> on <*>.<*>.<*>.<*>:<*> size <*> But it does not belong to any file.
+P30,writeBlock blk_<*> received exception java.io.IOException: Could not read from stream
+P31,writeBlock blk_<*> received exception java.net.NoRouteToHostException: No route to host
+P32,"writeBlock blk_<*> received exception java.io.IOException: Block blk_<*> is valid, and cannot be written to."
+P33,Receiving empty packet for block blk_<*>

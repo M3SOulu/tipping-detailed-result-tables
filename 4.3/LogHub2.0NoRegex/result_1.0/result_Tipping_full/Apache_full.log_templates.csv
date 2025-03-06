@@ -1,0 +1,17 @@
+EventID,EventTemplate
+P0,"Graceful restart requested, doing restart"
+P1,<*> child <*>  _/|\\_ child <*> 
+P2,mod_security/<*>.<*> configured
+P3,workerEnv.init() ok /etc/httpd/conf/<*>.properties
+P4,mod_python: Creating <*> session mutexes based on <*> max processes and <*> max threads.
+P5,suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+P6,[client <*>.<*>.<*>.<*>] <*> ... _/|\\_ [client <*>.<*>.<*>.<*>] <*>  _/|\\_ [client <*>.<*>.<*>.<*>] <*> .<*> _/|\\_ [client <*>.<*>.<*>.<*>] <*> ..<*>.. _/|\\_ [client <*>.<*>.<*>.<*>] <*> . <*> [<*> .<*>.<*>.<*>] [<*> .<*>] _/|\\_ [client <*>.<*>.<*>.<*>] <*> . _/|\\_ [client <*>.<*>.<*>.<*>] client <*> .<*> .<*> 
+P7,uriMap.mapUri() uri must start with /
+P8,Apache/<*>.<*>.<*> (Fedora) configured -- resuming normal operations
+P9,LDAP: <*>  _/|\\_ LDAP: <*> LDAP <*>
+P10,"env.<*>(): Factory error creating <*>: ( <*>, ) _/|\\_ env.<*>(): Factory error creating <*>.<*>:<*> ( <*>.<*>, <*>)"
+P11,config.update(): Can't create <*>.<*>:<*> _/|\\_ config.update(): Can't create <*>:
+P12,mod_<*> Shutting down
+P13,<*>_init() Can't find child <*> in scoreboard
+P14,<*>_init() Found child <*> in scoreboard slot <*>
+P15,Digest: <*>  _/|\\_ Digest: <*>

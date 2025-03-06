@@ -1,0 +1,15 @@
+EventID,EventTemplate
+P0,Received block blk_<*> of size <*> from /<*>.<*>.<*>.<*>
+P1,BLOCK* ask <*>.<*>.<*>.<*>:<*> to replicate blk_-<*> to datanode(s) <*>.<*>.<*>.<*>:<*>
+P2,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*>.<*>.<*>.<*>:<*> is added to blk_<*> size <*>
+P3,<*>.<*>.<*>.<*>:<*> Starting thread to transfer block blk_<*> to <*>.<*>.<*>.<*>:<*>
+P4,Verification succeeded for blk_<*>
+P5,PacketResponder <*> for block blk_<*> terminating
+P6,<*>.<*>.<*>.<*>:<*>:Got exception while serving blk_<*> to /<*>.<*>.<*>.<*>:
+P7,Receiving block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*>
+P8,BLOCK* NameSystem.allocateBlock: /user/root/<*>/_temporary/_task_<*>_<*>_<*>_<*>_<*>/part-<*>. blk_-<*> _/|\\_ BLOCK* NameSystem.allocateBlock: /user/root/<*>/_temporary/_task_<*>_<*>_<*>_<*>_<*>/part-<*>. blk_<*>
+P9,Received block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*> of size <*>
+P10,BLOCK* NameSystem.delete: blk_<*> is added to invalidSet of <*>.<*>.<*>.<*>:<*>
+P11,<*>.<*>.<*>.<*>:<*> Served block blk_<*> to /<*>.<*>.<*>.<*>
+P12,BLOCK* ask <*>.<*>.<*>.<*>:<*> to delete blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> _/|\\_ BLOCK* ask <*>.<*>.<*>.<*>:<*> to delete blk_<*> _/|\\_ BLOCK* ask <*>.<*>.<*>.<*>:<*> to delete blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*>
+P13,Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/<*>/blk_<*> _/|\\_ Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/blk_<*>

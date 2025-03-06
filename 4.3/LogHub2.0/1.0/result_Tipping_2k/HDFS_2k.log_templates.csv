@@ -1,0 +1,10 @@
+EventID,EventTemplate
+P0,Receiving block <*> src: /<*> dest: /<*>
+P1,Deleting block <*> file /mnt/hadoop/dfs/data/current/<*>/<*> _/|\\_ Deleting block <*> file /mnt/hadoop/dfs/data/current/<*>
+P2,Verification succeeded for <*>
+P3,PacketResponder <*> for block <*> terminating
+P4,BLOCK* <*> 
+P5,<*> Served block <*> to /<*>
+P6,Received block <*> /<*> /<*> of size <*> _/|\\_ Received block <*> of size <*> /<*>
+P7,<*>:Got exception while serving <*> to /<*>:
+P8,<*> Starting thread to transfer block <*> to <*>

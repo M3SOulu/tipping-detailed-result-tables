@@ -1,0 +1,291 @@
+EventId,EventTemplate,Occurrences
+2382f8e5,<*> <*> from <*>,1582
+f26cc3a5,<*> <*> <*> at <*> <*>,978
+113778c9,MapTask metrics system <*>,1140
+52e90d94,<*> with <*>,978
+590b472d,"Kind: mapreduce.job, Service: <*> Ident: <*>",909
+ff9aa15b,<*> for <*> <*> <*> <*> <*> <*> <*>,909
+b1f2f8dd,<*> for <*> <*>,907
+897cf68e,<*> is <*> <*> <*> <*>,907
+db22bf97,<*> <*> <*> <*> <*> on <*>,905
+45cf30d5,<*> <*> : <*>,905
+0e335ddd,Processing <*> <*>,834
+944c1a5e,(EQUATOR) <*> kvi <*>,5542
+e965794e,mapreduce.task.io.sort.mb: 100,834
+fe26a515,<*> limit at <*>,834
+3fe5b2dd,<*> = <*> <*> = <*>,1668
+0682d948,<*> <*> <*> <*> = <*>,834
+f1ce55ca,<*> <*> output,5339
+b0cf4386,<*> = <*> <*> = <*> <*> = <*>,824
+aeb2b6cd,kvstart = <*> kvend = <*> length = <*>,5339
+86d61ece,Finished spill <*>,5204
+87c46fbd,(RESET) equator <*> kv <*> kvi <*>,4579
+173cf8fd,bufstart = <*> bufend = <*> bufvoid = 104857600,4012
+440b4fdb,<*> <*> <*> <*> block <*>,16
+fe74f67d,Failed to <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,5
+f2611de4,<*> <*> to <*> for <*>,6
+71660135,<*> <*> of <*> output,644
+6f3b0511,Merging <*> sorted segments,678
+d6fd597a,<*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,678
+cd9f1d56,<*> <*> <*> <*> is <*> <*> <*> <*> <*>,625
+66584ae7,Task <*> done.,616
+dbcfbabb,Failed to <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+971e8270,bufstart = <*> bufend = <*> bufvoid = <*>,503
+f53482c6,<*> metrics system started,140
+50f616d6,Using <*> <*>,71
+9e46739b,"MergerManager: <*> <*> <*> ioSortFactor=10, memToMemMergeOutputsThreshold=10",71
+514782d7,<*> <*> <*> <*> for <*> <*> <*> <*>,118
+dddba50f,<*> Got 3 new map-outputs,8
+86b034c6,<*> <*> with 1 to <*>,387
+3f0d7a62,<*> <*> with <*> to <*>,85
+6eb4bd6c,<*> <*> of <*> to <*> <*> <*>,89
+49385b2a,<*> <*> of 1 to <*> <*> <*>,383
+54a455de,for <*> sent hash and received reply,469
+4d3df53c,<*> <*> to <*> <*> <*> <*> <*> <*> <*> <*>,667
+ed7048fb,<*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,664
+bb63b895,<*> <*> 1 <*> <*>,336
+de815ed3,<*> <*> output <*> <*> <*> <*>,66
+98450438,<*> <*> for <*> <*>,75
+50df88ba,Kind: <*> Service: <*> Ident: <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,69
+96b20d32,OutputCommitter <*> <*> <*> <*>,69
+f42cee39,<*> is <*>,207
+3cf49fdb,<*> <*> <*> for <*> <*>,636
+1f74103f,<*> <*> system <*>,226
+b210ea30,<*> <*> <*> <*> to <*> <*> <*> <*> <*> <*>,69
+e81fe905,<*> <*> <*> <*> <*> to <*>,118
+8cc7fc1e,<*> <*> <*> <*> not <*> <*> <*> <*> <*> <*> <*>,69
+6f8f6200,<*> <*> for <*> <*> <*> <*> <*> of <*> <*> <*>,69
+45b1b187,<*> of <*> <*> <*> <*> <*> <*>,69
+f22cc44e,MRAppMaster <*> <*> <*> <*> <*> <*>,69
+673d05bb,Using <*> <*> <*>,138
+69c4d5d5,<*> <*> <*> <*> for <*> <*>,332
+9d76e333,<*> <*> <*> to <*> <*>,69
+00c4d4cc,IPC Server <*> <*>,138
+5a8fa0df,IPC Server <*> on <*> <*>,138
+fe593980,<*> <*> at <*>,69
+27dfc2e4,<*> to <*> <*> <*>,232
+90837476,<*> request <*> <*> <*> <*> <*> <*>,69
+a396e847,Added <*> <*> <*> <*>,69
+db0a8628,<*> <*> <*> <*> to <*> <*>,138
+bd0e9643,adding path spec: <*>,138
+c0d6d178,<*> <*> to <*> <*>,210
+0915c869,jetty-6.1.26,69
+de4ecee6,<*> <*> to <*>,3460
+4cbca7f1,Started <*>,69
+e18f8ba7,<*> <*> <*> started <*> <*>,69
+6ff7af5b,Registered webapp guice modules,69
+c097e467,JOB_CREATE <*>,69
+d44aee14,nodeBlacklistingEnabled:true,69
+28ce7f24,"maxContainerCapability: <memory:8192, vCores:32>",69
+65343dac,queue: default,69
+41bab670,<*> limit <*> <*> <*> <*> <*> <*> <*>,69
+2fbe41c9,<*> <*> 0,69
+36d42ef3,<*> <*> Transitioned from <*> to <*>,2074
+66117c35,<*> TaskAttempt Transitioned from <*> to <*>,4843
+ec4bec9b,"mapResourceRequest:<memory:1024, vCores:1>",65
+c38c4ca0,<*> <*> <*> for <*> <*> <*> <*>,69
+9270f1c6,<*> Scheduling: <*> <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,89
+dee77330,<*> for <*> <*> <*> <*> <*> <*> <*> <*> <*>,899
+a0adc9e1,"Recalculating schedule, <*> <*>",944
+f23d2b16,<*> <*> <*> <*> <*> <*> <*> 1,3841
+f34b603d,Got allocated containers <*>,100
+9587ab30,Assigned container <*> to <*>,906
+1ff279c4,After Scheduling: <*> <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,233
+f74a98e5,The <*> file on the remote FS is <*>,138
+c30d156d,Adding <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,69
+e7cf15e4,<*> of <*> <*> <*>,116
+8f3747dd,<*> <*> token <*> <*>,69
+dda47f7d,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container <*> taskAttempt <*>,906
+1424712e,Launching <*>,906
+e073ab3b,Opening proxy : <*>,1757
+351812d3,<*> <*> <*> <*> <*> for <*> <*> <*>,906
+a47d5c09,<*> <*> <*> <*> <*> on <*> <*>,422
+16083636,ATTEMPT_START <*>,905
+af6c6ba2,Auth successful for <*> (auth:SIMPLE),962
+829dd57b,<*> <*> <*> <*> <*> <*> for <*> <*>,902
+4e31a08f,<*> with <*> <*> <*> <*> <*>,902
+c4155579,<*> <*> <*> 1,506
+f08135c1,Progress of TaskAttempt <*> is : <*>,45882
+a2a7f203,Exception <*> <*>,33
+ed74023b,Abandoning <*>,30
+fa504d08,Excluding datanode <*>:50010,30
+1bcf3a54,TaskAttempt: <*> using containerId: <*> on NM: <*>,611
+20ea7162,After Scheduling: <*> ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,45
+a6d04ef6,Processing the event EventType: <*> for container <*> taskAttempt <*>,838
+26b518ac,KILLING <*>,851
+ec0260e3,Task succeeded with attempt <*>,701
+324cf786,<*> completed <*> 1,65
+74c939e4,<*> Scheduling: <*> ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,31
+546f6273,Reduce slow start threshold <*> <*> <*>,65
+851c4b85,All maps assigned. Ramping up all remaining reduces:1,43
+10f022b8,After Scheduling: PendingReds:0 ScheduledMaps:0 <*> <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,66
+1327e9b9,Received completed container <*>,826
+cfc4aa50,<*> <*> from <*> <*> <*> <*> <*> <*>,733
+933e1e9a,<*> to <*>,73
+f0b807a7,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,505
+e3f5fcf9,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>,255
+f1987288,<*> <*> 1 <*> <*> <*> <*>,255
+b9c8eb20,<*> Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,156
+caec9b39,<*> completed <*> <*>,636
+ebbc363e,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,155
+29cf3e4c,MapCompletionEvents request from <*> startIndex <*> maxEvents 10000,18140
+fc81a061,<*> Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,93
+feb449c0,<*> <*> <*> <*> is <*> <*> <*> <*>,55
+54acc6e2,<*> <*> from <*> <*> <*> <*> <*> <*> <*>,62
+592c9f37,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,7
+f8099634,Could not delete <*>,216
+c19ebbb2,<*> Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,6
+75765622,"completedMapPercent <*> <*> <*> <*> <*> <*> <*> <*> <*> netScheduledReduceResource:<memory:0, vCores:0>",356
+93edebcd,<*> <*> 1,31
+62c5aee9,After Scheduling: PendingReds:0 <*> <*> <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,66
+b5e9609f,<*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,217
+551c2520,After Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,78
+3de8fd5d,<*> <*> to <*> <*> <*>,182
+f5043bd5,Before Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,4
+64f4093a,<*> <*> <*> from <*>,94
+3951cff6,<*> <*> for <*>,47
+3d33f34c,<*> <*> <*> <*> <*> <*> is the <*> retry,50
+dc762e6d,Notify <*> isAMLastRetry: true,100
+0b49fdc8,<*> notified that <*> <*> true,50
+5cc035b6,<*> <*> <*> <*> is <*>,52
+d0f76237,<*> <*> for <*> <*> <*>,52
+e241ad93,Stopping <*> <*> <*> <*> <*> <*> <*> <*> <*>,52
+24da2c4f,<*> <*> <*> to,48
+0b2578ec,<*> <*> is <*>,48
+3a1eed13,<*> for <*> <*> <*> <*> <*>,45
+6f0d0834,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,10
+575b5470,Deleting staging directory hdfs://msra-sa-41:9000 <*>,45
+74ec34da,Stopping <*> <*> <*>,398
+0a15e2fe,Stopping <*> <*> <*> <*> <*>,48
+576c0cee,TaskHeartbeatHandler thread interrupted,48
+653d9acb,<*> Got 7 new map-outputs,4
+3d62467d,<*> <*> <*> from <*> <*> <*>,649
+8ebd2f16,<*> freed by <*> in <*>,455
+b57c9712,<*> is <*> <*>,54
+e34b9589,<*> <*> with <*> <*> <*> <*> <*> <*> <*>,58
+80a6217c,Merging <*> <*> <*> <*> <*> <*>,56
+689e6375,Merging 0 <*> <*> <*> <*> <*> <*> <*>,56
+580c7dd8,Merging <*> <*> segments <*> of <*> <*> of <*>,7
+d4bbafca,"<*> is deprecated. Instead, use <*>",56
+82e656d1,Task <*> is <*> to <*> <*>,48
+333e6c79,<*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*>,15
+6151a386,<*> <*> file is at <*>,19
+53c76894,Read <*> <*> <*> <*>,96
+ecf991a5,<*> <*> <*> from <*> <*>,11
+185e2ff6,<*> <*> <*> from <*> <*> <*> <*> <*> <*>,96
+33ee5cd5,<*> Got <*> new map-outputs,16
+43f69ced,MapTask metrics system <*> <*>,302
+cfec8ee9,<*> <*> <*> <*> on <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,44
+1c43f39d,<*> <*> to <*> <*> <*> <*> <*> <*> <*>,2517
+b0df5621,"Releasing unassigned and invalid container Container: [ContainerId: <*> NodeId: <*> NodeHttpAddress: <*> Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: <*> }, ]. RM may have assignment issues",7
+48859b9f,<*> Scheduling: <*> <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> <*> <*> <*>,36
+e5720760,<*> <*> event for <*> <*> <*> <*>,19
+bf450305,<*> <*> container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,12
+7a61ef30,"Recalculating schedule, headroom=<memory:0, <*>",3416
+35132b89,After Scheduling: PendingReds:0 ScheduledMaps:0 <*> <*> <*> <*> CompletedReds:0 <*> <*> <*> <*>,12
+ea022679,<*> Scheduling: PendingReds:0 <*> <*> <*> <*> <*> CompletedReds:0 <*> <*> <*> <*>,14
+f9195abd,After Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> <*> <*> <*>,19
+6ad3d212,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> <*> <*> <*>,148
+c7fcdf6d,<*> Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> <*> <*> <*>,48
+cb98707a,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> <*> <*> <*>,59
+18c7a104,<*> Got 2 new map-outputs,34
+60d7474f,Exception in <*> <*>,3
+d30986ee,<*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1048
+2809f631,"completedMapPercent <*> <*> vCores:-26> <*> <*> <*> <*> <*> <*> netScheduledReduceResource:<memory:0, vCores:0>",1
+d1c22a8c,<*> <*> <*> vCores:-27> <*> <*> <*> <*> <*> <*> <*> <*>,19
+4c1b2d21,Address change detected. Old: <*> New: <*>,5795
+fdb6033d,Failed to renew lease for <*> for <*> seconds. Will retry shortly ...,5300
+ddb565f2,ERROR IN CONTACTING RM.,480
+d23c63a4,<*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+5d8e22da,<*> <*> <*> <*> <*> on <*> <*> <*> <*>,25
+3d4fda6e,<*> Scheduling: PendingReds:0 <*> <*> <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,58
+01ee7fdd,<*> Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> <*> <*> ContRel:0 <*> <*>,15
+6197ae83,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> <*> <*> ContRel:0 <*> <*>,17
+ea5dbe9b,Stopping <*> metrics system...,15
+7974bdfd,<*> metrics system <*>,15
+bbb3c437,<*> metrics system <*> <*>,15
+750133c7,"Recalculating schedule, <*> vCores:-27>",55
+73846dc8,<*> <*> for <*> <*> in <*> <*> <*> <*> <*> <*>,14
+ad3339e5,Failed to <*> <*> <*> for <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,10
+f1da3cd5,Could not <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,5
+52beb9f8,<*> <*> <*> <*> 1 <*> <*> <*> <*> <*> <*>,6
+9eabb9d9,DFS <*>,3
+c1457054,<*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+b8c904a0,<*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+efed795a,After Scheduling: PendingReds:0 <*> <*> <*> <*> <*> CompletedReds:0 <*> <*> <*> <*>,12
+8314659c,"Slow ReadProcessor read fields took <*> (threshold=30000ms); ack: seqno: -2 status: SUCCESS status: ERROR downstreamAckTimeNanos: 0, targets: [<*>:50010, <*>:50010]",9
+ea7d1d0b,DataStreamer Exception,3
+2d1ca30f,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+a447f639,<*> <*> from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,4
+3abd3332,Task <*> <*> for <*> <*>,2
+b6feef5e,Error <*> <*> <*> <*>,4
+56f689c4,<*> <*> on <*> <*>,10
+f016a94c,<*> <*> to <*> <*> <*> <*>,10
+1a3625be,Could not <*> <*> <*> <*> milliseconds.,3
+49d5ad95,<*> <*> with <*> <*> <*> <*> <*> <*> <*> <*>,3
+bde0677f,"In stop, writing event <*>",6
+c04914c8,<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> was <*>,2
+ab094ccc,<*> <*> from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,12
+592ba574,<*> <*> PendingReds:0 <*> <*> <*> <*> <*> CompletedReds:0 <*> <*> <*> <*>,1
+55562a83,<*> stop <*>,3
+a3f78ada,<*> Got 6 new map-outputs,7
+a1d8b839,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> <*> <*> ContRel:0 <*> <*>,15
+8f930703,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> <*> <*> ContRel:0 <*> <*>,14
+ebd90139,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> <*> <*> ContRel:0 <*> <*>,13
+3b531f1d,<*> Got 5 new map-outputs,5
+eda99207,Ramping <*> <*> <*> <*>,100
+8f9e9d23,<*> to <*> <*> <*> to <*> <*> <*> <*> <*>,100
+00581275,"completedMapPercent <*> totalResourceLimit:<memory:1024, vCores:-26> <*> <*> <*> <*> <*> <*> netScheduledReduceResource:<memory:0, vCores:0>",153
+69b93370,<*> attempt_1445087491445_0004_r_000000_1000,1
+24d005a2,<*> Scheduling: <*> <*> ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,2
+85159c8c,"completedMapPercent <*> totalResourceLimit:<memory:1024, <*> <*> <*> <*> <*> <*> <*> <*> <*>",1
+32650661,Reduce <*> <*> <*>,1
+65d35162,<*> <*> failed <*> <*> <*> <*> <*> <*>,1
+70ef5a1a,Failed to <*> <*> <*> <*> <*> <*> <*>,1
+bbd09f33,Notify <*> isAMLastRetry: <*>,4
+e5e32d35,<*> notified that <*> <*> <*>,2
+c37e35e1,<*> <*> <*> to <*> <*> <*> <*> <*> <*>,2
+d8a8a8a3,<*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,10
+f711b982,<*> Thread <*> <*> <*>,5
+d9b2f658,"Last retry, killing <*>",3
+3729a143,Could not <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+2d5e4d12,<*> <*> from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+fd76b68a,<*> <*> <*> <*> for <*>,1
+2da78072,<*> <*> <*> : <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+1973529e,<*> <*> <*> <*> <*> to <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,2
+226a9021,<*> <*> from <*> <*> <*> <*> <*> <*> <*> <*>,4
+2fe96283,completedMapPercent <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+a724022d,After Scheduling: PendingReds:0 <*> <*> <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,1
+45a1456a,Assigning container <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,8
+cc0218ac,Assigned <*> <*>,8
+42fdcb57,<*> <*> <*> : <*> <*> <*> <*> <*> <*>,2
+db357667,<*> <*> <*> <*> <*> <*> <*> is <*> <*> <*> <*> <*> <*>,6
+91cb04b9,<*> <*> from <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,12
+0f3be967,<*> <*> <*> <*> <*> java.io.IOException: <*> <*>,3
+b08a9bff,<*> <*> from <*> <*> <*> <*> <*>,6
+218c8007,<*> Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> <*> <*> <*>,12
+26cf96a1,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> <*> <*> <*> <*> <*>,6
+487df434,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> <*> <*> <*> <*> <*>,2
+9318410a,<*> to <*> <*> <*> <*> <*> <*>,4
+b7be8cfc,Could not <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,4
+dad7d01b,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> <*> <*> <*>,1
+30f30300,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,9
+3ef098ae,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,2
+f21924fc,<*> Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,2
+a4bbd01e,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> <*> <*> <*> <*> <*>,7
+46e97876,<*> Got 4 new map-outputs,4
+21584824,<*> <*> <*> <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,1
+8874bb21,Before Scheduling: PendingReds:0 ScheduledMaps:0 <*> <*> AssignedReds:0 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,1
+a5423c0b,After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:0 <*> <*> <*> ContRel:0 <*> <*>,2
+3c440087,Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:0 <*> <*> <*> ContRel:0 <*> <*>,2
+0607ccfd,<*> Scheduling: PendingReds:0 ScheduledMaps:0 <*> <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,11
+6583849c,<*> <*> PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> <*> <*> <*> <*> <*> <*> <*>,3
+8fe38f89,<*> <*> <*> attempt_1445144423722_0022_m_000004_0,1
+362382fc,<*> <*> <*> attempt_1445144423722_0022_m_000006_0,1
+dc20e3d2,After Scheduling: PendingReds:0 <*> ScheduledReds:0 <*> <*> <*> CompletedReds:0 <*> ContRel:0 <*> <*>,2
+54586270,IPC Server <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,1
+dba71df6,IPC Server <*> <*> <*> <*> <*> <*> <*>,1
+1304ecab,<*> Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> <*> <*> <*> <*> <*>,1
+aa0bfdf9,<*> Scheduling: <*> ScheduledMaps:0 ScheduledReds:0 <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,1
+527589a1,After Scheduling: PendingReds:0 ScheduledMaps:0 <*> <*> AssignedReds:1 <*> CompletedReds:0 <*> ContRel:0 <*> <*>,1
+a2da8cfa,<*> <*> : <*> <*> on <*> <*> <*>,2

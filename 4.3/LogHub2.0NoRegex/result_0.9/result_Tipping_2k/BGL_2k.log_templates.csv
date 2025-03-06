@@ -1,0 +1,94 @@
+EventID,EventTemplate
+P0,ciod: <*> to <*> message prefix on <*> CioStream socket to <*>.<*>.<*>.<*>:<*> _/|\\_ ciod: <*> message prefix on CioStream socket to <*>.<*>.<*>.<*>:<*> 
+P1,<*> floating point alignment exceptions
+P2,fraction rounded.........................<*>
+P3,rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-
+P4,"PrepareForService shutting down <*>(mLctn(<*>-<*>-<*>), mCardSernum(<*>), mLp(FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), mIp(<*>.<*>.<*>.<*>), mType(<*>)) as part of Service Action <*> _/|\\_ PrepareForService shutting down <*> (mLctn(<*>-<*>-<*>), mCardSernum(<*>), mLp(FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>), mIp(<*>.<*>.<*>.<*>), mType(<*>)) as part of Service Action <*>"
+P5,program interrupt: unimplemented operation..<*>
+P6,"CE sym <*>, at <*>, mask <*>"
+P7,"<*> ddr <*>(s) detected and corrected on rank <*>, symbol <*>  _/|\\_ <*> ddr <*>(s) detected and corrected on rank <*>, symbol <*>, <*> "
+P8,"ciod: Error loading /g/<*>/buber/Yunsic/BlueGene/partad.develf/taddriver.<*>.exe: program image too big, <*> > <*>"
+P9,debug <*> enable.................<*> _/|\\_ debug <*> enable............<*>
+P10,program interrupt: privileged instruction...<*>
+P11,data cache search parity error detected. attempting to correct
+P12,store operation.............................<*>
+P13,<*> torus sender z- retransmission error(s) (dcr <*>) detected and corrected over <*> seconds
+P14,ciod: pollControlDescriptors: Detected the debugger died.
+P15,<*>=<*> dbsr=<*> =<*>
+P16,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"
+P17,data store interrupt caused by icbi.........<*>
+P18,"idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)"
+P19,ciod: Error creating node map from file /home/<*>/<*>-<*>.<*>/results/<*>-<*>.map: Permission denied
+P20,"ciod: Error loading /home/greeno/raptor.new.dev.<*>.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory"
+P21,floating pt ex mode <*> enable......<*>
+P22,iar <*> dear <*>
+P23,ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file /p/<*>/<*>/contention-<*>-torus/xyzt-<*>.map
+P24,"problem state (<*>=sup,<*>=usr).......<*>"
+P25,special purpose registers:
+P26,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"
+P27,auxiliary processor.........................<*>
+P28,ciod: Error creating node map from file /p/<*>/cabot/miranda/newmaps/<*>_<*>_<*>.map: No child processes
+P29,"ciod: Error loading <*>: invalid or missing program image, <*> or <*> _/|\\_ ciod: Error loading <*>: invalid or missing program image, <*> "
+P30,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>)
+P31,generating core.<*>
+P32,program interrupt: illegal instruction......<*>
+P33,program interrupt: trap instruction.........<*>
+P34,rts: kernel terminated for reason <*>: <*> : <*>  _/|\\_ rts: kernel terminated for reason <*>
+P35,data storage interrupt
+P36,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected <*>  _/|\\_ <*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected
+P37,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>
+P38,ciod: LOGIN chdir(<*>) failed: <*> 
+P39,data address<*>  _/|\\_ data address <*>
+P40,rts internal error
+P41,instruction address<*>  _/|\\_ instruction address <*>
+P42,ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/mapfiles/bgl.<*>.<*>.map
+P43,"NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)"
+P44,minus normalized number..................<*>
+P45,ciod: Error creating node map from file /p/<*>/<*>/<*>_<*>_<*>.map: Bad file descriptor
+P46,program interrupt: fp cr <*> .............<*> _/|\\_ program interrupt: fp cr <*>.............<*>
+P47,exception syndrome register: <*>
+P48,disable store gathering..................<*>
+P49,Machine State Register: <*>
+P50,<*> double-hummer alignment exceptions
+P51,New ido chip inserted into the database: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> ip=<*>.<*>.<*>.<*> v=<*> t=<*>
+P52,machine check enable..............<*>
+P53,suppressing further interrupts of same type _/|\\_ <*> suppressing further interrupts of same type
+P54,size of scratchpad portion of <*>.........<*> (<*>)
+P55,<*> is not fully functional
+P56,wait state enable.................<*>
+P57,data TLB error interrupt
+P58,<*> error(s) (<*> ) detected and corrected <*>  _/|\\_ <*> error(s) detected and corrected <*>  _/|\\_ <*> error(s) detected and corrected _/|\\_ <*> error(s) (<*> ) detected and corrected
+P59,force load/store alignment...............<*>
+P60,guaranteed <*> cache block touch........<*> _/|\\_ guaranteed <*> cache block touch.<*>
+P61,program interrupt
+P62,ciod: generated <*> core files for program <*>
+P63,icache prefetch <*>................<*> _/|\\_ icache prefetch <*>....................<*>
+P64,<*>=<*> ffffffff ffffffff ffffffff
+P65,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.
+P66,data store interrupt caused by dcbf.........<*>
+P67,critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire
+P68,instruction cache parity error corrected
+P69,core configuration register: <*>
+P70,ciod: Error reading message prefix on CioStream socket to <*>.<*>.<*>.<*>:<*> Link has been severed _/|\\_ ciod: Error reading message prefix <*> on CioStream socket to <*>.<*>.<*>.<*>:<*>: Link has been severed
+P71,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>"
+P72,Node card status: <*> is <*>are<*> active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error <*> is clear. MPGOOD is OK. MPGOOD error <*> is clear. The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK. _/|\\_ Node card status: <*> are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD <*> . PGOOD <*> . MPGOOD <*> OK. MPGOOD <*> . The <*>.<*> volt rail is OK. The <*>.<*> volt rail is OK.
+P73,byte ordering exception.....................<*>
+P74,"<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."
+P75,shutdown complete
+P76,ciod: Missing or invalid fields on line <*> of node map file /home/auselton/bgl/<*>.sequential.mapfile
+P77,Lustre mount FAILED : <*> : <*> : <*> _/|\\_ Lustre mount FAILED : <*> : <*> 
+P78,machine <*>: <*> _/|\\_ machine <*> : <*>
+P79,rts panic! - stopping execution
+P80,ciod: Error creating node map from file /p/<*>/<*>/<*>-<*>-<*>-<*>-<*>-xyzt/xyzt.map: Block device required
+P81,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file /p/<*>/<*>/<*>-<*>-<*>-<*>-<*>-sweep/sweep.map
+P82,ciod: Message code <*> is not <*> or <*>
+P83,floating point instr. enabled.....<*>
+P84,Can not get assembly information for node card
+P85,"ciod: In packet from node <*>.<*> (<*>-<*>-Nf-C:<*>-<*>), message code <*> is not <*> or <*> (softheader=<*> )"
+P86,critical input interrupt enable...<*>
+P87,<*> expecting type <*> instead of type <*> (softheader=<*> ) <*>=<*> =<*> PRXF=<*> PIXF=<*>
+P88,program interrupt: imprecise exception......<*>
+P89,Ido chip status changed: FF:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*>:<*> ip=<*>.<*>.<*>.<*> v=<*> t=<*> status=M <*> :<*>:<*> PDT <*>
+P90,
+P91,lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000
+P92,r24=0x0ffea4c8 r25=0x00000003 r26=0x0000000f r27=0xffffd000

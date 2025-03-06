@@ -1,0 +1,9 @@
+EventId,EventTemplate,Occurrences
+d06c87de,"close, 0 bytes sent, 0 bytes received, lifetime",2028
+dba6c697,"close, bytes ( ) sent, bytes ( ) received, lifetime",6328
+880eb04b,open through proxy HTTPS,10219
+d2629307,"close, bytes sent, bytes received, lifetime",1854
+e37f2f2d,open through proxy SOCKS5,8
+a9758ecf,error : A connection request was canceled before the completion.,305
+1fb6198c,error : Could not connect proxy - connection with,576
+0848960f,"close, 656 bytes sent, 579 bytes received, lifetime",2

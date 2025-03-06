@@ -1,0 +1,161 @@
+EventId,EventTemplate,Occurrences
+5ffdb184,policy /system/emui/base /system/emui/china /vendor/etc /odm/etc /product/etc /hw_odm /hw_oem /data/cust /version/region_comm/china /cust_spec,5
+e1fe025b,checkFirstSyncByType no such data in db type is 1 deviceCode is 0,705
+1255ec19,startSync hiSyncOption HiSyncOption{syncAction <*> syncMethod 2 syncScope 0 syncDataType 20000 syncModel 2 pushAction 0} app 1 who 1,792
+808ef0ec,aggregateHiHealthData aggregateOption is HiAggregateOption{startTime 1512298379505 endTime 1514890379505 type [2008 2009 2010 2011 2012 2013 2014 2015] alignType 0 aggregateType 1 groupUnitType 0},1
+be06f144,aggregateHiHealthData aggregateOption is HiAggregateOption{startTime -28800000 endTime 1514908799999 type [44102 44103 44101 44104 44107 44203 44208 44106 44105 44001 44002 44003 44005] alignType 0 aggregateType 1 groupUnitType 3},3
+8764d489,sendSyncFailedBroadcast,792
+e788f919,initEnviroument,11
+3244bf49,getStepCounterStatus,16
+86bcfaea,reStartStepCounter,11
+3616b800,clear(),11
+8e523808,closeNotification...,15
+c5a628cf,deleteHealthNotification(),15
+876820fd,getVersion,5
+6e29dbb9,getStepsTarget,5
+7ee6011c,FAILED_ERROR_DATA,10
+53ff7617,getDiffTotalCalories,5
+16d1d82a,registerDynamicBroadcastReceiver,20
+91c1a59c,readXmlIfSupportEX,9
+f491d814,getStepsNotificationShowStatus,5
+950911f0,getGoalNotificationShowStatus,5
+42fd1467,getWriteDBLastDataMinute,5
+133bfbb1,getARDebugConfig,5
+a032e834,onCreate(),5
+d53f3580,moveOldData(),5
+99a51c1a,startNotification...,4
+f829716b,createHealthNotification(),4
+e8928580,upDateHealthNotification()|214|7.14|10000,1
+557e9489,upDateHealthNotification()|276|7.22|10109,1
+d281e7a7,upDateHealthNotification()|256|7.18|10057,1
+e377feb2,upDateHealthNotification()|318|7.14|10001,1
+18baacc9,fetchPhoneDataClient,1
+279b652e,onReceive action <*>,3239
+a7ead6d1,processHandleBroadcastAction action <*>,8602
+b8f897f8,flush sensor data,1617
+567a996e,calculateCaloriesWithCache totalCalories <*>,27426
+660481b7,calculateAltitudeWithCache totalAltitude <*>,27426
+ff274ca0,flushTempCacheToDB by <*>,437
+3b251b90,writeDataToDB size <*>,437
+abda682b,getBinderPackageName packageName com.huawei.health,3156
+e08168d7,startListenerChange subscribeList [1],744
+cf14b43e,getTodaySportData mStepsRecordManager <*>,206
+7c2ad266,next day <*>,11
+a3f3944c,setGoalNotifiShownRecord <*> <*>,15
+75638e92,FAILED_SCREEN_OFF block report,185
+3f02e486,getDeviceShutDownBoolean shutDown false,5
+667e24a5,getDeviceShutDownTime shutDownTime 0,5
+e07dafec,userInfo changed detail,5
+d7c4950f,readXmlIfSupportEX result true,9
+e0bd7153,initStepCounter deviceType 1,5
+363e8ab0,getMidWareStepCountService isSystemApp true,15
+d790e70a,target init target10000,5
+d5644a0e,MyServiceConn connect 1.0.0.0,5
+fa3d920f,startStepCounterInter mStandStepCounter <*>,5
+df616562,getMidWareCache <*> <*>,10
+cb257c59,initDiffCaloriesfromFile mCaloriesDiff 38.0,1
+6616738f,setFirstStartDaemonFromUI success true,1
+21b9b94a,getUserPreference key <*>,9
+a92b3128,insertHiHealthData() end totalTime <*>,744
+48a170b5,uploadStaticsToDB failed message true,212
+75adfc66,<*> <*> is <*>,860
+e1b689f5,timeStamp back extendReportTimeStamp <*>,651
+0e544c2a,reload <*> restar <*>,16
+d39b9104,supportPrivateStandStepcounter true supportStandStepCounter true,9
+0905fa41,the first init <*>,5
+fe37d0d1,MyGetDetailDataCallback onResult bundle null,5
+d6c07d42,registerLogCallback <*> cb <*>,5
+2840d576,REPORT <*> <*> <*> <*>,23539
+d8b19cfd,insertHiHealthData() checkAppType 0 appID 1,744
+90ca6463,bulkSaveDetailHiHealthData() size <*> totalTime <*>,744
+38085a58,initDataPrivacy the dataPrivacy is true,792
+1d4b8a6f,initUserPrivacy the userPrivacy is true,792
+3f9b4da2,ifCanSync not! no cloud version,792
+8bb4a781,saveRealTimeHealthDatasStat() size 1 totalTime <*>,437
+aa59e7bc,setBasicStandardSteps basicStandardStep <*> restartSteps <*>,16
+600600fc,setDeviceShutDownValue shutDownTime 0 isShutDown false,10
+8820e589,getMidWareStepCountService pkgName com.huawei.systemserver service com.huawei.systemserver.ihealth.connectivity.HwStepCounterService,15
+40fe0956,start compare with midware counter,5
+c3ea28d6,initSyncModel current SyncModel is 2,5
+1f7e20b8,initBinder() app 1 packageName com.huawei.health,10
+c3ee3081,initDiffAltitude from File mAltitudeDiff 0.0,1
+9543b6af,initTrackDistancefromFile from File mTrackDistance 0.0,1
+399bd526,subscribeHiHealthData() checkAppType 0 appID 1,3
+a4eb353b,aggregateHiHealthDataEx() checkAppType 0 appID 1,21
+ec448c64,aggregateHiHealthData() time <*> totalTime <*>,21
+cb1bca0a,screen status unknown think screen on,42
+a5c92d1b,<*> <*> type <*> <*> true,744
+c0df8ce6,checkInsertStatus <*> or <*> is enough,1390
+048961b7,InsertEvent success begin <*> end <*>,436
+f6840ac8,getTodayNoSyncTotalValue datas is null or empty,11
+f64fd04a,support extand step counter! return true,9
+bfe38e3f,onStartCommand Intent { cmp com.huawei.health/.manager.DaemonService },5
+fac715de,readHiHealthData() end time <*> totalTime <*>,27
+a25a4af8,Alarm uploadStaticsToDB totalSteps <*> <*> <*> <*>,307
+f2eb3681,upLoadOneMinuteDataToEngine time <*> 0 <*> <*> <*>,1920
+893a4f3f,getAppContext() isAppValid health or wear packageName com.huawei.health,744
+432654b8,insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode 4 errorMessage ERR_DATA_INSERT,212
+adfc3754,stepSyncOrNot appSynTimes is 0 statsyncTimes is 0,705
+7181eb84,startInsertSportSync start auto sync app is 1,705
+7547c9f7,getIntercepterDistance from Prefence success and intercepterDistanceStr 1513941509364##0.0,5
+5240a25e,checkSportDataNum setp and calories is too less,39
+59e2e065,insert conflict event timeBegin 25247769 timeEnd 25247776,1
+77fb271c,new date <*> type <*> <*> old <*>,7237
+7979a2cf,startInsertSportSync first 500 steps sync do all sync,705
+8f1db151,onBind intent Intent { act com.huawei.hihealthservice.HiHealthService pkg com.huawei.health },5
+7ca41d64,<*> checkAppType 0 appID 1 id 1 time <*>,48
+6d983dd1,saveStatData() type <*> time <*> statClient 2 who is 1,1172
+2f6d5f1d,<*> the <*> switch is open start push <*> data!,1584
+6f12eeea,onStartCommand Intent { pkg com.huawei.health cmp com.huawei.health/.manager.DaemonService (has extras) },1
+aac7414a,insertHiHealthData() size <*> app 1 One Data Type <*> packageName com.huawei.health writeStatType 0,744
+c693ef5c,checkCurrentDay a new day comes reset basicSyncCondition currentDay is <*> oldDay is <*>,11
+9de780ec,aggregateHiHealthData aggregateOption is HiAggregateOption{startTime -28800000 endTime 1514908799999 type [2004 2001] alignType 0 aggregateType 3 groupUnitType 3},3
+ef811fc0,readHiHealthData() readOption HiDataReadOption{startTime <*> endTime <*> type [44105 44004] count 7 sortOrder 1 readType 0 alignType 0},4
+93067dc4,onStandStepChanged <*>,30161
+5ffdf11c,getTodayTotalDetailSteps <*>,27447
+f492f53f,setTodayTotalDetailSteps <*>,27431
+03a21551,isScreenOn true,42
+dcafbafc,isScreenOn false,185
+e4428a19,setWriteDBLastDataMinute <*>,436
+057ae03f,theDayChanged <*>,11
+1d366c9a,getStepCounterStatus true,16
+bbf9ad1c,registersensorsuccess true,16
+9f083f99,getTodayBasicStandardSteps <*>,32
+a21db504,getDiffTotalSteps <*>,32
+ce783cea,setDiffTotalSteps 0,11
+8c19074e,getFirstStartDaemonFromUI true,5
+41f03aba,getVersion Athene3,5
+6e90a07f,getServiceRestartRecord <*>,5
+5b9b033d,setServiceRestartRecord <*>,5
+8f65b120,getStepsTarget 10000,5
+5239122e,getLastSyncDBTime -1,5
+a1a299b3,getDiffTotalCalories 1513941509360##38.0,5
+7a581e78,getDiffTotalAltitude 1513941509363##0.0,5
+912001b9,getCfgFile enter...,9
+b428edbe,supportStandStepCounter true,9
+d7a885cd,setDeviceClassType 1,9
+eb3f3828,getStepsNotificationShowStatus false,5
+10159e03,getGoalNotificationShowStatus true,5
+bf08cf0a,setGoalNotificationShowStatus true,5
+51cde964,initExtendStepCounter 101,5
+5062c747,getWriteDBLastDataMinute <*>,5
+bdf829ec,initCacheFromFile enter...,5
+150548fd,context <*>,5
+2edc7f74,initDataManager enter...,5
+b6e97402,SystemClock.elapsedRealtime() <*>,5
+d01d5043,setActionRestartSensorAlarm <*>,5
+550ed2d5,startStepCounter enter...,5
+edb03b32,setStepCounterStatus true,5
+22a06ec6,compareMidWareCacheAndLocalCache enter...,5
+6a318824,startStepCounterInter stand,5
+754c1ca1,registerLogCallback <*>,5
+f13f8e51,rebuild notification,4
+618a8b74,checkLocalDataValue false,18
+6a9f2d80,switchTrackMonitor false,1
+b5d8f32c,saveHealthDetailData() deviceID 2 clientID 1 id 1,744
+d110c607,saveHealthDetailData() saveOneDetailData fail hiHealthData <*> type <*>,288
+abf7ea90,aggregateHiHealthData aggregateOption is HiAggregateOption{startTime <*> endTime <*> type <*> <*> alignType 0 aggregateType 1 groupUnitType 0},2
+c470eac2,readHiHealthData() readOption HiDataReadOption{startTime <*> endTime 1514908799999 type <*> count <*> sortOrder <*> readType 0 alignType 0},23
+0b084363,fetchDataSourceByType type 2 timeInterval HiTimeInterval{startTime 2018-01-02 18 52 59 endTime 2018-01-02 18 <*> <*> timeZone 0},7
+55cac6cb,aggregateHiHealthData aggregateOption is HiAggregateOption{startTime 0 endTime <*> type [42003 42005 42004] alignType 0 aggregateType 1 groupUnitType 7},12
+1a8542c1,getHealthClientListByTime() dataClientIDs is null timeInterval HiTimeInterval{startTime 2018-01-02 18 52 59 endTime 2018-01-02 18 <*> <*> timeZone 0},7

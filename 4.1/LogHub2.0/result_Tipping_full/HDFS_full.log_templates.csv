@@ -1,0 +1,42 @@
+EventID,EventTemplate
+P0,BLOCK* ask <*> to replicate <*> to datanode(s) <*> _/|\\_ BLOCK* ask <*> to replicate <*> to datanode(s) <*> 
+P1,writeBlock <*> received exception java.io.<*> _/|\\_ writeBlock <*> received exception java.io.<*> 
+P2,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+P3,<*> java.io.IOException: Connection reset by peer _/|\\_ <*>:<*> java.io.IOException: Connection reset by peer
+P4,Received block <*> src: /<*> dest: /<*> of size <*>
+P5,"writeBlock <*> received exception java.io.IOException: Block <*> is valid, and cannot be written to."
+P6,PacketResponder <*> Exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for read. ch : java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]
+P7,PacketResponder <*> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <*> millis timeout left.
+P8,Exception in receiveBlock for block <*> java.io.EOFException
+P9,Receiving block <*> src: /<*> dest: /<*>
+P10,BLOCK* Removing block <*> from neededReplications as it does not belong to any file.
+P11,Verification succeeded for <*>
+P12,writeBlock <*> received exception java.io.IOException: Could not read from stream
+P13,Received block <*> of size <*> from /<*>
+P14,BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>.<*>. <*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>_<*>. <*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/_<*>_<*>_<*>_<*>_<*>_<*>/<*>. <*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/<*>/<*>_<*>_<*>/<*>.<*>. <*>
+P15,Adding an already existing block <*>
+P16,PacketResponder <*> for block <*> terminating
+P17,Exception in receiveBlock for block <*> java.io.IOException: Connection reset by peer
+P18,Reopen Block <*>
+P19,<*>:Got exception while serving <*> to /<*>:
+P20,PacketResponder <*> Exception java.<*>.<*> _/|\\_ PacketResponder <*> Exception java.<*>.<*>.<*>
+P21,PacketResponder <*> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]. <*> millis timeout left.
+P22,PendingReplicationMonitor timed out block <*>
+P23,Changing block file offset of block <*> from <*> to <*> meta file offset to <*>
+P24,<*> Served block <*> to /<*>
+P25,writeBlock <*> received exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]. <*> millis timeout left.
+P26,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>
+P27,<*>:Exception writing block <*> to mirror <*>
+P28,PacketResponder <*> Exception java.io.IOException: The stream is closed
+P29,<*> java.io.IOException: Broken pipe
+P30,Deleting block <*> file /mnt/hadoop/dfs/data/current/<*> _/|\\_ Deleting block <*> file /mnt/hadoop/dfs/data/current/<*>/<*>
+P31,writeBlock <*> received exception java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for <*>. ch : java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]
+P32,Exception in receiveBlock for block <*> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]. <*> millis timeout left.
+P33,PacketResponder <*> Exception java.io.IOException: Connection reset by peer
+P34,<*>:Transmitted block <*> to /<*>
+P35,"<*> Starting thread to transfer block <*> to <*>, <*>"
+P36,BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for <*> on <*> size <*> But it does not belong to any file.
+P37,writeBlock <*> received exception java.net.NoRouteToHostException: No route to host
+P38,Unexpected error trying to delete block <*>. BlockInfo not found in volumeMap.
+P39,Receiving empty packet for block <*>
+P40,Exception in receiveBlock for block <*> java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for write. ch : java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]

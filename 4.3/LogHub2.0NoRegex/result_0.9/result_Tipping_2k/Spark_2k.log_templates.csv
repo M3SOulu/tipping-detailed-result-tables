@@ -1,0 +1,30 @@
+EventID,EventTemplate
+P0,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+P1,Reading broadcast variable <*> took <*> ms
+P2,Registered BlockManager
+P3,Found block rdd_<*>_<*> locally
+P4,Started reading broadcast variable <*>
+P5,"mapred.<*>.is.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*>.<*>"
+P6,Server created on <*>
+P7,Finished task <*>.<*> in stage <*>.<*> (TID <*>). <*> bytes result sent to driver
+P8,Connecting to driver: spark://CoarseGrainedScheduler@<*>.<*>.<*>.<*>:<*>
+P9,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>
+P10,MemoryStore started with capacity <*>.<*> GB
+P11,Successfully started service '<*>.<*>.<*>.<*>.<*>.<*>' on port <*>. _/|\\_ Successfully started service '<*>' on port <*>.
+P12,Got assigned task <*>
+P13,Input split: hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/logs/<*>.log:<*>+<*>
+P14,<*> started
+P15,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-<*>:<*>]
+P16,Trying to register BlockManager
+P17,attempt_<*>_<*>_m_<*>_<*>: Committed
+P18,Starting remoting
+P19,File Output Committer Algorithm version is <*>
+P20,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+P21,Starting executor ID <*> on host mesos-slave-<*>
+P22,Running task <*>.<*> in stage <*>.<*> (TID <*>)
+P23,"Changing <*> acls to: yarn,curi"
+P24,Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/test/<*>/_temporary/<*>/task_<*>_<*>_m_<*>
+P25,Successfully registered with driver
+P26,"Partition rdd_<*>_<*> not found, computing it"
+P27,"Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> KB, free <*>.<*> KB) _/|\\_ Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> KB) _/|\\_ Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> KB) _/|\\_ Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> KB, free <*>.<*> KB)"
+P28,"Registered signal handlers for [TERM, HUP, INT]"

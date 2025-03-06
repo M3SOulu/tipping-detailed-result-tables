@@ -1,0 +1,51 @@
+EventID,EventTemplate
+P0,Closed socket connection for client <*> which had sessionid <*>
+P1,Client attempting to establish new session at <*>
+P2,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running
+P3,Closed socket connection for client <*> (no session established for client)
+P4,******* GOODBYE <*> ********
+P5,Received connection request <*>
+P6,Server environment:<*>.<*>.<*>=<*>:<*>.<*>:<*>.<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*>:<*>.<*> _/|\\_ Server environment:<*>.<*>=<*>
+P7,"Connection broken for id <*>, my id = <*>, error ="
+P8,Sending DIFF
+P9,My election bind port: <*>
+P10,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)"
+P11,shutdown of request processor complete
+P12,Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:-<*> reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper
+P13,maxSessionTimeout set to -<*>
+P14,Unexpected exception causing shutdown while sock still open
+P15,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)"
+P16,Server environment:java.vendor=Oracle Corporation
+P17,FOLLOWING - LEADER ELECTION TOOK - <*>
+P18,"Expiring session <*>, timeout of <*> exceeded"
+P19,Reading snapshot /var/lib/zookeeper/version-<*>/snapshot.<*>
+P20,Cannot open channel to <*> at election address <*>
+P21,Revalidating client: <*>
+P22,autopurge.<*> set to <*>
+P23,Notification time out: <*>
+P24,Interrupting SendWorker
+P25,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state) _/|\\_ Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)"
+P26,Accepted socket connection from <*>
+P27,Interrupted while waiting for message on queue
+P28,tickTime set to <*>
+P29,minSessionTimeout set to -<*>
+P30,"New election. My id = <*>, proposed zxid=<*>"
+P31,"Server environment:zookeeper.version=<*>.<*>.<*>--<*>, built on <*>/<*>/<*> :<*> GMT"
+P32,Connection request from old client <*>; will be dropped if server is in r-o mode
+P33,Unexpected Exception:
+P34,LOOKING
+P35,"Have smaller server identifier, so dropping the connection: (<*>, <*>)"
+P36,caught end of stream exception
+P37,FOLLOWING
+P38,Getting a snapshot from leader
+P39,Client attempting to renew session <*> at <*>
+P40,Have quorum of supporters; starting up and setting last processed zxid: <*>
+P41,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)"
+P42,Send worker leaving thread
+P43,Established session <*> with negotiated timeout <*> for client <*>
+P44,Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>
+P45,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)"
+P46,Starting quorum peer
+P47,Snapshotting: <*> to /var/lib/zookeeper/version-<*>/snapshot.<*>
+P48,First is <*>
+P49,Processed session termination for sessionid: <*>

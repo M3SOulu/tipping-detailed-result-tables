@@ -1,0 +1,15 @@
+EventID,EventTemplate
+P0,Received block <*> of size <*> from /<*>
+P1,BLOCK* ask <*> to replicate <*> to datanode(s) <*>
+P2,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+P3,Verification succeeded for <*>
+P4,<*> Starting thread to transfer block <*> to <*>
+P5,PacketResponder <*> for block <*> terminating
+P6,BLOCK* NameSystem.allocateBlock: /user/root/<*>/_temporary/_task_<*>_<*>_<*>_<*>_<*>/part-<*>. <*>
+P7,Receiving block <*> src: /<*> dest: /<*>
+P8,<*>:Got exception while serving <*> to /<*>:
+P9,BLOCK* ask <*> to delete <*>  _/|\\_ BLOCK* ask <*> to delete <*>
+P10,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>
+P11,<*> Served block <*> to /<*>
+P12,Received block <*> src: /<*> dest: /<*> of size <*>
+P13,Deleting block <*> file /mnt/hadoop/dfs/data/current/<*> _/|\\_ Deleting block <*> file /mnt/hadoop/dfs/data/current/<*>/<*>

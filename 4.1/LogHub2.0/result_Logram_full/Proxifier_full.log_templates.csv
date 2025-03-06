@@ -1,0 +1,52 @@
+EventId,EventTemplate
+0b6d3dd7,proxy.cse.cuhk.edu.hk:5070 close 0 bytes sent 0 bytes received lifetime <1 sec
+4a3ba89e,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent 0 bytes received lifetime <1 sec
+3d40d617,proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+b79d5de4,proxy.cse.cuhk.edu.hk:5070 close 0 bytes sent 0 bytes received lifetime 00:01
+aab2642c,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent <*> bytes received lifetime <1 sec
+20563dfc,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent <*> <*> <*> <*>) received lifetime <1 sec
+eff99310,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent <*> bytes received lifetime <1 sec
+2c8219b1,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent <*> <*> <*> <*>) received lifetime <1 sec
+bcd325e1,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent <*> <*> <*> <*>) received lifetime 00:01
+0d6ead83,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent <*> <*> <*> <*>) received lifetime 00:01
+54bd85e2,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent <*> <*> <*> <*>) received lifetime <*>
+a0f2fb3e,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent <*> bytes received lifetime 00:01
+75052527,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent <*> <*> <*> <*>) received lifetime <*>
+1a77950f,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent <*> bytes received lifetime <*>
+bc9c8f92,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent 0 bytes received lifetime <1 sec
+847efadf,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent 0 bytes received lifetime 00:01
+cc8ea50a,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent <*> bytes received lifetime 00:01
+9dc7cf6c,proxy.cse.cuhk.edu.hk:5070 close 0 bytes sent 0 bytes received lifetime <*>
+466b8091,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent <*> bytes received lifetime <*>
+a453f0e8,<*> open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+dee70230,<*> <*> <*> bytes sent <*> bytes received lifetime 00:01
+19d3c484,<*> <*> <*> bytes sent <*> bytes received lifetime <1 sec
+302b2f17,<*> open through proxy <*> <*>
+4f7c9d74,<*> <*> <*> bytes sent 0 bytes received lifetime <1 sec
+d6b8dcee,<*> close 0 bytes sent 0 bytes received lifetime <1 sec
+7897522f,<*> error : <*> <*> <*> <*> <*> <*> <*> <*>
+0a5894f4,<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - <*> <*> <*> <*> <*>
+a3a7cbd1,<*> <*> <*> bytes sent <*> <*> <*> <*>) received lifetime 00:01
+25b9f5af,<*> <*> <*> bytes sent <*> bytes received lifetime <*>
+a0caf19a,<*> <*> <*> <*> <*> <*>) sent <*> <*> <*> <*>) received lifetime <*>
+fcbee63b,<*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+342ac05b,<*> close 0 bytes sent 0 bytes received lifetime 00:01
+0f52d931,<*> <*> <*> bytes sent <*> <*> <*> <*>) received lifetime <1 sec
+73f72432,<*> close 0 bytes sent 0 bytes received lifetime <*>
+a80d2676,<*> <*> <*> bytes sent <*> <*> <*> <*>) received lifetime <*>
+a77f1879,<*> <*> <*> <*> <*> <*>) sent <*> bytes received lifetime <*>
+b43aedd6,<*> <*> <*> <*> <*> <*>) sent <*> bytes received lifetime <1 sec
+5cd60600,<*> <*> <*> bytes sent 0 bytes received lifetime <*>
+05f5bbb5,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent 0 bytes received lifetime 00:01
+59ad63f9,proxy.cse.cuhk.edu.hk:5070 close <*> bytes sent 0 bytes received lifetime <*>
+d82c60d2,proxy.cse.cuhk.edu.hk:5070 close <*> <*> <*> <*>) sent 0 bytes received lifetime <*>
+09d359b2,<*> <*> <*> <*> <*> <*>) sent 0 bytes received lifetime <*>
+77f6a163,<*> <*> <*> <*> <*> <*>) sent <*> bytes received lifetime 00:01
+e03a4d92,<*> <*> <*> <*> <*> <*>) sent <*> <*> <*> <*>) received lifetime <1 sec
+7d6e565d,<*> <*> <*> <*> <*> <*>) sent <*> <*> <*> <*>) received lifetime 00:01
+fcaf51eb,<*> <*> <*> bytes sent 0 bytes received lifetime 00:01
+2f10ae3e,<*> <*> error : Could not connect through proxy proxy.cse.cuhk.edu.hk:5070 - <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>
+45332d1e,<*> error : Could not connect <*> proxy proxy.cse.cuhk.edu.hk:5070 - Could not <*> <*> <*> <*>
+02119110,<*> <*> <*> <*> <*> <*>) sent 0 bytes received lifetime <1 sec
+f9098dc6,<*> close 0 bytes sent <*> bytes received lifetime <*>
+6ceedf80,<*> error : Could not connect <*> proxy proxy.cse.cuhk.edu.hk:5070 - <*> <*> <*> <*> <*> <*>

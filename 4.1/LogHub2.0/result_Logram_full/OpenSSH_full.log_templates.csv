@@ -1,0 +1,259 @@
+EventId,EventTemplate
+f7fe7f88,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+9302fad4,Invalid user <*> from <*>
+6b674ff1,input_userauth_request: invalid user <*> [preauth]
+0849a7d0,pam_unix(sshd:auth): check pass; user unknown
+21bb6d0e,Failed password for invalid user <*> from <*> port <*> ssh2
+2491ca3e,Connection closed by <*> [preauth]
+c5704dd9,Received disconnect from <*>: 11: Bye Bye [preauth]
+29f200fa,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root
+0af355cc,Failed password for root from <*> port <*> ssh2
+4fbf66db,message repeated 5 times: [ Failed password for root from <*> port <*> ssh2]
+ea4aa83d,Disconnecting: Too many authentication failures for root [preauth]
+ee103b8a,PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root
+2dd88708,PAM service(sshd) ignoring max retries; 6 > 3
+c926c7d9,Did not receive identification string from <*>
+2518e786,Invalid user inspur from <*>
+80e2501a,input_userauth_request: invalid user inspur [preauth]
+e810192c,Failed password for invalid user inspur from <*> port <*> ssh2
+71043aee,Invalid user support from <*>
+397e8932,input_userauth_request: invalid user support [preauth]
+0696bf5d,Failed password for invalid user support from <*> port <*> ssh2
+3a7285d3,error: Received disconnect from <*>: 3: <*>: Auth fail [preauth]
+7d9d1da7,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=uucp
+c166da54,Failed password for uucp from <*> port <*> ssh2
+22aaf03f,Invalid user test from <*>
+2c76bdac,input_userauth_request: invalid user test [preauth]
+f656974d,Failed password for invalid user test from <*> port <*> ssh2
+e2e22af4,Received disconnect from <*>: 11: Closed due to user request. [preauth]
+6818d840,Invalid user 0101 from <*>
+d93e848e,input_userauth_request: invalid user 0101 [preauth]
+a486d61d,Failed password for invalid user 0101 from <*> port <*> ssh2
+1b71723e,Invalid user 0 from <*>
+862ddc9d,input_userauth_request: invalid user 0 [preauth]
+3d7565e5,Failed password for invalid user 0 from <*> port <*> ssh2
+7be5896f,Invalid user 1234 from <*>
+387f1d7c,input_userauth_request: invalid user 1234 [preauth]
+63d31834,Failed password for invalid user 1234 from <*> port <*> ssh2
+684a54a6,Invalid user admin from <*>
+ceeca5d5,input_userauth_request: invalid user admin [preauth]
+2e647c73,Failed password for invalid user admin from <*> port <*> ssh2
+3e662e18,PAM service(sshd) ignoring max retries; 5 > 3
+78691a03,Invalid user default from <*>
+596f3e42,input_userauth_request: invalid user default [preauth]
+b426a77d,Failed password for invalid user default from <*> port <*> ssh2
+b64c0e5f,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=ftp
+494f6c4a,Failed password for ftp from <*> port <*> ssh2
+17d4e525,Invalid user guest from <*>
+63570961,input_userauth_request: invalid user guest [preauth]
+2ed69732,Failed password for invalid user guest from <*> port <*> ssh2
+991f2574,Invalid user 123 from <*>
+1edb39d9,input_userauth_request: invalid user 123 [preauth]
+8e26f96c,Failed password for invalid user 123 from <*> port <*> ssh2
+d7242a1b,error: Received disconnect from <*>: 14: No more user authentication methods available. [preauth]
+3c0c530c,Invalid user user from <*>
+0451ad55,input_userauth_request: invalid user user [preauth]
+bc9a176a,Failed password for invalid user user from <*> port <*> ssh2
+308aadfc,Invalid user anonymous from <*>
+176ce241,input_userauth_request: invalid user anonymous [preauth]
+a294adb3,Failed password for invalid user anonymous from <*> port <*> ssh2
+de560f20,Invalid user ubnt from <*>
+019ec990,input_userauth_request: invalid user ubnt [preauth]
+d9088f9e,Failed password for invalid user ubnt from <*> port <*> ssh2
+e35a70fe,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> <*>
+f831cb6d,Failed password for <*> from <*> port <*> ssh2
+68818261,Invalid user cisco from <*>
+65362bb7,input_userauth_request: invalid user cisco [preauth]
+1a6a2d22,Failed password for invalid user cisco from <*> port <*> ssh2
+3eede9e8,Invalid user operator from <*>
+b13609e1,input_userauth_request: invalid user operator [preauth]
+d45aaa7f,Failed password for invalid user operator from <*> port <*> ssh2
+7c51f37c,Invalid user monitor from <*>
+a65ca278,input_userauth_request: invalid user monitor [preauth]
+bf3c3b29,Failed password for invalid user monitor from <*> port <*> ssh2
+65cd5b15,Invalid user ftpuser from <*>
+524dc383,input_userauth_request: invalid user ftpuser [preauth]
+36f985fa,Failed password for invalid user ftpuser from <*> port <*> ssh2
+8dbde17c,Invalid user pi from <*>
+421a0080,input_userauth_request: invalid user pi [preauth]
+7ae3ebed,Failed password for invalid user pi from <*> port <*> ssh2
+f9e9da0f,Invalid user PlcmSpIp from <*>
+a5daa932,input_userauth_request: invalid user PlcmSpIp [preauth]
+c31b1943,Failed password for invalid user PlcmSpIp from <*> port <*> ssh2
+680dc4b3,Invalid user Management from <*>
+4ea524ec,input_userauth_request: invalid user Management [preauth]
+b5cf0adc,Failed password for invalid user Management from <*> port <*> ssh2
+95570db7,Invalid user butter from <*>
+b94349a6,input_userauth_request: invalid user butter [preauth]
+a46cbcf4,Failed password for invalid user butter from <*> port <*> ssh2
+b4ece164,Invalid user redhat from <*>
+baf29009,input_userauth_request: invalid user redhat [preauth]
+9993030b,Failed password for invalid user redhat from <*> port <*> ssh2
+9eef0462,Invalid user oracle from <*>
+5451c5db,input_userauth_request: invalid user oracle [preauth]
+e3dc8d46,Failed password for invalid user oracle from <*> port <*> ssh2
+e6a9077b,Invalid user postgres from <*>
+3d25d1fe,input_userauth_request: invalid user postgres [preauth]
+9e482bdc,Failed password for invalid user postgres from <*> port <*> ssh2
+6301b11c,Invalid user nagios from <*>
+def3e17f,input_userauth_request: invalid user nagios [preauth]
+1a881b61,Failed password for invalid user nagios from <*> port <*> ssh2
+aa4bc2c6,Invalid user www from <*>
+8ccd857f,input_userauth_request: invalid user www [preauth]
+5286f03e,Failed password for invalid user www from <*> port <*> ssh2
+81f3c5c9,Invalid user vnc from <*>
+5b22478e,input_userauth_request: invalid user vnc [preauth]
+f4a4d9a1,Failed password for invalid user vnc from <*> port <*> ssh2
+b9286d99,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=git
+16ac812e,Failed password for git from <*> port <*> ssh2
+41d40d97,Invalid user ghost from <*>
+587bbf97,input_userauth_request: invalid user ghost [preauth]
+b85a3cf7,Failed password for invalid user ghost from <*> port <*> ssh2
+b43270b4,Invalid user ubuntu from <*>
+83681370,input_userauth_request: invalid user ubuntu [preauth]
+6eb29d99,Failed password for invalid user ubuntu from <*> port <*> ssh2
+dc03fffc,Invalid user deploy from <*>
+df1176a8,input_userauth_request: invalid user deploy [preauth]
+fa016f25,Failed password for invalid user deploy from <*> port <*> ssh2
+6bfaa9b4,pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=mysql
+3dd1f7c5,Failed password for mysql from <*> port <*> ssh2
+fb624da8,Accepted password for <*> from <*> port <*> ssh2
+b7a32072,pam_unix(sshd:session): session opened for user <*> by (uid=0)
+2817a946,Received disconnect from <*>: 11: <*> <*> <*>
+ac22ce5f,pam_unix(sshd:session): session closed for user <*>
+92ffcac4,Disconnecting: Too many authentication failures for admin [preauth]
+7dc218b7,<*> <*> failed: Connection reset by peer [preauth]
+a998e480,fatal: Read from socket failed: Connection reset by peer [preauth]
+83730154,Invalid user apache from <*>
+70b929e9,input_userauth_request: invalid user apache [preauth]
+5e1bcc42,Failed password for invalid user apache from <*> port <*> ssh2
+c16d384d,Invalid user weblogic from <*>
+3114c350,input_userauth_request: invalid user weblogic [preauth]
+5a6a911c,Failed password for invalid user weblogic from <*> port <*> ssh2
+a632c55f,Invalid user cacti from <*>
+8eb728b1,input_userauth_request: invalid user cacti [preauth]
+606d0967,Failed password for invalid user cacti from <*> port <*> ssh2
+6cea5565,Invalid user zabbix from <*>
+2999a706,input_userauth_request: invalid user zabbix [preauth]
+477eb5d8,Failed password for invalid user zabbix from <*> port <*> ssh2
+306e94ac,Invalid user nginx from <*>
+10f607c7,input_userauth_request: invalid user nginx [preauth]
+a9254164,Failed password for invalid user nginx from <*> port <*> ssh2
+870b1cd7,Invalid user tomcat from <*>
+38ed8561,input_userauth_request: invalid user tomcat [preauth]
+a25ed144,Failed password for invalid user tomcat from <*> port <*> ssh2
+93e3bac5,Invalid user zxin10 from <*>
+83d4e5ff,input_userauth_request: invalid user zxin10 [preauth]
+97a94ad4,Failed password for invalid user zxin10 from <*> port <*> ssh2
+75e52582,Invalid user osmc from <*>
+0bdbdccc,input_userauth_request: invalid user osmc [preauth]
+ce8f9c61,Failed password for invalid user osmc from <*> port <*> ssh2
+a62cba6e,Invalid user telecomadmin from <*>
+959f72dd,input_userauth_request: invalid user telecomadmin [preauth]
+3d68dcc5,Failed password for invalid user telecomadmin from <*> port <*> ssh2
+0cc1b5a9,Invalid user user1 from <*>
+39fb96d1,input_userauth_request: invalid user user1 [preauth]
+5d4fbd17,Failed password for invalid user user1 from <*> port <*> ssh2
+f5f7d159,Invalid user cloud from <*>
+ff75c66d,input_userauth_request: invalid user cloud [preauth]
+23ea70a3,Failed password for invalid user cloud from <*> port <*> ssh2
+4e2f239f,Invalid user ncs from <*>
+1a8d3a17,input_userauth_request: invalid user ncs [preauth]
+4ba5f041,Failed password for invalid user ncs from <*> port <*> ssh2
+94cf617d,pam_unix(sshd:session): session opened for user curi by (uid=0)
+1a4f6a29,pam_unix(sshd:session): session closed for user curi
+b4df7e82,Disconnecting: Too many authentication failures for support [preauth]
+f4277671,Disconnecting: Too many authentication failures for pi [preauth]
+fb195195,<*> <*> <*> <*> <*>
+436f9170,<*> <*> <*> [preauth]
+6900845a,Invalid user debian from <*>
+0ee94987,input_userauth_request: invalid user debian [preauth]
+b925dea8,Failed password for invalid user debian from <*> port <*> ssh2
+07d82490,Invalid user service from <*>
+f8b9553d,input_userauth_request: invalid user service [preauth]
+841bee27,Failed password for invalid user service from <*> port <*> ssh2
+4dc55d45,Invalid user teamspeak from <*>
+a7946932,input_userauth_request: invalid user teamspeak [preauth]
+301befa9,Failed password for invalid user teamspeak from <*> port <*> ssh2
+d3349b1e,Invalid user ts3 from <*>
+48c84bc1,input_userauth_request: invalid user ts3 [preauth]
+b5a8769e,Failed password for invalid user ts3 from <*> port <*> ssh2
+b5660ce6,Address <*> maps to <*> but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!
+0a1f9bbf,Received disconnect from <*>: 11: [preauth]
+70af7034,Invalid user hadoop from <*>
+4f000f89,input_userauth_request: invalid user hadoop [preauth]
+543c9f92,Failed password for invalid user hadoop from <*> port <*> ssh2
+6c386f14,Invalid user vyatta from <*>
+90356af8,input_userauth_request: invalid user vyatta [preauth]
+b2d6af97,Failed password for invalid user vyatta from <*> port <*> ssh2
+448548fd,Invalid user hdfs from <*>
+ac613ddb,input_userauth_request: invalid user hdfs [preauth]
+5e1b6da4,Failed password for invalid user hdfs from <*> port <*> ssh2
+eb8ef060,Disconnecting: Too many authentication failures for user [preauth]
+5441775c,reverse mapping checking getaddrinfo for . [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+6c721375,<*> <*> <*> <*> [preauth]
+84adef53,Invalid user ts from <*>
+b52a6ac4,input_userauth_request: invalid user ts [preauth]
+6080145b,Failed password for invalid user ts from <*> port <*> ssh2
+5de053ca,<*> <*> <*> <*> <*> from <*> port <*>
+b4efca80,Invalid user sshusr from <*>
+064e67c1,input_userauth_request: invalid user sshusr [preauth]
+c2869cac,Failed password for invalid user sshusr from <*> port <*> ssh2
+bf669d98,Invalid user vagrant from <*>
+75f07247,input_userauth_request: invalid user vagrant [preauth]
+7a2196ab,Failed password for invalid user vagrant from <*> port <*> ssh2
+6544c1fa,Invalid user linux from <*>
+c0125d6c,input_userauth_request: invalid user linux [preauth]
+2c7ea3f6,Failed password for invalid user linux from <*> port <*> ssh2
+43486253,Invalid user centos from <*>
+17b228af,input_userauth_request: invalid user centos [preauth]
+c59ae9d4,Failed password for invalid user centos from <*> port <*> ssh2
+3fc8c788,Invalid user postfix from <*>
+48551fa2,input_userauth_request: invalid user postfix [preauth]
+31fb7838,Failed password for invalid user postfix from <*> port <*> ssh2
+ce597800,Invalid user upload from <*>
+5e80e1b2,input_userauth_request: invalid user upload [preauth]
+c11473e2,Failed password for invalid user upload from <*> port <*> ssh2
+81ab0c28,<*> <*> <*> <*> <*> <*> <*> from <*> port <*>
+b470e94f,Invalid user manager from <*>
+d28ec569,input_userauth_request: invalid user manager [preauth]
+1cf6a023,Failed password for invalid user manager from <*> port <*> ssh2
+52ffefc3,message repeated 2 times: [ Failed password for root from <*> port <*> ssh2]
+e14ca4d7,PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root
+caa7cd9d,reverse mapping checking getaddrinfo for lvhqgeek.com-1486436562555-512mb-fra1-01 [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!
+509a487f,Disconnecting: Too many authentication failures for <*> [preauth]
+b8df96a0,Invalid user usuario from <*>
+bf97f5f6,input_userauth_request: invalid user usuario [preauth]
+72116368,Failed password for invalid user usuario from <*> port <*> ssh2
+956e63c2,Disconnecting: Too many authentication failures for ubnt [preauth]
+be6e484e,Invalid user informix from <*>
+0ad98e96,input_userauth_request: invalid user informix [preauth]
+c560a3e6,Failed password for invalid user informix from <*> port <*> ssh2
+3a82a99b,Received disconnect from <*>: 11: Client disconnecting normally [preauth]
+1cb03528,error: Received disconnect from <*>: 3: <*>: <*> <*> <*> <*> <*> <*> [preauth]
+8aa4b660,Invalid user sugon from <*>
+e68bb132,input_userauth_request: invalid user sugon [preauth]
+dded9105,Failed password for invalid user sugon from <*> port <*> ssh2
+b542638e,message repeated <*> times: [ Failed password for root from <*> port <*> ssh2]
+584dc08b,<*> <*> more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root
+00a684b8,PAM service(sshd) ignoring max retries; <*> > 3
+d77b5121,Failed password for invalid user from <*> port <*> ssh2
+cd974e3f,<*> <*> <*> port <*> <*>
+eeef1ab8,error: Received disconnect from <*>: 3: <*>: <*> <*> <*> <*> user [preauth]
+60d350fe,message repeated 4 times: [ Failed password for root from <*> port <*> ssh2]
+ad5bcc6e,PAM 4 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> user=root
+640f2f97,Invalid user postmaster from <*>
+d50b2192,input_userauth_request: invalid user postmaster [preauth]
+29ce8d87,Failed password for invalid user postmaster from <*> port <*> ssh2
+9a44c1e0,Invalid user teamspeak3 from <*>
+60e05109,input_userauth_request: invalid user teamspeak3 [preauth]
+248552e7,Failed password for invalid user teamspeak3 from <*> port <*> ssh2
+1e0f4298,Received disconnect from <*>: 11: <*> [preauth]
+3ae9b9cc,message repeated 2 times: [ Failed password for <*> from <*> port <*> ssh2]
+dbd40858,PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=<*> <*>
+029b4e57,error: Received disconnect from <*>: <*> <*> <*> <*> <*> [preauth]
+095f349d,Received disconnect from <*>: 11: <*> <*> <*> <*> <*> <*>
+298031f1,Invalid user unknown from <*>
+cb2b0dbf,input_userauth_request: invalid user unknown [preauth]
+18a3d638,Failed password for invalid user unknown from <*> port <*> ssh2
+3afdee10,Received disconnect from <*>: 11: Normal Shutdown Thank you for playing [preauth]

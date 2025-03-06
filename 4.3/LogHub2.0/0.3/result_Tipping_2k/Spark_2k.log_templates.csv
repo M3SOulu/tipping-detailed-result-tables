@@ -1,0 +1,31 @@
+EventID,EventTemplate
+P0,Starting executor ID <*> on host mesos-slave-<*>
+P1,Registered BlockManager
+P2,Running task <*>.<*> in stage <*>.<*> (TID <*>)
+P3,Found block rdd_<*>_<*> locally
+P4,"<*> is deprecated. Instead, use <*>"
+P5,Connecting to driver: spark://CoarseGrainedScheduler@<*>:<*>
+P6,Successfully registered with driver
+P7,"Changing view acls to: yarn,curi"
+P8,Server created on <*>
+P9,Finished task <*>.<*> in stage <*>.<*> (TID <*>). <*> bytes result sent to driver
+P10,Reading broadcast variable <*> took <*> ms
+P11,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>
+P12,"Registered signal handlers for [TERM, HUP, INT]"
+P13,Trying to register BlockManager
+P14,Input split: hdfs://<*>:<*>/pjhe/logs/<*>.log:<*>+<*>
+P15,MemoryStore started with capacity <*>.<*> 
+P16,<*> started
+P17,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-<*>:<*>]
+P18,"Changing modify acls to: yarn,curi"
+P19,attempt_<*>_<*>_m_<*>_<*>: Committed
+P20,Starting remoting
+P21,"Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> ) _/|\\_ Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> )"
+P22,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+P23,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+P24,Successfully started service '<*>' on port <*>.
+P25,Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>:<*>/pjhe/test/<*>/_temporary/<*>/task_<*>_<*>_m_<*>
+P26,Got assigned task <*>
+P27,Started reading broadcast variable <*>
+P28,File Output Committer Algorithm version is <*>
+P29,"Partition rdd_<*>_<*> not found, computing it"

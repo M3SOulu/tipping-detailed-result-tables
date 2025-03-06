@@ -1,0 +1,32 @@
+EventID,EventTemplate
+P0,Starting executor ID <*> on host mesos-slave-<*>
+P1,Registered BlockManager
+P2,Running task <*>.<*> in stage <*>.<*> (TID <*>)
+P3,Found block rdd_<*>_<*> locally
+P4,"mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.is.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*>.<*>"
+P5,"Changing view acls to: yarn,curi"
+P6,MemoryStore started with capacity <*>.<*> GB
+P7,Server created on <*>
+P8,Connecting to driver: spark://CoarseGrainedScheduler@<*>.<*>.<*>.<*>:<*>
+P9,Finished task <*>.<*> in stage <*>.<*> (TID <*>). <*> bytes result sent to driver
+P10,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>
+P11,Reading broadcast variable <*> took <*> ms
+P12,Successfully registered with driver
+P13,"Registered signal handlers for [TERM, HUP, INT]"
+P14,Trying to register BlockManager
+P15,Input split: hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/logs/<*>.log:<*>+<*>
+P16,"Changing modify acls to: yarn,curi"
+P17,<*> started
+P18,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-<*>:<*>]
+P19,attempt_<*>_<*>_m_<*>_<*>: Committed
+P20,Starting remoting
+P21,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+P22,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+P23,"Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> B, free <*>.<*> KB) _/|\\_ Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> B, free <*>.<*> KB)"
+P24,Successfully started service '<*>' on port <*>. _/|\\_ Successfully started service '<*>.<*>.<*>.<*>.<*>.<*>' on port <*>.
+P25,Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/test/<*>/_temporary/<*>/task_<*>_<*>_m_<*>
+P26,Started reading broadcast variable <*>
+P27,Got assigned task <*>
+P28,File Output Committer Algorithm version is <*>
+P29,"Partition rdd_<*>_<*> not found, computing it"
+P30,"Block broadcast_<*>_<*> stored as <*> in memory (estimated size <*>.<*> KB, free <*>.<*> KB) _/|\\_ Block broadcast_<*> stored as <*> in memory (estimated size <*>.<*> KB, free <*>.<*> KB)"

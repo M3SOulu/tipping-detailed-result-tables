@@ -1,0 +1,45 @@
+EventId,EventTemplate,Occurrences
+550cea5a,"<*> close,  bytes sent,  bytes received, lifetime <*>",3464
+4026c0ef,"<*> close,  bytes (<*> <*>) sent, 0 bytes received, lifetime <*>",30
+64754452,<*> open through proxy <*> HTTPS,10219
+550cea5a,"<*> close,  bytes sent,  bytes received, lifetime <*>",420
+f1f7c917,"<*> close,  bytes (<*> <*>) sent,  bytes  <*>) received, lifetime <*>",3107
+e81834b6,"<*> close, 1091 bytes (<*> <*>) sent, 367 bytes received, lifetime <*>",1
+d73ace32,"<*> close, 1097 bytes (<*> <*>) sent, 366 bytes received, lifetime <*>",1
+5ab8a5d8,"<*> close, 1124 bytes (<*> <*>) sent, 529 bytes received, lifetime <*>",1
+d9d6a293,"<*> close,  bytes sent,  bytes (<*> <*>) received, lifetime <*>",1828
+b185e425,"<*> close, 420 bytes sent, 1042 bytes (<*> <*>) received, lifetime <*>",1
+7bbd7944,"<*> close, 440 bytes sent, 7416 bytes (<*> <*>) received, lifetime <*>",1
+463edd9c,"<*> close, 445 bytes sent, 5174 bytes (<*> <*>) received, lifetime <*>",1
+a82c8336,"<*> close, 446 bytes sent, 3816 bytes (<*> <*>) received, lifetime <*>",1
+65fca02f,"<*> close, 1561 bytes (<*> <*>) sent, 472 bytes received, lifetime <*>",1
+f1f7c917,"<*> close,  bytes (<*> <*>) sent,  bytes  <*>) received, lifetime <*>",131
+6ac12834,"<*> close,  bytes (<*> <*>) sent,  bytes received, lifetime <*>",1097
+8b435556,"<*> close, 1165 bytes (<*> <*>) sent, 815 bytes received, lifetime <*>",1
+413aff4b,"<*> close, 1165 bytes (<*> <*>) sent, 790 bytes received, lifetime <*>",1
+4ccaa605,"<*> close, 1078 bytes (<*> <*>) sent, 942 bytes received, lifetime <*>",1
+481b71ce,"<*> close, 1165 bytes (<*> <*>) sent, 782 bytes received, lifetime <*>",1
+7f97b63f,"<*> close, 1165 bytes (<*> <*>) sent, 783 bytes received, lifetime <*>",1
+5ed4c5ae,"<*> close, 1118 bytes (<*> <*>) sent, 340 bytes received, lifetime <*>",1
+d7cdef82,"<*> close, 1143 bytes (<*> <*>) sent, 365 bytes received, lifetime <*>",1
+c89d6659,"<*> close, 1146 bytes (<*> <*>) sent, 366 bytes received, lifetime <*>",1
+5ec50b7c,"<*> close,  bytes sent,  bytes  <*>) received, lifetime <*>",55
+f920642c,<*> open through proxy <*> SOCKS5,8
+a5067f16,"<*> close,  bytes  <*>) sent,  bytes  <*>) received, lifetime <*>",55
+6027a230,<*> error : A connection request was canceled before the completion.,305
+8b373cdf,<*> error : Could not connect through proxy <*> - Proxy closed the connection unexpectedly.,14
+45ac50d5,"<*> close, 176425 bytes (172 <*>) sent, 77636 bytes (<*> <*>) received, lifetime <*>",1
+cd24478e,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 403",207
+d2f538f8,"<*> error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",11
+3527e3a8,"<*> close,  bytes  <*>) sent,  bytes received, lifetime <*>",8
+694be0c7,"<*> (IPv6) error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",3
+e020f1ab,<*> error : Could not connect to proxy <*> - Could not resolve <*> error 11001,113
+5b5c006c,dshytnh:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,3
+e91d61d6,awqiizxequsixgr:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,3
+60367e1e,nmjylyjluykle:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,3
+e4067a98,wpad:80 error : Could not connect to proxy <*> - Could not resolve <*> error 11001,12
+a8e080b9,"wpad:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",3
+3252785e,"srkodhptqlryvjp:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",3
+452fa6d7,"yrexdrpj:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",3
+551f09bc,"qumccyndmsiwf:80 error : Could not connect through proxy <*> - Proxy server cannot establish a connection with the target, status code 503",3
+54a105ce,<*> error : Could not connect to proxy <*> - connection attempt failed with error 10061,195

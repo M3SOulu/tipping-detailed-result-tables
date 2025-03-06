@@ -1,0 +1,37 @@
+EventID,EventTemplate
+P0,BLOCK* ask <*> to replicate <*> to datanode(s) <*> _/|\\_ BLOCK* ask <*> to replicate <*> to datanode(s) <*> 
+P1,writeBlock <*> received exception java.io.<*> _/|\\_ writeBlock <*> received exception java.io.<*> 
+P2,BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>
+P3,<*>:<*> java.io.IOException: Connection reset by peer _/|\\_ <*> java.io.IOException: Connection reset by peer
+P4,Received block <*> src: /<*> dest: /<*> of size <*>
+P5,"writeBlock <*> received exception java.io.IOException: Block <*> is valid, and cannot be written to."
+P6,Exception in receiveBlock for block <*> java.io.EOFException
+P7,Receiving block <*> src: /<*> dest: /<*>
+P8,Reopen Block <*>
+P9,BLOCK* Removing block <*> from neededReplications as it does not belong to any file.
+P10,Verification succeeded for <*>
+P11,writeBlock <*> received exception java.io.IOException: Could not read from stream
+P12,Received block <*> of size <*> from /<*>
+P13,BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/_<*>_<*>_<*>_<*>_<*>_<*>/<*>. <*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>.<*>. <*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/_<*>/<*>/<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>_<*>. <*> _/|\\_ BLOCK* NameSystem.allocateBlock: /<*>/<*>/<*>/<*>/<*>_<*>_<*>/<*>.<*>. <*>
+P14,PacketResponder <*> for block <*> terminating
+P15,Exception in receiveBlock for block <*> java.io.IOException: Connection reset by peer
+P16,Adding an already existing block <*>
+P17,<*>:Got exception while serving <*> to /<*>:
+P18,PacketResponder <*> Exception java.<*>.<*>.<*> _/|\\_ PacketResponder <*> Exception java.<*>.<*>
+P19,Changing block file offset of block <*> from <*> to <*> meta file offset to <*>
+P20,PacketResponder <*> Exception java.io.IOException: The stream is closed
+P21,<*> Served block <*> to /<*>
+P22,PendingReplicationMonitor timed out block <*>
+P23,BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>
+P24,<*>:Exception writing block <*> to mirror <*>
+P25,<*> for <*> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]. <*> millis timeout left. _/|\\_ <*> java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]. <*> millis timeout left.
+P26,<*> Exception java.io.IOException: Broken pipe _/|\\_ Exception <*> java.io.IOException: Broken pipe
+P27,Deleting block <*> file /mnt/hadoop/dfs/data/current/<*> _/|\\_ Deleting block <*> file /mnt/hadoop/dfs/data/current/<*>/<*>
+P28,<*> for <*> java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for <*>. ch : java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>] _/|\\_ <*> java.net.SocketTimeoutException: <*> millis timeout while waiting for channel to be ready for <*>. ch : java.nio.channels.SocketChannel[connected local=/<*> remote=/<*>]
+P29,<*>:Transmitted block <*> to /<*>
+P30,"<*> Starting thread to transfer block <*> to <*>, <*>"
+P31,BLOCK* NameSystem.addStoredBlock: addStoredBlock request received for <*> on <*> size <*> But it does not belong to any file.
+P32,PacketResponder <*> Exception java.io.InterruptedIOException: Interruped while waiting for IO on channel java.nio.channels.SocketChannel[closed]. <*> millis timeout left.
+P33,writeBlock <*> received exception java.net.NoRouteToHostException: No route to host
+P34,Unexpected error trying to delete block <*>. BlockInfo not found in volumeMap.
+P35,Receiving empty packet for block <*>

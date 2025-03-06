@@ -1,0 +1,176 @@
+EventID,EventTemplate
+P0,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>"
+P1,setGoalNotifiShownRecord <*> 
+P2,"aggregateHiHealthData() time = <*>, totalTime = <*>"
+P3,startStepCounterInter stand
+P4,"timeStamp back,extendReportTimeStamp=<*>"
+P5,target init: <*>
+P6,userInfo changed detail
+P7,sendSyncFailedBroadcast
+P8,needAutoSync autoSyncSwitch is open
+P9,onReceive action: android.intent.action.<*>_<*>
+P10,MyGetDetailDataCallback onResult bundle == null
+P11,getTodayNoSyncTotalValue datas is null or empty
+P12,writeDataToDB size <*>
+P13,<*>() checkAppType <*> appID = <*> = <*> = <*> _/|\\_ <*>() checkAppType <*> appID = <*>
+P14,getCfgFile enter...
+P15,initUserPrivacy the userPrivacy is true
+P16,checkLocalDataValue false
+P17,getStringHuid() who is com.huawei.health
+P18,onStartCommand Intent { cmp=com.huawei.health/.manager.DaemonService }
+P19,rebuild notification
+P20,isScreenOn true
+P21,getWriteDBLastDataMinute _/|\\_ <*>getWriteDBLastDataMinute<*>
+P22,getARDebugConfig
+P23,getDeviceShutDownBoolean shutDown=false
+P24,initStepCounter : deviceType <*>
+P25,setActionRestartSensorAlarm=<*>
+P26,uploadStaticsToDB failed message=true
+P27,isScreenOn false
+P28, getDiffTotalSteps= <*>##<*>
+P29,getTodaySportData mStepsRecordManager=com.huawei.health.g.c@<*>
+P30,"screen status unknown,think screen on"
+P31,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>"
+P32,onCreate()
+P33,getMidWareCache mRemote=com.huawei.health.c.c@<*>
+P34, getServiceRestartRecord= <*>
+P35, getTodayBasicStandardSteps= <*>##<*>##<*>
+P36,setTodayTotalDetailSteps=<*>##<*>##<*>##<*>##<*>##<*>
+P37,clear()
+P38,<*>getStepCounterStatus<*> _/|\\_ getStepCounterStatus
+P39,registerLogCallback com.huawei.health.c.c@<*>
+P40,switchTrackMonitor false
+P41,<*>getDiffTotalCalories<*> _/|\\_ getDiffTotalCalories
+P42,ifCanSync not! no cloud version
+P43,getStepsTarget _/|\\_ <*>getStepsTarget<*>
+P44,"getMidWareStepCountService: pkgName = com.huawei.systemserver, service = com.huawei.systemserver.ihealth.connectivity.HwStepCounterService"
+P45,fetchPhoneDataClient
+P46,initDataManager enter...
+P47,createHealthNotification()
+P48,registerLogCallback com.huawei.health.c.c@<*> cb:com.huawei.health.b.a.g@<*>
+P49,upDateHealthNotification()|<*>|<*>.<*>|<*>
+P50, getDiffTotalAltitude= <*>##<*>.<*>
+P51,Alarm uploadStaticsToDB totalSteps=<*>:<*>:<*>:<*>
+P52,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>"
+P53,"startInsertSportSync start auto sync,app is <*>"
+P54,context=com.huawei.health.manager.DaemonService@<*>
+P55,calculateAltitudeWithCache totalAltitude=<*>
+P56, getIntercepterDistance from Prefence success and intercepterDistanceStr= <*>##<*>.<*>
+P57,"initBinder() app = <*>, packageName = com.huawei.health"
+P58,"aggregateHiHealthData aggregateOption is HiAggregateOption{startTime=<*>, endTime=<*>, type=[<*>, <*>], alignType=<*>, aggregateType=<*>, groupUnitType=<*>} _/|\\_ aggregateHiHealthData aggregateOption is HiAggregateOption{startTime=<*>, endTime=<*>, type=[<*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>], alignType=<*>, aggregateType=<*>, groupUnitType=<*>} _/|\\_ aggregateHiHealthData aggregateOption is HiAggregateOption{startTime=<*>, endTime=<*>, type=[<*>, <*>, <*>], alignType=<*>, aggregateType=<*>, groupUnitType=<*>} _/|\\_ aggregateHiHealthData aggregateOption is HiAggregateOption{startTime=<*>, endTime=<*>, type=[<*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>, <*>], alignType=<*>, aggregateType=<*>, groupUnitType=<*>}"
+P59,getMidWareCache result=true
+P60,setFirstStartDaemonFromUI success: true
+P61,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>"
+P62,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>"
+P63,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT"
+P64,insertHiHealthData() end totalTime = <*>
+P65,insert conflict event timeBegin <*> timeEnd <*>
+P66,startStepCounter enter...
+P67,registersensorsuccess: true
+P68,supportStandStepCounter true
+P69,"saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>"
+P70,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = com.huawei.health,writeStatType = <*>"
+P71,checkInsertStatus <*> or <*> is enough
+P72,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>"
+P73,REPORT : <*> 
+P74,compareMidWareCacheAndLocalCache enter...
+P75,"startInsertSportSync first <*> steps sync,do all sync"
+P76,reStartStepCounter
+P77,getDeviceShutDownTime shutDownTime=<*>
+P78,the first init <*>
+P79,initCacheFromFile enter...
+P80,FAILED_SCREEN_OFF block report
+P81,setDiffTotalSteps=<*>
+P82,setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>
+P83,uploadStaticsToDB() onResult type = <*> obj=true
+P84,"bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>"
+P85,"upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>"
+P86,InsertEvent success begin:<*> end:<*>
+P87,setWriteDBLastDataMinute=<*>
+P88,initSyncModel current SyncModel is <*>
+P89,deleteHealthNotification()
+P90,"setDeviceShutDownValue shutDownTime=<*>,isShutDown=false"
+P91,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>"
+P92,InsertCallBack() onSuccess type = <*> data=true
+P93,getFirstStartDaemonFromUI: true
+P94,initEnviroument
+P95,onStandStepChanged <*>
+P96,"supportPrivateStandStepcounter=true,supportStandStepCounter=true"
+P97,calculateCaloriesWithCache totalCalories=<*>
+P98,initDiffCaloriesfromFile mCaloriesDiff=<*>.<*>
+P99,theDayChanged <*>
+P100,MyServiceConn connect <*>.<*>.<*>.<*>
+P101,start compare with midware counter
+P102,setDeviceClassType=<*>
+P103,onStartCommand Intent { pkg=com.huawei.health cmp=com.huawei.health/.manager.DaemonService (has extras) }
+P104,flushTempCacheToDB by <*>
+P105,getBinderPackageName packageName = com.huawei.health
+P106,next day:<*>
+P107,setStepCounterStatus=true
+P108,registerDynamicBroadcastReceiver
+P109, getLastSyncDBTime= -<*>
+P110,initDataPrivacy the dataPrivacy is true
+P111,processHandleBroadcastAction action:<*>.<*>.<*>.<*>_<*> _/|\\_ processHandleBroadcastAction action:<*>.<*>.action.<*>_<*>
+P112, getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>
+P113,<*>getStepsNotificationShowStatus<*> _/|\\_ getStepsNotificationShowStatus
+P114,<*>getGoalNotificationShowStatus<*> _/|\\_ getGoalNotificationShowStatus
+P115,getMidWareStepCountService: isSystemApp = true
+P116,setGoalNotificationShowStatus=true
+P117,"<*> the <*> switch is open, start push <*> data!"
+P118,initExtendStepCounter <*>
+P119,initTrackDistancefromFile from File mTrackDistance=<*>.<*>
+P120,initDiffAltitude from File mAltitudeDiff=<*>.<*>
+P121,"getAppContext() isAppValid health or wear, packageName = com.huawei.health"
+P122,"new date =<*>, type=<*>,<*>.<*>,old=<*> _/|\\_ new date =<*>, type=<*>,<*>.<*>,old=<*>.<*>"
+P123,"readHiHealthData() readOption = HiDataReadOption{startTime=<*>, endTime=<*>, type=[<*>], count = <*>, sortOrder=<*>, readType=<*>, alignType=<*>} _/|\\_ readHiHealthData() readOption = HiDataReadOption{startTime=<*>, endTime=<*>, type=[<*>, <*>], count = <*>, sortOrder=<*>, readType=<*>, alignType=<*>}"
+P124,"readHiHealthData() end time = <*>, totalTime = <*>"
+P125,checkSportDataNum setp and calories is too less
+P126,reload : <*> restar <*>
+P127,getVersion _/|\\_ <*>getVersion<*>
+P128,"<*> timeInterval = HiTimeInterval{startTime=<*>-<*>-<*> :<*>:<*>, endTime=<*>-<*>-<*> :<*>:<*>, timeZone=<*>} _/|\\_ <*> = <*>,timeInterval = HiTimeInterval{startTime=<*>-<*>-<*> :<*>:<*>, endTime=<*>-<*>-<*> :<*>:<*>, timeZone=<*>}"
+P129,readXmlIfSupportEX
+P130,getUserPreference key = custom.<*>_<*>_<*>
+P131,moveOldData()
+P132,onBind intent = Intent { act=com.huawei.hihealthservice.HiHealthService pkg=com.huawei.health }
+P133,setServiceRestartRecord=<*>
+P134,policy=/system/emui/base:/system/emui/china:/vendor/etc:/odm/etc:/product/etc:/hw_odm:/hw_oem:/data/cust:/version/region_comm/china:/cust_spec
+P135,readXmlIfSupportEX result=true
+P136,startStepCounterInter mStandStepCounter = com.huawei.health.b.b.a@<*>
+P137,"support extand step counter!,return true"
+P138,flush sensor data
+P139,startListenerChange subscribeList = [<*>]
+P140,
+P141,closeNotification...
+P142,FAILED_ERROR_DATA
+P143,closeNotification...
+P144,FAILED_ERROR_DATA
+P145,SystemClock.elapsedRealtime(): 29950
+P146,startNotification...
+P147,closeNotification...
+P148,startNotification...
+P149,closeNotification...
+P150,FAILED_ERROR_DATA
+P151,closeNotification...
+P152,FAILED_ERROR_DATA
+P153,SystemClock.elapsedRealtime(): 18209086
+P154,closeNotification...
+P155,closeNotification...
+P156,closeNotification...
+P157,FAILED_ERROR_DATA
+P158,closeNotification...
+P159,FAILED_ERROR_DATA
+P160,SystemClock.elapsedRealtime(): 103065
+P161,closeNotification...
+P162,closeNotification...
+P163,FAILED_ERROR_DATA
+P164,closeNotification...
+P165,FAILED_ERROR_DATA
+P166,SystemClock.elapsedRealtime(): 37014
+P167,startNotification...
+P168,closeNotification...
+P169,closeNotification...
+P170,startNotification...
+P171,FAILED_ERROR_DATA
+P172,FAILED_ERROR_DATA
+P173,SystemClock.elapsedRealtime(): 35690
+P174,closeNotification...

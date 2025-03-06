@@ -1,0 +1,114 @@
+EventID,EventTemplate
+P0,Starting pcmcia: succeeded
+P1,Setting network parameters: succeeded
+P2,audit(<*>.<*>:<*>): initialized
+P3,Checking 'hlt' instruction... OK.
+P4,mapped <*>/<*> trampoline to <*>.
+P5,Console: colour VGA+ <*>
+P6,selinux_register_security: Registering secondary module capability
+P7,ALERT exited abnormally with [<*>]
+P8,klogd startup succeeded
+P9,DMI <*>.<*> present.
+P10,Enabling fast FPU save and restore... done.
+P11,On node <*> totalpages: <*>
+P12,You can enable it with acpi=force
+P13,PCI: Invalid ACPI-PCI IRQ routing table
+P14,cupsd startup succeeded
+P15,PCI: Probing PCI hardware _/|\\_ PCI: Probing PCI hardware <*> 
+P16,Detected <*>.<*> MHz processor.
+P17,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=root _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> user=root
+P18,PCI: Using configuration type <*>
+P19,NET: Registered protocol family <*>
+P20,ACPI disabled because your bios is from <*> and too old
+P21,audit: initializing netlink socket (disabled)
+P22,"ANONYMOUS FTP LOGIN FROM <*>.<*>.<*>.<*>, (anonymous)"
+P23,"PCI: PCI BIOS revision <*>.<*> entry at <*>, last bus=<*>"
+P24,"klogd <*>.<*>.<*>, log source = /proc/kmsg started."
+P25,<*> device node '/udev/<*>'
+P26,*** info [mice.c(<*>)]:
+P27,Capability LSM initialized
+P28,pci_hotplug: PCI Hot Plug PCI Core version: <*>.<*>
+P29,notify question section contains no SOA
+P30,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*> _/|\\_ authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>
+P31,portmap startup succeeded
+P32,check pass; user unknown
+P33,Intel machine check reporting enabled on CPU#<*>.
+P34,SELinux: Starting in permissive mode
+P35,HCI daemon ver <*>.<*> started
+P36,connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>.<*>.<*>.<*>.at) at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> () at <*> Jul <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>) at <*> Jul <*> :<*>:<*> 
+P37,"<*> zone: <*> pages, LIFO batch:<*>"
+P38,<*>: Auto-detected intellimouse PS/<*>
+P39,<*> LOWMEM available.
+P40,apm: BIOS version <*>.<*> Flags <*> (Driver version <*>.<*>)
+P41,BIOS-<*>: <*> - <*> (usable)
+P42,isapnp: Scanning for PnP cards...
+P43,authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>.<*>.<*>.<*> user=<*>
+P44,Kerberos authentication failed
+P45,"CPU <*> irqstacks, hard=<*> soft=<*>"
+P46,hcid startup succeeded
+P47,ACPI: Interpreter disabled.
+P48,SELinux: Registering netfilter hooks
+P49,Received SNMP packet(s) from <*>.<*>.<*>.<*>
+P50,connection from <*>.<*>.<*>.<*> () at <*> Jun <*> :<*>:<*>  _/|\\_ connection from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>) at <*> Jun <*> :<*>:<*> 
+P51,Linux Plug and Play Support <*>.<*> (c) Adam Belay
+P52,cupsd shutdown succeeded
+P53,Bringing up loopback interface: succeeded
+P54,Calibrating delay loop... <*>.<*> BogoMIPS
+P55,Initializing Cryptographic API
+P56,ACPI: Subsystem revision <*>
+P57,CPU: Intel Pentium III (Coppermine) stepping <*>
+P58,Security Scaffold <*>.<*>.<*> initialized
+P59,Initializing CPU#<*>
+P60,Version <*>.<*>.<*> Starting
+P61,getpeername (ftpd): Transport endpoint is not connected
+P62,zapping low mappings.
+P63,isapnp: No Plug & Play device found
+P64,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Software caused connection abort
+P65,rpc.<*> startup succeeded
+P66,"CPU: <*> I cache: <*>, <*> D cache: <*>"
+P67,Linux version <*>.<*>.<*>-<*>.<*> (bhcompile@bugs.build.redhat.com) (gcc version <*>.<*>.<*> (Red Hat Linux <*>.<*>.<*>-<*>)) #<*> Sat May <*> :<*>:<*> EDT <*>
+P68,Intel machine check architecture supported.
+P69,Real Time Clock Driver <*>.<*>
+P70,session opened for user <*> by <*>(uid=<*>) _/|\\_ session opened for user <*> by (uid=<*>)
+P71,Linux agpgart interface <*>.<*> (c) Dave Jones
+P72,Couldn't authenticate user
+P73,"Memory: <*>/<*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)"
+P74,Transparent bridge - <*>:<*>:<*>.<*>
+P75,session closed for user <*>
+P76,ROOT LOGIN ON <*>
+P77,Built <*> zonelists
+P78,Initializing random number generator: succeeded
+P79,irqbalance startup succeeded
+P80,BIOS-<*>: <*> - <*> (reserved)
+P81,Authentication failed from <*>.<*>.<*>.<*> (<*>.<*>.<*>.<*>): Permission denied in replay cache code
+P82,warning: can't get client address: Connection reset by peer
+P83,syslogd startup succeeded
+P84,authentication failure; logname= uid=<*> euid=<*> tty=:<*> ruser= rhost=
+P85,POSIX conformance testing by UNIFIX
+P86,"Total HugeTLB memory allocated, <*>"
+P87,PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>:<*>:<*>.<*>
+P88,<*> HIGHMEM available.
+P89,Failure registering capabilities with the kernel
+P90,Kernel command line: ro root=LABEL=/ rhgb quiet
+P91,BIOS-provided physical RAM map:
+P92,User unknown timed out after <*> seconds at Sat Jun <*> :<*>:<*> 
+P93,usbcore: registered new driver <*>
+P94,sdpd <*> 
+P95,ACPI: ACPI tables contain no PCI IRQ routing entries
+P96,<*> hash table entries: <*> (order <*>: <*> bytes) _/|\\_ <*> hash table entries: <*> (order <*> bytes) _/|\\_ <*> hash table entries: <*> (order: <*> bytes)
+P97,VFS: Disk quotas dquot_<*>.<*>.<*>
+P98,"There is already a security framework initialized, register_security failed."
+P99,Using tsc for high-res timesource
+P100,Enabling unmasked SIMD FPU exception support... done.
+P101,
+P102,restart.
+P103,restart.
+P104,restart.
+P105,restart.
+P106,restart.
+P107,restart.
+P108,restart.
+P109,SELinux:  Initializing.
+P110,CPU: L2 cache: 256K
+P111,mtrr: v2.0 (20020519)
+P112,kernel.core_uses_pid = 1

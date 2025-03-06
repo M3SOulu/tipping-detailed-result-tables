@@ -1,0 +1,168 @@
+EventId,EventTemplate,Occurrences
+3d06e4a1,Reading configuration from /etc/zookeeper/conf/zoo.cfg,36
+91491bf0,Defaulting to majority quorums,36
+8c716832,autopurge.snapRetainCount set to 3,36
+3204f3ff,autopurge.purgeInterval set to 0,36
+0f7cc562,Purge task is not scheduled.,36
+d459c04c,Starting quorum peer,36
+2658fd77,binding to port <*><*>,36
+da7d60d2,tickTime set to 2000,36
+2f5195c7,<*> set to -1,72
+dbac73df,initLimit set to 10,36
+7b734081,<*> not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,6
+1f5e64d1,My election bind port <*><*>,36
+00078e14,LOOKING,49
+f20cad37,New election. My id <*> proposed zxid <*>,49
+7ec572d6,Notification <*> (n.leader) <*> (n.zxid) 0x1 (n.round) LOOKING (n.state) <*> (n.sid) <*> (n.peerEPoch) LOOKING (my state),189
+1e7a3631,Cannot open channel to <*> at election address <*>,2584
+cb66604c,Notification time out <*>,1322
+9879a9ab,Received connection request <*>,10429
+c172d526,FOLLOWING,34
+5b896ba3,TCP NoDelay set to true,39
+27abbd8d,Server environment zookeeper.version 3.4.5--1 built on 06/10/2013 17 26 GMT,36
+2034475f,Server environment host.name <*>,36
+48de91db,Server environment java.version 1.7.0_79,36
+b29376b2,Server environment java.vendor Oracle Corporation,36
+fc2722f7,Server environment java.home /usr/lib/jvm/java-7-openjdk-amd64/jre,36
+7ec47079,Server environment java.class.path /etc/zookeeper/conf /usr/share/java/jline.jar /usr/share/java/log4j-1.2.jar /usr/share/java/xercesImpl.jar /usr/share/java/xmlParserAPIs.jar /usr/share/java/netty.jar /usr/share/java/slf4j-api.jar /usr/share/java/slf4j-log4j12.jar /usr/share/java/zookeeper.jar,36
+53c46b11,Server environment java.io.tmpdir /tmp,36
+1704121f,Server environment java.compiler <NA>,36
+0ca7e7a0,Server environment os.name Linux,36
+a6fb4c93,Server environment os.arch amd64,36
+d843c138,Server environment os.version 3.16.0-30-generic,36
+3a6d8e33,Server environment user.name zookeeper,36
+8436d036,Server environment user.home /var/lib/zookeeper,36
+a8a9fdbf,Server environment user.dir /,36
+72f21490,Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2,49
+01597f40,<*> - LEADER ELECTION TOOK - <*>,49
+0e0e16e6,Getting a <*> from <*> leader <*>,34
+64a23cac,Snapshotting 0x0 to /var/lib/zookeeper/version-2/snapshot.0,3
+495b290d,Connection broken for id <*> my id <*> error,10388
+273e53f2,Interrupting SendWorker,10390
+45a3ec5d,Interrupted while waiting for message on queue,10386
+7a2ec7d0,Send worker leaving thread,10390
+4ce8c03a,Got zxid <*> expected 0x1,25
+a9981d58,Creating new log file <*>,25
+abe76bf8,Accepted socket connection from <*>,2020
+1bc7bc65,Connection request from old client <*>; will be dropped if server is in r-o mode,1861
+00a8e7f7,Client attempting to establish new session at <*>,1790
+37ce0325,Established session <*> with negotiated timeout <*> for client <*>,1856
+ecefe136,caught end of stream exception,1670
+20d23992,Closed socket connection for client <*> which had sessionid <*>,1749
+57cf6669,Revalidating client 0x34ed9348509000b,1
+9ad5c5a7,Revalidating client 0x34ed93485090007,1
+84a65e73,Revalidating client 0x34ed93485090005,1
+90154f2f,Notification <*> (n.leader) <*> (n.zxid) 0x2 (n.round) <*> (n.state) 3 (n.sid) <*> (n.peerEPoch) FOLLOWING (my state),19
+84760e47,Exception when using channel for id 3 my id <*> error java.net.SocketException Broken pipe,4
+430db6d3,Revalidating client 0x24ed93119420016,1
+029a7bf2,Unexpected Exception,27
+5cd4f13c,Exception causing close of session <*> due to java.io.IOException Connection reset by peer,8
+47ad118a,Reading snapshot /var/lib/zookeeper/version-2/snapshot.0,2
+58b42080,Have smaller server identifier so dropping the connection <*>,20
+d209530d,Notification 1 (n.leader) <*> (n.zxid) <*> (n.round) <*> (n.state) 1 (n.sid) <*> (n.peerEPoch) FOLLOWING (my state),45
+9b53ee30,Notification 2 (n.leader) 0x0 (n.zxid) 0x1 (n.round) <*> (n.state) <*> (n.sid) 0x0 (n.peerEPoch) FOLLOWING (my state),6
+da57eee6,Snapshotting 0x100001546 to /var/lib/zookeeper/version-2/snapshot.100001546,1
+1b298505,Exception when following the leader,11
+feceb4c6,shutdown called,11
+6a7eb108,Shutting down,58
+68a7558d,shutting down,13
+874472f8,FollowerRequestProcessor exited loop!,11
+c7ef5ae9,shutdown of request processor complete,13
+9891c99c,CommitProcessor exited loop!,13
+7f667bb2,SyncRequestProcessor exited!,13
+7ccaeb96,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100001546,1
+9f876383,Unexpected exception tries 0 connecting to <*>,8
+16d10e61,Snapshotting 0x100001564 to /var/lib/zookeeper/version-2/snapshot.100001564,6
+fe9d4fe8,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100001564,5
+08cb4c8c,Notification <*> (n.leader) 0x100001564 (n.zxid) 0x3 (n.round) LOOKING (n.state) <*> (n.sid) 0x2 (n.peerEPoch) <*> (my state),19
+23719262,LEADING,15
+c0c4c9d1,Follower sid 2 info <*>,6
+0e8c6e68,Synchronizing with Follower sid <*> maxCommittedLog 0x0 minCommittedLog 0x0 peerLastZxid <*>,6
+9d86801d,Sending DIFF,28
+c5851f56,Commiting zxid <*> from <*> not first!,15
+9cb3def4,First is 0x0,15
+9b3aac2c,Have quorum of supporters; starting up and setting last processed zxid <*>,15
+2039613b,Follower sid 3 info <*>,9
+0eb178bd,Sending SNAP,6
+c74ac368,Sending snapshot last zxid of peer is <*> zxid of leader is <*> zxid of db as <*>,6
+f8c6d06b,Expiring session <*> timeout of <*> exceeded,1762
+86757490,Processed session termination for sessionid <*>,1790
+0cf47064,Unexpected exception causing shutdown while sock still open,590
+f311a57e,******* GOODBYE <*> ********,590
+4e66438e,Shutdown called,2
+a819b437,exception while shutting down acceptor java.net.SocketException Socket closed,2
+85d5564e,PrepRequestProcessor exited loop!,2
+25cef370,Notification <*> (n.leader) 0x300000dcd (n.zxid) <*> (n.round) LOOKING (n.state) <*> (n.sid) <*> (n.peerEPoch) LOOKING (my state),55
+5b6c983c,SessionTrackerImpl exited loop!,2
+e5802811,Snapshotting 0x300000dcd to /var/lib/zookeeper/version-2/snapshot.300000dcd,7
+9aa25577,Reading snapshot /var/lib/zookeeper/version-2/snapshot.300000dcd,7
+5120b5cf,Notification <*> (n.leader) 0x50000062e (n.zxid) <*> (n.round) LOOKING (n.state) <*> (n.sid) <*> (n.peerEPoch) LOOKING (my state),26
+fd961bb0,Notification 2 (n.leader) <*> (n.zxid) <*> (n.round) LEADING (n.state) 2 (n.sid) <*> (n.peerEPoch) <*> (my state),17
+62b848d3,Snapshotting 0x50000062e to /var/lib/zookeeper/version-2/snapshot.50000062e,8
+34c90edd,Reading snapshot /var/lib/zookeeper/version-2/snapshot.50000062e,7
+c0085eed,Snapshotting 0x700000000 to /var/lib/zookeeper/version-2/snapshot.700000000,4
+fed0d902,Reading snapshot /var/lib/zookeeper/version-2/snapshot.700000000,5
+61066dd8,Snapshotting 0x700000197 to /var/lib/zookeeper/version-2/snapshot.700000197,4
+7833c985,Reading snapshot /var/lib/zookeeper/version-2/snapshot.700000197,4
+39413022,Snapshotting 0x8000000bc to /var/lib/zookeeper/version-2/snapshot.8000000bc,5
+bba592a1,Revalidating client 0x14f05578bd80014,2
+c723d45e,Revalidating client 0x14f05578bd80016,2
+87733492,Revalidating client 0x14f05578bd80013,2
+7c4777e5,Revalidating client 0x14f05578bd80017,2
+14fb4d64,Revalidating client 0x14f05578bd80018,2
+1fb03ad9,Revalidating client 0x14f05578bd80015,2
+6eb71220,Revalidating client 0x14f05578bd8001c,2
+8b3db072,Revalidating client 0x14f05578bd8001b,2
+aa303afa,Revalidating client 0x14f05578bd8001a,2
+d0c49d0c,Revalidating client 0x14f05578bd80019,2
+1a88e479,Revalidating client 0x14f05578bd8001d,2
+6864f4ea,Revalidating client 0x14f05578bd8001e,2
+ddb6d626,Reading snapshot /var/lib/zookeeper/version-2/snapshot.8000000bc,4
+458f647a,Snapshotting 0x900000007 to /var/lib/zookeeper/version-2/snapshot.900000007,4
+779d8220,Reading snapshot /var/lib/zookeeper/version-2/snapshot.900000007,4
+c33eea92,Snapshotting 0xa0000009a to /var/lib/zookeeper/version-2/snapshot.a0000009a,4
+8721211b,Revalidating client 0x34f3fdb1f230008,1
+ab34f234,Reading snapshot /var/lib/zookeeper/version-2/snapshot.a0000009a,4
+8982949b,Notification <*> (n.leader) <*> (n.zxid) 0x2 (n.round) LOOKING (n.state) <*> (n.sid) <*> (n.peerEPoch) LOOKING (my state),111
+a4f8027c,Exception causing close of session 0x0 due to java.io.IOException ZooKeeperServer not running,159
+bed3680d,Closed socket connection for client <*> (no session established for client),159
+db48a210,Got zxid <*> expected 0xb00000085,3
+e8192302,Snapshotting 0xc00000001 to /var/lib/zookeeper/version-2/snapshot.c00000001,1
+c85ae676,Reading snapshot /var/lib/zookeeper/version-2/snapshot.c00000001,1
+4e7a60c8,Snapshotting 0xc0000018f to /var/lib/zookeeper/version-2/snapshot.c0000018f,3
+97c3fc39,Reading snapshot /var/lib/zookeeper/version-2/snapshot.c0000018f,2
+c16b2542,Snapshotting 0xd0000001b to /var/lib/zookeeper/version-2/snapshot.d0000001b,7
+95ea5b17,Reading snapshot /var/lib/zookeeper/version-2/snapshot.d0000001b,5
+343fee37,Notification <*> (n.leader) 0xd0000001b (n.zxid) 0x3 (n.round) LOOKING (n.state) <*> (n.sid) 0xe (n.peerEPoch) LOOKING (my state),17
+eaa35c82,Follower sid 1 info <*>,19
+ec443350,Got user-level KeeperException when processing sessionid <*> type create cxid <*> zxid <*> txntype -1 reqpath n/a Error Path <*> Error KeeperErrorCode NodeExists for <*>,19
+5f692df5,Synchronizing with Follower sid 3 maxCommittedLog <*> minCommittedLog <*> peerLastZxid <*>,6
+8927475d,Synchronizing with Follower sid 1 maxCommittedLog <*> minCommittedLog <*> peerLastZxid <*>,17
+764f7c99,Revalidating client 0x24f0557806a001a,2
+80119d4b,Revalidating client 0x24f0557806a001d,2
+3a046ecd,Revalidating client 0x24f0557806a0021,2
+5a281373,Revalidating client 0x24f0557806a001f,2
+ef135c00,Revalidating client 0x24f0557806a0018,2
+0d9b3701,Revalidating client 0x24f0557806a0019,2
+9bf8050f,Revalidating client 0x24f0557806a001b,2
+d9947264,Revalidating client 0x24f0557806a001c,2
+dae714e5,Revalidating client 0x24f0557806a0022,2
+33b4fa46,Revalidating client 0x24f0557806a0020,2
+780d7c49,Revalidating client 0x24f0557806a0023,2
+d67bbe67,Snapshotting 0xb00000084 to /var/lib/zookeeper/version-2/snapshot.b00000084,3
+a9459b27,Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084,3
+b5c07578,Snapshotting 0xf00000000 to /var/lib/zookeeper/version-2/snapshot.f00000000,1
+654b78a3,Snapshotting 0x100000000 to /var/lib/zookeeper/version-2/snapshot.100000000,1
+fa44c21e,Revalidating client 0x24ed9311942000f,1
+54fc9909,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100000000,1
+4d263320,Snapshotting 0x100000082 to /var/lib/zookeeper/version-2/snapshot.100000082,1
+af970c1b,Reading snapshot /var/lib/zookeeper/version-2/snapshot.100000082,2
+9852b8e4,Snapshotting 0x300000000 to /var/lib/zookeeper/version-2/snapshot.300000000,1
+11d648a0,Reading snapshot /var/lib/zookeeper/version-2/snapshot.300000000,2
+808a07f3,Synchronizing with Follower sid 2 maxCommittedLog <*> minCommittedLog <*> peerLastZxid <*>,5
+bd8c081a,Notification 3 (n.leader) 0x300000dcd (n.zxid) 0x5 (n.round) FOLLOWING (n.state) 3 (n.sid) 0x4 (n.peerEPoch) FOLLOWING (my state),1
+cbe4447a,Snapshotting 0x500000000 to /var/lib/zookeeper/version-2/snapshot.500000000,1
+efd91b6d,Reading snapshot /var/lib/zookeeper/version-2/snapshot.500000000,1
+134ab97b,Revalidating client 0x14f3fdae8ba0013,1
+45b1bcfc,Revalidating client 0x14f3fdae8ba0010,1
+1e54bf92,Revalidating client 0x14f3fdae8ba0012,1

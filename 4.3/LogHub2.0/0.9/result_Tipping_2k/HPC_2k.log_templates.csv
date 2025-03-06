@@ -1,0 +1,49 @@
+EventID,EventTemplate
+P0,Command has been aborted
+P1,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+P2,starting
+P3,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+P4,warning
+P5,Component State Change: Component \\<*>-WWID:<*>:<*>-<*>-<*>-<*>-<*>-<*>-<*>-<*>\\<*> is in the unavailable state (HWID<*>)
+P6,boot (command <*>)
+P7,not responding
+P8,Fan speeds ( <*> **** <*> )
+P9,blocked
+P10,Targeting domains:node-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>
+P11,Command has completed successfully
+P12,wait (command <*>)
+P13,ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+P14,running
+P15,Link in reset
+P16,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P17,active
+P18,configured out
+P19,ServerFileSystem: ServerFileSystem domain <*>_<*> is full
+P20,Fan speeds ( <*> )
+P21,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface alt0
+P22,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+P23,ambient<*>
+P24,halt (command <*>)
+P25,normal
+P26,Component State Change: Component \\<*>alt0\\<*> is in the unavailable state (HWID<*>)
+P27,ClusterFileSystem: ServerFileSystem domain <*>domain is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain<*> is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>
+P28,closing
+P29,Linkerror event interval expired
+P30,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P31,Failed subcommands <*>
+P32,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface scip0
+P33,Temperature (<*>) exceeds warning threshold
+P34,power/control problem
+P35,link errors remain current
+P36,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface ee0
+P37,risBoot (command <*>)
+P38,bootGenvmunix (command <*>)
+P39,Link ok
+P40,critical
+P41,psu failure\\ ambient<*>
+P42,boot (command <*>) Error: HALT asserted\\ cannot continue
+P43,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface alt0
+P44,clusterAddMember (command <*>)
+P45,Link error
+P46,
+P47,not-responding

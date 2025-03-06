@@ -1,0 +1,44 @@
+EventID,EventTemplate
+P0,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+P1,Command has been aborted
+P2,starting
+P3,ClusterFileSystem: ServerFileSystem domain <*>domain is no <*>  _/|\\_ ClusterFileSystem: <*> is no <*> ServerFileSystem domain <*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain<*> is no <*>  _/|\\_ ClusterFileSystem: ServerFileSystem domain <*> is no <*> 
+P4,warning
+P5,Component State Change: Component \\<*>:<*>:<*>\\<*> is in the unavailable state (HWID=<*>) _/|\\_ Component State Change: Component \\<*>\\<*> is in the unavailable state (HWID=<*>)
+P6,boot (command <*>)
+P7,not responding
+P8,blocked
+P9,Temperature (<*>) exceeds warning threshold
+P10,active
+P11,Command has completed successfully
+P12,wait (command <*>)
+P13,Link in reset
+P14,running
+P15,Targeting domains:node-<*> and nodes:node-<*> _/|\\_ Targeting domains:node-<*> and nodes:node-<*> 
+P16,ServerFileSystem: ServerFileSystem domain <*>_<*> is full
+P17,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+P18,configured out
+P19,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P20,Fan speeds ( <*> )
+P21,halt (command <*>)
+P22,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P23,ambient=<*>
+P24,closing
+P25,normal
+P26,Failed subcommands <*>
+P27,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+P28,risBoot (command <*>)
+P29,Linkerror event interval expired
+P30,power/control problem
+P31,link errors remain current
+P32,bootGenvmunix (command <*>)
+P33,psu failure\\ ambient=<*>
+P34,critical
+P35,Link ok
+P36,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface <*>
+P37,boot (command <*>) Error: HALT asserted\\ cannot continue
+P38,clusterAddMember (command <*>)
+P39,Link error
+P40,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface <*>
+P41,
+P42,not-responding

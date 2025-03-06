@@ -1,0 +1,30 @@
+EventID,EventTemplate
+P0,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)"
+P1,Reading broadcast variable <*> took <*> ms
+P2,Finished task <*>.<*> in stage <*>.<*> (TID <*>). <*> bytes result sent to driver
+P3,Registered BlockManager
+P4,Found block rdd_<*>_<*> locally
+P5,Connecting to driver: spark://CoarseGrainedScheduler@<*>.<*>.<*>.<*>:<*>
+P6,"mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*> _/|\\_ mapred.<*>.<*> is deprecated. Instead, use mapreduce.<*>.<*>.<*> _/|\\_ mapred.<*>.is.<*> is deprecated. Instead, use mapreduce.<*>.<*>"
+P7,Started reading broadcast variable <*>
+P8,Server created on <*>
+P9,MemoryStore started with capacity <*>.<*> GB
+P10,Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_<*>_<*>/blockmgr-<*>-<*>-<*>-<*>-<*>
+P11,Successfully started service '<*>.<*>.<*>.<*>.<*>.<*>' on port <*>. _/|\\_ Successfully started service '<*>' on port <*>.
+P12,Got assigned task <*>
+P13,Input split: hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/logs/<*>.log:<*>+<*>
+P14,Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-<*>:<*>]
+P15,<*> started
+P16,Trying to register BlockManager
+P17,attempt_<*>_<*>_m_<*>_<*>: Committed
+P18,Starting remoting
+P19,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>"
+P20,Starting executor ID <*> on host mesos-slave-<*>
+P21,"Changing <*> acls to: yarn,curi"
+P22,Saved output of task 'attempt_<*>_<*>_m_<*>_<*>' to hdfs://<*>.<*>.<*>.<*>:<*>/pjhe/test/<*>/_temporary/<*>/task_<*>_<*>_m_<*>
+P23,Successfully registered with driver
+P24,File Output Committer Algorithm version is <*>
+P25,Running task <*>.<*> in stage <*>.<*> (TID <*>)
+P26,"Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> KB, free <*>.<*> KB) _/|\\_ Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> KB, free <*>.<*> KB) _/|\\_ Block <*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> KB) _/|\\_ Block <*>_<*>_<*> stored as <*> in memory (estimated size <*>.<*> , free <*>.<*> KB)"
+P27,"Partition rdd_<*>_<*> not found, computing it"
+P28,"Registered signal handlers for [TERM, HUP, INT]"

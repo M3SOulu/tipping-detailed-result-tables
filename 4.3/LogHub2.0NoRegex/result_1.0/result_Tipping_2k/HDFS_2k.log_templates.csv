@@ -1,0 +1,10 @@
+EventID,EventTemplate
+P0,Receiving block blk_<*> src: /<*>.<*>.<*>.<*>:<*> dest: /<*>.<*>.<*>.<*>:<*>
+P1,Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/blk_<*> _/|\\_ Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/<*>/blk_<*>
+P2,Verification succeeded for blk_<*>
+P3,PacketResponder <*> for block blk_<*> terminating
+P4,BLOCK* <*> .<*>.<*>.<*>:<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> _/|\\_ BLOCK* <*> .<*>.<*>.<*>:<*> blk_<*> _/|\\_ BLOCK* <*>.<*>: <*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>. blk_<*> _/|\\_ BLOCK* <*>.<*>: <*> : <*>.<*>.<*>.<*>:<*> blk_<*>  _/|\\_ BLOCK* <*> .<*>.<*>.<*>:<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> blk_<*> _/|\\_ BLOCK* <*>.<*>: blk_<*> .<*>.<*>.<*>:<*> _/|\\_ BLOCK* <*> .<*>.<*>.<*>:<*> blk_<*> .<*>.<*>.<*>:<*>
+P5,Received block blk_<*> /<*>.<*>.<*>.<*> /<*>.<*>.<*>.<*> of size <*> _/|\\_ Received block blk_<*> of size <*> /<*>.<*>.<*>.<*>
+P6,<*>.<*>.<*>.<*>:<*>:Got exception while serving blk_<*> to /<*>.<*>.<*>.<*>:
+P7,<*>.<*>.<*>.<*>:<*> Served block blk_<*> to /<*>.<*>.<*>.<*>
+P8,<*>.<*>.<*>.<*>:<*> Starting thread to transfer block blk_<*> to <*>.<*>.<*>.<*>:<*>

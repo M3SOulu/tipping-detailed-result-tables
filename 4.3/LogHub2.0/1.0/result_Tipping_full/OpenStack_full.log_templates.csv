@@ -1,0 +1,31 @@
+EventID,EventTemplate
+P0,"<*>.<*>.<*>.<*> ""DELETE /<*>/<*>/servers/<*>-<*>-<*>-<*>-<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P1,HTTP exception thrown: No instances found for any event
+P2,"<*>.<*>.<*>.<*> ""POST /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P3,Running instance usage audit for host cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us from <*>-<*>-<*> :<*>:<*> to <*>-<*>-<*> :<*>:<*>. <*> instances.
+P4,Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>-<*>-<*>-<*>-<*>
+P5,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."
+P6,"Total usable vcpus: <*>, total allocated vcpus: <*>"
+P7,"<*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*>.<*>.<*>.<*>.<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/<*>.<*> HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*> _/|\\_ <*>.<*>.<*>.<*>.<*>.<*>.<*> ""GET /<*>/<*>/ HTTP/<*>.<*>"" status: <*> len: <*> time: <*>.<*>"
+P8,Error during ComputeManager._run_image_cache_manager_pass
+P9,"[instance: <*>-<*>-<*>-<*>-<*>] <*> memory: <*> MB, <*>: <*>.<*> MB _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] memory <*>: <*>.<*> MB, <*>: <*>.<*> MB"
+P10,"Identity response: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML <*>.<*>//EN"">"
+P11,image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): <*> _/|\\_ image <*>-<*>-<*>-<*>-<*> at (/var/lib/nova/instances/_base/<*>): <*> : <*> 
+P12,Unknown base file: /var/lib/nova/instances/_base/<*>
+P13,[instance: <*>-<*>-<*>-<*>-<*>] VM <*> (Lifecycle Event)
+P14,Final resource view: name=cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us phys_ram=<*>MB used_ram=<*>MB phys_disk=<*>GB used_disk=<*>GB total_vcpus=<*> used_vcpus=<*> pci_stats=[]
+P15,"[instance: <*>-<*>-<*>-<*>-<*>] Total disk: <*> GB, used: <*>.<*> GB"
+P16,Compute_service record updated for cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us:cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P17,[instance: <*>-<*>-<*>-<*>-<*>] <*> instance _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> instance <*> -<*>-<*>-<*>-<*> _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> instance<*> _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> -<*>-<*>-<*>-<*>  _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*>  _/|\\_ [instance: <*>-<*>-<*>-<*>-<*>] <*> instance <*> 
+P18,Successfully synced instances from host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us'.
+P19,Removing base or swap file: /var/lib/nova/instances/_base/<*>
+P20,Auditing locally available compute resources for node cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us
+P21,The instance sync for host 'cp-<*>.<*>.tcloud-<*>.utah.cloudlab.us' did not match. Re-created its InstanceList.
+P22,"couldn't obtain the vcpu count from domain id: <*>-<*>-<*>-<*>-<*>, exception: Requested operation is not valid: cpu affinity is not supported"
+P23,Unable to validate token: Failed to fetch token data from identity server
+P24,Active base files: /var/lib/nova/instances/_base/<*>
+P25,"[instance: <*>-<*>-<*>-<*>-<*>] Total vcpu: <*> VCPU, used: <*>.<*> VCPU"
+P26,Removable base files: /var/lib/nova/instances/_base/<*>
+P27,Bad response code while validating token: <*>
+P28,Base or swap file too young to remove: /var/lib/nova/instances/_base/<*>
+P29,"[instance: <*>-<*>-<*>-<*>-<*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"

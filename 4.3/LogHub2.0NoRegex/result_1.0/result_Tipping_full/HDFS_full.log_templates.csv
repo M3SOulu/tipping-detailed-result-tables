@@ -1,0 +1,20 @@
+EventID,EventTemplate
+P0,PendingReplicationMonitor timed out block blk_<*>
+P1,Exception in receiveBlock for block blk_<*> java.<*>.<*> for <*> java.<*>.<*>.<*> .<*>.<*>.<*> .<*>.<*>.<*>. <*> . _/|\\_ Exception in receiveBlock for block blk_<*> java.<*>.<*> for <*> for <*>. <*> java.<*>.<*>.<*> .<*>.<*>.<*> .<*>.<*>.<*> _/|\\_ Exception in receiveBlock for block blk_<*> java.<*>.<*>  _/|\\_ Exception in receiveBlock for block blk_<*> java.<*>.<*>
+P2,PacketResponder blk_<*>  _/|\\_ PacketResponder <*> blk_<*> 
+P3,Received block blk_<*> /<*>.<*>.<*>.<*> /<*>.<*>.<*>.<*> of size <*> _/|\\_ Received block blk_<*> of size <*> /<*>.<*>.<*>.<*>
+P4,<*>.<*>.<*>.<*>:<*> Served block blk_<*> to /<*>.<*>.<*>.<*>
+P5,writeBlock blk_<*> received exception java.<*>.<*> . <*> java.<*>.<*>.<*> .<*>.<*>.<*> .<*>.<*>.<*> _/|\\_ writeBlock blk_<*> received exception java.<*>.<*> blk_<*> . _/|\\_ writeBlock blk_<*> received exception java.<*>.<*> _/|\\_ writeBlock blk_<*> received exception java.<*>.<*> java.<*>.<*>.<*> .<*>.<*>.<*> .<*>.<*>.<*>. <*> . _/|\\_ writeBlock blk_<*> received exception java.<*>.<*> 
+P6,Receiving block blk_<*>  _/|\\_ Receiving <*> block blk_<*>
+P7,Reopen Block blk_<*>
+P8,Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/<*>/blk_<*> _/|\\_ Deleting block blk_<*> file /mnt/hadoop/dfs/data/current/blk_<*>
+P9,<*>.<*>.<*>.<*>:<*>:Failed to transfer blk_<*> to <*>.<*>.<*>.<*>:<*> got java.io.IOException: Connection reset by peer
+P10,<*>.<*>.<*>.<*>:<*>:Exception writing block blk_<*> to mirror <*>.<*>.<*>.<*>:<*>
+P11,Verification succeeded for blk_<*>
+P12,BLOCK* <*>.<*> blk_<*> .<*>.<*>.<*> _/|\\_ BLOCK* <*> blk_<*> . _/|\\_ BLOCK* <*>.<*> _<*>_<*>.<*>. blk_<*> _/|\\_ BLOCK* <*>.<*> _<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>.<*>. blk_<*> _/|\\_ BLOCK* <*>.<*> _<*>.<*>.<*>_<*>_<*>_<*>_<*>_<*>_<*>. blk_<*> _/|\\_ BLOCK* <*>.<*> blk_<*> .<*>.<*>.<*> . _/|\\_ BLOCK* <*>.<*> _<*>_<*>_<*>_<*>_<*>_<*>_<*>. blk_<*> _/|\\_ BLOCK* <*> .<*>.<*>.<*> blk_<*> .<*>.<*>.<*> .<*>.<*>.<*> _/|\\_ BLOCK* <*>.<*> .<*>.<*>.<*> blk_<*>  _/|\\_ BLOCK* <*> .<*>.<*>.<*> blk_<*> .<*>.<*>.<*>
+P13,<*>.<*>.<*>.<*>:<*>:Transmitted block blk_<*> to /<*>.<*>.<*>.<*>:<*>
+P14,Unexpected error trying to delete block blk_<*>. BlockInfo not found in volumeMap.
+P15,<*>.<*>.<*>.<*>:<*>:Got exception while serving blk_<*> to /<*>.<*>.<*>.<*>:
+P16,Changing block file offset of block blk_<*> from <*> to <*> meta file offset to <*>
+P17,"<*>.<*>.<*>.<*>:<*> Starting thread to transfer block blk_<*> to <*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>"
+P18,Adding an already existing block blk_<*>

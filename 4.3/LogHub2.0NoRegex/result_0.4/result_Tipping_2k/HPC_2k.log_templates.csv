@@ -1,0 +1,45 @@
+EventID,EventTemplate
+P0,Command has been aborted
+P1,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>
+P2,starting
+P3,warning
+P4,power/control problem
+P5,blocked
+P6,Temperature (<*>) exceeds warning threshold
+P7,not responding
+P8,Targeting domains:node-<*> and nodes:node-<*>  _/|\\_ Targeting domains:node-<*> and nodes:node-<*>
+P9,active
+P10,closing
+P11,Command has completed successfully
+P12,Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>
+P13,Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>
+P14,running
+P15,ClusterFileSystem: ServerFileSystem domain <*>domain<*> is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*> _/|\\_ ClusterFileSystem: ServerFileSystem domain <*>domain is no longer served by node node-<*>
+P16,ServerFileSystem: ServerFileSystem domain <*>_<*> is full
+P17,wait (command <*>)
+P18,configured out
+P19,inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> _/|\\_ inconsistent nodesets node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok> node-<*> <ok>
+P20,Fan speeds ( <*> )
+P21,Failed subcommands <*>
+P22,halt (command <*>)
+P23,ambient=<*>
+P24,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>
+P25,normal
+P26,risBoot (command <*>)
+P27,Linkerror event interval expired
+P28,link errors remain current
+P29,bootGenvmunix (command <*>)
+P30,critical
+P31,Link ok
+P32,psu failure\\ ambient=<*>
+P33,ClusterFileSystem: There is no server for ServerFileSystem domain <*>
+P34,Link in reset
+P35,NIFF: node node-<*> detected a failed network connection on network <*>.<*>.<*>.<*> via interface <*>
+P36,boot (command <*>) Error: HALT asserted\\ cannot continue
+P37,boot (command <*>)
+P38,clusterAddMember (command <*>)
+P39,Component State Change: Component \\<*>\\<*> is in the unavailable state (HWID=<*>) _/|\\_ Component State Change: Component \\<*>:<*>:<*>\\<*> is in the unavailable state (HWID=<*>)
+P40,NIFF: node node-<*> has detected an available network connection on network <*>.<*>.<*>.<*> via interface <*>
+P41,Link error
+P42,
+P43,not-responding

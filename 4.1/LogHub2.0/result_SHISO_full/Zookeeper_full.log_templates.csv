@@ -1,0 +1,113 @@
+EventId,EventTemplate,Occurrences
+ff86b16f,Reading configuration from: /etc/zookeeper/conf/zoo.cfg,36
+91491bf0,Defaulting to majority quorums,36
+8c716832,autopurge.snapRetainCount set to 3,36
+3204f3ff,autopurge.purgeInterval set to 0,36
+4cbab665,My election bind port: <*><*>,36
+3389dae3,*,98
+4c226563,TCP NoDelay set to: true,39
+5d604f8a,Server *,289
+0f7cc562,Purge task is not scheduled.,36
+d459c04c,Starting quorum peer,36
+84296b03,* not found! Creating with a reasonable default of 0. This should only happen when you are upgrading your installation,6
+22500763,New election. My id = * proposed zxid=0x0,3
+2c573087,* set to *,142
+54e53be0,* set to -1,2
+27592ac9,"Notification: * (n.leader), * (n.zxid), * (n.round), * (n.state), * (n.sid), * (n.peerEPoch), * (my state)",484
+3a1448f7,Notification time out: *,1322
+2658fd77,binding to port <*><*>,36
+42d1fa40,* *,24
+362a018b,Synchronizing with Follower sid: * maxCommittedLog=0x0 minCommittedLog=0x0 *,7
+ac5c80ac,Synchronizing with Follower sid: * maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x0,2
+78e6de8e,Synchronizing with Follower sid: 3 maxCommittedLog=0x100000082 minCommittedLog=0x100000001 peerLastZxid=0x10000006b,1
+d4f6c926,Synchronizing with Follower sid: * * * *,10
+04a0c4d2,* - LEADER ELECTION TOOK - *,49
+d2e2ca5a,Sending *,2
+f311a57e,******* GOODBYE <*> ********,590
+b1330445,Server environment:java.version=1.7.0_79,12
+21f7c76b,Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre,12
+c00b2f72,Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar,12
+6e2bdcc4,Server environment:java.io.tmpdir=/tmp,12
+ae80a1f9,"Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT",36
+666ceeb3,Getting a diff from the leader 0x0,1
+746ee5b3,Snapshotting: 0x0 to /var/lib/zookeeper/version-2/snapshot.0,3
+47e3543a,"Connection broken for id 188978561024, my id = 1, error =",3492
+9879a9ab,Received connection request <*>,10429
+d961f4e8,Server environment:java.vendor=Oracle Corporation,36
+273e53f2,Interrupting SendWorker,10390
+f8cd5d90,Revalidating client: *,52
+72f21490,Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /var/lib/zookeeper/version-2 snapdir /var/lib/zookeeper/version-2,49
+1bc7bc65,Connection request from old client <*>; will be dropped if server is in r-o mode,1861
+08752d9f,Exception when using channel: for id 3 my id = * error = java.net.SocketException: Broken pipe,4
+72dd6e6c,Exception causing close of session * due to java.io.IOException: Connection reset by peer,5
+1749c13a,Cannot open channel to * at election address <*>,2584
+c1286652,New election. My id = * proposed *,46
+8a10e0d8,Commiting zxid * from <*> not first!,15
+0cf47064,Unexpected exception causing shutdown while sock still open,588
+e8761472,"Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), * (my state)",3
+27592ac9,"Notification: * (n.leader), * (n.zxid), * (n.round), * (n.state), * (n.sid), * (n.peerEPoch), * (my state)",18
+5e840ffb,Synchronizing with Follower sid: * maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x300000dcd,2
+aabe342c,Synchronizing with Follower sid: * maxCommittedLog=0x0 minCommittedLog=0x0 peerLastZxid=0x50000062e,3
+f673856f,Synchronizing with Follower sid: * maxCommittedLog=0x50000062e minCommittedLog=0x50000043a peerLastZxid=0x50000062e,3
+d4f6c926,Synchronizing with Follower sid: * * * *,3
+96606496,Synchronizing with Follower sid: * * minCommittedLog=0xb00000001 peerLastZxid=0xb0000007b,2
+ca58758f,Synchronizing with Follower sid: 1 maxCommittedLog=0xc0000018f minCommittedLog=0xc0000012a peerLastZxid=0xc0000018f,1
+b3572404,Server environment:os.version=3.16.0-30-generic,12
+b9148f39,Server environment:os.arch=amd64,12
+3efabf5d,Follower sid: * : info : *,34
+d2e2ca5a,Sending *,32
+8f15bd33,Server environment:java.compiler=<NA>,12
+467d31ff,Server environment:os.name=Linux,12
+17644875,Server environment:user.name=zookeeper,12
+c57116c0,Server environment:user.home=/var/lib/zookeeper,12
+546c422b,Got zxid * expected 0x1,11
+cea4a740,Creating new log file: *,25
+1e74d82f,Got zxid 0xb0000007c expected 0xb00000085,1
+fb86e5b0,Got zxid 0xc00000001 expected 0xb00000085,1
+45a3ec5d,Interrupted while waiting for message on queue,10386
+00a8e7f7,Client attempting to establish new session at <*>,1790
+2e16718d,Established session * with negotiated timeout * for client <*>,1856
+55616db2,* * * * *,1699
+7a2ec7d0,Send worker leaving thread,10390
+abe76bf8,Accepted socket connection from <*>,646
+9293eb36,Snapshotting: * to *,62
+9d05d7a1,"Connection broken for id * my id = 1, error =",12
+63d9783e,Unexpected Exception:,11
+f8cd5d90,Revalidating client: *,3
+63d9783e,Unexpected Exception:,16
+95f2592e,Sending snapshot last zxid of peer is 0x100001564 zxid of leader is 0x300000000sent zxid of db as 0x300000000,1
+cc2c8fb2,Sending snapshot last zxid of peer is * zxid of leader is * zxid of db as *,5
+72dd6e6c,Exception causing close of session * due to java.io.IOException: Connection reset by peer,3
+3eebfd9a,Have quorum of supporters; starting up and setting last processed zxid: *,15
+ecf6827a,Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running,159
+7a5b7ecc,Got user-level KeeperException when processing sessionid:0x24ed93119420001 type:create cxid:0x55b8baff zxid:0x100000006 txntype:-1 reqpath:n/a Error Path:/home Error:KeeperErrorCode = NodeExists for /home,1
+53404a1a,"Connection broken for id 188978561024, my id = * error =",6864
+a6d393b4,Connection broken for id * my id = * error =,20
+03bc19f0,"Have smaller server identifier, so dropping the connection: (3, 2)",4
+abe76bf8,Accepted socket connection from <*>,1145
+546c422b,Got zxid * expected 0x1,14
+1e74d82f,Got zxid 0xb0000007c expected 0xb00000085,1
+abe76bf8,Accepted socket connection from <*>,229
+e95423f3,Closed socket connection for client <*> which had sessionid *,1156
+47ad118a,Reading snapshot /var/lib/zookeeper/version-2/snapshot.0,2
+42d1fa40,* *,60
+08a002c3,* exited loop!,28
+6c4c7bc7,Reading snapshot *,58
+eeb38d12,Server environment:user.dir=/,12
+b648fa64,Server environment:host.name=mesos-master-1,11
+7f667bb2,SyncRequestProcessor exited!,13
+9b36506f,Getting a diff from the leader *,27
+0cf47064,Unexpected exception causing shutdown while sock still open,2
+46a7d957,exception while shutting down acceptor: java.net.SocketException: Socket closed,2
+0e5d3f94,Expiring session * timeout of * exceeded,185
+e95423f3,Closed socket connection for client <*> which had sessionid *,593
+491ffef1,"Have smaller server identifier, so dropping the connection: * 1)",16
+d7965345,"Unexpected exception, tries=0, connecting to <*>",8
+ea23ddcc,Processed session termination for sessionid: *,1786
+1b298505,Exception when following the leader,1
+0e5d3f94,Expiring session * timeout of * exceeded,1573
+0e5d3f94,Expiring session * timeout of * exceeded,4
+eb225289,Got user-level KeeperException when processing * type:create * * txntype:-1 reqpath:n/a Error * Error:KeeperErrorCode = NodeExists for *,18
+9cb3def4,First is 0x0,15
+bed3680d,Closed socket connection for client <*> (no session established for client),159
+ea23ddcc,Processed session termination for sessionid: *,4

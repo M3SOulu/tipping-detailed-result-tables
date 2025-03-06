@@ -1,0 +1,30 @@
+EventID,EventTemplate
+P0,[client <*>] File does not exist: /var/www/html/<*>/<*> _/|\\_ [client <*>] File does not exist: /var/www/html/<*> _/|\\_ [client <*>] File does not exist: /var/www/html/html
+P1,<*>_init() Found child <*> in scoreboard slot <*>
+P2,"[client <*>] mod_security: Access denied with code <*>. Error reading POST data, error_code=<*> [hostname ""<*>""] [uri ""/xmlrpc.php""]"
+P3,"env.<*>(): Factory error creating <*>.<*>:<*> ( <*>.<*>, <*>) _/|\\_ env.<*>(): Factory error creating <*>: ( <*>, )"
+P4,[client <*>] Attempt to serve directory: /var/www/html/
+P5,mod_security/<*>.<*> configured
+P6,suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+P7,[client <*>] request failed: error reading the headers
+P8,Apache/<*>.<*>.<*> (Fedora) configured -- resuming normal operations
+P9,<*>_init() Can't find child <*> in scoreboard
+P10,"Graceful restart requested, doing restart"
+P11,LDAP: SSL support unavailable
+P12,[client <*>] request failed: URI too long (longer than <*>)
+P13,Digest: generating secret for digest authentication ...
+P14,[client <*>] client sent HTTP/<*>.<*> request without hostname (see <*> section <*>.<*>): /
+P15,mod_python: Creating <*> session mutexes based on <*> max processes and <*> max threads.
+P16,"child process <*> still did not exit, sending a SIGTERM"
+P17,uriMap.mapUri() uri must start with /
+P18,[client <*>] script not found or unable to stat: /var/www/cgi-bin/<*>cgi _/|\\_ [client <*>] script not found or unable to stat: /var/www/cgi-bin/<*>
+P19,[client <*>] Invalid URI in request GET HTTP/<*>.<*>
+P20,LDAP: Built with OpenLDAP LDAP SDK
+P21,mod_jk child init <*> 
+P22,Digest: done
+P23,[client <*>] Directory index forbidden by rule: /var/www/html/
+P24,mod_jk child workerEnv in error state <*>
+P25,workerEnv.init() ok /etc/httpd/conf/<*>.properties
+P26,mod_<*> Shutting down
+P27,[client <*>] attempt to invoke directory as script: /var/www/cgi-bin/
+P28,config.update(): Can't create <*>.<*>:<*> _/|\\_ config.update(): Can't create <*>:

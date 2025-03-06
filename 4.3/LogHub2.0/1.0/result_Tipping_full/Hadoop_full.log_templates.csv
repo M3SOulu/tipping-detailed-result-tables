@@ -1,0 +1,1434 @@
+EventID,EventTemplate
+P0,Retrying connect to server: MININT-FNANLI<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); maxRetries=<*>
+P1,Abandoning BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*>
+P2,(RESET) equator <*> kv <*>(<*>) kvi <*>(<*>)
+P3,Assigning <*> : <*>: <*> : MININT-FNANLI<*>.fareast.corp.microsoft.com:<*> : MININT-FNANLI<*>.fareast.corp.microsoft.com:<*> : <*>:<*> :<*> : <*> : <*> : <*> : <*>.<*>.<*>.<*>:<*> to <*>  _/|\\_ Assigning MININT-FNANLI<*>.fareast.corp.microsoft.com:<*> to <*>
+P4,Received completed container container_<*>_<*>_<*>_<*>
+P5,Socket Reader #<*> for port <*>: readAndProcess from client <*>.<*>.<*>.<*> threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host]
+P6,"Cannot assign container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: <*>DN<*>IQ.fareast.corp.microsoft.com:<*>, NodeHttpAddress: <*>DN<*>IQ.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=true"
+P7,Task: attempt_<*>_<*>_m_<*>_<*> - exited : java.io.IOException: <*> 
+P8,Connecting to ResourceManager at MSRA-SA-<*>/<*>.<*>.<*>.<*>:<*>
+P9,"Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)"
+P10,Resolved MSRA-SA-<*>.fareast.corp.microsoft.com to /default-rack
+P11,Instantiated MRClientService at MININT-<*>DGDAM<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>
+P12,Communication exception: java.net.ConnectException: Call From MSRA-SA-<*>/<*>.<*>.<*>.<*> to minint-<*>.fareast.corp.microsoft.com:<*> failed on connection exception: java.net.ConnectException: Connection timed out: no further information; For more details see: http://wiki.apache.org/hadoop/ConnectionRefused
+P13,Error communicating with RM: <*> RM <*>  _/|\\_ Error communicating with RM: <*> : <*>
+P14,TaskAttempt: [attempt_<*>_<*>_<*>_<*>_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [MSRA-SA-<*>.fareast.corp.microsoft.com:<*>]
+P15,Could not parse the old history file. Will not have old AMinfos
+P16,kvstart = <*>; length = <*> _/|\\_ kvstart = <*>; <*> = <*>; length = <*>
+P17,Exception <*> 
+P18,EventFetcher is interrupted.. Returning
+P19,TaskAttempt killed because it ran on unusable node <*>DN<*>IQ.fareast.corp.microsoft.com:<*>. AttemptId:attempt_<*>_<*>_m_<*>_<*>
+P20,Result of canCommit for attempt_<*>_<*>_r_<*>_<*>:true
+P21,Diagnostics report from attempt_<*>_<*>_m_<*>_<*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI<*>/<*>.<*>.<*>.<*> to msra-sa-<*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+P22,Progress of TaskAttempt attempt_<*>_<*>_<*>_<*>_<*> is : <*>.<*>
+P23,"getResources() for application_<*>_<*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:-<*>> knownNMs=<*>"
+P24,Preempting attempt_<*>_<*>_r_<*>_<*>
+P25,task_<*>_<*>_<*>_<*> Task Transitioned from SCHEDULED to RUNNING
+P26,"Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""MSRA-SA-<*>/<*>.<*>.<*>.<*>""; destination host is: ""<*>-<*>.fareast.corp.microsoft.com"":<*>; _/|\\_ Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""MSRA-SA-<*>/<*>.<*>.<*>.<*>""; destination host is: ""<*>.fareast.corp.microsoft.com"":<*>;"
+P27,attempt_<*>_<*>_r_<*>_<*> TaskAttempt Transitioned from COMMIT_PENDING to SUCCESS_CONTAINER_CLEANUP
+P28,"Releasing unassigned and invalid container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ]. RM may have assignment issues"
+P29,History url is http://MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>/jobhistory/job/job_<*>_<*>
+P30,<*> failures on node MININT-FNANLI<*>.fareast.corp.microsoft.com
+P31,Ignoring obsolete output of KILLED map-task: 'attempt_<*>_<*>_m_<*>_<*>'
+P32,Jetty bound to port <*>
+P33,bufstart = <*>; <*> = <*>; bufvoid = <*> _/|\\_ bufstart = <*>; bufvoid = <*>
+P34,IPC Server <*> 
+P35,Emitting job history data to the timeline server is not enabled
+P36,"Error Recovery for block BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*> in pipeline <*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>: bad datanode <*>.<*>.<*>.<*>:<*>"
+P37,"MergerManager: memoryLimit=<*>, maxSingleShuffleLimit=<*>, mergeThreshold=<*>, ioSortFactor=<*>, memToMemMergeOutputsThreshold=<*>"
+P38,"Releasing unassigned and invalid container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ]. RM may have assignment issues"
+P39,DataStreamer Exception
+P40,Sleeping for <*> before retrying again. Got null now.
+P41,Recovery is enabled. Will try to recover from previous life on best effort basis.
+P42,Could not delete hdfs://msra-sa-<*>:<*>/<*>/<*>/_temporary/<*>/_temporary/attempt_<*>_<*>_<*>_<*>_<*>
+P43,Registering class org.apache.hadoop.mapreduce.<*>.app.<*>.<*>.<*>$<*> for class org.apache.hadoop.mapreduce.<*>.app.MRAppMaster$<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.app.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.app.MRAppMaster$<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.app.<*>.<*>$<*> for class org.apache.hadoop.mapreduce.<*>.app.MRAppMaster$<*>
+P44,Retrying connect to server: MSRA-SA-<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); maxRetries=<*>
+P45,attempt_<*>_<*>_<*>_<*>_<*> 
+P46,"Retrying connect to server: <*>DN<*>IQ.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)"
+P47,Got allocated containers <*>
+P48,Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_<*>_<*>_<*>_<*> taskAttempt attempt_<*>_<*>_<*>_<*>_<*>
+P49,Using <*> .<*>.<*>.<*>.<*>.<*>.<*> _/|\\_ Using <*> .<*>.<*>.<*>.<*>.<*> _/|\\_ Using <*> .<*>.<*>.<*>
+P50,Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context <*>
+P51,Task: attempt_<*>_<*>_m_<*>_<*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI<*>/<*>.<*>.<*>.<*> to msra-sa-<*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+P52,soft limit at <*>
+P53,Upper limit on the thread pool size is <*>
+P54,"Recovering task task_<*>_<*>_m_<*> from prior app attempt, status was SUCCEEDED"
+P55,(EQUATOR) <*> kvi <*>(<*>)
+P56,"Failed to connect to /<*>.<*>.<*>.<*>:<*> for block, add to deadNodes and continue. java.net.<*>: <*> : no further information _/|\\_ Failed to connect to /<*>.<*>.<*>.<*>:<*> for block, add to deadNodes and continue. java.net.<*>: <*> to <*>: no further information"
+P57,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+P58,KILLING attempt_<*>_<*>_<*>_<*>_<*>
+P59,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from KILL_CONTAINER_CLEANUP to KILL_TASK_CLEANUP
+P60,Read <*> from <*>  _/|\\_ Read from <*> 
+P61,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+P62,Scheduling a redundant attempt for task task_<*>_<*>_m_<*>
+P63,"Event Writer setup for JobId: job_<*>_<*>, File: hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job_<*>_<*>_<*>.jhist"
+P64,Web app /mapreduce started at <*>
+P65,Not uberizing job_<*>_<*> because: not enabled; too many maps; too much input;
+P66,"Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""MININT-<*>DGDAM<*>/<*>.<*>.<*>.<*>""; destination host is: ""<*>.fareast.corp.microsoft.com"":<*>; _/|\\_ Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""MININT-<*>DGDAM<*>/<*>.<*>.<*>.<*>""; destination host is: ""<*>-<*>.fareast.corp.microsoft.com"":<*>;"
+P67,Graceful stop failed
+P68,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from RUNNING to KILLED
+P69,History url is http://MSRA-SA-<*>.fareast.corp.microsoft.com:<*>/jobhistory/job/job_<*>_<*>
+P70,Container complete event for unknown container id container_<*>_<*>_<*>_<*>
+P71,Resolved MININT-FNANLI<*>.fareast.corp.microsoft.com to /default-rack
+P72,Shuffle failed : local error on this node: <*>DN<*>IQ/<*>.<*>.<*>.<*>
+P73,We <*> 
+P74,<*> failures on node <*>DN<*>IQ.fareast.corp.microsoft.com
+P75,Executing with tokens:
+P76,Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+P77,Created MRAppMaster for application appattempt_<*>_<*>_<*>
+P78,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from KILL_TASK_CLEANUP to KILLED
+P79,Putting shuffle token in serviceData
+P80,ProcfsBasedProcessTree currently is supported only on Linux.
+P81,ERROR IN CONTACTING RM.
+P82,task_<*>_<*>_<*>_<*> Task Transitioned from NEW to SCHEDULED
+P83,Logging to org.<*>.impl.<*>(org.mortbay.log) via org.mortbay.log.<*>
+P84,Assigned <*> 
+P85,"completedMapPercent <*>.<*> totalResourceLimit:<memory:<*>, vCores:-<*>> finalMapResourceLimit:<memory:<*>, vCores:<*>> finalReduceResourceLimit:<memory:<*>, vCores:-<*>> netScheduledMapResource:<memory:<*>, vCores:<*>> netScheduledReduceResource:<memory:<*>, vCores:<*>> _/|\\_ completedMapPercent <*>.<*> totalResourceLimit:<memory:<*>, vCores:-<*>> finalMapResourceLimit:<memory:<*>, vCores:-<*>> finalReduceResourceLimit:<memory:<*>, vCores:<*>> netScheduledMapResource:<memory:<*>, vCores:<*>> netScheduledReduceResource:<memory:<*>, vCores:<*>> _/|\\_ completedMapPercent <*>.<*> totalResourceLimit:<memory:<*>, vCores:-<*>> finalMapResourceLimit:<memory:<*>, vCores:-<*>> finalReduceResourceLimit:<memory:<*>, vCores:-<*>> netScheduledMapResource:<memory:<*>, vCores:<*>> netScheduledReduceResource:<memory:<*>, vCores:<*>>"
+P86,TaskHeartbeatHandler thread interrupted
+P87,Size of containertokens_dob is <*>
+P88,Previous history file is at hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job_<*>_<*>_<*>.jhist
+P89,History url is http://MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>/jobhistory/job/job_<*>_<*>
+P90,Retrying connect to server: MININT-<*>DGDAM<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); maxRetries=<*>
+P91,"Unable to parse prior job history, aborting recovery"
+P92,blacklistDisablePercent is <*>
+P93,Diagnostics report from attempt_<*>_<*>_<*>_<*>_<*>: cleanup failed for container container_<*>_<*>_<*>_<*> : java.lang.IllegalArgumentException: java.net.UnknownHostException: MSRA-SA-<*>.fareast.corp.microsoft.com
+P94,Num completed Tasks: <*>
+P95,"Retrying connect to server: MININT-FNANLI<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)"
+P96,Adding job token for job_<*>_<*> to jobTokenSecretManager
+P97,task_<*>_<*>_<*>_<*> Task Transitioned from RUNNING to SUCCEEDED
+P98,Copying hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job_<*>_<*>_<*>_<*>.<*> to hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging _/|\\_ Copying hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job_<*>_<*>_<*>.<*> to hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging
+P99,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from NEW to SUCCEEDED
+P100,OutputCommitter <*> 
+P101,Registered webapp guice modules
+P102,assigned <*> of <*> to MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*> to fetcher#<*>
+P103,maxTaskFailuresPerNode is <*>
+P104,Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.<*>@<*>
+P105,Notify RMCommunicator isAMLastRetry: <*>
+P106,Extract jar:file:/D:/hadoop-<*>.<*>.<*>-localbox/share/hadoop/yarn/hadoop-yarn-common-<*>.<*>.<*>-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_<*>_<*>_<*>_<*>_<*>_mapreduce____.<*>\\webapp _/|\\_ Extract jar:file:/D:/hadoop-<*>.<*>.<*>-localbox/share/hadoop/yarn/hadoop-yarn-common-<*>.<*>.<*>-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_<*>_<*>_<*>_<*>_<*>_mapreduce____<*>\\webapp _/|\\_ Extract jar:file:/D:/hadoop-<*>.<*>.<*>-localbox/share/hadoop/yarn/hadoop-yarn-common-<*>.<*>.<*>-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\<*>\\Jetty_<*>_<*>_<*>_<*>_<*>_mapreduce____.<*>\\webapp _/|\\_ Extract jar:file:/D:/hadoop-<*>.<*>.<*>-localbox/share/hadoop/yarn/hadoop-yarn-common-<*>.<*>.<*>-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\<*>\\Jetty_<*>_<*>_<*>_<*>_<*>_mapreduce____<*>\\webapp
+P107,for <*>/<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>  _/|\\_ <*> for <*> /<*>/<*>/<*>/<*>/<*>/<*>/<*>_<*>_<*> _/|\\_ for <*>/<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>  _/|\\_ for <*>/<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>  _/|\\_ for <*>/<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>  _/|\\_ for <*>/<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>  _/|\\_ for <*>/<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>  _/|\\_ for <*>/<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*>_<*> 
+P108,"Retrying connect to server: <*>.<*>.<*>.<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS) _/|\\_ Retrying connect to server: <*>.<*>.<*>.<*>.<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS) _/|\\_ Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)"
+P109,adding path spec: /<*>/*
+P110,Final Stats: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+P111,Diagnostics report from attempt_<*>_<*>_m_<*>_<*>: cleanup failed for container container_<*>_<*>_<*>_<*> : java.lang.IllegalArgumentException: java.net.UnknownHostException: <*>DN<*>IQ.fareast.corp.microsoft.com
+P112,Finished spill <*>
+P113,task_<*>_<*>_m_<*> Task Transitioned from NEW to SUCCEEDED
+P114,ReduceTask metrics system <*>  _/|\\_ ReduceTask metrics system <*>
+P115,"Recalculating schedule, headroom=<memory:<*>, vCores:-<*>>"
+P116,Shuffle port returned by ContainerManager for attempt_<*>_<*>_<*>_<*>_<*> : <*>
+P117,"Cannot assign container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MSRA-SA-<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=true"
+P118,Ignoring exception during close for org.apache.hadoop.mapred.MapTask$NewOutputCollector@<*>
+P119,"Cannot assign container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=true"
+P120,Resolved MININT-<*>DGDAM<*>.fareast.corp.microsoft.com to /default-rack
+P121,Adding protocol org.apache.hadoop.mapreduce.<*>.api.MRClientProtocolPB to the server
+P122,MININT-FNANLI<*>.fareast.corp.microsoft.com:<*> freed by fetcher#<*> in <*>
+P123,Waiting for application to be successfully unregistered.
+P124,Notify JHEH isAMLastRetry: <*>
+P125,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from ASSIGNED to RUNNING
+P126,loaded properties from hadoop-<*>.properties
+P127,Deleting staging directory hdfs://msra-sa-<*>:<*> /tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>
+P128,Runnning cleanup for the task
+P129,Reporting fetch failure for attempt_<*>_<*>_m_<*>_<*> to jobtracker.
+P130,"In stop, writing event TASK_FINISHED"
+P131,I/O error constructing remote block reader.
+P132,Commit-pending state update from attempt_<*>_<*>_r_<*>_<*>
+P133,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP
+P134,"Could not obtain BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*> from any node: java.io.IOException: No live nodes contain block BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*> after checking nodes = [<*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>], ignoredNodes = null No live nodes contain current block Block locations: <*>.<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*> Dead nodes: <*>.<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*>. Will get new block locations from namenode and retry... _/|\\_ Could not obtain BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*> from any node: java.io.IOException: No live nodes contain block BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*> after checking nodes = [<*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>], ignoredNodes = null No live nodes contain current block Block locations: <*>.<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*> Dead nodes: <*>.<*>.<*>.<*>:<*> .<*>.<*>.<*>:<*>. Will get new block locations from namenode and retry..."
+P135,JVM with ID : jvm_<*>_<*>_<*>_<*> task _/|\\_ JVM with ID: jvm_<*>_<*>_<*>_<*> task: <*>_<*>_<*>_<*>_<*>_<*>
+P136,"DFS chooseDataNode: got # <*> IOException, will wait for <*>.<*> msec."
+P137,Task: attempt_<*>_<*>_m_<*>_<*> - failed due to FSError: java.io.IOException: There is not enough space on the disk
+P138,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP
+P139,Scheduled snapshot period at <*> second(s).
+P140,Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_<*>_<*>_<*>_<*> taskAttempt attempt_<*>_<*>_<*>_<*>_<*>
+P141,Stopping IPC Server <*> _/|\\_ Stopping IPC Server <*> 
+P142,Copied to done location: hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging
+P143,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>
+P144,Opening proxy : MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>
+P145,"Releasing unassigned and invalid container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ]. RM may have assignment issues"
+P146,Input size for job job_<*>_<*> = <*>. Number of splits = <*>
+P147,Diagnostics report from attempt_<*>_<*>_<*>_<*>_<*>: AttemptID:attempt_<*>_<*>_<*>_<*>_<*> Timed out after <*> secs
+P148,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: -<*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>.<*>.<*>.<*>:<*>, <*>.<*>.<*>.<*>:<*>]"
+P149,Number of reduces for job job_<*>_<*> = <*>
+P150,JobHistoryEventHandler notified that forceJobCompletion is <*>
+P151,"Retrying connect to server: MININT-<*>DGDAM<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)"
+P152,Opening proxy : MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>
+P153,MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*> freed by fetcher#<*> in <*>
+P154,Ramping <*> 
+P155,"Down to the last merge-pass, with <*> segments left of total size: <*> bytes"
+P156,Diagnostics report from attempt_<*>_<*>_m_<*>_<*>: Error: java.io.IOException: <*> 
+P157,Opening proxy : MSRA-SA-<*>.fareast.corp.microsoft.com:<*>
+P158,"Last retry, killing attempt_<*>_<*>_m_<*>_<*>"
+P159,Retrying connect to server: <*>DN<*>IQ.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); maxRetries=<*>
+P160,Registering class org.apache.hadoop.mapreduce.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*> _/|\\_ Registering class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*> for class org.apache.hadoop.mapreduce.<*>.<*>.<*>.<*>
+P161,ATTEMPT_START task_<*>_<*>_<*>_<*>
+P162,Instantiated MRClientService at MININT-FNANLI<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>
+P163,Killing taskAttempt:attempt_<*>_<*>_<*>_<*>_<*> because it is running on unusable node:MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>
+P164,Address change detected. Old: msra-sa-<*>/<*>.<*>.<*>.<*>:<*> New: msra-sa-<*>:<*>
+P165,Setting job diagnostics to
+P166,MSRA-SA-<*>.fareast.corp.microsoft.com:<*> freed by fetcher#<*> in <*>
+P167,MapCompletionEvents request from attempt_<*>_<*>_r_<*>_<*>. startIndex <*> maxEvents <*>
+P168,Adding #<*> tokens and #<*> secret keys for NM use for launching container
+P169,Auth successful for job_<*>_<*> (auth:SIMPLE)
+P170,Commit go/no-go request from attempt_<*>_<*>_r_<*>_<*>
+P171,Excluding datanode <*>.<*>.<*>.<*>:<*>
+P172,Started <*>$SelectChannelConnectorWithSafeStartup@<*>.<*>.<*>.<*>:<*>
+P173,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from NEW to FAILED
+P174,DFS Read
+P175,TaskAttempt: [attempt_<*>_<*>_<*>_<*>_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>]
+P176,MRAppMaster <*> 
+P177,TaskAttempt: [attempt_<*>_<*>_<*>_<*>_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>]
+P178,Diagnostics report from attempt_<*>_<*>_<*>_<*>_<*>: <*>  _/|\\_ Diagnostics report from attempt_<*>_<*>_<*>_<*>_<*>: <*>: <*>: <*>  _/|\\_ Diagnostics report from attempt_<*>_<*>_<*>_<*>_<*>: <*>: <*>: <*> attempt_<*>_<*>_<*>_<*>_<*>
+P179,<*>DN<*>IQ.fareast.corp.microsoft.com:<*> freed by fetcher#<*> in <*>
+P180,JOB_CREATE job_<*>_<*>
+P181,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED
+P182,Resolved <*>DN<*>IQ.fareast.corp.microsoft.com to /default-rack
+P183,Reduce <*> 
+P184,Calling <*> for <*> _/|\\_ Calling <*> for <*> 
+P185,Failed to renew lease for [DFSClient_NONMAPREDUCE_<*>_<*>] for <*> seconds. Will retry shortly ...
+P186,Exception <*> : java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI<*>/<*>.<*>.<*>.<*> to msra-sa-<*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+P187,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from RUNNING to SUCCESS_CONTAINER_CLEANUP
+P188,Could not contact RM after <*> milliseconds.
+P189,"In stop, writing event JOB_FINISHED"
+P190,task_<*>_<*>_m_<*> Task Transitioned from SUCCEEDED to SCHEDULED
+P191,Starting <*> 
+P192,Successfully connected to /<*>.<*>.<*>.<*>:<*> for BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*>
+P193,The job-<*> file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job.<*> _/|\\_ The job-<*> file on the remote FS is <*>//<*>-<*>-<*>/tmp/hadoop-yarn/staging/msrabi/.staging/job_<*>_<*>/job.<*>
+P194,"Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""MININT-FNANLI<*>/<*>.<*>.<*>.<*>""; destination host is: ""<*>.<*>.<*>.<*>.<*>"":<*>; _/|\\_ Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""MININT-FNANLI<*>/<*>.<*>.<*>.<*>""; destination host is: ""<*>-<*>.<*>.<*>.<*>.<*>"":<*>; _/|\\_ Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""MININT-FNANLI<*>/<*>.<*>.<*>.<*>""; destination host is: ""<*>.<*>.<*>.<*>"":<*>;"
+P195,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from UNASSIGNED to KILLED
+P196,MapTask metrics system <*> _/|\\_ MapTask metrics system <*> 
+P197,"Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: ""<*>DN<*>IQ/<*>.<*>.<*>.<*>""; destination host is: ""minint-<*>.fareast.corp.microsoft.com"":<*>;"
+P198,Task <*> attempt attempt_<*>_<*>_<*>_<*>_<*> _/|\\_ Task attempt_<*>_<*>_<*>_<*>_<*>  _/|\\_ Task <*>attempt_<*>_<*>_<*>_<*>_<*> 
+P199,"Kind: mapreduce.job, Service: job_<*>_<*>, Ident: (org.apache.hadoop.mapreduce.security.token.JobTokenIdentifier@<*>)"
+P200,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from NEW to UNASSIGNED
+P201,Added <*> 
+P202,DFSOutputStream ResponseProcessor exception for block BP-<*>-<*>.<*>.<*>.<*>-<*>:blk_<*>_<*>
+P203,Failed to connect to MININT-FNANLI<*>.fareast.corp.microsoft.com:<*> with <*> map outputs
+P204,RMCommunicator notified that shouldUnregistered is: <*>
+P205,Service org.apache.hadoop.mapreduce.<*>.app.MRAppMaster failed in state STOPPED; cause: org.apache.avro.AvroTypeException: Attempt to process a enum when a union was expected.
+P206,Killing taskAttempt:attempt_<*>_<*>_<*>_<*>_<*> because it is running on unusable node:<*>DN<*>IQ.fareast.corp.microsoft.com:<*>
+P207,All maps assigned. Ramping up all remaining reduces:<*>
+P208,Retrying connect to server: <*>.<*>.<*>.<*>.<*>/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); maxRetries=<*> _/|\\_ Retrying connect to server: <*>/<*>.<*>.<*>.<*>:<*>. Already tried <*> time(s); maxRetries=<*>
+P209,queue: default
+P210,Instantiated MRClientService at MSRA-SA-<*>.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>
+P211,Assigning <*> : <*>: <*> : <*>DN<*>IQ.fareast.corp.microsoft.com:<*> : <*>DN<*>IQ.fareast.corp.microsoft.com:<*> : <*>:<*> :<*> : <*> : <*> : <*> : <*>.<*>.<*>.<*>:<*> to <*>  _/|\\_ Assigning <*>DN<*>IQ.fareast.corp.microsoft.com:<*> to <*>
+P212,Service JobHistoryEventHandler failed in state STOPPED; cause: org.apache.avro.AvroTypeException: Attempt to process a enum when a union was expected.
+P213,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from ASSIGNED to KILL_CONTAINER_CLEANUP
+P214,assigned <*> of <*> to MININT-FNANLI<*>.fareast.corp.microsoft.com:<*> to fetcher#<*>
+P215,Instantiated MRClientService at <*>DN<*>IQ.fareast.corp.microsoft.com/<*>.<*>.<*>.<*>:<*>
+P216,assigned <*> of <*> to MSRA-SA-<*>.fareast.corp.microsoft.com:<*> to fetcher#<*>
+P217,Saved output of task 'attempt_<*>_<*>_r_<*>_<*>' to hdfs://msra-sa-<*>:<*>/<*>/<*>/_temporary/<*>/task_<*>_<*>_r_<*>
+P218,History url is http://<*>DN<*>IQ.fareast.corp.microsoft.com:<*>/jobhistory/job/job_<*>_<*>
+P219,"<*>.<*>.<*> is deprecated. Instead, use <*>.<*>.<*> _/|\\_ <*>.<*> is deprecated. Instead, use <*>.<*>.<*>"
+P220,Opening proxy : <*>DN<*>IQ.fareast.corp.microsoft.com:<*>
+P221,DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_<*>_<*>_m_<*>
+P222,finalMerge called with <*> in-memory map-outputs and <*> on-disk map-outputs
+P223,Error closing writer for JobID: job_<*>_<*>
+P224,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from FAIL_TASK_CLEANUP to FAILED
+P225,Going to preempt <*> due to lack of space for maps
+P226,Processing split: hdfs://msra-sa-<*>:<*>/<*>.txt:<*>+<*>
+P227,Http request log for http.requests.mapreduce is not defined
+P228,"In stop, writing event MAP_ATTEMPT_FAILED"
+P229,TaskAttempt: [attempt_<*>_<*>_<*>_<*>_<*>] using containerId: [container_<*>_<*>_<*>_<*> on NM: [<*>DN<*>IQ.fareast.corp.microsoft.com:<*>]
+P230,Connecting to ResourceManager at msra-sa-<*>/<*>.<*>.<*>.<*>:<*>
+P231,Task:attempt_<*>_<*>_r_<*>_<*> is done. And is in the process of committing
+P232,Issuing kill to other attempt attempt_<*>_<*>_m_<*>_<*>
+P233,TaskAttempt killed because it ran on unusable node MININT-FNANLI<*>.fareast.corp.microsoft.com:<*>. AttemptId:attempt_<*>_<*>_m_<*>_<*>
+P234,Launching attempt_<*>_<*>_<*>_<*>_<*>
+P235,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from SUCCEEDED to KILLED
+P236,Killing taskAttempt:attempt_<*>_<*>_<*>_<*>_<*> because it is running on unusable node:MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>
+P237,attempt_<*>_<*>_<*>_<*>_<*> TaskAttempt Transitioned from RUNNING to KILL_CONTAINER_CLEANUP
+P238,attempt_<*>_<*>_r_<*>_<*> TaskAttempt Transitioned from RUNNING to COMMIT_PENDING
+P239,Process Thread Dump: Communication exception
+P240,Stopping <*> 
+P241,fetcher#<*> about to shuffle output of map attempt_<*>_<*>_m_<*>_<*> decomp: <*> len: <*> to DISK
+P242,Found jobId job_<*>_<*> to have not been closed. Will close
+P243,assigned <*> of <*> to <*>DN<*>IQ.fareast.corp.microsoft.com:<*> to fetcher#<*>
+P244,Default file system [hdfs://msra-sa-<*>:<*>]
+P245,Spilling map output
+P246,Communication exception: java.net.NoRouteToHostException: No Route to Host from MININT-FNANLI<*>/<*>.<*>.<*>.<*> to <*>.<*>.<*>.<*>:<*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost
+P247,Task:attempt_<*>_<*>_m_<*>_<*> is done. And is in the process of committing
+P248,Done acknowledgement from attempt_<*>_<*>_<*>_<*>_<*>
+P249,"Releasing unassigned and invalid container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: <*>DN<*>IQ.fareast.corp.microsoft.com:<*>, NodeHttpAddress: <*>DN<*>IQ.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ]. RM may have assignment issues"
+P250,Moved tmp to done: hdfs://msra-sa-<*>:<*>/tmp/hadoop-yarn/staging
+P251,Merging <*> 
+P252,Assigning MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*> with <*> to fetcher#<*>
+P253,Connection retry failed with <*> attempts in <*> seconds
+P254,Assigning <*> : <*>: <*> : MSRA-SA-<*>.fareast.corp.microsoft.com:<*> : MSRA-SA-<*>.fareast.corp.microsoft.com:<*> : <*>:<*> :<*> : <*> : <*> : <*> : <*>.<*>.<*>.<*>:<*> to <*>  _/|\\_ Assigning MSRA-SA-<*>.fareast.corp.microsoft.com:<*> to <*>
+P255,attempt_<*>_<*>_m_<*>_<*> TaskAttempt Transitioned from NEW to KILLED
+P256,"Cannot assign container Container: [ContainerId: container_<*>_<*>_<*>_<*>, NodeId: MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>, NodeHttpAddress: MININT-<*>DGDAM<*>.fareast.corp.microsoft.com:<*>, Resource: <memory:<*>, vCores:<*>>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*>.<*>.<*>.<*>:<*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*>> or no pending map tasks - maps.isEmpty=true"
+P257,
+P258,mapreduce.task.io.sort.mb: 100
+P259,mapreduce.task.io.sort.mb: 100
+P260,mapreduce.task.io.sort.mb: 100
+P261,mapreduce.task.io.sort.mb: 100
+P262,mapreduce.task.io.sort.mb: 100
+P263,mapreduce.task.io.sort.mb: 100
+P264,mapreduce.task.io.sort.mb: 100
+P265,mapreduce.task.io.sort.mb: 100
+P266,jetty-6.1.26
+P267,nodeBlacklistingEnabled:true
+P268,"maxContainerCapability: <memory:8192, vCores:32>"
+P269,yarn.client.max-cached-nodemanagers-proxies : 0
+P270,"mapResourceRequest:<memory:1024, vCores:1>"
+P271,mapreduce.task.io.sort.mb: 100
+P272,mapreduce.task.io.sort.mb: 100
+P273,mapreduce.task.io.sort.mb: 100
+P274,mapreduce.task.io.sort.mb: 100
+P275,mapreduce.task.io.sort.mb: 100
+P276,mapreduce.task.io.sort.mb: 100
+P277,mapreduce.task.io.sort.mb: 100
+P278,mapreduce.task.io.sort.mb: 100
+P279,mapreduce.task.io.sort.mb: 100
+P280,mapreduce.task.io.sort.mb: 100
+P281,mapreduce.task.io.sort.mb: 100
+P282,mapreduce.task.io.sort.mb: 100
+P283,mapreduce.task.io.sort.mb: 100
+P284,mapreduce.task.io.sort.mb: 100
+P285,mapreduce.task.io.sort.mb: 100
+P286,mapreduce.task.io.sort.mb: 100
+P287,mapreduce.task.io.sort.mb: 100
+P288,jetty-6.1.26
+P289,nodeBlacklistingEnabled:true
+P290,"maxContainerCapability: <memory:8192, vCores:32>"
+P291,yarn.client.max-cached-nodemanagers-proxies : 0
+P292,"mapResourceRequest:<memory:1024, vCores:1>"
+P293,mapreduce.task.io.sort.mb: 100
+P294,mapreduce.task.io.sort.mb: 100
+P295,mapreduce.task.io.sort.mb: 100
+P296,mapreduce.task.io.sort.mb: 100
+P297,mapreduce.task.io.sort.mb: 100
+P298,mapreduce.task.io.sort.mb: 100
+P299,mapreduce.task.io.sort.mb: 100
+P300,mapreduce.task.io.sort.mb: 100
+P301,mapreduce.task.io.sort.mb: 100
+P302,mapreduce.task.io.sort.mb: 100
+P303,mapreduce.task.io.sort.mb: 100
+P304,mapreduce.task.io.sort.mb: 100
+P305,mapreduce.task.io.sort.mb: 100
+P306,mapreduce.task.io.sort.mb: 100
+P307,jetty-6.1.26
+P308,nodeBlacklistingEnabled:true
+P309,"maxContainerCapability: <memory:8192, vCores:32>"
+P310,yarn.client.max-cached-nodemanagers-proxies : 0
+P311,"mapResourceRequest:<memory:1024, vCores:1>"
+P312,mapreduce.task.io.sort.mb: 100
+P313,mapreduce.task.io.sort.mb: 100
+P314,mapreduce.task.io.sort.mb: 100
+P315,mapreduce.task.io.sort.mb: 100
+P316,mapreduce.task.io.sort.mb: 100
+P317,mapreduce.task.io.sort.mb: 100
+P318,mapreduce.task.io.sort.mb: 100
+P319,mapreduce.task.io.sort.mb: 100
+P320,mapreduce.task.io.sort.mb: 100
+P321,mapreduce.task.io.sort.mb: 100
+P322,mapreduce.task.io.sort.mb: 100
+P323,jetty-6.1.26
+P324,nodeBlacklistingEnabled:true
+P325,"maxContainerCapability: <memory:8192, vCores:32>"
+P326,yarn.client.max-cached-nodemanagers-proxies : 0
+P327,"mapResourceRequest:<memory:1024, vCores:1>"
+P328,mapreduce.task.io.sort.mb: 100
+P329,mapreduce.task.io.sort.mb: 100
+P330,mapreduce.task.io.sort.mb: 100
+P331,mapreduce.task.io.sort.mb: 100
+P332,mapreduce.task.io.sort.mb: 100
+P333,mapreduce.task.io.sort.mb: 100
+P334,mapreduce.task.io.sort.mb: 100
+P335,mapreduce.task.io.sort.mb: 100
+P336,mapreduce.task.io.sort.mb: 100
+P337,mapreduce.task.io.sort.mb: 100
+P338,mapreduce.task.io.sort.mb: 100
+P339,mapreduce.task.io.sort.mb: 100
+P340,mapreduce.task.io.sort.mb: 100
+P341,mapreduce.task.io.sort.mb: 100
+P342,jetty-6.1.26
+P343,nodeBlacklistingEnabled:true
+P344,"maxContainerCapability: <memory:8192, vCores:32>"
+P345,yarn.client.max-cached-nodemanagers-proxies : 0
+P346,"mapResourceRequest:<memory:1024, vCores:1>"
+P347,mapreduce.task.io.sort.mb: 100
+P348,jetty-6.1.26
+P349,nodeBlacklistingEnabled:true
+P350,"maxContainerCapability: <memory:8192, vCores:32>"
+P351,yarn.client.max-cached-nodemanagers-proxies : 0
+P352,"mapResourceRequest:<memory:1024, vCores:1>"
+P353,mapreduce.task.io.sort.mb: 100
+P354,mapreduce.task.io.sort.mb: 100
+P355,mapreduce.task.io.sort.mb: 100
+P356,mapreduce.task.io.sort.mb: 100
+P357,mapreduce.task.io.sort.mb: 100
+P358,mapreduce.task.io.sort.mb: 100
+P359,mapreduce.task.io.sort.mb: 100
+P360,mapreduce.task.io.sort.mb: 100
+P361,mapreduce.task.io.sort.mb: 100
+P362,mapreduce.task.io.sort.mb: 100
+P363,mapreduce.task.io.sort.mb: 100
+P364,mapreduce.task.io.sort.mb: 100
+P365,mapreduce.task.io.sort.mb: 100
+P366,mapreduce.task.io.sort.mb: 100
+P367,mapreduce.task.io.sort.mb: 100
+P368,mapreduce.task.io.sort.mb: 100
+P369,mapreduce.task.io.sort.mb: 100
+P370,mapreduce.task.io.sort.mb: 100
+P371,jetty-6.1.26
+P372,nodeBlacklistingEnabled:true
+P373,"maxContainerCapability: <memory:8192, vCores:32>"
+P374,yarn.client.max-cached-nodemanagers-proxies : 0
+P375,"mapResourceRequest:<memory:1024, vCores:1>"
+P376,mapreduce.task.io.sort.mb: 100
+P377,mapreduce.task.io.sort.mb: 100
+P378,mapreduce.task.io.sort.mb: 100
+P379,mapreduce.task.io.sort.mb: 100
+P380,mapreduce.task.io.sort.mb: 100
+P381,mapreduce.task.io.sort.mb: 100
+P382,mapreduce.task.io.sort.mb: 100
+P383,mapreduce.task.io.sort.mb: 100
+P384,mapreduce.task.io.sort.mb: 100
+P385,mapreduce.task.io.sort.mb: 100
+P386,mapreduce.task.io.sort.mb: 100
+P387,mapreduce.task.io.sort.mb: 100
+P388,mapreduce.task.io.sort.mb: 100
+P389,mapreduce.task.io.sort.mb: 100
+P390,mapreduce.task.io.sort.mb: 100
+P391,mapreduce.task.io.sort.mb: 100
+P392,mapreduce.task.io.sort.mb: 100
+P393,mapreduce.task.io.sort.mb: 100
+P394,jetty-6.1.26
+P395,nodeBlacklistingEnabled:true
+P396,"maxContainerCapability: <memory:8192, vCores:32>"
+P397,yarn.client.max-cached-nodemanagers-proxies : 0
+P398,"mapResourceRequest:<memory:1024, vCores:1>"
+P399,mapreduce.task.io.sort.mb: 100
+P400,mapreduce.task.io.sort.mb: 100
+P401,mapreduce.task.io.sort.mb: 100
+P402,jetty-6.1.26
+P403,nodeBlacklistingEnabled:true
+P404,"maxContainerCapability: <memory:8192, vCores:32>"
+P405,yarn.client.max-cached-nodemanagers-proxies : 0
+P406,"mapResourceRequest:<memory:1024, vCores:1>"
+P407,mapreduce.task.io.sort.mb: 100
+P408,mapreduce.task.io.sort.mb: 100
+P409,mapreduce.task.io.sort.mb: 100
+P410,mapreduce.task.io.sort.mb: 100
+P411,mapreduce.task.io.sort.mb: 100
+P412,mapreduce.task.io.sort.mb: 100
+P413,mapreduce.task.io.sort.mb: 100
+P414,mapreduce.task.io.sort.mb: 100
+P415,mapreduce.task.io.sort.mb: 100
+P416,mapreduce.task.io.sort.mb: 100
+P417,mapreduce.task.io.sort.mb: 100
+P418,mapreduce.task.io.sort.mb: 100
+P419,mapreduce.task.io.sort.mb: 100
+P420,mapreduce.task.io.sort.mb: 100
+P421,mapreduce.task.io.sort.mb: 100
+P422,mapreduce.task.io.sort.mb: 100
+P423,mapreduce.task.io.sort.mb: 100
+P424,mapreduce.task.io.sort.mb: 100
+P425,mapreduce.task.io.sort.mb: 100
+P426,mapreduce.task.io.sort.mb: 100
+P427,mapreduce.task.io.sort.mb: 100
+P428,mapreduce.task.io.sort.mb: 100
+P429,jetty-6.1.26
+P430,nodeBlacklistingEnabled:true
+P431,"maxContainerCapability: <memory:8192, vCores:32>"
+P432,yarn.client.max-cached-nodemanagers-proxies : 0
+P433,"mapResourceRequest:<memory:1024, vCores:1>"
+P434,mapreduce.task.io.sort.mb: 100
+P435,mapreduce.task.io.sort.mb: 100
+P436,mapreduce.task.io.sort.mb: 100
+P437,mapreduce.task.io.sort.mb: 100
+P438,mapreduce.task.io.sort.mb: 100
+P439,mapreduce.task.io.sort.mb: 100
+P440,mapreduce.task.io.sort.mb: 100
+P441,mapreduce.task.io.sort.mb: 100
+P442,mapreduce.task.io.sort.mb: 100
+P443,mapreduce.task.io.sort.mb: 100
+P444,mapreduce.task.io.sort.mb: 100
+P445,mapreduce.task.io.sort.mb: 100
+P446,mapreduce.task.io.sort.mb: 100
+P447,jetty-6.1.26
+P448,nodeBlacklistingEnabled:true
+P449,"maxContainerCapability: <memory:8192, vCores:32>"
+P450,yarn.client.max-cached-nodemanagers-proxies : 0
+P451,"mapResourceRequest:<memory:1024, vCores:1>"
+P452,mapreduce.task.io.sort.mb: 100
+P453,mapreduce.task.io.sort.mb: 100
+P454,mapreduce.task.io.sort.mb: 100
+P455,mapreduce.task.io.sort.mb: 100
+P456,mapreduce.task.io.sort.mb: 100
+P457,mapreduce.task.io.sort.mb: 100
+P458,mapreduce.task.io.sort.mb: 100
+P459,mapreduce.task.io.sort.mb: 100
+P460,mapreduce.task.io.sort.mb: 100
+P461,jetty-6.1.26
+P462,nodeBlacklistingEnabled:true
+P463,"maxContainerCapability: <memory:8192, vCores:32>"
+P464,yarn.client.max-cached-nodemanagers-proxies : 0
+P465,"mapResourceRequest:<memory:1024, vCores:1>"
+P466,mapreduce.task.io.sort.mb: 100
+P467,mapreduce.task.io.sort.mb: 100
+P468,mapreduce.task.io.sort.mb: 100
+P469,mapreduce.task.io.sort.mb: 100
+P470,mapreduce.task.io.sort.mb: 100
+P471,mapreduce.task.io.sort.mb: 100
+P472,mapreduce.task.io.sort.mb: 100
+P473,mapreduce.task.io.sort.mb: 100
+P474,mapreduce.task.io.sort.mb: 100
+P475,mapreduce.task.io.sort.mb: 100
+P476,mapreduce.task.io.sort.mb: 100
+P477,mapreduce.task.io.sort.mb: 100
+P478,mapreduce.task.io.sort.mb: 100
+P479,mapreduce.task.io.sort.mb: 100
+P480,mapreduce.task.io.sort.mb: 100
+P481,mapreduce.task.io.sort.mb: 100
+P482,mapreduce.task.io.sort.mb: 100
+P483,mapreduce.task.io.sort.mb: 100
+P484,mapreduce.task.io.sort.mb: 100
+P485,mapreduce.task.io.sort.mb: 100
+P486,mapreduce.task.io.sort.mb: 100
+P487,jetty-6.1.26
+P488,nodeBlacklistingEnabled:true
+P489,"maxContainerCapability: <memory:8192, vCores:32>"
+P490,yarn.client.max-cached-nodemanagers-proxies : 0
+P491,"mapResourceRequest:<memory:1024, vCores:1>"
+P492,mapreduce.task.io.sort.mb: 100
+P493,mapreduce.task.io.sort.mb: 100
+P494,mapreduce.task.io.sort.mb: 100
+P495,mapreduce.task.io.sort.mb: 100
+P496,mapreduce.task.io.sort.mb: 100
+P497,mapreduce.task.io.sort.mb: 100
+P498,mapreduce.task.io.sort.mb: 100
+P499,mapreduce.task.io.sort.mb: 100
+P500,mapreduce.task.io.sort.mb: 100
+P501,mapreduce.task.io.sort.mb: 100
+P502,mapreduce.task.io.sort.mb: 100
+P503,mapreduce.task.io.sort.mb: 100
+P504,mapreduce.task.io.sort.mb: 100
+P505,mapreduce.task.io.sort.mb: 100
+P506,mapreduce.task.io.sort.mb: 100
+P507,mapreduce.task.io.sort.mb: 100
+P508,mapreduce.task.io.sort.mb: 100
+P509,mapreduce.task.io.sort.mb: 100
+P510,mapreduce.task.io.sort.mb: 100
+P511,mapreduce.task.io.sort.mb: 100
+P512,mapreduce.task.io.sort.mb: 100
+P513,mapreduce.task.io.sort.mb: 100
+P514,mapreduce.task.io.sort.mb: 100
+P515,jetty-6.1.26
+P516,nodeBlacklistingEnabled:true
+P517,"maxContainerCapability: <memory:8192, vCores:32>"
+P518,yarn.client.max-cached-nodemanagers-proxies : 0
+P519,"mapResourceRequest:<memory:1024, vCores:1>"
+P520,mapreduce.task.io.sort.mb: 100
+P521,mapreduce.task.io.sort.mb: 100
+P522,mapreduce.task.io.sort.mb: 100
+P523,mapreduce.task.io.sort.mb: 100
+P524,mapreduce.task.io.sort.mb: 100
+P525,mapreduce.task.io.sort.mb: 100
+P526,mapreduce.task.io.sort.mb: 100
+P527,mapreduce.task.io.sort.mb: 100
+P528,mapreduce.task.io.sort.mb: 100
+P529,mapreduce.task.io.sort.mb: 100
+P530,jetty-6.1.26
+P531,nodeBlacklistingEnabled:true
+P532,"maxContainerCapability: <memory:8192, vCores:32>"
+P533,yarn.client.max-cached-nodemanagers-proxies : 0
+P534,"mapResourceRequest:<memory:1024, vCores:1>"
+P535,mapreduce.task.io.sort.mb: 100
+P536,mapreduce.task.io.sort.mb: 100
+P537,mapreduce.task.io.sort.mb: 100
+P538,mapreduce.task.io.sort.mb: 100
+P539,jetty-6.1.26
+P540,nodeBlacklistingEnabled:true
+P541,"maxContainerCapability: <memory:8192, vCores:32>"
+P542,yarn.client.max-cached-nodemanagers-proxies : 0
+P543,"mapResourceRequest:<memory:1024, vCores:1>"
+P544,mapreduce.task.io.sort.mb: 100
+P545,mapreduce.task.io.sort.mb: 100
+P546,mapreduce.task.io.sort.mb: 100
+P547,mapreduce.task.io.sort.mb: 100
+P548,mapreduce.task.io.sort.mb: 100
+P549,mapreduce.task.io.sort.mb: 100
+P550,mapreduce.task.io.sort.mb: 100
+P551,mapreduce.task.io.sort.mb: 100
+P552,mapreduce.task.io.sort.mb: 100
+P553,mapreduce.task.io.sort.mb: 100
+P554,mapreduce.task.io.sort.mb: 100
+P555,mapreduce.task.io.sort.mb: 100
+P556,mapreduce.task.io.sort.mb: 100
+P557,jetty-6.1.26
+P558,nodeBlacklistingEnabled:true
+P559,"maxContainerCapability: <memory:8192, vCores:32>"
+P560,yarn.client.max-cached-nodemanagers-proxies : 0
+P561,"mapResourceRequest:<memory:1024, vCores:1>"
+P562,mapreduce.task.io.sort.mb: 100
+P563,mapreduce.task.io.sort.mb: 100
+P564,mapreduce.task.io.sort.mb: 100
+P565,mapreduce.task.io.sort.mb: 100
+P566,mapreduce.task.io.sort.mb: 100
+P567,mapreduce.task.io.sort.mb: 100
+P568,mapreduce.task.io.sort.mb: 100
+P569,mapreduce.task.io.sort.mb: 100
+P570,mapreduce.task.io.sort.mb: 100
+P571,mapreduce.task.io.sort.mb: 100
+P572,mapreduce.task.io.sort.mb: 100
+P573,mapreduce.task.io.sort.mb: 100
+P574,mapreduce.task.io.sort.mb: 100
+P575,mapreduce.task.io.sort.mb: 100
+P576,mapreduce.task.io.sort.mb: 100
+P577,mapreduce.task.io.sort.mb: 100
+P578,mapreduce.task.io.sort.mb: 100
+P579,mapreduce.task.io.sort.mb: 100
+P580,mapreduce.task.io.sort.mb: 100
+P581,mapreduce.task.io.sort.mb: 100
+P582,mapreduce.task.io.sort.mb: 100
+P583,mapreduce.task.io.sort.mb: 100
+P584,mapreduce.task.io.sort.mb: 100
+P585,jetty-6.1.26
+P586,nodeBlacklistingEnabled:true
+P587,"maxContainerCapability: <memory:8192, vCores:32>"
+P588,yarn.client.max-cached-nodemanagers-proxies : 0
+P589,"mapResourceRequest:<memory:1024, vCores:1>"
+P590,mapreduce.task.io.sort.mb: 100
+P591,jetty-6.1.26
+P592,nodeBlacklistingEnabled:true
+P593,"maxContainerCapability: <memory:8192, vCores:32>"
+P594,yarn.client.max-cached-nodemanagers-proxies : 0
+P595,"mapResourceRequest:<memory:1024, vCores:1>"
+P596,mapreduce.task.io.sort.mb: 100
+P597,mapreduce.task.io.sort.mb: 100
+P598,mapreduce.task.io.sort.mb: 100
+P599,mapreduce.task.io.sort.mb: 100
+P600,mapreduce.task.io.sort.mb: 100
+P601,mapreduce.task.io.sort.mb: 100
+P602,mapreduce.task.io.sort.mb: 100
+P603,mapreduce.task.io.sort.mb: 100
+P604,mapreduce.task.io.sort.mb: 100
+P605,mapreduce.task.io.sort.mb: 100
+P606,mapreduce.task.io.sort.mb: 100
+P607,mapreduce.task.io.sort.mb: 100
+P608,mapreduce.task.io.sort.mb: 100
+P609,mapreduce.task.io.sort.mb: 100
+P610,mapreduce.task.io.sort.mb: 100
+P611,mapreduce.task.io.sort.mb: 100
+P612,mapreduce.task.io.sort.mb: 100
+P613,jetty-6.1.26
+P614,nodeBlacklistingEnabled:true
+P615,"maxContainerCapability: <memory:8192, vCores:32>"
+P616,yarn.client.max-cached-nodemanagers-proxies : 0
+P617,"mapResourceRequest:<memory:1024, vCores:1>"
+P618,mapreduce.task.io.sort.mb: 100
+P619,mapreduce.task.io.sort.mb: 100
+P620,mapreduce.task.io.sort.mb: 100
+P621,mapreduce.task.io.sort.mb: 100
+P622,mapreduce.task.io.sort.mb: 100
+P623,mapreduce.task.io.sort.mb: 100
+P624,mapreduce.task.io.sort.mb: 100
+P625,mapreduce.task.io.sort.mb: 100
+P626,mapreduce.task.io.sort.mb: 100
+P627,mapreduce.task.io.sort.mb: 100
+P628,mapreduce.task.io.sort.mb: 100
+P629,jetty-6.1.26
+P630,nodeBlacklistingEnabled:true
+P631,"maxContainerCapability: <memory:8192, vCores:32>"
+P632,yarn.client.max-cached-nodemanagers-proxies : 0
+P633,"mapResourceRequest:<memory:1024, vCores:1>"
+P634,mapreduce.task.io.sort.mb: 100
+P635,mapreduce.task.io.sort.mb: 100
+P636,mapreduce.task.io.sort.mb: 100
+P637,mapreduce.task.io.sort.mb: 100
+P638,mapreduce.task.io.sort.mb: 100
+P639,mapreduce.task.io.sort.mb: 100
+P640,mapreduce.task.io.sort.mb: 100
+P641,mapreduce.task.io.sort.mb: 100
+P642,mapreduce.task.io.sort.mb: 100
+P643,mapreduce.task.io.sort.mb: 100
+P644,mapreduce.task.io.sort.mb: 100
+P645,mapreduce.task.io.sort.mb: 100
+P646,mapreduce.task.io.sort.mb: 100
+P647,mapreduce.task.io.sort.mb: 100
+P648,mapreduce.task.io.sort.mb: 100
+P649,mapreduce.task.io.sort.mb: 100
+P650,mapreduce.task.io.sort.mb: 100
+P651,mapreduce.task.io.sort.mb: 100
+P652,mapreduce.task.io.sort.mb: 100
+P653,mapreduce.task.io.sort.mb: 100
+P654,mapreduce.task.io.sort.mb: 100
+P655,jetty-6.1.26
+P656,nodeBlacklistingEnabled:true
+P657,"maxContainerCapability: <memory:8192, vCores:32>"
+P658,yarn.client.max-cached-nodemanagers-proxies : 0
+P659,"mapResourceRequest:<memory:1024, vCores:1>"
+P660,mapreduce.task.io.sort.mb: 100
+P661,mapreduce.task.io.sort.mb: 100
+P662,mapreduce.task.io.sort.mb: 100
+P663,mapreduce.task.io.sort.mb: 100
+P664,jetty-6.1.26
+P665,nodeBlacklistingEnabled:true
+P666,"maxContainerCapability: <memory:8192, vCores:32>"
+P667,yarn.client.max-cached-nodemanagers-proxies : 0
+P668,mapreduce.task.io.sort.mb: 100
+P669,mapreduce.task.io.sort.mb: 100
+P670,mapreduce.task.io.sort.mb: 100
+P671,mapreduce.task.io.sort.mb: 100
+P672,mapreduce.task.io.sort.mb: 100
+P673,mapreduce.task.io.sort.mb: 100
+P674,mapreduce.task.io.sort.mb: 100
+P675,mapreduce.task.io.sort.mb: 100
+P676,mapreduce.task.io.sort.mb: 100
+P677,mapreduce.task.io.sort.mb: 100
+P678,jetty-6.1.26
+P679,nodeBlacklistingEnabled:true
+P680,"maxContainerCapability: <memory:8192, vCores:32>"
+P681,yarn.client.max-cached-nodemanagers-proxies : 0
+P682,"mapResourceRequest:<memory:1024, vCores:1>"
+P683,mapreduce.task.io.sort.mb: 100
+P684,mapreduce.task.io.sort.mb: 100
+P685,mapreduce.task.io.sort.mb: 100
+P686,mapreduce.task.io.sort.mb: 100
+P687,mapreduce.task.io.sort.mb: 100
+P688,mapreduce.task.io.sort.mb: 100
+P689,mapreduce.task.io.sort.mb: 100
+P690,mapreduce.task.io.sort.mb: 100
+P691,mapreduce.task.io.sort.mb: 100
+P692,mapreduce.task.io.sort.mb: 100
+P693,mapreduce.task.io.sort.mb: 100
+P694,jetty-6.1.26
+P695,nodeBlacklistingEnabled:true
+P696,"maxContainerCapability: <memory:8192, vCores:32>"
+P697,yarn.client.max-cached-nodemanagers-proxies : 0
+P698,"mapResourceRequest:<memory:1024, vCores:1>"
+P699,mapreduce.task.io.sort.mb: 100
+P700,mapreduce.task.io.sort.mb: 100
+P701,mapreduce.task.io.sort.mb: 100
+P702,mapreduce.task.io.sort.mb: 100
+P703,mapreduce.task.io.sort.mb: 100
+P704,mapreduce.task.io.sort.mb: 100
+P705,mapreduce.task.io.sort.mb: 100
+P706,mapreduce.task.io.sort.mb: 100
+P707,mapreduce.task.io.sort.mb: 100
+P708,mapreduce.task.io.sort.mb: 100
+P709,mapreduce.task.io.sort.mb: 100
+P710,mapreduce.task.io.sort.mb: 100
+P711,mapreduce.task.io.sort.mb: 100
+P712,mapreduce.task.io.sort.mb: 100
+P713,mapreduce.task.io.sort.mb: 100
+P714,mapreduce.task.io.sort.mb: 100
+P715,mapreduce.task.io.sort.mb: 100
+P716,mapreduce.task.io.sort.mb: 100
+P717,jetty-6.1.26
+P718,nodeBlacklistingEnabled:true
+P719,"maxContainerCapability: <memory:8192, vCores:32>"
+P720,yarn.client.max-cached-nodemanagers-proxies : 0
+P721,"mapResourceRequest:<memory:1024, vCores:1>"
+P722,mapreduce.task.io.sort.mb: 100
+P723,mapreduce.task.io.sort.mb: 100
+P724,mapreduce.task.io.sort.mb: 100
+P725,mapreduce.task.io.sort.mb: 100
+P726,mapreduce.task.io.sort.mb: 100
+P727,mapreduce.task.io.sort.mb: 100
+P728,mapreduce.task.io.sort.mb: 100
+P729,mapreduce.task.io.sort.mb: 100
+P730,mapreduce.task.io.sort.mb: 100
+P731,mapreduce.task.io.sort.mb: 100
+P732,mapreduce.task.io.sort.mb: 100
+P733,mapreduce.task.io.sort.mb: 100
+P734,mapreduce.task.io.sort.mb: 100
+P735,mapreduce.task.io.sort.mb: 100
+P736,jetty-6.1.26
+P737,nodeBlacklistingEnabled:true
+P738,"maxContainerCapability: <memory:8192, vCores:32>"
+P739,yarn.client.max-cached-nodemanagers-proxies : 0
+P740,"mapResourceRequest:<memory:1024, vCores:1>"
+P741,mapreduce.task.io.sort.mb: 100
+P742,mapreduce.task.io.sort.mb: 100
+P743,mapreduce.task.io.sort.mb: 100
+P744,jetty-6.1.26
+P745,nodeBlacklistingEnabled:true
+P746,"maxContainerCapability: <memory:8192, vCores:32>"
+P747,yarn.client.max-cached-nodemanagers-proxies : 0
+P748,"mapResourceRequest:<memory:1024, vCores:1>"
+P749,mapreduce.task.io.sort.mb: 100
+P750,mapreduce.task.io.sort.mb: 100
+P751,mapreduce.task.io.sort.mb: 100
+P752,mapreduce.task.io.sort.mb: 100
+P753,mapreduce.task.io.sort.mb: 100
+P754,mapreduce.task.io.sort.mb: 100
+P755,mapreduce.task.io.sort.mb: 100
+P756,mapreduce.task.io.sort.mb: 100
+P757,mapreduce.task.io.sort.mb: 100
+P758,mapreduce.task.io.sort.mb: 100
+P759,mapreduce.task.io.sort.mb: 100
+P760,mapreduce.task.io.sort.mb: 100
+P761,jetty-6.1.26
+P762,nodeBlacklistingEnabled:true
+P763,"maxContainerCapability: <memory:8192, vCores:32>"
+P764,yarn.client.max-cached-nodemanagers-proxies : 0
+P765,"mapResourceRequest:<memory:1024, vCores:1>"
+P766,mapreduce.task.io.sort.mb: 100
+P767,mapreduce.task.io.sort.mb: 100
+P768,mapreduce.task.io.sort.mb: 100
+P769,mapreduce.task.io.sort.mb: 100
+P770,mapreduce.task.io.sort.mb: 100
+P771,mapreduce.task.io.sort.mb: 100
+P772,mapreduce.task.io.sort.mb: 100
+P773,mapreduce.task.io.sort.mb: 100
+P774,mapreduce.task.io.sort.mb: 100
+P775,mapreduce.task.io.sort.mb: 100
+P776,mapreduce.task.io.sort.mb: 100
+P777,mapreduce.task.io.sort.mb: 100
+P778,mapreduce.task.io.sort.mb: 100
+P779,mapreduce.task.io.sort.mb: 100
+P780,jetty-6.1.26
+P781,nodeBlacklistingEnabled:true
+P782,"maxContainerCapability: <memory:8192, vCores:32>"
+P783,yarn.client.max-cached-nodemanagers-proxies : 0
+P784,"mapResourceRequest:<memory:1024, vCores:1>"
+P785,mapreduce.task.io.sort.mb: 100
+P786,mapreduce.task.io.sort.mb: 100
+P787,mapreduce.task.io.sort.mb: 100
+P788,jetty-6.1.26
+P789,nodeBlacklistingEnabled:true
+P790,"maxContainerCapability: <memory:8192, vCores:32>"
+P791,yarn.client.max-cached-nodemanagers-proxies : 0
+P792,"mapResourceRequest:<memory:1024, vCores:1>"
+P793,mapreduce.task.io.sort.mb: 100
+P794,mapreduce.task.io.sort.mb: 100
+P795,mapreduce.task.io.sort.mb: 100
+P796,mapreduce.task.io.sort.mb: 100
+P797,mapreduce.task.io.sort.mb: 100
+P798,mapreduce.task.io.sort.mb: 100
+P799,mapreduce.task.io.sort.mb: 100
+P800,mapreduce.task.io.sort.mb: 100
+P801,mapreduce.task.io.sort.mb: 100
+P802,mapreduce.task.io.sort.mb: 100
+P803,mapreduce.task.io.sort.mb: 100
+P804,mapreduce.task.io.sort.mb: 100
+P805,mapreduce.task.io.sort.mb: 100
+P806,mapreduce.task.io.sort.mb: 100
+P807,mapreduce.task.io.sort.mb: 100
+P808,mapreduce.task.io.sort.mb: 100
+P809,mapreduce.task.io.sort.mb: 100
+P810,mapreduce.task.io.sort.mb: 100
+P811,mapreduce.task.io.sort.mb: 100
+P812,jetty-6.1.26
+P813,nodeBlacklistingEnabled:true
+P814,"maxContainerCapability: <memory:8192, vCores:32>"
+P815,yarn.client.max-cached-nodemanagers-proxies : 0
+P816,"mapResourceRequest:<memory:1024, vCores:1>"
+P817,mapreduce.task.io.sort.mb: 100
+P818,mapreduce.task.io.sort.mb: 100
+P819,mapreduce.task.io.sort.mb: 100
+P820,mapreduce.task.io.sort.mb: 100
+P821,mapreduce.task.io.sort.mb: 100
+P822,mapreduce.task.io.sort.mb: 100
+P823,mapreduce.task.io.sort.mb: 100
+P824,mapreduce.task.io.sort.mb: 100
+P825,mapreduce.task.io.sort.mb: 100
+P826,mapreduce.task.io.sort.mb: 100
+P827,mapreduce.task.io.sort.mb: 100
+P828,mapreduce.task.io.sort.mb: 100
+P829,jetty-6.1.26
+P830,nodeBlacklistingEnabled:true
+P831,"maxContainerCapability: <memory:8192, vCores:32>"
+P832,yarn.client.max-cached-nodemanagers-proxies : 0
+P833,"mapResourceRequest:<memory:1024, vCores:1>"
+P834,mapreduce.task.io.sort.mb: 100
+P835,mapreduce.task.io.sort.mb: 100
+P836,mapreduce.task.io.sort.mb: 100
+P837,mapreduce.task.io.sort.mb: 100
+P838,mapreduce.task.io.sort.mb: 100
+P839,mapreduce.task.io.sort.mb: 100
+P840,jetty-6.1.26
+P841,nodeBlacklistingEnabled:true
+P842,"maxContainerCapability: <memory:8192, vCores:32>"
+P843,yarn.client.max-cached-nodemanagers-proxies : 0
+P844,"mapResourceRequest:<memory:1024, vCores:1>"
+P845,mapreduce.task.io.sort.mb: 100
+P846,mapreduce.task.io.sort.mb: 100
+P847,mapreduce.task.io.sort.mb: 100
+P848,mapreduce.task.io.sort.mb: 100
+P849,mapreduce.task.io.sort.mb: 100
+P850,mapreduce.task.io.sort.mb: 100
+P851,mapreduce.task.io.sort.mb: 100
+P852,mapreduce.task.io.sort.mb: 100
+P853,mapreduce.task.io.sort.mb: 100
+P854,mapreduce.task.io.sort.mb: 100
+P855,mapreduce.task.io.sort.mb: 100
+P856,mapreduce.task.io.sort.mb: 100
+P857,mapreduce.task.io.sort.mb: 100
+P858,mapreduce.task.io.sort.mb: 100
+P859,mapreduce.task.io.sort.mb: 100
+P860,mapreduce.task.io.sort.mb: 100
+P861,jetty-6.1.26
+P862,nodeBlacklistingEnabled:true
+P863,"maxContainerCapability: <memory:8192, vCores:32>"
+P864,yarn.client.max-cached-nodemanagers-proxies : 0
+P865,"mapResourceRequest:<memory:1024, vCores:1>"
+P866,mapreduce.task.io.sort.mb: 100
+P867,mapreduce.task.io.sort.mb: 100
+P868,mapreduce.task.io.sort.mb: 100
+P869,jetty-6.1.26
+P870,nodeBlacklistingEnabled:true
+P871,"maxContainerCapability: <memory:8192, vCores:32>"
+P872,yarn.client.max-cached-nodemanagers-proxies : 0
+P873,"mapResourceRequest:<memory:1024, vCores:1>"
+P874,mapreduce.task.io.sort.mb: 100
+P875,mapreduce.task.io.sort.mb: 100
+P876,mapreduce.task.io.sort.mb: 100
+P877,mapreduce.task.io.sort.mb: 100
+P878,mapreduce.task.io.sort.mb: 100
+P879,mapreduce.task.io.sort.mb: 100
+P880,mapreduce.task.io.sort.mb: 100
+P881,mapreduce.task.io.sort.mb: 100
+P882,mapreduce.task.io.sort.mb: 100
+P883,mapreduce.task.io.sort.mb: 100
+P884,mapreduce.task.io.sort.mb: 100
+P885,mapreduce.task.io.sort.mb: 100
+P886,mapreduce.task.io.sort.mb: 100
+P887,mapreduce.task.io.sort.mb: 100
+P888,mapreduce.task.io.sort.mb: 100
+P889,mapreduce.task.io.sort.mb: 100
+P890,mapreduce.task.io.sort.mb: 100
+P891,mapreduce.task.io.sort.mb: 100
+P892,mapreduce.task.io.sort.mb: 100
+P893,mapreduce.task.io.sort.mb: 100
+P894,mapreduce.task.io.sort.mb: 100
+P895,mapreduce.task.io.sort.mb: 100
+P896,mapreduce.task.io.sort.mb: 100
+P897,mapreduce.task.io.sort.mb: 100
+P898,mapreduce.task.io.sort.mb: 100
+P899,mapreduce.task.io.sort.mb: 100
+P900,mapreduce.task.io.sort.mb: 100
+P901,mapreduce.task.io.sort.mb: 100
+P902,mapreduce.task.io.sort.mb: 100
+P903,mapreduce.task.io.sort.mb: 100
+P904,mapreduce.task.io.sort.mb: 100
+P905,jetty-6.1.26
+P906,nodeBlacklistingEnabled:true
+P907,"maxContainerCapability: <memory:8192, vCores:32>"
+P908,yarn.client.max-cached-nodemanagers-proxies : 0
+P909,"mapResourceRequest:<memory:1024, vCores:1>"
+P910,mapreduce.task.io.sort.mb: 100
+P911,mapreduce.task.io.sort.mb: 100
+P912,mapreduce.task.io.sort.mb: 100
+P913,mapreduce.task.io.sort.mb: 100
+P914,mapreduce.task.io.sort.mb: 100
+P915,mapreduce.task.io.sort.mb: 100
+P916,mapreduce.task.io.sort.mb: 100
+P917,mapreduce.task.io.sort.mb: 100
+P918,mapreduce.task.io.sort.mb: 100
+P919,mapreduce.task.io.sort.mb: 100
+P920,jetty-6.1.26
+P921,nodeBlacklistingEnabled:true
+P922,"maxContainerCapability: <memory:8192, vCores:32>"
+P923,yarn.client.max-cached-nodemanagers-proxies : 0
+P924,"mapResourceRequest:<memory:1024, vCores:1>"
+P925,mapreduce.task.io.sort.mb: 100
+P926,mapreduce.task.io.sort.mb: 100
+P927,mapreduce.task.io.sort.mb: 100
+P928,mapreduce.task.io.sort.mb: 100
+P929,mapreduce.task.io.sort.mb: 100
+P930,mapreduce.task.io.sort.mb: 100
+P931,mapreduce.task.io.sort.mb: 100
+P932,mapreduce.task.io.sort.mb: 100
+P933,mapreduce.task.io.sort.mb: 100
+P934,mapreduce.task.io.sort.mb: 100
+P935,jetty-6.1.26
+P936,nodeBlacklistingEnabled:true
+P937,"maxContainerCapability: <memory:8192, vCores:32>"
+P938,yarn.client.max-cached-nodemanagers-proxies : 0
+P939,"mapResourceRequest:<memory:1024, vCores:1>"
+P940,mapreduce.task.io.sort.mb: 100
+P941,mapreduce.task.io.sort.mb: 100
+P942,mapreduce.task.io.sort.mb: 100
+P943,mapreduce.task.io.sort.mb: 100
+P944,mapreduce.task.io.sort.mb: 100
+P945,mapreduce.task.io.sort.mb: 100
+P946,mapreduce.task.io.sort.mb: 100
+P947,mapreduce.task.io.sort.mb: 100
+P948,mapreduce.task.io.sort.mb: 100
+P949,mapreduce.task.io.sort.mb: 100
+P950,mapreduce.task.io.sort.mb: 100
+P951,mapreduce.task.io.sort.mb: 100
+P952,mapreduce.task.io.sort.mb: 100
+P953,mapreduce.task.io.sort.mb: 100
+P954,mapreduce.task.io.sort.mb: 100
+P955,mapreduce.task.io.sort.mb: 100
+P956,jetty-6.1.26
+P957,nodeBlacklistingEnabled:true
+P958,"maxContainerCapability: <memory:8192, vCores:32>"
+P959,yarn.client.max-cached-nodemanagers-proxies : 0
+P960,"mapResourceRequest:<memory:1024, vCores:1>"
+P961,mapreduce.task.io.sort.mb: 100
+P962,mapreduce.task.io.sort.mb: 100
+P963,mapreduce.task.io.sort.mb: 100
+P964,mapreduce.task.io.sort.mb: 100
+P965,mapreduce.task.io.sort.mb: 100
+P966,mapreduce.task.io.sort.mb: 100
+P967,mapreduce.task.io.sort.mb: 100
+P968,mapreduce.task.io.sort.mb: 100
+P969,mapreduce.task.io.sort.mb: 100
+P970,mapreduce.task.io.sort.mb: 100
+P971,mapreduce.task.io.sort.mb: 100
+P972,mapreduce.task.io.sort.mb: 100
+P973,mapreduce.task.io.sort.mb: 100
+P974,mapreduce.task.io.sort.mb: 100
+P975,jetty-6.1.26
+P976,nodeBlacklistingEnabled:true
+P977,"maxContainerCapability: <memory:8192, vCores:32>"
+P978,yarn.client.max-cached-nodemanagers-proxies : 0
+P979,"mapResourceRequest:<memory:1024, vCores:1>"
+P980,mapreduce.task.io.sort.mb: 100
+P981,mapreduce.task.io.sort.mb: 100
+P982,mapreduce.task.io.sort.mb: 100
+P983,jetty-6.1.26
+P984,nodeBlacklistingEnabled:true
+P985,"maxContainerCapability: <memory:8192, vCores:32>"
+P986,yarn.client.max-cached-nodemanagers-proxies : 0
+P987,"mapResourceRequest:<memory:1024, vCores:1>"
+P988,mapreduce.task.io.sort.mb: 100
+P989,mapreduce.task.io.sort.mb: 100
+P990,mapreduce.task.io.sort.mb: 100
+P991,mapreduce.task.io.sort.mb: 100
+P992,mapreduce.task.io.sort.mb: 100
+P993,mapreduce.task.io.sort.mb: 100
+P994,mapreduce.task.io.sort.mb: 100
+P995,mapreduce.task.io.sort.mb: 100
+P996,mapreduce.task.io.sort.mb: 100
+P997,mapreduce.task.io.sort.mb: 100
+P998,mapreduce.task.io.sort.mb: 100
+P999,mapreduce.task.io.sort.mb: 100
+P1000,mapreduce.task.io.sort.mb: 100
+P1001,mapreduce.task.io.sort.mb: 100
+P1002,jetty-6.1.26
+P1003,nodeBlacklistingEnabled:true
+P1004,"maxContainerCapability: <memory:8192, vCores:32>"
+P1005,yarn.client.max-cached-nodemanagers-proxies : 0
+P1006,"mapResourceRequest:<memory:1024, vCores:1>"
+P1007,mapreduce.task.io.sort.mb: 100
+P1008,mapreduce.task.io.sort.mb: 100
+P1009,mapreduce.task.io.sort.mb: 100
+P1010,mapreduce.task.io.sort.mb: 100
+P1011,mapreduce.task.io.sort.mb: 100
+P1012,mapreduce.task.io.sort.mb: 100
+P1013,mapreduce.task.io.sort.mb: 100
+P1014,mapreduce.task.io.sort.mb: 100
+P1015,mapreduce.task.io.sort.mb: 100
+P1016,mapreduce.task.io.sort.mb: 100
+P1017,mapreduce.task.io.sort.mb: 100
+P1018,mapreduce.task.io.sort.mb: 100
+P1019,mapreduce.task.io.sort.mb: 100
+P1020,mapreduce.task.io.sort.mb: 100
+P1021,jetty-6.1.26
+P1022,nodeBlacklistingEnabled:true
+P1023,"maxContainerCapability: <memory:8192, vCores:32>"
+P1024,yarn.client.max-cached-nodemanagers-proxies : 0
+P1025,"mapResourceRequest:<memory:1024, vCores:1>"
+P1026,mapreduce.task.io.sort.mb: 100
+P1027,mapreduce.task.io.sort.mb: 100
+P1028,mapreduce.task.io.sort.mb: 100
+P1029,mapreduce.task.io.sort.mb: 100
+P1030,mapreduce.task.io.sort.mb: 100
+P1031,mapreduce.task.io.sort.mb: 100
+P1032,mapreduce.task.io.sort.mb: 100
+P1033,mapreduce.task.io.sort.mb: 100
+P1034,mapreduce.task.io.sort.mb: 100
+P1035,mapreduce.task.io.sort.mb: 100
+P1036,mapreduce.task.io.sort.mb: 100
+P1037,mapreduce.task.io.sort.mb: 100
+P1038,mapreduce.task.io.sort.mb: 100
+P1039,mapreduce.task.io.sort.mb: 100
+P1040,jetty-6.1.26
+P1041,nodeBlacklistingEnabled:true
+P1042,"maxContainerCapability: <memory:8192, vCores:32>"
+P1043,yarn.client.max-cached-nodemanagers-proxies : 0
+P1044,"mapResourceRequest:<memory:1024, vCores:1>"
+P1045,mapreduce.task.io.sort.mb: 100
+P1046,mapreduce.task.io.sort.mb: 100
+P1047,mapreduce.task.io.sort.mb: 100
+P1048,mapreduce.task.io.sort.mb: 100
+P1049,mapreduce.task.io.sort.mb: 100
+P1050,mapreduce.task.io.sort.mb: 100
+P1051,mapreduce.task.io.sort.mb: 100
+P1052,mapreduce.task.io.sort.mb: 100
+P1053,jetty-6.1.26
+P1054,nodeBlacklistingEnabled:true
+P1055,"maxContainerCapability: <memory:8192, vCores:32>"
+P1056,yarn.client.max-cached-nodemanagers-proxies : 0
+P1057,mapreduce.task.io.sort.mb: 100
+P1058,mapreduce.task.io.sort.mb: 100
+P1059,mapreduce.task.io.sort.mb: 100
+P1060,mapreduce.task.io.sort.mb: 100
+P1061,mapreduce.task.io.sort.mb: 100
+P1062,mapreduce.task.io.sort.mb: 100
+P1063,mapreduce.task.io.sort.mb: 100
+P1064,mapreduce.task.io.sort.mb: 100
+P1065,mapreduce.task.io.sort.mb: 100
+P1066,jetty-6.1.26
+P1067,nodeBlacklistingEnabled:true
+P1068,"maxContainerCapability: <memory:8192, vCores:32>"
+P1069,yarn.client.max-cached-nodemanagers-proxies : 0
+P1070,"mapResourceRequest:<memory:1024, vCores:1>"
+P1071,mapreduce.task.io.sort.mb: 100
+P1072,mapreduce.task.io.sort.mb: 100
+P1073,mapreduce.task.io.sort.mb: 100
+P1074,mapreduce.task.io.sort.mb: 100
+P1075,mapreduce.task.io.sort.mb: 100
+P1076,mapreduce.task.io.sort.mb: 100
+P1077,mapreduce.task.io.sort.mb: 100
+P1078,mapreduce.task.io.sort.mb: 100
+P1079,mapreduce.task.io.sort.mb: 100
+P1080,mapreduce.task.io.sort.mb: 100
+P1081,mapreduce.task.io.sort.mb: 100
+P1082,mapreduce.task.io.sort.mb: 100
+P1083,mapreduce.task.io.sort.mb: 100
+P1084,mapreduce.task.io.sort.mb: 100
+P1085,mapreduce.task.io.sort.mb: 100
+P1086,mapreduce.task.io.sort.mb: 100
+P1087,jetty-6.1.26
+P1088,nodeBlacklistingEnabled:true
+P1089,"maxContainerCapability: <memory:8192, vCores:32>"
+P1090,yarn.client.max-cached-nodemanagers-proxies : 0
+P1091,"mapResourceRequest:<memory:1024, vCores:1>"
+P1092,mapreduce.task.io.sort.mb: 100
+P1093,mapreduce.task.io.sort.mb: 100
+P1094,mapreduce.task.io.sort.mb: 100
+P1095,mapreduce.task.io.sort.mb: 100
+P1096,mapreduce.task.io.sort.mb: 100
+P1097,mapreduce.task.io.sort.mb: 100
+P1098,mapreduce.task.io.sort.mb: 100
+P1099,mapreduce.task.io.sort.mb: 100
+P1100,mapreduce.task.io.sort.mb: 100
+P1101,mapreduce.task.io.sort.mb: 100
+P1102,mapreduce.task.io.sort.mb: 100
+P1103,jetty-6.1.26
+P1104,nodeBlacklistingEnabled:true
+P1105,"maxContainerCapability: <memory:8192, vCores:32>"
+P1106,yarn.client.max-cached-nodemanagers-proxies : 0
+P1107,"mapResourceRequest:<memory:1024, vCores:1>"
+P1108,mapreduce.task.io.sort.mb: 100
+P1109,mapreduce.task.io.sort.mb: 100
+P1110,jetty-6.1.26
+P1111,nodeBlacklistingEnabled:true
+P1112,"maxContainerCapability: <memory:8192, vCores:32>"
+P1113,yarn.client.max-cached-nodemanagers-proxies : 0
+P1114,mapreduce.task.io.sort.mb: 100
+P1115,mapreduce.task.io.sort.mb: 100
+P1116,mapreduce.task.io.sort.mb: 100
+P1117,mapreduce.task.io.sort.mb: 100
+P1118,mapreduce.task.io.sort.mb: 100
+P1119,mapreduce.task.io.sort.mb: 100
+P1120,mapreduce.task.io.sort.mb: 100
+P1121,mapreduce.task.io.sort.mb: 100
+P1122,mapreduce.task.io.sort.mb: 100
+P1123,mapreduce.task.io.sort.mb: 100
+P1124,mapreduce.task.io.sort.mb: 100
+P1125,mapreduce.task.io.sort.mb: 100
+P1126,mapreduce.task.io.sort.mb: 100
+P1127,mapreduce.task.io.sort.mb: 100
+P1128,jetty-6.1.26
+P1129,nodeBlacklistingEnabled:true
+P1130,"maxContainerCapability: <memory:8192, vCores:32>"
+P1131,yarn.client.max-cached-nodemanagers-proxies : 0
+P1132,"mapResourceRequest:<memory:1024, vCores:1>"
+P1133,mapreduce.task.io.sort.mb: 100
+P1134,mapreduce.task.io.sort.mb: 100
+P1135,mapreduce.task.io.sort.mb: 100
+P1136,mapreduce.task.io.sort.mb: 100
+P1137,mapreduce.task.io.sort.mb: 100
+P1138,jetty-6.1.26
+P1139,nodeBlacklistingEnabled:true
+P1140,"maxContainerCapability: <memory:8192, vCores:32>"
+P1141,yarn.client.max-cached-nodemanagers-proxies : 0
+P1142,"mapResourceRequest:<memory:1024, vCores:1>"
+P1143,mapreduce.task.io.sort.mb: 100
+P1144,mapreduce.task.io.sort.mb: 100
+P1145,mapreduce.task.io.sort.mb: 100
+P1146,mapreduce.task.io.sort.mb: 100
+P1147,mapreduce.task.io.sort.mb: 100
+P1148,mapreduce.task.io.sort.mb: 100
+P1149,mapreduce.task.io.sort.mb: 100
+P1150,mapreduce.task.io.sort.mb: 100
+P1151,mapreduce.task.io.sort.mb: 100
+P1152,mapreduce.task.io.sort.mb: 100
+P1153,mapreduce.task.io.sort.mb: 100
+P1154,mapreduce.task.io.sort.mb: 100
+P1155,mapreduce.task.io.sort.mb: 100
+P1156,mapreduce.task.io.sort.mb: 100
+P1157,mapreduce.task.io.sort.mb: 100
+P1158,mapreduce.task.io.sort.mb: 100
+P1159,jetty-6.1.26
+P1160,nodeBlacklistingEnabled:true
+P1161,"maxContainerCapability: <memory:8192, vCores:32>"
+P1162,yarn.client.max-cached-nodemanagers-proxies : 0
+P1163,"mapResourceRequest:<memory:1024, vCores:1>"
+P1164,mapreduce.task.io.sort.mb: 100
+P1165,mapreduce.task.io.sort.mb: 100
+P1166,mapreduce.task.io.sort.mb: 100
+P1167,mapreduce.task.io.sort.mb: 100
+P1168,mapreduce.task.io.sort.mb: 100
+P1169,mapreduce.task.io.sort.mb: 100
+P1170,mapreduce.task.io.sort.mb: 100
+P1171,mapreduce.task.io.sort.mb: 100
+P1172,mapreduce.task.io.sort.mb: 100
+P1173,mapreduce.task.io.sort.mb: 100
+P1174,mapreduce.task.io.sort.mb: 100
+P1175,mapreduce.task.io.sort.mb: 100
+P1176,mapreduce.task.io.sort.mb: 100
+P1177,mapreduce.task.io.sort.mb: 100
+P1178,mapreduce.task.io.sort.mb: 100
+P1179,mapreduce.task.io.sort.mb: 100
+P1180,mapreduce.task.io.sort.mb: 100
+P1181,mapreduce.task.io.sort.mb: 100
+P1182,mapreduce.task.io.sort.mb: 100
+P1183,mapreduce.task.io.sort.mb: 100
+P1184,mapreduce.task.io.sort.mb: 100
+P1185,mapreduce.task.io.sort.mb: 100
+P1186,jetty-6.1.26
+P1187,nodeBlacklistingEnabled:true
+P1188,"maxContainerCapability: <memory:8192, vCores:32>"
+P1189,yarn.client.max-cached-nodemanagers-proxies : 0
+P1190,"mapResourceRequest:<memory:1024, vCores:1>"
+P1191,mapreduce.task.io.sort.mb: 100
+P1192,mapreduce.task.io.sort.mb: 100
+P1193,mapreduce.task.io.sort.mb: 100
+P1194,mapreduce.task.io.sort.mb: 100
+P1195,mapreduce.task.io.sort.mb: 100
+P1196,jetty-6.1.26
+P1197,nodeBlacklistingEnabled:true
+P1198,"maxContainerCapability: <memory:8192, vCores:32>"
+P1199,yarn.client.max-cached-nodemanagers-proxies : 0
+P1200,"mapResourceRequest:<memory:1024, vCores:1>"
+P1201,mapreduce.task.io.sort.mb: 100
+P1202,mapreduce.task.io.sort.mb: 100
+P1203,mapreduce.task.io.sort.mb: 100
+P1204,mapreduce.task.io.sort.mb: 100
+P1205,mapreduce.task.io.sort.mb: 100
+P1206,mapreduce.task.io.sort.mb: 100
+P1207,mapreduce.task.io.sort.mb: 100
+P1208,mapreduce.task.io.sort.mb: 100
+P1209,mapreduce.task.io.sort.mb: 100
+P1210,jetty-6.1.26
+P1211,nodeBlacklistingEnabled:true
+P1212,"maxContainerCapability: <memory:8192, vCores:32>"
+P1213,yarn.client.max-cached-nodemanagers-proxies : 0
+P1214,mapreduce.task.io.sort.mb: 100
+P1215,mapreduce.task.io.sort.mb: 100
+P1216,mapreduce.task.io.sort.mb: 100
+P1217,mapreduce.task.io.sort.mb: 100
+P1218,mapreduce.task.io.sort.mb: 100
+P1219,mapreduce.task.io.sort.mb: 100
+P1220,mapreduce.task.io.sort.mb: 100
+P1221,mapreduce.task.io.sort.mb: 100
+P1222,mapreduce.task.io.sort.mb: 100
+P1223,mapreduce.task.io.sort.mb: 100
+P1224,jetty-6.1.26
+P1225,nodeBlacklistingEnabled:true
+P1226,"maxContainerCapability: <memory:8192, vCores:32>"
+P1227,yarn.client.max-cached-nodemanagers-proxies : 0
+P1228,"mapResourceRequest:<memory:1024, vCores:1>"
+P1229,jetty-6.1.26
+P1230,nodeBlacklistingEnabled:true
+P1231,"maxContainerCapability: <memory:8192, vCores:32>"
+P1232,yarn.client.max-cached-nodemanagers-proxies : 0
+P1233,"mapResourceRequest:<memory:1024, vCores:1>"
+P1234,mapreduce.task.io.sort.mb: 100
+P1235,mapreduce.task.io.sort.mb: 100
+P1236,mapreduce.task.io.sort.mb: 100
+P1237,mapreduce.task.io.sort.mb: 100
+P1238,mapreduce.task.io.sort.mb: 100
+P1239,mapreduce.task.io.sort.mb: 100
+P1240,mapreduce.task.io.sort.mb: 100
+P1241,mapreduce.task.io.sort.mb: 100
+P1242,mapreduce.task.io.sort.mb: 100
+P1243,mapreduce.task.io.sort.mb: 100
+P1244,mapreduce.task.io.sort.mb: 100
+P1245,mapreduce.task.io.sort.mb: 100
+P1246,mapreduce.task.io.sort.mb: 100
+P1247,jetty-6.1.26
+P1248,nodeBlacklistingEnabled:true
+P1249,"maxContainerCapability: <memory:8192, vCores:32>"
+P1250,yarn.client.max-cached-nodemanagers-proxies : 0
+P1251,"mapResourceRequest:<memory:1024, vCores:1>"
+P1252,mapreduce.task.io.sort.mb: 100
+P1253,mapreduce.task.io.sort.mb: 100
+P1254,mapreduce.task.io.sort.mb: 100
+P1255,mapreduce.task.io.sort.mb: 100
+P1256,mapreduce.task.io.sort.mb: 100
+P1257,mapreduce.task.io.sort.mb: 100
+P1258,mapreduce.task.io.sort.mb: 100
+P1259,mapreduce.task.io.sort.mb: 100
+P1260,mapreduce.task.io.sort.mb: 100
+P1261,mapreduce.task.io.sort.mb: 100
+P1262,mapreduce.task.io.sort.mb: 100
+P1263,mapreduce.task.io.sort.mb: 100
+P1264,mapreduce.task.io.sort.mb: 100
+P1265,mapreduce.task.io.sort.mb: 100
+P1266,mapreduce.task.io.sort.mb: 100
+P1267,mapreduce.task.io.sort.mb: 100
+P1268,mapreduce.task.io.sort.mb: 100
+P1269,mapreduce.task.io.sort.mb: 100
+P1270,mapreduce.task.io.sort.mb: 100
+P1271,mapreduce.task.io.sort.mb: 100
+P1272,mapreduce.task.io.sort.mb: 100
+P1273,mapreduce.task.io.sort.mb: 100
+P1274,mapreduce.task.io.sort.mb: 100
+P1275,mapreduce.task.io.sort.mb: 100
+P1276,mapreduce.task.io.sort.mb: 100
+P1277,mapreduce.task.io.sort.mb: 100
+P1278,mapreduce.task.io.sort.mb: 100
+P1279,mapreduce.task.io.sort.mb: 100
+P1280,jetty-6.1.26
+P1281,nodeBlacklistingEnabled:true
+P1282,"maxContainerCapability: <memory:8192, vCores:32>"
+P1283,yarn.client.max-cached-nodemanagers-proxies : 0
+P1284,"mapResourceRequest:<memory:1024, vCores:1>"
+P1285,mapreduce.task.io.sort.mb: 100
+P1286,mapreduce.task.io.sort.mb: 100
+P1287,mapreduce.task.io.sort.mb: 100
+P1288,jetty-6.1.26
+P1289,nodeBlacklistingEnabled:true
+P1290,"maxContainerCapability: <memory:8192, vCores:32>"
+P1291,yarn.client.max-cached-nodemanagers-proxies : 0
+P1292,"mapResourceRequest:<memory:1024, vCores:1>"
+P1293,mapreduce.task.io.sort.mb: 100
+P1294,mapreduce.task.io.sort.mb: 100
+P1295,mapreduce.task.io.sort.mb: 100
+P1296,mapreduce.task.io.sort.mb: 100
+P1297,mapreduce.task.io.sort.mb: 100
+P1298,mapreduce.task.io.sort.mb: 100
+P1299,mapreduce.task.io.sort.mb: 100
+P1300,mapreduce.task.io.sort.mb: 100
+P1301,mapreduce.task.io.sort.mb: 100
+P1302,mapreduce.task.io.sort.mb: 100
+P1303,mapreduce.task.io.sort.mb: 100
+P1304,mapreduce.task.io.sort.mb: 100
+P1305,mapreduce.task.io.sort.mb: 100
+P1306,mapreduce.task.io.sort.mb: 100
+P1307,mapreduce.task.io.sort.mb: 100
+P1308,mapreduce.task.io.sort.mb: 100
+P1309,jetty-6.1.26
+P1310,nodeBlacklistingEnabled:true
+P1311,"maxContainerCapability: <memory:8192, vCores:32>"
+P1312,yarn.client.max-cached-nodemanagers-proxies : 0
+P1313,"mapResourceRequest:<memory:1024, vCores:1>"
+P1314,mapreduce.task.io.sort.mb: 100
+P1315,mapreduce.task.io.sort.mb: 100
+P1316,mapreduce.task.io.sort.mb: 100
+P1317,mapreduce.task.io.sort.mb: 100
+P1318,mapreduce.task.io.sort.mb: 100
+P1319,mapreduce.task.io.sort.mb: 100
+P1320,mapreduce.task.io.sort.mb: 100
+P1321,mapreduce.task.io.sort.mb: 100
+P1322,mapreduce.task.io.sort.mb: 100
+P1323,mapreduce.task.io.sort.mb: 100
+P1324,mapreduce.task.io.sort.mb: 100
+P1325,mapreduce.task.io.sort.mb: 100
+P1326,mapreduce.task.io.sort.mb: 100
+P1327,mapreduce.task.io.sort.mb: 100
+P1328,mapreduce.task.io.sort.mb: 100
+P1329,mapreduce.task.io.sort.mb: 100
+P1330,mapreduce.task.io.sort.mb: 100
+P1331,mapreduce.task.io.sort.mb: 100
+P1332,mapreduce.task.io.sort.mb: 100
+P1333,jetty-6.1.26
+P1334,nodeBlacklistingEnabled:true
+P1335,"maxContainerCapability: <memory:8192, vCores:32>"
+P1336,yarn.client.max-cached-nodemanagers-proxies : 0
+P1337,"mapResourceRequest:<memory:1024, vCores:1>"
+P1338,mapreduce.task.io.sort.mb: 100
+P1339,mapreduce.task.io.sort.mb: 100
+P1340,mapreduce.task.io.sort.mb: 100
+P1341,mapreduce.task.io.sort.mb: 100
+P1342,mapreduce.task.io.sort.mb: 100
+P1343,mapreduce.task.io.sort.mb: 100
+P1344,mapreduce.task.io.sort.mb: 100
+P1345,mapreduce.task.io.sort.mb: 100
+P1346,mapreduce.task.io.sort.mb: 100
+P1347,jetty-6.1.26
+P1348,nodeBlacklistingEnabled:true
+P1349,"maxContainerCapability: <memory:8192, vCores:32>"
+P1350,yarn.client.max-cached-nodemanagers-proxies : 0
+P1351,"mapResourceRequest:<memory:1024, vCores:1>"
+P1352,mapreduce.task.io.sort.mb: 100
+P1353,mapreduce.task.io.sort.mb: 100
+P1354,mapreduce.task.io.sort.mb: 100
+P1355,jetty-6.1.26
+P1356,nodeBlacklistingEnabled:true
+P1357,"maxContainerCapability: <memory:8192, vCores:32>"
+P1358,yarn.client.max-cached-nodemanagers-proxies : 0
+P1359,"mapResourceRequest:<memory:1024, vCores:1>"
+P1360,mapreduce.task.io.sort.mb: 100
+P1361,mapreduce.task.io.sort.mb: 100
+P1362,mapreduce.task.io.sort.mb: 100
+P1363,mapreduce.task.io.sort.mb: 100
+P1364,mapreduce.task.io.sort.mb: 100
+P1365,mapreduce.task.io.sort.mb: 100
+P1366,mapreduce.task.io.sort.mb: 100
+P1367,mapreduce.task.io.sort.mb: 100
+P1368,mapreduce.task.io.sort.mb: 100
+P1369,mapreduce.task.io.sort.mb: 100
+P1370,mapreduce.task.io.sort.mb: 100
+P1371,mapreduce.task.io.sort.mb: 100
+P1372,mapreduce.task.io.sort.mb: 100
+P1373,mapreduce.task.io.sort.mb: 100
+P1374,mapreduce.task.io.sort.mb: 100
+P1375,mapreduce.task.io.sort.mb: 100
+P1376,mapreduce.task.io.sort.mb: 100
+P1377,mapreduce.task.io.sort.mb: 100
+P1378,mapreduce.task.io.sort.mb: 100
+P1379,mapreduce.task.io.sort.mb: 100
+P1380,jetty-6.1.26
+P1381,nodeBlacklistingEnabled:true
+P1382,"maxContainerCapability: <memory:8192, vCores:32>"
+P1383,yarn.client.max-cached-nodemanagers-proxies : 0
+P1384,"mapResourceRequest:<memory:1024, vCores:1>"
+P1385,mapreduce.task.io.sort.mb: 100
+P1386,mapreduce.task.io.sort.mb: 100
+P1387,mapreduce.task.io.sort.mb: 100
+P1388,mapreduce.task.io.sort.mb: 100
+P1389,mapreduce.task.io.sort.mb: 100
+P1390,jetty-6.1.26
+P1391,nodeBlacklistingEnabled:true
+P1392,"maxContainerCapability: <memory:8192, vCores:32>"
+P1393,yarn.client.max-cached-nodemanagers-proxies : 0
+P1394,"mapResourceRequest:<memory:1024, vCores:1>"
+P1395,mapreduce.task.io.sort.mb: 100
+P1396,mapreduce.task.io.sort.mb: 100
+P1397,mapreduce.task.io.sort.mb: 100
+P1398,mapreduce.task.io.sort.mb: 100
+P1399,mapreduce.task.io.sort.mb: 100
+P1400,mapreduce.task.io.sort.mb: 100
+P1401,mapreduce.task.io.sort.mb: 100
+P1402,mapreduce.task.io.sort.mb: 100
+P1403,mapreduce.task.io.sort.mb: 100
+P1404,mapreduce.task.io.sort.mb: 100
+P1405,mapreduce.task.io.sort.mb: 100
+P1406,mapreduce.task.io.sort.mb: 100
+P1407,mapreduce.task.io.sort.mb: 100
+P1408,mapreduce.task.io.sort.mb: 100
+P1409,mapreduce.task.io.sort.mb: 100
+P1410,mapreduce.task.io.sort.mb: 100
+P1411,mapreduce.task.io.sort.mb: 100
+P1412,mapreduce.task.io.sort.mb: 100
+P1413,mapreduce.task.io.sort.mb: 100
+P1414,mapreduce.task.io.sort.mb: 100
+P1415,mapreduce.task.io.sort.mb: 100
+P1416,mapreduce.task.io.sort.mb: 100
+P1417,jetty-6.1.26
+P1418,nodeBlacklistingEnabled:true
+P1419,"maxContainerCapability: <memory:8192, vCores:32>"
+P1420,yarn.client.max-cached-nodemanagers-proxies : 0
+P1421,"mapResourceRequest:<memory:1024, vCores:1>"
+P1422,mapreduce.task.io.sort.mb: 100
+P1423,mapreduce.task.io.sort.mb: 100
+P1424,jetty-6.1.26
+P1425,nodeBlacklistingEnabled:true
+P1426,"maxContainerCapability: <memory:8192, vCores:32>"
+P1427,yarn.client.max-cached-nodemanagers-proxies : 0
+P1428,"mapResourceRequest:<memory:1024, vCores:1>"
+P1429,mapreduce.task.io.sort.mb: 100
+P1430,mapreduce.task.io.sort.mb: 100
+P1431,mapreduce.task.io.sort.mb: 100
+P1432,mapreduce.task.io.sort.mb: 100

@@ -1,0 +1,148 @@
+EventId,EventTemplate,Occurrences
+fa3d9885,LDAP: Built with OpenLDAP LDAP SDK,53
+587e40ef,LDAP: SSL support unavailable,53
+e3c91fa1,suEXEC mechanism enabled (wrapper: /usr/sbin/suexec),8
+05ce27cc,Digest: generating secret for digest authentication ...,45
+d492bd9d,Digest: done,45
+a105f4d0,"env.createBean2(): Factory error creating channel.jni:jni ( channel.jni, jni)",45
+94488b1e,config.update(): Can't create channel.jni:jni,45
+9883f6cf,"env.createBean2(): Factory error creating vm: ( vm, )",45
+d4907dc9,config.update(): Can't create vm:,45
+f245ef6c,"env.createBean2(): Factory error creating worker.jni:onStartup ( worker.jni, onStartup)",45
+25819414,config.update(): Can't create worker.jni:onStartup,45
+383a170a,"env.createBean2(): Factory error creating worker.jni:onShutdown ( worker.jni, onShutdown)",45
+175bf5b5,config.update(): Can't create worker.jni:onShutdown,45
+3ca3c51e,mod_python: Creating 32 session mutexes based on 150 max processes and 0 max threads.,45
+4d804580,mod_security/1.9dev2 configured,45
+dfd50a7a,Apache/2.0.49 (Fedora) configured -- resuming normal operations,45
+b00729be,jk2_init() Found child <*> in scoreboard slot <*>,6335
+e3dc5d82,workerEnv.init() ok /etc/httpd/conf/workers2.properties,5708
+73abaa68,mod_jk child init 1 0,288
+dc4edb17,[client <*>] Directory index forbidden by rule: /var/www/html/,6745
+fda9e654,[client <*>] File does not exist: /var/www/html/sumthin,862
+d550524b,jk2_init() Can't find child <*> in scoreboard,971
+a5bd6947,mod_jk child init 1 -2,971
+ac4a0b70,[client <*>] File does not exist: /var/www/html/scripts/..%5c%5c..,115
+8a7af621,[client <*>] File does not exist: /var/www/html/scripts/root.exe,108
+3a42b8c7,[client <*>] File does not exist: /var/www/html/MSADC,80
+e461c138,[client <*>] File does not exist: /var/www/html/c,79
+0613a368,[client <*>] File does not exist: /var/www/html/d,77
+01774052,[client <*>] File does not exist: /var/www/html/scripts/..%5c..,145
+ce70b65f,[client <*>] File does not exist: /var/www/html/_vti_bin,137
+e7a74437,[client <*>] File does not exist: /var/www/html/_mem_bin,74
+65e2ae3d,[client <*>] File does not exist: /var/www/html/msadc,96
+f6de93f6,[client <*>] File does not exist: /var/www/html/scripts/..\xc1\x1c..,73
+58c2b8ab,[client <*>] File does not exist: /var/www/html/scripts/..\xc0\xaf..,71
+2f3c1f03,[client <*>] File does not exist: /var/www/html/scripts/..\xc1\x9c..,70
+1cbd1344,[client <*>] File does not exist: /var/www/html/scripts/..%2f..,69
+9c659243,[client <*>] script not found or unable to stat: /var/www/cgi-bin/awstats,1449
+b7ffa55b,[client <*>] script not found or unable to stat: /var/www/cgi-bin/awstats.pl,1510
+82309c7b,[client <*>] File does not exist: /var/www/html/cgi,104
+c31cf24e,[client <*>] File does not exist: /var/www/html/awstats/awstats.pl,1544
+bf97b60d,[client <*>] script not found or unable to stat: /var/www/cgi-bin/stats,54
+36f9392b,[client <*>] File does not exist: /var/www/html/stats/awstats.pl,29
+ee21f334,[client <*>] File does not exist: /var/www/html/awstats.pl,52
+d23ad5dd,mod_jk2 Shutting down,1336
+e95f98b1,[client <*>] script not found or unable to stat: /var/www/cgi-bin/openwebmail,49
+1e262a4d,"Graceful restart requested, doing restart",37
+b82a4d10,[client <*>] request failed: URI too long (longer than 8190),39
+6e6cd296,mod_jk child workerEnv in error state 1,43
+a95f986c,[client <*>] File does not exist: /var/www/html/scripts/nsiislog.dll,41
+63843054,[client <*>] request failed: error reading the headers,14
+6a1fafa7,mod_jk child workerEnv in error state 2,49
+aece611f,[client <*>] File does not exist: /var/www/html/NULL.printer,14
+2a86bb28,mod_jk child workerEnv in error state 3,441
+ef8fda21,mod_jk child workerEnv in error state 4,1024
+766832ef,mod_jk child workerEnv in error state 5,1320
+8a9bc13b,[client <*>] File does not exist: /var/www/html/default.shtml,40
+7573c7e2,mod_jk child workerEnv in error state 6,1044
+29c66b3a,[client <*>] File does not exist: /var/www/html/cacti,154
+4b19d79d,mod_jk child workerEnv in error state 7,289
+5861de1f,mod_jk child workerEnv in error state 8,101
+f82a5f02,[client <*>] script not found or unable to stat: /var/www/cgi-bin/WebApp.pl,23
+0c3ba193,[client <*>] File does not exist: /var/www/html/...,23
+21227b70,[client <*>] File does not exist: /var/www/html/adm,69
+ee69f32b,[client <*>] File does not exist: /var/www/html/admin,55
+55f83f19,[client <*>] File does not exist: /var/www/html/aws,46
+7b4bbd0c,[client <*>] File does not exist: /var/www/html/awstats-cgibin,46
+091b50a4,[client <*>] File does not exist: /var/www/html/awstats/awstats.,23
+a323cc1e,[client <*>] File does not exist: /var/www/html/awstats/cgi-bin,46
+c7c5a651,[client <*>] File does not exist: /var/www/html/bin,138
+562ad683,[client <*>] attempt to invoke directory as script: /var/www/cgi-bin/,92
+d39a2211,[client <*>] script not found or unable to stat: /var/www/cgi-bin/awstats.,22
+dd8901db,[client <*>] script not found or unable to stat: /var/www/cgi-bin/logs,31
+1732054e,[client <*>] File does not exist: /var/www/html/cgi-bin2,30
+8d731b7f,[client <*>] File does not exist: /var/www/html/cgi-local,6
+d7344a0d,mod_jk child workerEnv in error state 9,31
+55c99ad0,[client <*>] File does not exist: <*>,3
+76215676,[client <*>] File does not exist: /var/www/html/favicon.ico,17
+89869584,[client <*>] script not found or unable to stat: /var/www/cgi-bin/proxy.cgi,22
+9f94214f,[client <*>] File does not exist: /var/www/html/phpmyadmin,156
+b8aec1b5,[client <*>] script not found or unable to stat: /var/www/cgi-bin/textenv.pl,23
+9a949807,[client <*>] script not found or unable to stat: /var/www/cgi-bin/jud.cgi,34
+bca0830f,[client <*>] File does not exist: /var/www/html/bbs,23
+60d0a4c7,[client <*>] File does not exist: /var/www/html/zboard,23
+d44b00d6,[client <*>] File does not exist: /var/www/html/oscommerce,9
+e3231154,[client <*>] File does not exist: /var/www/html/osc,9
+996e56bc,[client <*>] File does not exist: /var/www/html/osCommerce,9
+31aed405,[client <*>] File does not exist: /var/www/html/catalog,9
+2bd36f0d,[client <*>] File does not exist: /var/www/html/store,9
+cccd2c0f,[client <*>] File does not exist: /var/www/html/onlineshop,9
+64bafe51,[client <*>] File does not exist: /var/www/html/shop,9
+e8cce26f,[client <*>] script not found or unable to stat: /var/www/cgi-bin/prxjdg.cgi,15
+d562f174,[client <*>] <*> <*> <*> <*> <*>,29
+f2aade36,[client <*>] File does not exist: /var/www/html/phpbb,6
+380e815c,[client <*>] File does not exist: /var/www/html/msgboard,6
+5279143e,[client <*>] File does not exist: /var/www/html/talk,6
+9014058d,[client <*>] File does not exist: /var/www/html/chat,6
+8c9296e9,"child process <*> still did not exit, sending a SIGTERM",168
+a53d45cf,[client <*>] File does not exist: /var/www/html/mute,23
+57999e03,[client <*>] File does not exist: /var/www/html/blog,3359
+4c50642c,[client <*>] File does not exist: /var/www/html/xmlrpc,1585
+7c611ab3,[client <*>] File does not exist: /var/www/html/xmlsrv,1581
+d0b2c29b,[client <*>] File does not exist: /var/www/html/drupal,1714
+1cb750e0,[client <*>] File does not exist: /var/www/html/community,108
+4abf9962,[client <*>] File does not exist: /var/www/html/blogs,1799
+58657eef,[client <*>] File does not exist: /var/www/html/blogtest,93
+37e61994,[client <*>] File does not exist: /var/www/html/b2,91
+db3c0337,[client <*>] File does not exist: /var/www/html/b2evo,75
+4dc61285,[client <*>] File does not exist: /var/www/html/wordpress,1687
+72c6ad2e,[client <*>] File does not exist: /var/www/html/phpgroupware,1711
+1a5fbafe,[client <*>] File does not exist: /var/www/html/WebCalendar,23
+fe8f5579,[client <*>] File does not exist: /var/www/html/webcalendar,36
+66329b34,[client <*>] File does not exist: /var/www/html/~mana_,6
+a45a747b,[client <*>] script not found or unable to stat: /var/www/cgi-bin/proxycheck.pl,23
+d7f89b55,[client <*>] File does not exist: /var/www/html/cp,23
+a073ffb1,[client <*>] File does not exist: /var/www/html/stat-cgi,46
+439448aa,[client <*>] File does not exist: /var/www/html/awstats/perl,22
+62d2d988,[client <*>] File does not exist: /var/www/html/services,45
+22e49556,mod_jk child workerEnv in error state 10,7
+2e6ea6f0,[client <*>] File does not exist: /var/www/html/mambo,476
+cea5e821,[client <*>] File does not exist: /var/www/html/cvs,644
+f747cae4,[client <*>] File does not exist: /var/www/html/wing-calendar,13
+61d23b8d,[client <*>] File does not exist: /var/www/html/Mambo,13
+2a705bff,[client <*>] File does not exist: /var/www/html/include,13
+f925856a,[client <*>] File does not exist: /var/www/html/forum/include,12
+022b0320,[client <*>] File does not exist: /var/www/html/qnews,11
+86549fe6,[client <*>] File does not exist: /var/www/html/file,46
+ca6dbe01,[client <*>] File does not exist: /var/www/html/log,44
+bbdc205d,[client <*>] File does not exist: /var/www/html/trunk,12
+e5bc4a4c,[client <*>] File does not exist: /var/www/html/html,25
+c09eaca8,uriMap.mapUri() uri must start with /,27
+da9ba5cf,[client <*>] File does not exist: /var/www/html/forms,32
+be815da0,[client <*>] File does not exist: /var/www/html/pavon,30
+2c65886d,[client <*>] File does not exist: /var/www/html/star,23
+2a4261c1,[client <*>] File does not exist: /var/www/html/b2exo,12
+356aab1a,[client <*>] File does not exist: /var/www/html/local_graph_id,12
+82a93c4f,[client <*>] script not found or unable to stat: /var/www/cgi-bin/ip.cgi,46
+4f16b393,[client <*>] File does not exist: /var/www/html/modules,49
+49ed2b32,[client <*>] File does not exist: /var/www/html/ip1.cgi,22
+60ff0064,[client <*>] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /,8
+e5738fcc,[client <*>] File does not exist: /var/www/html/Forums,12
+ed25023c,[client <*>] File does not exist: /var/www/html/~ipcom,10
+7c1fb5b9,[client <*>] File does not exist: /var/www/html/level,71
+00d1d639,[client <*>] File does not exist: /var/www/html/cache,97
+40f094fa,[client <*>] File does not exist: /var/www/html/articles,264
+75bee2b9,[client <*>] File does not exist: /var/www/html/cal,22
+5f8d8c81,[client <*>] File does not exist: /var/www/html/Calendar,22
+8c3beca8,[client <*>] File does not exist: /var/www/html/calendar,22
